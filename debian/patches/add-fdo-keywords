@@ -1,0 +1,17 @@
+Description: add fdo keywords
+ Add keywords: tuxpaint, config, administration
+
+--- tuxpaint-config-0.0.13.orig/src/tuxpaint-config.desktop
++++ tuxpaint-config-0.0.13/src/tuxpaint-config.desktop
+@@ -89,3 +89,4 @@ Exec=tuxpaint-config
+ Terminal=false
+ Type=Application
+ Categories=Settings;
++Keywords=tuxpaint;config;administration;
+--- tuxpaint-config-0.0.13.orig/src/tuxpaint-config.desktop.in
++++ tuxpaint-config-0.0.13/src/tuxpaint-config.desktop.in
+@@ -6,3 +6,4 @@ Exec=tuxpaint-config
+ Terminal=false
+ Type=Application
+ Categories=Settings;
++Keywords=tuxpaint;config;administration;

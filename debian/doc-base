@@ -1,0 +1,9 @@
+Document: tuxpaint-config
+Title: Tux Paint Config.
+Author: Bill Kendrick and others
+Abstract: Tux Paint Config is a graphical configuration tool for Tux Paint.
+Section: Graphics
+
+Format: HTML
+Index: /usr/share/doc/tuxpaint-config/html/README.html
+Files: /usr/share/doc/tuxpaint-config/html/README.html

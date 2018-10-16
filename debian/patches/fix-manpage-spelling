@@ -1,0 +1,24 @@
+Description: fix manpage spelling errors
+ s/SYNOPSYS/SYNOPSIS/g
+ s/langauge/language/g
+
+--- tuxpaint-config-0.0.13.orig/src/tuxpaint-config.1
++++ tuxpaint-config-0.0.13/src/tuxpaint-config.1
+@@ -3,7 +3,7 @@
+ .SH NAME
+ tuxpaint-config -- A configuration tool for Tux Paint, a drawing program for young children.
+ 
+-.SH SYNOPSYS
++.SH SYNOPSIS
+ .B tuxpaint-config
+ [\-\-help \-\-version \-\-usage \-\-copying]
+ 
+@@ -44,7 +44,7 @@ to determine where the user's configurat
+ 
+ .TP 8
+ .B LANG
+-to determine langauge to use, if \fIsetlocale(3)\fP refers to 'LC_MESSAGES'.
++to determine language to use, if \fIsetlocale(3)\fP refers to 'LC_MESSAGES'.
+ 
+ .SH FILES
+ .TP 8

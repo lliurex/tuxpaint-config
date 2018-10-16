@@ -1,0 +1,15 @@
+Description: Fix a parallel build FTBFS
+ Files were sometimes written to trans/ before that directory was created.
+Author: Adrian Bunk <bunk@debian.org>
+
+--- tuxpaint-config-0.0.13.orig/Makefile
++++ tuxpaint-config-0.0.13/Makefile
+@@ -375,7 +375,7 @@ endif
+ 
+ # Build the translation files for gettext
+ 
+-$(MOFILES): trans/%.mo: src/po/%.po
++$(MOFILES): trans/%.mo: src/po/%.po trans
+ 	msgfmt -o $@ $<
+ 
+ .PHONY: translations

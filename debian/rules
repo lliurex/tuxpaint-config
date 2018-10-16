@@ -1,0 +1,89 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS=hardening=+all
+export DH_ALWAYS_EXCLUDE=CVS
+
+ifeq ($(shell uname --machine), x86_32)
+   CFLAGS += -fPIC
+   CXXFLAGS += -fPIC
+endif
+
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk
+
+configure: configure-stamp
+configure-stamp:
+	dh_testdir
+	touch configure-stamp
+
+build: build-arch build-indep
+build-arch: build-stamp
+build-indep: build-stamp
+build-stamp: configure-stamp
+	dh_testdir
+
+	# Add here commands to compile the package.
+	dh_auto_build -- PREFIX=/usr CFLAGS="$(CFLAGS)" CXXFLAGS="$(CXXFLAGS)" CPPFLAGS="$(CPPFLAGS)" LDFLAGS="$(LDFLAGS)"
+
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp configure-stamp
+
+	# Add here commands to clean up after the build process.
+	$(MAKE) clean
+
+	dh_clean
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_prep
+	dh_installdirs
+
+	# Add here commands to install the package into debian/tuxpaint-config.
+	$(MAKE) install \
+	  PREFIX=$(CURDIR)/debian/tuxpaint-config/usr \
+          CONFDIR=$(CURDIR)/debian/tuxpaint/etc/tuxpaint \
+	  GNOME_PREFIX=$(CURDIR)/debian/tuxpaint-config/usr \
+	  KDE_PREFIX=$(CURDIR)/debian/tuxpaint-config/usr/share/applnk \
+	  KDE_ICON_PREFIX=$(CURDIR)/debian/tuxpaint-config/usr/share/icons \
+	  X11_ICON_PREFIX=$(CURDIR)/debian/tuxpaint-config/usr/share/pixmaps/
+	# Cleanup after install
+	rm $(CURDIR)/debian/tuxpaint-config/usr/share/doc/tuxpaint-config/CHANGES.txt
+	rm $(CURDIR)/debian/tuxpaint-config/usr/share/doc/tuxpaint-config/COPYING.txt
+	# install desktop file to freedesktop default directory
+	install -m 664 $(CURDIR)/src/tuxpaint-config.desktop \
+	  $(CURDIR)/debian/tuxpaint-config/usr/share/applications
+	# remove redundant desktop file from old KDE location
+	rm $(CURDIR)/debian/tuxpaint-config/usr/share/applnk/Preferences/tuxpaint-config.desktop
+	rmdir $(CURDIR)/debian/tuxpaint-config/usr/share/applnk/Preferences
+	rmdir $(CURDIR)/debian/tuxpaint-config/usr/share/applnk
+
+# Build architecture-independent files here.
+binary-indep: build install
+# We have nothing to do by default.
+
+# Build architecture-dependent files here.
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs docs/CHANGES.txt
+	dh_installdocs
+	dh_installexamples
+	dh_installman
+	dh_installmenu
+	dh_link
+	dh_strip
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install configure
