@@ -4,3 +4,4 @@ fix-manpage-spelling
 fix-manpage-errors
 add-fdo-keywords
 fix-parallel-builds
+missing-header.patch
