@@ -1,3 +1,9 @@
+tuxpaint-config (0.0.13-8+lliurex3) bionic ; urgency=medium
+
+  * Patched for missing string.h header, strlen function not recognized
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 16 Oct 2018 09:40:52 +0200
+
 tuxpaint-config (0.0.13-8) unstable; urgency=medium
 
   * Move git repository to salsa.debian.org
