@@ -1,9 +1,17 @@
-Description: fix manpage errors
- Remove .l macro that causes errors and no visible effect.
+From: Jonathan Carter <jcc@debian.org>
+Date: Tue, 16 Oct 2018 09:39:37 +0200
+Subject: fix manpage errors
 
---- tuxpaint-config-0.0.13.orig/src/tuxpaint-config.1
-+++ tuxpaint-config-0.0.13/src/tuxpaint-config.1
-@@ -29,14 +29,12 @@ Display a list of all commandline option
+Remove .l macro that causes errors and no visible effect.
+---
+ src/tuxpaint-config.1 | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/src/tuxpaint-config.1 b/src/tuxpaint-config.1
+index 08846fc..9e1c46c 100644
+--- a/src/tuxpaint-config.1
++++ b/src/tuxpaint-config.1
+@@ -29,14 +29,12 @@ Display a list of all commandline options.
  Show the license (GNU GPL) under which Tux Paint is released.
  
  .SH OPTIONS - LANGUAGE

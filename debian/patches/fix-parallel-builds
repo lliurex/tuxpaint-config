@@ -1,9 +1,16 @@
-Description: Fix a parallel build FTBFS
- Files were sometimes written to trans/ before that directory was created.
-Author: Adrian Bunk <bunk@debian.org>
+From: Adrian Bunk <bunk@debian.org>
+Date: Tue, 16 Oct 2018 09:39:37 +0200
+Subject: Fix a parallel build FTBFS
 
---- tuxpaint-config-0.0.13.orig/Makefile
-+++ tuxpaint-config-0.0.13/Makefile
+Files were sometimes written to trans/ before that directory was created.
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 68283b9..4dfb7fd 100644
+--- a/Makefile
++++ b/Makefile
 @@ -375,7 +375,7 @@ endif
  
  # Build the translation files for gettext

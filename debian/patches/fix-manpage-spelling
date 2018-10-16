@@ -1,9 +1,17 @@
-Description: fix manpage spelling errors
- s/SYNOPSYS/SYNOPSIS/g
- s/langauge/language/g
+From: Jonathan Carter <jcc@debian.org>
+Date: Tue, 16 Oct 2018 09:39:37 +0200
+Subject: fix manpage spelling errors
 
---- tuxpaint-config-0.0.13.orig/src/tuxpaint-config.1
-+++ tuxpaint-config-0.0.13/src/tuxpaint-config.1
+s/SYNOPSYS/SYNOPSIS/g
+s/langauge/language/g
+---
+ src/tuxpaint-config.1 | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/tuxpaint-config.1 b/src/tuxpaint-config.1
+index 2c6eced..08846fc 100644
+--- a/src/tuxpaint-config.1
++++ b/src/tuxpaint-config.1
 @@ -3,7 +3,7 @@
  .SH NAME
  tuxpaint-config -- A configuration tool for Tux Paint, a drawing program for young children.
@@ -13,7 +21,7 @@ Description: fix manpage spelling errors
  .B tuxpaint-config
  [\-\-help \-\-version \-\-usage \-\-copying]
  
-@@ -44,7 +44,7 @@ to determine where the user's configurat
+@@ -44,7 +44,7 @@ to determine where the user's configuration file is.
  
  .TP 8
  .B LANG

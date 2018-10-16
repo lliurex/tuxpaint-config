@@ -1,13 +1,16 @@
-Description: Include standard flags
- Include all dpkg-dev standard flags in build.
-Author: Ben Armstrong <synrg@sanctuary.nslug.ns.ca>
+From: Ben Armstrong <synrg@sanctuary.nslug.ns.ca>
+Date: Tue, 16 Oct 2018 09:39:37 +0200
+Subject: Include standard flags
 
+Include all dpkg-dev standard flags in build.
 ---
+ Makefile | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
 
-Last-Update: 2017-10-30
-
---- tuxpaint-config-0.0.13.orig/Makefile
-+++ tuxpaint-config-0.0.13/Makefile
+diff --git a/Makefile b/Makefile
+index 70d73a9..871fa87 100644
+--- a/Makefile
++++ b/Makefile
 @@ -90,7 +90,8 @@ CFLAGS=-O2 -Wall
  ALL_CFLAGS=$(CFLAGS) $(FLTK_CFLAGS) -DDATA_PREFIX=\"$(DATA_PREFIX)\" \
  	-D$(NOSOUNDFLAG) -DDOC_PREFIX=\"$(DOC_PREFIX)\" \

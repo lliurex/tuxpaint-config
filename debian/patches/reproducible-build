@@ -1,9 +1,16 @@
-Description: Make the build reproducible
-Author: Chris Lamb <lamby@debian.org>
-Last-Update: 2016-08-19
+From: Chris Lamb <lamby@debian.org>
+Date: Tue, 16 Oct 2018 09:39:37 +0200
+Subject: Make the build reproducible
 
---- tuxpaint-config-0.0.13.orig/Makefile
-+++ tuxpaint-config-0.0.13/Makefile
+Last-Update: 2016-08-19
+---
+ Makefile | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 871fa87..68283b9 100644
+--- a/Makefile
++++ b/Makefile
 @@ -15,7 +15,11 @@
  
  

@@ -1,15 +1,26 @@
-Description: add fdo keywords
- Add keywords: tuxpaint, config, administration
+From: Jonathan Carter <jcc@debian.org>
+Date: Tue, 16 Oct 2018 09:39:37 +0200
+Subject: add fdo keywords
 
---- tuxpaint-config-0.0.13.orig/src/tuxpaint-config.desktop
-+++ tuxpaint-config-0.0.13/src/tuxpaint-config.desktop
+Add keywords: tuxpaint, config, administration
+---
+ src/tuxpaint-config.desktop    | 1 +
+ src/tuxpaint-config.desktop.in | 1 +
+ 2 files changed, 2 insertions(+)
+
+diff --git a/src/tuxpaint-config.desktop b/src/tuxpaint-config.desktop
+index 543a600..417e5ad 100644
+--- a/src/tuxpaint-config.desktop
++++ b/src/tuxpaint-config.desktop
 @@ -89,3 +89,4 @@ Exec=tuxpaint-config
  Terminal=false
  Type=Application
  Categories=Settings;
 +Keywords=tuxpaint;config;administration;
---- tuxpaint-config-0.0.13.orig/src/tuxpaint-config.desktop.in
-+++ tuxpaint-config-0.0.13/src/tuxpaint-config.desktop.in
+diff --git a/src/tuxpaint-config.desktop.in b/src/tuxpaint-config.desktop.in
+index fafc492..3cb2b37 100644
+--- a/src/tuxpaint-config.desktop.in
++++ b/src/tuxpaint-config.desktop.in
 @@ -6,3 +6,4 @@ Exec=tuxpaint-config
  Terminal=false
  Type=Application
