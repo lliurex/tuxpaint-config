@@ -1,0 +1,1002 @@
+# Indonesian translation tuxpaint-config.
+# Copyright (C) 2014 the tuxpaint team.
+# This file is distributed under the same license as the tuxpaint-config package.
+# T. Surya Fajri <kilelme@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tuxpaint-config\n"
+"Report-Msgid-Bugs-To: tuxpaint-i18n@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-07-19 21:57+0200\n"
+"PO-Revision-Date: 2014-07-27 10:02+0700\n"
+"Last-Translator: T. Surya Fajri <kilelme@gmail.com>\n"
+"Language-Team: none\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen "
+"mode, the interface's language, or options to simplify Tux Paint for younger "
+"children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your "
+"computer by making a selection in the 'Settings for' pull-down menu at the "
+"bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change "
+"the options you'd like to change, and click the 'Apply' button at the bottom "
+"to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"Selamat datang di konfigurasi Tux Paint. dibuat oleh Torsten Giebl, Jan "
+"Wynholds, Bill Kendrick, dan Martin Fuhrer.\n"
+"\n"
+"Konfigurasi ini memungkinkan untuk mengganti pengaturan Tux Paint, seperti "
+"mode full-screen, interface bahasa, atau opsi untuk menyederhanakan Tux "
+"Paint bagi anak kecil.\n"
+"\n"
+"Pengaturan ini dapat di atur untuk pengguna tertentu atau untuk semua "
+"pengguna dari komputer anda dengan membuat pilihan pada 'Pengaturan untuk' "
+"yang menurunkan menu di bawah.\n"
+"\n"
+"Gunakan tap di bagian atas untuk memilih kategori pengaturan yang berbeda, "
+"ganti opsi dengan apa yang anda inginkan, dan klik tombol 'Apply' di bagian "
+"bawah untuk membuat file konfigurasi baru.\n"
+"\n"
+"Ketika Tux Paint dibuka lain kali, maka pengaturan baru akan berlaku."
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(gunakan delaut sistem)"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(Gunakan pengaturan sistem)."
+
+#: ../tuxpaint-config2.cxx:1527 ../tuxpaint-config2.cxx:2131
+msgid "Default (no override)"
+msgstr "Default (tidak override)"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Small"
+msgstr "Override: Kecil"
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Medium"
+msgstr "Override: Sedang"
+
+#: ../tuxpaint-config2.cxx:1533
+msgid "Override: Large"
+msgstr "Override: Besar"
+
+#: ../tuxpaint-config2.cxx:1638
+msgid "Save Directory?"
+msgstr "Direktori Penyimpanan?"
+
+#: ../tuxpaint-config2.cxx:1672
+msgid "Data Directory?"
+msgstr "Direktori Data?"
+
+#: ../tuxpaint-config2.cxx:1705
+msgid "Color Palette File?"
+msgstr "File Warna Palette?"
+
+#: ../tuxpaint-config2.cxx:1744
+msgid "Quit without applying changes?"
+msgstr "Keluar tanpa menerapkan perubahan?"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&No"
+msgstr "&Tidak"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&Yes"
+msgstr "&Ya"
+
+#: ../tuxpaint-config2.cxx:1781
+msgid "current user"
+msgstr "User saat ini"
+
+#: ../tuxpaint-config2.cxx:1784
+msgid "all users"
+msgstr "Semua User"
+
+#: ../tuxpaint-config2.cxx:1788
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "Terapkan perubahan yang anda buat menjadi %s?"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "No"
+msgstr "Tidak"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "Yes"
+msgstr "Ya"
+
+#: ../tuxpaint-config2.cxx:1809 ../tuxpaint-config2.cxx:1812
+msgid "Tux Paint Config v"
+msgstr "Pengaturan Tux Paint v"
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1821
+msgid "About"
+msgstr "Tentang"
+
+#: ../tuxpaint-config2.cxx:1828
+msgid "About Tux Paint Config."
+msgstr "Tentang pengaturan Tux Paint"
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1844
+msgid "Video/Sound"
+msgstr "Video/Suara"
+
+#: ../tuxpaint-config2.cxx:1851
+msgid "Video:"
+msgstr "Video:"
+
+#: ../tuxpaint-config2.cxx:1855
+msgid "&Fullscreen"
+msgstr "&Fullscreen"
+
+#: ../tuxpaint-config2.cxx:1860
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "Jalankan Tux Paint dalam mode fullscreen, daripada mode window"
+
+#: ../tuxpaint-config2.cxx:1866
+msgid "&Native"
+msgstr "&Native"
+
+#: ../tuxpaint-config2.cxx:1870
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "Gunakan resolusi layar asli pada mode fullscreen."
+
+#: ../tuxpaint-config2.cxx:1876
+msgid "Window size : "
+msgstr "Ukuran Window :"
+
+#: ../tuxpaint-config2.cxx:1900
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "Ukuran dari window, atau resolusi dari fullscreen."
+
+#: ../tuxpaint-config2.cxx:1906
+msgid "&Rotate Orientation"
+msgstr "&Orientasi Rotasi"
+
+#: ../tuxpaint-config2.cxx:1910
+msgid ""
+"Swap width and height, to rotate 90 degrees (useful for portrait-display on "
+"a tablet PC)"
+msgstr ""
+"Tukar panjang dan tinggi, untuk berotasi 90 derajat (berguna untuk tampilan "
+"potrait pada PC tablet)"
+
+#: ../tuxpaint-config2.cxx:1916
+msgid "Allow S&creensaver"
+msgstr "Ijinkan S&creensaver"
+
+#: ../tuxpaint-config2.cxx:1920
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr ""
+"Jangan matikan screensaver sistem anda ketika Tux Paint sedang berjalan."
+
+#: ../tuxpaint-config2.cxx:1929
+msgid "Sound:"
+msgstr "Suara:"
+
+#: ../tuxpaint-config2.cxx:1933
+msgid "Enable &Sound Effects"
+msgstr "Hidupkan &Efek Suara"
+
+#: ../tuxpaint-config2.cxx:1938
+msgid "Enable/disable sound effects."
+msgstr "Hidupkan/matikan efek suara."
+
+#: ../tuxpaint-config2.cxx:1947 ../tuxpaint-config2.cxx:1961
+msgid "Color Palette File:"
+msgstr "File Warna Palette:"
+
+#: ../tuxpaint-config2.cxx:1951
+msgid "Use &Alternative Color Palette"
+msgstr "Gunakan &Warna Palette Alternatif"
+
+#: ../tuxpaint-config2.cxx:1956
+msgid ""
+"Don't use default color palette, use colors defined in the following file:"
+msgstr ""
+"Jangan gunakan warna palette default, gunakan warna yang didefinisikan pada "
+"file berikut ini:"
+
+#: ../tuxpaint-config2.cxx:1966 ../tuxpaint-config2.cxx:2509
+#: ../tuxpaint-config2.cxx:2594
+msgid "Browse..."
+msgstr "Browse..."
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1977
+msgid "Mouse/Keyboard"
+msgstr "Mouse/Keyboard"
+
+#: ../tuxpaint-config2.cxx:1985
+msgid "Cursor:"
+msgstr "Cursor:"
+
+#: ../tuxpaint-config2.cxx:1989
+msgid "&Fancy Cursor Shapes"
+msgstr "&Bentuk Cursor indah"
+
+#: ../tuxpaint-config2.cxx:1994
+msgid ""
+"Change the shape of the mouse pointer depending on where the mouse is and "
+"what you are doing."
+msgstr ""
+"Rubah bentuk dari pointer mouse tergantung dimana mouse dan apa yang anda "
+"lakukan."
+
+#: ../tuxpaint-config2.cxx:2000
+msgid "&Hide Cursor"
+msgstr "&Sembunyikan Cursor"
+
+#: ../tuxpaint-config2.cxx:2005
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr "Menyembunyikan cursor (berguna pada perangkat layar sentuh)."
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2014 ../tuxpaint-config2.cxx:2632
+msgid "Keyboard:"
+msgstr "Keyboard:"
+
+#: ../tuxpaint-config2.cxx:2018
+msgid "Enable &Keyboard Shortcuts"
+msgstr "Aktrifkan shortcut &Keyboard"
+
+#: ../tuxpaint-config2.cxx:2023
+msgid ""
+"Allows key combinations to be used as shortcuts for certain commands. (e.g., "
+"Control+S to Save)"
+msgstr ""
+"Ijinkan kombinasi kunci untuk digunakan sebagai shorcut untuk beberapa "
+"perintah. (contohnya, Control+S untuk Menyimpan)"
+
+#: ../tuxpaint-config2.cxx:2035 ../tuxpaint-config2.cxx:2617
+msgid "Mouse:"
+msgstr "Mouse:"
+
+#: ../tuxpaint-config2.cxx:2039
+msgid "&Grab Mouse Pointer"
+msgstr "&Ambil Pointer Mouse"
+
+#: ../tuxpaint-config2.cxx:2044
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "Cegah pointer mouse dari meninggalkan window Tux Paint."
+
+#: ../tuxpaint-config2.cxx:2049
+msgid "Mouse &Wheel Support"
+msgstr "Dukungan &Roda Mouse"
+
+#: ../tuxpaint-config2.cxx:2054
+msgid ""
+"Allows a mouse wheel to be used to scroll through items. (e.g., brushes, "
+"stamps)"
+msgstr ""
+"Ijinkan roda mouse untuk digunakan untuk men-scroll melalui item. "
+"(contohnya, Brush, stamp)"
+
+#: ../tuxpaint-config2.cxx:2059
+msgid "No &Button Distinction"
+msgstr "Tidak &Tombol Distinction"
+
+#: ../tuxpaint-config2.cxx:2063
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr "Ijinkan tombol tengah dan kanan mouse untuk meng-click juga."
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2076
+msgid "Simplification"
+msgstr "Penyederhanaan"
+
+#: ../tuxpaint-config2.cxx:2084
+msgid "Interface Simplification:"
+msgstr "Penyederhanaan Interface:"
+
+#: ../tuxpaint-config2.cxx:2088
+msgid "Disable Shape &Rotation"
+msgstr "Matikan &Putaran Bentuk"
+
+#: ../tuxpaint-config2.cxx:2093
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr ""
+"Langkah alat rotasi bentuk dimatikan. Berguna untuk anak-anak yang lebih "
+"muda."
+
+#: ../tuxpaint-config2.cxx:2098
+msgid "Simple Stamp &Outlines"
+msgstr "Stamp Sederhana &Outline"
+
+#: ../tuxpaint-config2.cxx:2103
+msgid ""
+"Draw a rectangle around the cursor when placing stamps, rather than a "
+"detailed outline. (For slow computers and thin clients.)"
+msgstr ""
+"Gambar persegi panjang disekitar cursor ketika menempatkan stamp, daripada "
+"outline yang detil. (Untuk komputer yang lambat dan klien kecil.)"
+
+#: ../tuxpaint-config2.cxx:2108
+msgid "Show &Uppercase Text Only"
+msgstr "Tampilkan Hanya Text &Huruf Besar"
+
+#: ../tuxpaint-config2.cxx:2113
+msgid ""
+"Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in "
+"UPPERCASE rather than Mixed Case."
+msgstr ""
+"Disebabkan semua teks pada Tux Paint (tombol label, dialog dan lain-lain) "
+"untuk menampilkan HURUF BESAR dari pada campuran."
+
+#: ../tuxpaint-config2.cxx:2122
+msgid "Initial Stamp Size:"
+msgstr "Ukuran Awal Stamp:"
+
+#: ../tuxpaint-config2.cxx:2139
+msgid "Control Simplification:"
+msgstr "Penyederhanaan Control:"
+
+#: ../tuxpaint-config2.cxx:2143
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "Matikan tombol '&Quit' dan kunci [Escape]"
+
+#: ../tuxpaint-config2.cxx:2148
+msgid ""
+"Clicking the window's close (X) button in the title bar, or pressing [Alt]"
+"+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr ""
+"Meng-klik pada tombol window close (X)  pada title bar, atau tekan [Alt]"
+"+[F4] atau [Shift]+[Ctrl]+[Escape] tetap akan keluar dari Tux Paint."
+
+#: ../tuxpaint-config2.cxx:2153
+msgid "Disable '&Stamps' Tool"
+msgstr "Matikan Alat '&Stamp'"
+
+#: ../tuxpaint-config2.cxx:2158
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr "Jangan memuat stamp saat startup, sehingga menonaktifkan alat Stamp."
+
+#: ../tuxpaint-config2.cxx:2163
+msgid "Disable Stamp &Controls"
+msgstr "Mematikan &Kontrol Stamp"
+
+#: ../tuxpaint-config2.cxx:2168
+msgid ""
+"Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, "
+"Grow, Mirror and Flip)."
+msgstr ""
+"Penyederhanaan alat 'Stamp' dengan membuang tombol kontrol stamp (Shrink, "
+"Grow, Mirrow dan Flip)."
+
+#: ../tuxpaint-config2.cxx:2173
+msgid "Disable &Magic Controls"
+msgstr "Mematikan Kontrol &Magic"
+
+#: ../tuxpaint-config2.cxx:2178
+msgid ""
+"Simplify the 'Magic' tools by removing the buttons to switch between paint "
+"and fullscreen modes."
+msgstr ""
+"Penyederhanaan alat 'Magic' dengan menghapus tombol untuk menukarkan antara "
+"paint dan mode fullscreen."
+
+#: ../tuxpaint-config2.cxx:2183
+msgid "Disable '&Label' Tool"
+msgstr "Matikan Alat '&Label'"
+
+#: ../tuxpaint-config2.cxx:2188
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr "Matikan alat masukan text 'Label' (meninggalkan hanya alat 'Teks')."
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2199
+msgid "Languages"
+msgstr "Bahasa"
+
+#: ../tuxpaint-config2.cxx:2205
+msgid "Language:"
+msgstr "Bahasa:"
+
+#: ../tuxpaint-config2.cxx:2209
+msgid "Language : "
+msgstr "Bahasa :"
+
+#: ../tuxpaint-config2.cxx:2224
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr "Jalankan Tux Paint dalam bahasa tertentu (override pengaturan sistem)."
+
+#: ../tuxpaint-config2.cxx:2229
+msgid "&Mirror Stamps"
+msgstr "&tamp &Mirror"
+
+#: ../tuxpaint-config2.cxx:2234
+msgid ""
+"Automatically mirror-image all mirror-able stamps. Useful for users who "
+"prefer things appearing right-to-left."
+msgstr ""
+"Secara otomatis mencerminkan gambar  semua stamp yang dapat dicerminkan. "
+"Berguna untuk user yang mengutamakan tampilan dari kanan ke kiri."
+
+#: ../tuxpaint-config2.cxx:2243
+msgid "Fonts:"
+msgstr "Font:"
+
+#: ../tuxpaint-config2.cxx:2247
+msgid "Load System &Fonts"
+msgstr "Muat sistem &Font"
+
+#: ../tuxpaint-config2.cxx:2252
+msgid ""
+"Attempt to load more fonts, found elsewhere on your computer. (Note: may "
+"cause instability!)"
+msgstr ""
+"Mencoba untuk memuat lebih banyak font, menemukan di tempat lain pada "
+"komputer anda. (Catatan: dapat menyebabkan ketidakstabilan!)"
+
+#: ../tuxpaint-config2.cxx:2257
+msgid "Load All &Locale Fonts"
+msgstr "Muat semua font &Locale"
+
+#: ../tuxpaint-config2.cxx:2262
+msgid ""
+"Load all locale-specific fonts installed in Tux Paint, regardless of the "
+"locale Tux Paint is being run under."
+msgstr ""
+"Memuat semua spesifik font locale yang ter-install pada Tux Paint, terlepas "
+"dari Tux Paint locale yang sedang berjalan."
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2273
+msgid "Printing"
+msgstr "Mencetak"
+
+#: ../tuxpaint-config2.cxx:2279
+msgid "Print Permissions:"
+msgstr "Ijin Mencetak:"
+
+#: ../tuxpaint-config2.cxx:2283
+msgid "Allow &Printing"
+msgstr "Mengijinkan &Mencetak"
+
+#: ../tuxpaint-config2.cxx:2288
+msgid "Let users print from within Tux Paint."
+msgstr "Mengijinkan user untuk mencetak dari Tux Paint."
+
+#: ../tuxpaint-config2.cxx:2293
+msgid "Print Delay : "
+msgstr "Delay mencetak :"
+
+#: ../tuxpaint-config2.cxx:2299
+msgid "seconds"
+msgstr "detik"
+
+#: ../tuxpaint-config2.cxx:2303
+msgid ""
+"Restrict printing to once every N seconds. (Enter '0' to allow unrestricted "
+"printing.)"
+msgstr ""
+"Membatasi mencetak untuk sekali setiap N detik. (Masukkan '0' untuk tidak "
+"membatasi pencetakan.)"
+
+#: ../tuxpaint-config2.cxx:2311
+msgid "Show Printer Dialog:"
+msgstr "Tampilkan Dialog Printer:"
+
+#: ../tuxpaint-config2.cxx:2316
+msgid "Only when [Alt] &modifier key is held"
+msgstr "Hanya ketika [ALT] kunci &modifier ditahan"
+
+#: ../tuxpaint-config2.cxx:2323
+msgid "Always &show printer dialog"
+msgstr "Mengijinkan &menampilkan dialog printer"
+
+#: ../tuxpaint-config2.cxx:2330
+msgid "&Never show printer dialog"
+msgstr "&Tidak pernah menampilkan dialog printer"
+
+#: ../tuxpaint-config2.cxx:2337
+msgid "(Even when [Alt] is held.)"
+msgstr "(Walaupun ketika [ALT] ditahan.)"
+
+#: ../tuxpaint-config2.cxx:2351
+msgid "Save printer configuration"
+msgstr "Simpan konfigurasi printer"
+
+#: ../tuxpaint-config2.cxx:2360
+msgid "Print Commands:"
+msgstr "Perintah cetak:"
+
+#: ../tuxpaint-config2.cxx:2364
+msgid "Use &Alternative Print Command"
+msgstr "Gunakan Perintah Cetak &Alternatif"
+
+#: ../tuxpaint-config2.cxx:2369
+msgid ""
+"Override Tux Paint's default setting for print command ('lpr') with another. "
+"(Advanced! Unix/Linux only!)"
+msgstr ""
+"Override pengaturan default Tux Paint untuk perintah cetak ('lpr') dengan "
+"yang lain. (Hanya pengguna Unix/Linux yang mahir!)"
+
+#: ../tuxpaint-config2.cxx:2379
+msgid ""
+"Enter the command for printing. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Masukkan perintah untuk mencetak. Harus sesuai dengan format PostScript "
+"sebagai standar masukan (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2390
+msgid "Use &Alternative Print Dialog"
+msgstr "Gunakan Dialog Cetak &Alternatif"
+
+#: ../tuxpaint-config2.cxx:2395
+msgid ""
+"Override Tux Paint's default setting for print dialog ('kprinter') with "
+"another. (Advanced! Unix/Linux only!)"
+msgstr ""
+"Override pengaturan default Tux Paint untuk dialog cetak ('kprinter') dengan "
+"yang lain. (Hanya pengguna Unix/Linux yang mahir!)"
+
+#: ../tuxpaint-config2.cxx:2405
+msgid ""
+"Enter the print dialog command. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Masukkan dialog perintah cetak, It must accept a PostScript format on its "
+"standard input (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2412
+msgid "Paper Size : "
+msgstr "Ukuran Kerta :"
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2433
+msgid "Saving"
+msgstr "Menyimpan"
+
+#: ../tuxpaint-config2.cxx:2440
+msgid "Save Over Earlier Work:"
+msgstr "Simpan Pekerjaan Lebih Awal."
+
+#: ../tuxpaint-config2.cxx:2444
+msgid "&Ask Before Overwriting"
+msgstr "&Tanya Sebelum Menimpa"
+
+#: ../tuxpaint-config2.cxx:2449
+msgid ""
+"When re-saving an image, ask whether to overwrite the earlier version, or "
+"make a new file."
+msgstr ""
+"Ketika menyimpan gambar kembali, tanyakan apakah akan menimpa versi awal, "
+"atau membuat file baru."
+
+#: ../tuxpaint-config2.cxx:2454
+msgid "Always &Overwrite Older Version"
+msgstr "Selalu &Menimpa Versi Lama"
+
+#: ../tuxpaint-config2.cxx:2459
+msgid ""
+"When re-saving an image, always overwrite the earlier version. (Warning: "
+"Potential for lost work!)"
+msgstr ""
+"Ketika menyimpan gambar kembali, tanyakan apakah akan menimpa versi awal. "
+"(Peringatan: Potensial menghilangkan hasil kerja!)"
+
+#: ../tuxpaint-config2.cxx:2464
+msgid "Always Save &New Picture"
+msgstr "Selalu Simpan Gambar &Baru"
+
+#: ../tuxpaint-config2.cxx:2469
+msgid ""
+"When re-saving an image, always make a new file. (Warning: Potential for "
+"lots of files!)"
+msgstr ""
+"Ketika menyimpan kembali gambar, selalu buat file baru. (Peringatan: "
+"Berpotensi membuat file yang banyak!)"
+
+#: ../tuxpaint-config2.cxx:2476
+msgid "Start Blank:"
+msgstr "Mulai Kosong;"
+
+#: ../tuxpaint-config2.cxx:2481
+msgid "Start with &Blank Canvas"
+msgstr "Mulai dengan Canvas &Kosong"
+
+#: ../tuxpaint-config2.cxx:2490
+msgid "Save Directory:"
+msgstr "Direktori Penyimpanan;"
+
+#: ../tuxpaint-config2.cxx:2494
+msgid "Use &Alternative Save Directory"
+msgstr "Gunakan Direktori Penyimpanan &Alternatif"
+
+#: ../tuxpaint-config2.cxx:2499
+msgid ""
+"Do not save pictures in the standard directory, use the following location:"
+msgstr ""
+"Jangan simpan gambar pada direktori biasanya, gunakan lokasi berikut ini:"
+
+#: ../tuxpaint-config2.cxx:2504
+msgid "Alternative Save Directory:"
+msgstr "Direktori Penyimpana Alternatif:"
+
+#: ../tuxpaint-config2.cxx:2516
+msgid "More Saving Options:"
+msgstr "Pilihan Penyimpanan Lainnya:"
+
+#: ../tuxpaint-config2.cxx:2521
+msgid "Disable '&Save' Button"
+msgstr "Matikan Tombol '&Simpan'"
+
+#: ../tuxpaint-config2.cxx:2526
+msgid ""
+"Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch "
+"paper.'"
+msgstr ""
+"Tidak mengijinkan gambar untuk disimpan. Tux Paint bertindak sebagai 'kertas "
+"coretan.' sementara"
+
+#: ../tuxpaint-config2.cxx:2532
+msgid "&Auto-save on Quit"
+msgstr "$Simpan-otomatis saat Keluar"
+
+#: ../tuxpaint-config2.cxx:2537
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr "Jangan tanya simpan gambar saat ini ketika keluar; simpan langsung."
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2549
+msgid "Data"
+msgstr "Data"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2557
+msgid "Lockfile:"
+msgstr "Lockfile:"
+
+#: ../tuxpaint-config2.cxx:2561
+msgid "&Don't use lockfile"
+msgstr "&jangan gunakan lockfile"
+
+#: ../tuxpaint-config2.cxx:2565
+msgid ""
+"Do not check for a lockfile. Allow Tux Paint to be launched multiple times. "
+"(May be necessary in a networked environment.)"
+msgstr ""
+"Jangan memeriksa untuk lockfile. Ijinkan Tux Paint untuk di buka berkali-"
+"kali. (Mungkin diperlukan pada lingkungan dengan jaringan.)"
+
+#: ../tuxpaint-config2.cxx:2575
+msgid "Data Directory:"
+msgstr "Direktori Data:"
+
+#: ../tuxpaint-config2.cxx:2579
+msgid "Use &Alternative Data Directory"
+msgstr "Gunakan Direktori Data &Alternatif"
+
+#: ../tuxpaint-config2.cxx:2584
+msgid ""
+"Do not load brushes, stamps, etc. from the standard directory, use the "
+"following location:"
+msgstr ""
+"Jangan muat brush, stamp, dll. dari direktori standar, gunakan lokasi "
+"berikut:"
+
+#: ../tuxpaint-config2.cxx:2589
+msgid "Alternative Data Directory:"
+msgstr "Direktori Data Alternatif"
+
+#: ../tuxpaint-config2.cxx:2611
+msgid "Accessibility"
+msgstr "aksesibilitas"
+
+#: ../tuxpaint-config2.cxx:2621
+msgid "Sticky mouse clicks"
+msgstr "Sticky mouse klik"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2625
+msgid ""
+"Useful for users who have difficulty clicking and dragging. When enabled, "
+"click and release to start painting, move to paint, and click and release "
+"again to stop. It can also be combined with joystick- and keyboard-based "
+"pointer controls."
+msgstr ""
+"Berguna untuk pengguna yang mendapati kesusahan untuk mengklik dan "
+"menggeser. Ketika diaktifkan, klik dan lepas untuk memulai menggambar, "
+"gerakkan untuk menggambar, dan klik dan lepas lagi untuk berhenti. Hal ini "
+"dapat dikombinasikan dengan joystick dan keyboard berbasis pointer kontrol."
+
+#: ../tuxpaint-config2.cxx:2636
+msgid "Keyboard controls the mouse pointer"
+msgstr "Keyboard mengontrol pointer mouse"
+
+# | msgid ""
+# | "When enabled, the arrow keys or numpad can be used to move the mouse "
+# | "pointer. Numpad 5, Space, Insert or F5 can be used to click. (When in "
+# | "\"Text\" or \"Label\" tools, the numpad and space cannot be used.) Also, "
+# | "F4 cycles the pointer between the \"Tools\" box, \"Colors\" box and "
+# | "drawing canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 "
+# | "and F12 move left/right inside the \"Tools\" and \"Colors\" boxes."
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2640
+msgid ""
+"When enabled, the arrow keys or numbers can be used to move the mouse "
+"pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text"
+"\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 "
+"cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing "
+"canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 "
+"move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr ""
+"Ketika diaktifkan, arrow key atau numpad dapat digunakan untuk menggerakan "
+"pointer mouse. Numpad 5, Space, Insert atau F5 dapat digunakan untuk klik. "
+"(Ketika dalam tool \"Text\" atau \"Label\", numpad dan space tidak dapat "
+"digunakan.) Dan juga, F4 mengganti pointer antara kotak \"Tools\", \"Colors"
+"\" dan canvas gambar, F8 dan F7 untuk bergerak keatas/kebawah didalam kotak "
+"\"Tools\", dan F11 dan F12 untuk bergerak kekiri/kekanan didalam  didalam "
+"kotak \"Tools\" dan \"Colors\"."
+
+#: ../tuxpaint-config2.cxx:2648
+msgid "Onscreen keyboard:"
+msgstr "Keyboard Pada layar:"
+
+#: ../tuxpaint-config2.cxx:2652
+msgid "Show a keyboard on the screen"
+msgstr "Tampilkan keyboard pada layar"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2656
+msgid ""
+"Display a keyboard on the screen when the \"Text\" and \"Label\" tools are "
+"enabled, so you can 'type' with the mouse pointer."
+msgstr ""
+"Tampilkan keyboard pada layar ketika tool \"Text\" dan  \"Label\" "
+"diaktifkan, jadi anda dapat 'mengetik' dengan pointer mouse."
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2661
+msgid "Layout"
+msgstr "Tata letak"
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2673
+msgid "How are keys organized in the keyboard"
+msgstr "Bagaimana key diatur dalam keyboard"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2678
+msgid "Disable layout changes"
+msgstr "Matikan perubahan tata letak"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2683
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr "Matikan tombol yang dapat mengijinkan perubahan tata letak keyboard."
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2701
+msgid "Joystick"
+msgstr "Joystick"
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2712
+msgid "Main device:"
+msgstr "Perangkat utama:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2722
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr "Nomor perangkat untuk digunakan. (SDL mulai penomoran dari 0)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2733
+msgid ""
+"Joystick slowness. Increase this value for people with slow reactions. (0-"
+"500; default value is 15)"
+msgstr ""
+"Joystick terlambat. Tingkatkan nilai ini untuk orang dengan reaksi yang "
+"lambat. (0-500; nilai default adalah 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2745
+msgid ""
+"SDL events under threshold will be discarded, useful to discard accidental "
+"unwanted movements. (0-32766; default value is 3200)"
+msgstr ""
+"Event SDL dibawah ambang batas akan dihapus, berguna untuk menghapus "
+"pergerakan yang tidak diinginkan. (0-32766; nilai default adalah 3200)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2755
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr "Batasi kecepatan ketika bergerak. (1-7; nilai default adalah 7)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2762
+msgid "Hat:"
+msgstr "Hat:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2771
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr "Hat terlambat. (0-500; nilai default adalah 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2783
+msgid ""
+"Hat timeout, the number of milliseconds to wait before starting to move "
+"continuously. (0-3000; default value is 1000)"
+msgstr ""
+"Hat mencapai batas waktu, nilai dari milisecond untuk menunggu sebelum "
+"melakukan pergerakan secara terus menerus. (0-3000; nilai default adalah "
+"1000)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2794
+msgid "Buttons to disable:"
+msgstr "Tombol untuk mematikan:"
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2810
+msgid ""
+"If for any reason one or more buttons of the joystick are posing problems, "
+"you can disable them here using a comma separated list of button numbers. (e."
+"g. 2,3,5)"
+msgstr ""
+"Jika untuk segala alasan satu atau lebih tombol untuk joystick bermasalah, "
+"anda dapat mematikannya dengan menggunakan sebuah koma untuk memisahkan "
+"daftar nomor tombol (contoh 2,3,5)"
+
+# | msgid "Button shortcurts:"
+#: ../tuxpaint-config2.cxx:2819
+msgid "Button shortcuts:"
+msgstr "Tombol shorcut:"
+
+# | msgid ""
+# | "Here you can configure shortcurts for the different buttons of the "
+# | "joystick, beware to not assign a shortcurt to the button used to draw."
+#: ../tuxpaint-config2.cxx:2823
+msgid ""
+"Here you can configure shortcuts for the different buttons of the joystick. "
+"(Beware to not assign a shortcut to the button used to draw.)"
+msgstr ""
+"Disini anda dapat mengkonfigurasi shorcut untuk tombol dari joystick, "
+"(Berhati-hatilah untuk tidak menetapkan tombol jalan pintas yang digunakan "
+"untuk menggambar.)"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2828
+msgid "Button number for the Escape key."
+msgstr "Nomor tombol untuk kunci Escape key."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2836
+msgid "Button number for the Brush tool."
+msgstr "Nomor tombol untuk Brush tool."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2844
+msgid "Button number for the Stamps tool."
+msgstr "Nomor tombol untuk Stamp tool."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2852
+msgid "Button number for the Lines tool."
+msgstr "Nomor tombol untuk Line tool."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2860
+msgid "Button number for the Shapes tool."
+msgstr "Nomor tombol untuk Shape tool."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2868
+msgid "Button number for the Text tool."
+msgstr "Nomor tombol untuk Text tool."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2876
+msgid "Button number for the Label tool."
+msgstr "Nomor tombol untuk Label tool."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2884
+msgid "Button number for the Magic tool."
+msgstr "Nomor tombol untuk Magic tool."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2892
+msgid "Button number for Undo."
+msgstr "Nomor tombol untuk Undo."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2900
+msgid "Button number for Redo."
+msgstr "Nomor tombol untuk Redo."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2908
+msgid "Button number for the Eraser tool."
+msgstr "Nomor tombol untuk Ereaser tool."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2916
+msgid "Button number for the New tool."
+msgstr "Nomor tombol untuk New tool."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2924
+msgid "Button number for the Open tool."
+msgstr "Nomor tombol untuk Open tool."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2932
+msgid "Button number for saving."
+msgstr "Nomor tombol untuk Menyimpan."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2940
+msgid "Button number for Page Setup."
+msgstr "Nomor tombol untuk Pengaturan halaman."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2948
+msgid "Button number for printing."
+msgstr "Nomor tombol untuk Mencetak."
+
+#: ../tuxpaint-config2.cxx:2970
+msgid "Settings for : "
+msgstr "Pengaturan untuk:"
+
+#: ../tuxpaint-config2.cxx:2974
+msgid "Current User"
+msgstr "Pengguna Saat Ini"
+
+#: ../tuxpaint-config2.cxx:2975
+msgid "All Users"
+msgstr "Semua Pengguna"
+
+#: ../tuxpaint-config2.cxx:2981
+msgid "Use \"All Users\" Settings"
+msgstr "Gunakan Pengaturan \"All Users\""
+
+#: ../tuxpaint-config2.cxx:2985
+msgid "Apply"
+msgstr "Apply"
+
+#: ../tuxpaint-config2.cxx:2993
+msgid "Reset"
+msgstr "Reset"
+
+#: ../tuxpaint-config2.cxx:3000
+msgid "Defaults"
+msgstr "Default"
+
+#: ../tuxpaint-config2.cxx:3007
+msgid "Quit"
+msgstr "Keluar"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "Konfigurasi Tux Paint."
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "Mengkonfigurasi Tux Paint."

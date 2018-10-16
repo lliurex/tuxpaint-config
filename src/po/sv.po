@@ -1,0 +1,993 @@
+# Swedish translation for Tux Paint Config.
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the tuxpaint-config package.
+# Daniel Nylander <po@danielnylander.se>, 2008.
+# Henrik Holst <henrik.holst@millistream.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tuxpaint-config\n"
+"Report-Msgid-Bugs-To: tuxpaint-i18n@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-07-19 21:57+0200\n"
+"PO-Revision-Date: 2014-07-20 16:26+0200\n"
+"Last-Translator: Henrik Holst <henrik.holst@millistream.com>\n"
+"Language-Team: Svenska <>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen "
+"mode, the interface's language, or options to simplify Tux Paint for younger "
+"children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your "
+"computer by making a selection in the 'Settings for' pull-down menu at the "
+"bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change "
+"the options you'd like to change, and click the 'Apply' button at the bottom "
+"to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"Välkommen till Rita med Tux grafiska konfigurationsverktyg, skapat av "
+"Torsten Giebl, Jan Wynholds, Bill Kendrick och Martin Fuhrer.\n"
+"\n"
+"Detta verktyg låter dig ändra inställningar för Rita med Tux, såsom "
+"helskärmsläget, gränssnittets språk eller alternativ för att förenkla Rita "
+"med Tux för yngre barn.\n"
+"\n"
+"Dessa inställningar kan ställas in för bara den aktuella användaren eller "
+"för alla användare på din dator genom att välja \"Inställningar för\" "
+"nederst i fönstret.\n"
+"\n"
+"Använd flikarna överst för att välja de olika inställningskategorierna, "
+"ändra de alternativ som du vill ändra på och klicka på knappen \"Verkställ\" "
+"nederst för att skriva den nya konfigurationsfilen.\n"
+"\n"
+"Nästa gång som Rita med Tux startas så kommer de nya inställningarna vara "
+"aktiva."
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(Använd systemets standard)"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(Använd systemets inställning)"
+
+#: ../tuxpaint-config2.cxx:1527 ../tuxpaint-config2.cxx:2131
+msgid "Default (no override)"
+msgstr "Standard (åsidosätt inte)"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Small"
+msgstr "Åsidosätt: Liten"
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Medium"
+msgstr "Åsidosätt: Medium"
+
+#: ../tuxpaint-config2.cxx:1533
+msgid "Override: Large"
+msgstr "Åsidosätt: Stor"
+
+#: ../tuxpaint-config2.cxx:1638
+msgid "Save Directory?"
+msgstr "Katalog att spara i?"
+
+#: ../tuxpaint-config2.cxx:1672
+msgid "Data Directory?"
+msgstr "Katalog för data?"
+
+#: ../tuxpaint-config2.cxx:1705
+msgid "Color Palette File?"
+msgstr "Färgpalettfil?"
+
+#: ../tuxpaint-config2.cxx:1744
+msgid "Quit without applying changes?"
+msgstr "Avsluta utan att verkställa ändringar?"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&No"
+msgstr "&Nej"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&Yes"
+msgstr "&Ja"
+
+#: ../tuxpaint-config2.cxx:1781
+msgid "current user"
+msgstr "aktuell användare"
+
+#: ../tuxpaint-config2.cxx:1784
+msgid "all users"
+msgstr "alla användare"
+
+#: ../tuxpaint-config2.cxx:1788
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "Tillämpa ändringarna du gjorde till %s?"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "No"
+msgstr "Nej"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "Yes"
+msgstr "Ja"
+
+#: ../tuxpaint-config2.cxx:1809 ../tuxpaint-config2.cxx:1812
+msgid "Tux Paint Config v"
+msgstr "Konfigurera Rita med Tux v"
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1821
+msgid "About"
+msgstr "Om"
+
+#: ../tuxpaint-config2.cxx:1828
+msgid "About Tux Paint Config."
+msgstr "Om Konfigurera Rita med Tux."
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1844
+#| msgid "Video / Sound"
+msgid "Video/Sound"
+msgstr "Bild/Ljud"
+
+#: ../tuxpaint-config2.cxx:1851
+msgid "Video:"
+msgstr "Bild:"
+
+#: ../tuxpaint-config2.cxx:1855
+msgid "&Fullscreen"
+msgstr "&Helskärm"
+
+#: ../tuxpaint-config2.cxx:1860
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "Kör Rita med Tux i helskärmsläget istället för i ett fönster."
+
+#: ../tuxpaint-config2.cxx:1866
+msgid "&Native"
+msgstr "&Ursprunglig"
+
+#: ../tuxpaint-config2.cxx:1870
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "Använd ursprunglig skärmupplösning i helskärmsläget."
+
+#: ../tuxpaint-config2.cxx:1876
+msgid "Window size : "
+msgstr "Fönsterstorlek: "
+
+#: ../tuxpaint-config2.cxx:1900
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "Storlek på fönstret eller upplösningen i helskärm."
+
+#: ../tuxpaint-config2.cxx:1906
+msgid "&Rotate Orientation"
+msgstr "&Roterad orientering"
+
+#: ../tuxpaint-config2.cxx:1910
+msgid ""
+"Swap width and height, to rotate 90 degrees (useful for portrait-display on "
+"a tablet PC)"
+msgstr ""
+"Växla bredd och höljd för att rotera 90 grader (användbart för "
+"porträttvisning på en tablet PC)"
+
+#: ../tuxpaint-config2.cxx:1916
+msgid "Allow S&creensaver"
+msgstr "Tillåt s&kärmsläckare"
+
+#: ../tuxpaint-config2.cxx:1920
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr "Inaktivera inte skärmsläckaren för ditt system när Rita med Tux körs."
+
+#: ../tuxpaint-config2.cxx:1929
+msgid "Sound:"
+msgstr "Ljud:"
+
+#: ../tuxpaint-config2.cxx:1933
+msgid "Enable &Sound Effects"
+msgstr "Aktivera &ljudeffekter"
+
+#: ../tuxpaint-config2.cxx:1938
+msgid "Enable/disable sound effects."
+msgstr "Aktivera/inaktivera ljudeffekter."
+
+#: ../tuxpaint-config2.cxx:1947 ../tuxpaint-config2.cxx:1961
+msgid "Color Palette File:"
+msgstr "Färgpalettfil:"
+
+#: ../tuxpaint-config2.cxx:1951
+msgid "Use &Alternative Color Palette"
+msgstr "Använd &alternativ färgpalett"
+
+#: ../tuxpaint-config2.cxx:1956
+msgid ""
+"Don't use default color palette, use colors defined in the following file:"
+msgstr ""
+"Använd inte standardfärgpaletten, använd färger definierade i följande fil:"
+
+#: ../tuxpaint-config2.cxx:1966 ../tuxpaint-config2.cxx:2509
+#: ../tuxpaint-config2.cxx:2594
+msgid "Browse..."
+msgstr "Bläddra..."
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1977
+#| msgid "Mouse / Keyboard"
+msgid "Mouse/Keyboard"
+msgstr "Mus/Tangentbord"
+
+#: ../tuxpaint-config2.cxx:1985
+msgid "Cursor:"
+msgstr "Muspekare:"
+
+#: ../tuxpaint-config2.cxx:1989
+msgid "&Fancy Cursor Shapes"
+msgstr "&Snygga pekarformer"
+
+#: ../tuxpaint-config2.cxx:1994
+msgid ""
+"Change the shape of the mouse pointer depending on where the mouse is and "
+"what you are doing."
+msgstr "Ändra formen på muspekaren beroende på var musen är och vad du gör."
+
+#: ../tuxpaint-config2.cxx:2000
+msgid "&Hide Cursor"
+msgstr "&Dölj muspekare"
+
+#: ../tuxpaint-config2.cxx:2005
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr "Döljer muspekaren helt (användbart på pekskärmar)."
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2014 ../tuxpaint-config2.cxx:2632
+msgid "Keyboard:"
+msgstr "Tangentbord:"
+
+#: ../tuxpaint-config2.cxx:2018
+msgid "Enable &Keyboard Shortcuts"
+msgstr "Aktivera &tangentbordsgenvägar"
+
+#: ../tuxpaint-config2.cxx:2023
+msgid ""
+"Allows key combinations to be used as shortcuts for certain commands. (e.g., "
+"Control+S to Save)"
+msgstr ""
+"Tillåter tangentkombinationer att användas som genvägar för vissa kommandon. "
+"(t.ex., Control+S för Spara)"
+
+#: ../tuxpaint-config2.cxx:2035 ../tuxpaint-config2.cxx:2617
+msgid "Mouse:"
+msgstr "Mus:"
+
+#: ../tuxpaint-config2.cxx:2039
+msgid "&Grab Mouse Pointer"
+msgstr "&Fånga muspekare"
+
+#: ../tuxpaint-config2.cxx:2044
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "Förhindrar att muspekaren lämnar Rita med Tux-fönstret."
+
+#: ../tuxpaint-config2.cxx:2049
+msgid "Mouse &Wheel Support"
+msgstr "Stöd för mus&hjul"
+
+#: ../tuxpaint-config2.cxx:2054
+msgid ""
+"Allows a mouse wheel to be used to scroll through items. (e.g., brushes, "
+"stamps)"
+msgstr ""
+"Tillåter att mushjulet används för att rulla genom objekt. (t.ex., penslar, "
+"stämplar)"
+
+#: ../tuxpaint-config2.cxx:2059
+msgid "No &Button Distinction"
+msgstr "Ingen skillnad på &knappar"
+
+#: ../tuxpaint-config2.cxx:2063
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr ""
+"Tillåter att mellersta och högra musknapparna även kan användas för att "
+"klicka."
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2076
+msgid "Simplification"
+msgstr "Förenkling"
+
+#: ../tuxpaint-config2.cxx:2084
+msgid "Interface Simplification:"
+msgstr "Förenkling av gränssnittet:"
+
+#: ../tuxpaint-config2.cxx:2088
+msgid "Disable Shape &Rotation"
+msgstr "Inaktivera form&rotering"
+
+#: ../tuxpaint-config2.cxx:2093
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr ""
+"Formverktygets roteringssteg är inaktiverade. Användbart för yngre barn."
+
+#: ../tuxpaint-config2.cxx:2098
+msgid "Simple Stamp &Outlines"
+msgstr "Enkla stämpel&konturer"
+
+#: ../tuxpaint-config2.cxx:2103
+msgid ""
+"Draw a rectangle around the cursor when placing stamps, rather than a "
+"detailed outline. (For slow computers and thin clients.)"
+msgstr ""
+"Rita en rektangel runt pekaren när stämplar placeras ut, istället för en "
+"detaljerad kontur. (För långsamma datorer och tunna klienter.)"
+
+#: ../tuxpaint-config2.cxx:2108
+msgid "Show &Uppercase Text Only"
+msgstr "Visa endast &versal text"
+
+#: ../tuxpaint-config2.cxx:2113
+msgid ""
+"Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in "
+"UPPERCASE rather than Mixed Case."
+msgstr ""
+"Gör så att all text i Rita med Tux (knappetiketter, dialogrutor, etc.) visas "
+"med VERSALER istället för blandat med gemener."
+
+#: ../tuxpaint-config2.cxx:2122
+msgid "Initial Stamp Size:"
+msgstr "Initial stämpelstorlek:"
+
+#: ../tuxpaint-config2.cxx:2139
+msgid "Control Simplification:"
+msgstr "Kontrollförenkling:"
+
+#: ../tuxpaint-config2.cxx:2143
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "Inaktivera \"&Avsluta\"-knappen och [Escape]-tangenten"
+
+#: ../tuxpaint-config2.cxx:2148
+msgid ""
+"Clicking the window's close (X) button in the title bar, or pressing "
+"[Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr ""
+"Klicka på fönstret stängningsknapp (X) i titellisten eller trycka på "
+"[Alt]+[F4] eller [Shift]+[Ctrl]+[Escape] kommer fortfarande att avsluta Rita "
+"med Tux."
+
+#: ../tuxpaint-config2.cxx:2153
+msgid "Disable '&Stamps' Tool"
+msgstr "Inaktivera \"&Stämplar\"-verktyget"
+
+#: ../tuxpaint-config2.cxx:2158
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr ""
+"Läs inte in stämplar vid uppstart, vilket inaktiverar verktyget Stämplar."
+
+#: ../tuxpaint-config2.cxx:2163
+msgid "Disable Stamp &Controls"
+msgstr "Inaktivera stämpel&kontroll"
+
+#: ../tuxpaint-config2.cxx:2168
+msgid ""
+"Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, "
+"Grow, Mirror and Flip)."
+msgstr ""
+"Förenkla verktyget \"Stämplar\" genom att ta bort knapparna för "
+"stämpelkontroll (Minska, Öka, Spegla och Vänd)."
+
+#: ../tuxpaint-config2.cxx:2173
+msgid "Disable &Magic Controls"
+msgstr "Inaktivera \"Magi\"-ver&ktyget."
+
+#: ../tuxpaint-config2.cxx:2178
+msgid ""
+"Simplify the 'Magic' tools by removing the buttons to switch between paint "
+"and fullscreen modes."
+msgstr ""
+"Förenkla \"Magi\"-verktygen genom att ta bort knapparna som växlar mellan "
+"målnings- och helskärmlägen."
+
+#: ../tuxpaint-config2.cxx:2183
+msgid "Disable '&Label' Tool"
+msgstr "Inaktivera \"&Rubrik\"-verktyget"
+
+#: ../tuxpaint-config2.cxx:2188
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr ""
+"Inaktivera \"Rubrik\"-verktyget (enbart \"Text\"-verktyget finns kvar)."
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2199
+msgid "Languages"
+msgstr "Språk"
+
+#: ../tuxpaint-config2.cxx:2205
+msgid "Language:"
+msgstr "Språk:"
+
+#: ../tuxpaint-config2.cxx:2209
+msgid "Language : "
+msgstr "Språk: "
+
+#: ../tuxpaint-config2.cxx:2224
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr ""
+"Kör Rita med Tux i ett specifikt språk (åsidosätt systemets inställningar)."
+
+#: ../tuxpaint-config2.cxx:2229
+msgid "&Mirror Stamps"
+msgstr "S&pegla stämplar"
+
+#: ../tuxpaint-config2.cxx:2234
+msgid ""
+"Automatically mirror-image all mirror-able stamps. Useful for users who "
+"prefer things appearing right-to-left."
+msgstr ""
+"Speglar automatiskt alla speglingsbara stämplar. Användbart för användare "
+"som föredrar att saker visas höger till vänster."
+
+#: ../tuxpaint-config2.cxx:2243
+msgid "Fonts:"
+msgstr "Typsnitt:"
+
+#: ../tuxpaint-config2.cxx:2247
+msgid "Load System &Fonts"
+msgstr "Läs in systemt&ypsnitt"
+
+#: ../tuxpaint-config2.cxx:2252
+msgid ""
+"Attempt to load more fonts, found elsewhere on your computer. (Note: may "
+"cause instability!)"
+msgstr ""
+"Försök att läsa in fler typsnitt som hittas någon annanstans på din dator. "
+"(Observera: kan orsaka instabilitet!)"
+
+#: ../tuxpaint-config2.cxx:2257
+msgid "Load All &Locale Fonts"
+msgstr "Ladda alla t&ypsnitt."
+
+#: ../tuxpaint-config2.cxx:2262
+msgid ""
+"Load all locale-specific fonts installed in Tux Paint, regardless of the "
+"locale Tux Paint is being run under."
+msgstr ""
+"Ladda alla språkspecifika typsnitt installerade med Tux Paint, oavsett "
+"vilket språk Tux Paint körs med."
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2273
+msgid "Printing"
+msgstr "Utskrifter"
+
+#: ../tuxpaint-config2.cxx:2279
+msgid "Print Permissions:"
+msgstr "Utskriftsrättigheter:"
+
+#: ../tuxpaint-config2.cxx:2283
+msgid "Allow &Printing"
+msgstr "Tillåt &utskrifter"
+
+#: ../tuxpaint-config2.cxx:2288
+msgid "Let users print from within Tux Paint."
+msgstr "Låt användare skriva ut från Rita med Tux."
+
+#: ../tuxpaint-config2.cxx:2293
+msgid "Print Delay : "
+msgstr "Utskriftsfördröjning : "
+
+#: ../tuxpaint-config2.cxx:2299
+msgid "seconds"
+msgstr "sekunder"
+
+#: ../tuxpaint-config2.cxx:2303
+msgid ""
+"Restrict printing to once every N seconds. (Enter '0' to allow unrestricted "
+"printing.)"
+msgstr ""
+"Begränsa utskrifter till en gång var N sekund. (Ange '0' för att inte "
+"begränsa utskrifter.)"
+
+#: ../tuxpaint-config2.cxx:2311
+msgid "Show Printer Dialog:"
+msgstr "Visa skrivardialogen:"
+
+#: ../tuxpaint-config2.cxx:2316
+msgid "Only when [Alt] &modifier key is held"
+msgstr "Endast när [Alt]-&modifierartangenten hålls ner"
+
+#: ../tuxpaint-config2.cxx:2323
+msgid "Always &show printer dialog"
+msgstr "Visa &alltid skrivardialogen"
+
+#: ../tuxpaint-config2.cxx:2330
+msgid "&Never show printer dialog"
+msgstr "Visa al&drig skrivardialogen"
+
+#: ../tuxpaint-config2.cxx:2337
+msgid "(Even when [Alt] is held.)"
+msgstr "(Även när [Alt] hålls ner.)"
+
+#: ../tuxpaint-config2.cxx:2351
+msgid "Save printer configuration"
+msgstr "Spara skrivarkonfiguration"
+
+#: ../tuxpaint-config2.cxx:2360
+msgid "Print Commands:"
+msgstr "Utskriftskommandon:"
+
+#: ../tuxpaint-config2.cxx:2364
+msgid "Use &Alternative Print Command"
+msgstr "Använd a&lternativt utskriftskommando"
+
+#: ../tuxpaint-config2.cxx:2369
+msgid ""
+"Override Tux Paint's default setting for print command ('lpr') with another. "
+"(Advanced! Unix/Linux only!)"
+msgstr ""
+"Åsidosätt Rita med Tux standardinställning för utskriftskommando (\"lpr\") "
+"med ett annat. (Avancerat! Endast Unix/Linux!)"
+
+#: ../tuxpaint-config2.cxx:2379
+msgid ""
+"Enter the command for printing. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Ange kommandot för utskrifter. Det måste kunna ta emot ett PostScript-format "
+"på dess standard in (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2390
+msgid "Use &Alternative Print Dialog"
+msgstr "Använd &alternativ skrivardialog"
+
+#: ../tuxpaint-config2.cxx:2395
+msgid ""
+"Override Tux Paint's default setting for print dialog ('kprinter') with "
+"another. (Advanced! Unix/Linux only!)"
+msgstr ""
+"Åsidorsätt standardinställningen i Rita med Tux för skrivardialogen "
+"('kprinter') bland andra. (Avancerat! Endast Unix/Linux!)"
+
+#: ../tuxpaint-config2.cxx:2405
+msgid ""
+"Enter the print dialog command. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Ange utskriftskommandot. Det måste kunna ta emot ett PostScript-format på "
+"dess standard in (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2412
+msgid "Paper Size : "
+msgstr "Pappersstorlek: "
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2433
+msgid "Saving"
+msgstr "Spara"
+
+#: ../tuxpaint-config2.cxx:2440
+msgid "Save Over Earlier Work:"
+msgstr "Spara över tidigare arbete:"
+
+#: ../tuxpaint-config2.cxx:2444
+msgid "&Ask Before Overwriting"
+msgstr "&Fråga innan överskrivning"
+
+#: ../tuxpaint-config2.cxx:2449
+msgid ""
+"When re-saving an image, ask whether to overwrite the earlier version, or "
+"make a new file."
+msgstr ""
+"När en bild sparas igen, fråga huruvida den ska skriva över den tidigare "
+"versionen eller skapa en ny fil."
+
+#: ../tuxpaint-config2.cxx:2454
+msgid "Always &Overwrite Older Version"
+msgstr "Skriv alltid &över äldre version"
+
+#: ../tuxpaint-config2.cxx:2459
+msgid ""
+"When re-saving an image, always overwrite the earlier version. (Warning: "
+"Potential for lost work!)"
+msgstr ""
+"När en bild sparas igen, skriv alltid över den tidigare versionen. (Varning: "
+"Potentiell risk för förlorat arbete!)"
+
+#: ../tuxpaint-config2.cxx:2464
+msgid "Always Save &New Picture"
+msgstr "Spara alltid en &ny bild"
+
+#: ../tuxpaint-config2.cxx:2469
+msgid ""
+"When re-saving an image, always make a new file. (Warning: Potential for "
+"lots of files!)"
+msgstr ""
+"När en bild sparas igen, skapa alltid en ny fil. (Varning: Potentiell risk "
+"för många filer!)"
+
+#: ../tuxpaint-config2.cxx:2476
+msgid "Start Blank:"
+msgstr "Starta tom:"
+
+#: ../tuxpaint-config2.cxx:2481
+msgid "Start with &Blank Canvas"
+msgstr "Starta med &tom ritduk"
+
+#: ../tuxpaint-config2.cxx:2490
+msgid "Save Directory:"
+msgstr "Katalog att spara i:"
+
+#: ../tuxpaint-config2.cxx:2494
+msgid "Use &Alternative Save Directory"
+msgstr "Använd &alternativ katalog för att spara"
+
+#: ../tuxpaint-config2.cxx:2499
+msgid ""
+"Do not save pictures in the standard directory, use the following location:"
+msgstr "Spara inte bilder i standardkatalogen. Använd följande plats:"
+
+#: ../tuxpaint-config2.cxx:2504
+msgid "Alternative Save Directory:"
+msgstr "Alternativ katalog att spara i:"
+
+#: ../tuxpaint-config2.cxx:2516
+msgid "More Saving Options:"
+msgstr "Fler alternativ för att spara:"
+
+#: ../tuxpaint-config2.cxx:2521
+msgid "Disable '&Save' Button"
+msgstr "Inaktivera \"&Spara\"-knappen"
+
+#: ../tuxpaint-config2.cxx:2526
+msgid ""
+"Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch "
+"paper.'"
+msgstr ""
+"Tillåt inte att bilder sparas. Rita med Tux fungerar som ett temporärt "
+"\"anteckningsblock\"."
+
+#: ../tuxpaint-config2.cxx:2532
+msgid "&Auto-save on Quit"
+msgstr "Spara &automatiskt vid avslut"
+
+#: ../tuxpaint-config2.cxx:2537
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr "Fråga inte om att spara aktuell bild vid avsluta; spara alltid."
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2549
+msgid "Data"
+msgstr "Data"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2557
+msgid "Lockfile:"
+msgstr "Låsfil:"
+
+#: ../tuxpaint-config2.cxx:2561
+msgid "&Don't use lockfile"
+msgstr "&Använd ingen låsfil"
+
+#: ../tuxpaint-config2.cxx:2565
+msgid ""
+"Do not check for a lockfile. Allow Tux Paint to be launched multiple times. "
+"(May be necessary in a networked environment.)"
+msgstr ""
+"Kontrollera inte om en låsfil finns. Tillåter att Rita med Tux kan startas "
+"flera gånger. (Kan vara nödvändigt i en nätverksmiljö.)"
+
+#: ../tuxpaint-config2.cxx:2575
+msgid "Data Directory:"
+msgstr "Datakatalog:"
+
+#: ../tuxpaint-config2.cxx:2579
+msgid "Use &Alternative Data Directory"
+msgstr "Använd a&lternativ datakatalog"
+
+#: ../tuxpaint-config2.cxx:2584
+msgid ""
+"Do not load brushes, stamps, etc. from the standard directory, use the "
+"following location:"
+msgstr ""
+"Läs inte in penslar, stämplar, etc. från standardkatalogen. Använd följande "
+"plats:"
+
+#: ../tuxpaint-config2.cxx:2589
+msgid "Alternative Data Directory:"
+msgstr "Alternativ datakatalog:"
+
+#: ../tuxpaint-config2.cxx:2611
+msgid "Accessibility"
+msgstr "Tillgänglighet"
+
+#: ../tuxpaint-config2.cxx:2621
+msgid "Sticky mouse clicks"
+msgstr "Klistriga musklick"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2625
+msgid ""
+"Useful for users who have difficulty clicking and dragging. When enabled, "
+"click and release to start painting, move to paint, and click and release "
+"again to stop. It can also be combined with joystick- and keyboard-based "
+"pointer controls."
+msgstr ""
+"Användbart för användare som har svårt att klicka och dra. När den är "
+"aktiverad, klicka och släpp för att börja måla, flytta för att måla, och "
+"klicka och släpp igen för att stoppa. Den kan också kombineras med joystick- "
+"och tangentbordsbaserade pekarkontroller."
+
+#: ../tuxpaint-config2.cxx:2636
+msgid "Keyboard controls the mouse pointer"
+msgstr "Tangentbord kontrollerar muspekaren"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2640
+msgid ""
+"When enabled, the arrow keys or numbers can be used to move the mouse "
+"pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text"
+"\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 "
+"cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing "
+"canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 "
+"move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr ""
+"När den är aktiverad kan piltangenterna eller siffertangenterna användas för "
+"att flytta muspekaren. Siffran 5, mellanslag, 'Insert' eller F5 kan användas "
+"för att klicka. (När du använder \"Text\" eller \"Rubrik\"-verktyget, så kan "
+"inte siffrorna eller mellanslag användas) F4 cyklar pekaren mellan \"Verktyg"
+"\", \"Färger\" och arbetsytan. F8 och F7 flytta upp/ner bland verktygen, och "
+"F11 och F12 flytta vänster/höger bland verktygen/färgerna."
+
+#: ../tuxpaint-config2.cxx:2648
+msgid "Onscreen keyboard:"
+msgstr "Skärmtangentbord:"
+
+#: ../tuxpaint-config2.cxx:2652
+msgid "Show a keyboard on the screen"
+msgstr "Visa ett visuellt tangentbord på skärmen"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2656
+msgid ""
+"Display a keyboard on the screen when the \"Text\" and \"Label\" tools are "
+"enabled, so you can 'type' with the mouse pointer."
+msgstr ""
+"Visar ett tangentbord på skärmen när \"Text\"- och \"Rubrik\"-verktygen "
+"används så att du kan 'skriva' med muspekaren."
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2661
+msgid "Layout"
+msgstr "Layout"
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2673
+msgid "How are keys organized in the keyboard"
+msgstr "Hur tangenterna är organiserade på tangentbordet"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2678
+msgid "Disable layout changes"
+msgstr "Inaktivera layoutförändringar"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2683
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr "Inaktivera knapparna som tillåter ändring av tangentbordslayout."
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2701
+msgid "Joystick"
+msgstr "Joystick"
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2712
+msgid "Main device:"
+msgstr "Huvudenhet:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2722
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr "Enhetsnummer att använda. (SDL börjar på '0')"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2733
+msgid ""
+"Joystick slowness. Increase this value for people with slow reactions. "
+"(0-500; default value is 15)"
+msgstr ""
+"Joystick långsamhet. Öka detta värde för människor med långsamma reaktioner. "
+"(0-500; standardvärdet är 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2745
+msgid ""
+"SDL events under threshold will be discarded, useful to discard accidental "
+"unwanted movements. (0-32766; default value is 3200)"
+msgstr ""
+"SDL händelser under tröskelvärdet kommer att ignoreras, användbart för att "
+"undvika oavsiktliga oönskade rörelser. (0-32766; standardvärdet är 3200)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2755
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr "Begränsa hastigheten vid rörelse. (1-7; Standardvärdet är 7)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2762
+msgid "Hat:"
+msgstr "Hat-Switch:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2771
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr "Hat-Switch långsamhet. (0-500; standardvärdet är 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2783
+msgid ""
+"Hat timeout, the number of milliseconds to wait before starting to move "
+"continuously. (0-3000; default value is 1000)"
+msgstr ""
+"Hat-Switch timeout, antalet millisekunder att vänta innan kontinuerlig "
+"rörelse. (0-3000; standardvärdet är 1000)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2794
+msgid "Buttons to disable:"
+msgstr "Inaktivera knappar:"
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2810
+msgid ""
+"If for any reason one or more buttons of the joystick are posing problems, "
+"you can disable them here using a comma separated list of button numbers. (e."
+"g. 2,3,5)"
+msgstr ""
+"Om en eller flera knappar i joysticken skapar problem, så kan du stänga av "
+"dem här med en kommaseparerad lista med knappnummer. (t.ex. 2,3,5)"
+
+#: ../tuxpaint-config2.cxx:2819
+msgid "Button shortcuts:"
+msgstr "Knappgenvägar:"
+
+#: ../tuxpaint-config2.cxx:2823
+msgid ""
+"Here you can configure shortcuts for the different buttons of the joystick. "
+"(Beware to not assign a shortcut to the button used to draw.)"
+msgstr ""
+"Här kan du konfigurera genvägar till de olika knapparna på joysticken. (Se "
+"upp så att du inte tilldelar en genväg till knappen som används för att "
+"rita.)"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2828
+msgid "Button number for the Escape key."
+msgstr "Knappnummer för Escape-tangenten."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2836
+msgid "Button number for the Brush tool."
+msgstr "Knappnummer för \"Penslar\"-verktyget."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2844
+msgid "Button number for the Stamps tool."
+msgstr "Knappnummer för \"Stämplar\"-verktyget."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2852
+msgid "Button number for the Lines tool."
+msgstr "Knappnummer för \"Linjer\"-verktyget."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2860
+msgid "Button number for the Shapes tool."
+msgstr "Knappnummer för \"Former\"-verktyget."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2868
+msgid "Button number for the Text tool."
+msgstr "Knappnummer för \"Text\"-verktyget."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2876
+msgid "Button number for the Label tool."
+msgstr "Knappnummer för \"Rubrik\"-verktyget."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2884
+msgid "Button number for the Magic tool."
+msgstr "Knappnummer för \"Magi\"-verktyget."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2892
+msgid "Button number for Undo."
+msgstr "Knappnummer för \"Ångra\"."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2900
+msgid "Button number for Redo."
+msgstr "Knappnummer för \"Gör om\"."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2908
+msgid "Button number for the Eraser tool."
+msgstr "Knappnummer för \"Suddgummi\"-verktyget."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2916
+msgid "Button number for the New tool."
+msgstr "Knappnummer för \"Ny\"-verktyget."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2924
+msgid "Button number for the Open tool."
+msgstr "Knappnummer för \"Öppna\"-verktyget."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2932
+msgid "Button number for saving."
+msgstr "Knappnummer för att spara."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2940
+msgid "Button number for Page Setup."
+msgstr "Knappnummer för Sidinställningar."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2948
+msgid "Button number for printing."
+msgstr "Knappnummer för utskrift."
+
+#: ../tuxpaint-config2.cxx:2970
+msgid "Settings for : "
+msgstr "Inställningar för: "
+
+#: ../tuxpaint-config2.cxx:2974
+msgid "Current User"
+msgstr "Aktuell användare"
+
+#: ../tuxpaint-config2.cxx:2975
+msgid "All Users"
+msgstr "Alla användare"
+
+#: ../tuxpaint-config2.cxx:2981
+msgid "Use \"All Users\" Settings"
+msgstr "Använd \"Alla användare\"-inställningar"
+
+#: ../tuxpaint-config2.cxx:2985
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: ../tuxpaint-config2.cxx:2993
+msgid "Reset"
+msgstr "Återställ"
+
+#: ../tuxpaint-config2.cxx:3000
+msgid "Defaults"
+msgstr "Standardvärden"
+
+#: ../tuxpaint-config2.cxx:3007
+msgid "Quit"
+msgstr "Avsluta"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "Konfigurera Rita med Tux."
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "Konfigurera Rita med Tux"

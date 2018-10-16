@@ -1,0 +1,964 @@
+# Serbian translation of tuxpaing-config
+# Copyright (C) 2011 Tux4Kids
+# This file is distributed under the same license as the TuxPaint package.
+# Ivana Rakic <reci.ne.silvesteru@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tux4Kids\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-06 07:46+0200\n"
+"PO-Revision-Date: 2011-01-04 00:37+0100\n"
+"Last-Translator: Ivana <reci.ne.silvesteru@gmail.com>\n"
+"Language-Team: Serbian <tuxpaint-i18n@lists.sourceforge.net>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen "
+"mode, the interface's language, or options to simplify Tux Paint for younger "
+"children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your "
+"computer by making a selection in the 'Settings for' pull-down menu at the "
+"bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change "
+"the options you'd like to change, and click the 'Apply' button at the bottom "
+"to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"Добродошли у графички алат за Такс Цртање, који су створили  Torsten Giebl, "
+"Jan Wynholds, Bill Kendrick, и Martin Fuhrer.\n"
+"\n"
+"Ова алатка ти дозољава приступ поставкама за Такс Цртање, као што су приказ "
+"преко целог екрана, језик сучеља или опције за поједностављење Такс Цртања "
+"за млађу децу.\n"
+"\n"
+"Ова подешавања могу бити постављена само за тренутног корисника или за све "
+"кориснике тог рачунара бирањем у ''Подешавања за''  у падајућем менију на "
+"дну.\n"
+"\n"
+"Употреби картице на врху да изабереш различите категорије, промениш опције "
+"које желиш да мењаш и кликни ''Дозволи'' на дну да извезеш нову "
+"конфигурацијску датотеку.\n"
+"\n"
+"При следећем покретању Tакс Цртања, нове поставке даће ефекат."
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(Користи подразумеване поставке система)"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(Користи поставке система)"
+
+#: ../tuxpaint-config2.cxx:1525 ../tuxpaint-config2.cxx:2129
+msgid "Default (no override)"
+msgstr "Подразумевано (без наметања)"
+
+#: ../tuxpaint-config2.cxx:1527
+msgid "Override: Small"
+msgstr "Наметни; Мало"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Medium"
+msgstr "Наметни; Средње"
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Large"
+msgstr "Наметни; Велико"
+
+#: ../tuxpaint-config2.cxx:1636
+msgid "Save Directory?"
+msgstr "Сачувај директоријум?"
+
+#: ../tuxpaint-config2.cxx:1670
+msgid "Data Directory?"
+msgstr "База података?"
+
+#: ../tuxpaint-config2.cxx:1703
+msgid "Color Palette File?"
+msgstr "Датотека палете боја?"
+
+#: ../tuxpaint-config2.cxx:1742
+msgid "Quit without applying changes?"
+msgstr "Изађи без прихватања промена?"
+
+#: ../tuxpaint-config2.cxx:1743
+msgid "&No"
+msgstr "&Не"
+
+#: ../tuxpaint-config2.cxx:1743
+msgid "&Yes"
+msgstr "&Да"
+
+#: ../tuxpaint-config2.cxx:1779
+msgid "current user"
+msgstr "Тренутни корисник"
+
+#: ../tuxpaint-config2.cxx:1782
+msgid "all users"
+msgstr "сви корисници"
+
+#: ../tuxpaint-config2.cxx:1786
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "Дозволи измене које су направљене за %s?"
+
+#: ../tuxpaint-config2.cxx:1787
+msgid "No"
+msgstr "Не"
+
+#: ../tuxpaint-config2.cxx:1787
+msgid "Yes"
+msgstr "Да"
+
+#: ../tuxpaint-config2.cxx:1807 ../tuxpaint-config2.cxx:1810
+msgid "Tux Paint Config v"
+msgstr "Подешавање Такс Цртања в. "
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1819
+msgid "About"
+msgstr "О програму"
+
+#: ../tuxpaint-config2.cxx:1826
+msgid "About Tux Paint Config."
+msgstr "О Подешању Такс цртања"
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1842
+#, fuzzy
+#| msgid "Video / Sound"
+msgid "Video/Sound"
+msgstr "Видео/Звук"
+
+#: ../tuxpaint-config2.cxx:1849
+msgid "Video:"
+msgstr "Видео:"
+
+#: ../tuxpaint-config2.cxx:1853
+msgid "&Fullscreen"
+msgstr "&Цео екран"
+
+#: ../tuxpaint-config2.cxx:1858
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "Покрени Такс цртање у резиму целог екрана, уместо у у прозору."
+
+#: ../tuxpaint-config2.cxx:1864
+msgid "&Native"
+msgstr "&Природно"
+
+#: ../tuxpaint-config2.cxx:1868
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "Користите резолуцију екрана у режиму преко целог екрана."
+
+#: ../tuxpaint-config2.cxx:1874
+msgid "Window size : "
+msgstr "Величина прозора:"
+
+#: ../tuxpaint-config2.cxx:1898
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "Величина прозора"
+
+#: ../tuxpaint-config2.cxx:1904
+msgid "&Rotate Orientation"
+msgstr "&Обрни оријентацијау"
+
+#: ../tuxpaint-config2.cxx:1908
+msgid ""
+"Swap width and height, to rotate 90 degrees (useful for portrait-display on "
+"a tablet PC)"
+msgstr ""
+"Замени ширину и висину, заокренуто 90 степени (корисно за усправне екране на "
+"табличном рачунару)"
+
+#: ../tuxpaint-config2.cxx:1914
+msgid "Allow S&creensaver"
+msgstr "Дозволи &Чувар екрана"
+
+#: ../tuxpaint-config2.cxx:1918
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr "Не искључуј  чувар екрана док је покренуто Такс цртање."
+
+#: ../tuxpaint-config2.cxx:1927
+msgid "Sound:"
+msgstr "Звук:"
+
+#: ../tuxpaint-config2.cxx:1931
+msgid "Enable &Sound Effects"
+msgstr "Допусти &звучни ефекат"
+
+#: ../tuxpaint-config2.cxx:1936
+msgid "Enable/disable sound effects."
+msgstr "Укључи/Искључи звучне ефекте."
+
+#: ../tuxpaint-config2.cxx:1945 ../tuxpaint-config2.cxx:1959
+msgid "Color Palette File:"
+msgstr "Датотетка палете боја:"
+
+#: ../tuxpaint-config2.cxx:1949
+msgid "Use &Alternative Color Palette"
+msgstr "Користи алтернативну палету боја"
+
+#: ../tuxpaint-config2.cxx:1954
+msgid ""
+"Don't use default color palette, use colors defined in the following file:"
+msgstr ""
+"Не користи подразумевану палету боја, којисти боје дефинисане у следећој "
+"датотеци:"
+
+#: ../tuxpaint-config2.cxx:1964 ../tuxpaint-config2.cxx:2507
+#: ../tuxpaint-config2.cxx:2592
+msgid "Browse..."
+msgstr "Претражи..."
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1975
+#, fuzzy
+#| msgid "Mouse / Keyboard"
+msgid "Mouse/Keyboard"
+msgstr "Миш/Тастатура"
+
+#: ../tuxpaint-config2.cxx:1983
+msgid "Cursor:"
+msgstr "Показивач:"
+
+#: ../tuxpaint-config2.cxx:1987
+msgid "&Fancy Cursor Shapes"
+msgstr "&Фенси облици показивача"
+
+#: ../tuxpaint-config2.cxx:1992
+msgid ""
+"Change the shape of the mouse pointer depending on where the mouse is and "
+"what you are doing."
+msgstr ""
+"Промени облик показивача миша зависно од тога где и шта радиш у програму."
+
+#: ../tuxpaint-config2.cxx:1998
+msgid "&Hide Cursor"
+msgstr "Сакриј показивач"
+
+#: ../tuxpaint-config2.cxx:2003
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr "Потпуно сакриј показивач (корисно на екране осетљиве на додир)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2012 ../tuxpaint-config2.cxx:2630
+msgid "Keyboard:"
+msgstr "Тастатура:"
+
+#: ../tuxpaint-config2.cxx:2016
+msgid "Enable &Keyboard Shortcuts"
+msgstr "Омогући пречице на &тастатури"
+
+#: ../tuxpaint-config2.cxx:2021
+msgid ""
+"Allows key combinations to be used as shortcuts for certain commands. (e.g., "
+"Control+S to Save)"
+msgstr ""
+"Дозволи да комбинације типки буду коришћене као пречице за одређене команде. "
+"(нпр. Control+S за чување)"
+
+#: ../tuxpaint-config2.cxx:2033 ../tuxpaint-config2.cxx:2615
+msgid "Mouse:"
+msgstr "Миш:"
+
+#: ../tuxpaint-config2.cxx:2037
+msgid "&Grab Mouse Pointer"
+msgstr "&Повуци показивач"
+
+#: ../tuxpaint-config2.cxx:2042
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "Спречи показивача миша од одлажења из прозора Такс цртања."
+
+#: ../tuxpaint-config2.cxx:2047
+msgid "Mouse &Wheel Support"
+msgstr "Подржавај &точкић миша"
+
+#: ../tuxpaint-config2.cxx:2052
+msgid ""
+"Allows a mouse wheel to be used to scroll through items. (e.g., brushes, "
+"stamps)"
+msgstr ""
+"Дозволи да точак на мишу буде коришћен за померање кроз ставке. (нпр. "
+"четкице, печати)"
+
+#: ../tuxpaint-config2.cxx:2057
+msgid "No &Button Distinction"
+msgstr "Нема разлике међу &типкама"
+
+#: ../tuxpaint-config2.cxx:2061
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr ""
+"Дозволи да средње и десно дугне на мишу текпђе буде коришћено за кликтање."
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2074
+msgid "Simplification"
+msgstr "Једноставније"
+
+#: ../tuxpaint-config2.cxx:2082
+msgid "Interface Simplification:"
+msgstr "Једноставније сучеље:"
+
+#: ../tuxpaint-config2.cxx:2086
+msgid "Disable Shape &Rotation"
+msgstr "Онемогући &окретање облика"
+
+#: ../tuxpaint-config2.cxx:2091
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr "Онемогући корак ротације за алатку облика. Корисно је за млађу децу."
+
+#: ../tuxpaint-config2.cxx:2096
+msgid "Simple Stamp &Outlines"
+msgstr "Једноставни печати и &рубне линије"
+
+#: ../tuxpaint-config2.cxx:2101
+msgid ""
+"Draw a rectangle around the cursor when placing stamps, rather than a "
+"detailed outline. (For slow computers and thin clients.)"
+msgstr ""
+"Исцртај правоугаоник око показивача при печатирању, уместо прецизног руба. "
+"( За споре рачунаре и танке клијенте.)"
+
+#: ../tuxpaint-config2.cxx:2106
+msgid "Show &Uppercase Text Only"
+msgstr "Прикажи само &велика слова"
+
+#: ../tuxpaint-config2.cxx:2111
+msgid ""
+"Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in "
+"UPPERCASE rather than Mixed Case."
+msgstr ""
+"Испиши текст у Такс цртању (натписи на типкама, прозочићима, итд.) великим "
+"словима уместо мешано."
+
+#: ../tuxpaint-config2.cxx:2120
+msgid "Initial Stamp Size:"
+msgstr "почетна величина печата:"
+
+#: ../tuxpaint-config2.cxx:2137
+msgid "Control Simplification:"
+msgstr "Поједностави контроле:"
+
+#: ../tuxpaint-config2.cxx:2141
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "Онемогући '&Изађи' и [Escape]."
+
+#: ../tuxpaint-config2.cxx:2146
+msgid ""
+"Clicking the window's close (X) button in the title bar, or pressing "
+"[Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr ""
+"Кликом на (X) у врху прозора или притиском на [Alt]+[F4] or "
+"[Shift]+[Ctrl]+[Escape] ћеш изаћи из Такс цртања."
+
+#: ../tuxpaint-config2.cxx:2151
+msgid "Disable '&Stamps' Tool"
+msgstr "Онемогући алатку '&Печати'"
+
+#: ../tuxpaint-config2.cxx:2156
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr "Не учитавај печате на почетку, притом их онемогући."
+
+#: ../tuxpaint-config2.cxx:2161
+msgid "Disable Stamp &Controls"
+msgstr "Онемогући контроле &печата"
+
+#: ../tuxpaint-config2.cxx:2166
+msgid ""
+"Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, "
+"Grow, Mirror and Flip)."
+msgstr ""
+"Поједностави  алатку 'Печати' уклањањем команди за печате( скупи,повећај, "
+"окрени као у огледалу и обрни)."
+
+#: ../tuxpaint-config2.cxx:2171
+msgid "Disable &Magic Controls"
+msgstr "Онемогући &магичне контроле"
+
+#: ../tuxpaint-config2.cxx:2176
+msgid ""
+"Simplify the 'Magic' tools by removing the buttons to switch between paint "
+"and fullscreen modes."
+msgstr ""
+"Поједностави алатку 'Магија'  уклањањем команди за измену између слике и "
+"режим преко целог екрана."
+
+#: ../tuxpaint-config2.cxx:2181
+msgid "Disable '&Label' Tool"
+msgstr "Онемогући '&Натпис ' алатку"
+
+#: ../tuxpaint-config2.cxx:2186
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr "Онемогући  алатку за натписе и остави само алатку за писање текста."
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2197
+msgid "Languages"
+msgstr "Језици"
+
+#: ../tuxpaint-config2.cxx:2203
+msgid "Language:"
+msgstr "Језик:"
+
+#: ../tuxpaint-config2.cxx:2207
+msgid "Language : "
+msgstr "Језик:"
+
+#: ../tuxpaint-config2.cxx:2222
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr "Покрени Такс цртање у посебном језику (наметни подешавања система)."
+
+#: ../tuxpaint-config2.cxx:2227
+msgid "&Mirror Stamps"
+msgstr "&Печати у огледалу"
+
+#: ../tuxpaint-config2.cxx:2232
+msgid ""
+"Automatically mirror-image all mirror-able stamps. Useful for users who "
+"prefer things appearing right-to-left."
+msgstr ""
+"Аутоматски направи одраз слике у огледалу за све печате код којих то може. "
+"Корисно је за кориснике који преферирају ствари које се појављују од десне "
+"ка левој страни."
+
+#: ../tuxpaint-config2.cxx:2241
+msgid "Fonts:"
+msgstr "Врсте слова:"
+
+#: ../tuxpaint-config2.cxx:2245
+msgid "Load System &Fonts"
+msgstr "Учитај системске &фонтове"
+
+#: ../tuxpaint-config2.cxx:2250
+msgid ""
+"Attempt to load more fonts, found elsewhere on your computer. (Note: may "
+"cause instability!)"
+msgstr ""
+"Покушај да покренеш више фонтова са твог рачунара. (Белешка; Може довести до "
+"нестабилности)"
+
+#: ../tuxpaint-config2.cxx:2255
+msgid "Load All &Locale Fonts"
+msgstr "Учитај  све &локалне врсте слова"
+
+#: ../tuxpaint-config2.cxx:2260
+msgid ""
+"Load all locale-specific fonts installed in Tux Paint, regardless of the "
+"locale Tux Paint is being run under."
+msgstr ""
+"Учитај све фонтове локалитета инсталиране у Такс цртању, без обзира на "
+"локалитет Такс цртање у коме је покренут."
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2271
+msgid "Printing"
+msgstr "Штампање"
+
+#: ../tuxpaint-config2.cxx:2277
+msgid "Print Permissions:"
+msgstr "Дозволе штампача:"
+
+#: ../tuxpaint-config2.cxx:2281
+msgid "Allow &Printing"
+msgstr "Дозволи штампање"
+
+#: ../tuxpaint-config2.cxx:2286
+msgid "Let users print from within Tux Paint."
+msgstr "Дозволи корисницима штампање у Такс цртању."
+
+#: ../tuxpaint-config2.cxx:2291
+msgid "Print Delay : "
+msgstr "Одложена штампа :"
+
+#: ../tuxpaint-config2.cxx:2297
+msgid "seconds"
+msgstr "секунди"
+
+#: ../tuxpaint-config2.cxx:2301
+msgid ""
+"Restrict printing to once every N seconds. (Enter '0' to allow unrestricted "
+"printing.)"
+msgstr ""
+"Забрани штампање више од једног штампања у N секунди. (Упиши '0' за "
+"неограничено штампање.)"
+
+#: ../tuxpaint-config2.cxx:2309
+msgid "Show Printer Dialog:"
+msgstr "Прикажи прозорче за штампу:"
+
+#: ../tuxpaint-config2.cxx:2314
+msgid "Only when [Alt] &modifier key is held"
+msgstr "Само када је [Alt] &тастер за промену притиснут"
+
+#: ../tuxpaint-config2.cxx:2321
+msgid "Always &show printer dialog"
+msgstr "Увек &приказуј прозорче за штампу"
+
+#: ../tuxpaint-config2.cxx:2328
+msgid "&Never show printer dialog"
+msgstr "&Никад не приказуј прозорче за штампу"
+
+#: ../tuxpaint-config2.cxx:2335
+msgid "(Even when [Alt] is held.)"
+msgstr "(Чак и када је [Alt] притиснут.)"
+
+#: ../tuxpaint-config2.cxx:2349
+msgid "Save printer configuration"
+msgstr "Сачувај конфигурацију штампача"
+
+#: ../tuxpaint-config2.cxx:2358
+msgid "Print Commands:"
+msgstr "Одштампај команде;"
+
+#: ../tuxpaint-config2.cxx:2362
+msgid "Use &Alternative Print Command"
+msgstr "Користи &алтернативне команде за штампу"
+
+#: ../tuxpaint-config2.cxx:2367
+msgid ""
+"Override Tux Paint's default setting for print command ('lpr') with another. "
+"(Advanced! Unix/Linux only!)"
+msgstr ""
+"Наметни Такс цртање подразумевана подешавања за штампу ('lpr') другим. "
+"(Напредно! Само за Јуникс и Линукс!)"
+
+#: ../tuxpaint-config2.cxx:2377
+msgid ""
+"Enter the command for printing. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Упиши команду за штампу. Она треба да прими PostScript формат на стандардном "
+"улазу (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2388
+msgid "Use &Alternative Print Dialog"
+msgstr "Користи &алтернативно прозорче за штампу"
+
+#: ../tuxpaint-config2.cxx:2393
+msgid ""
+"Override Tux Paint's default setting for print dialog ('kprinter') with "
+"another. (Advanced! Unix/Linux only!)"
+msgstr ""
+"Наметни подразумевану поставку за прозорче штампе ('kprinter') другим. "
+"(Напредно! Само за Јуникс и Линукс!)"
+
+#: ../tuxpaint-config2.cxx:2403
+msgid ""
+"Enter the print dialog command. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Упиши команду за прозорче за штампу. Она треба да прими PostScript формат на "
+"стандардном улазу (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2410
+msgid "Paper Size : "
+msgstr "Величина папира:"
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2431
+msgid "Saving"
+msgstr "Чување"
+
+#: ../tuxpaint-config2.cxx:2438
+msgid "Save Over Earlier Work:"
+msgstr "Сачувај преко ранијег рада:"
+
+#: ../tuxpaint-config2.cxx:2442
+msgid "&Ask Before Overwriting"
+msgstr "&Питај пре  преписивања преко"
+
+#: ../tuxpaint-config2.cxx:2447
+msgid ""
+"When re-saving an image, ask whether to overwrite the earlier version, or "
+"make a new file."
+msgstr ""
+"При поновном чувању слике, питај да ли се преписује преко раније верзије или "
+"се прави нова датотека."
+
+#: ../tuxpaint-config2.cxx:2452
+msgid "Always &Overwrite Older Version"
+msgstr "Увек препиши старију веззију"
+
+#: ../tuxpaint-config2.cxx:2457
+msgid ""
+"When re-saving an image, always overwrite the earlier version. (Warning: "
+"Potential for lost work!)"
+msgstr ""
+"При поновном чувању слике, увек препиши преко раније верзије. (Упозорење; "
+"Могућ губитак рада!)"
+
+#: ../tuxpaint-config2.cxx:2462
+msgid "Always Save &New Picture"
+msgstr "Увек сачувај нову слику"
+
+#: ../tuxpaint-config2.cxx:2467
+msgid ""
+"When re-saving an image, always make a new file. (Warning: Potential for "
+"lots of files!)"
+msgstr ""
+"Када поново сачуваш слику, увек направи нову датотеку. (Упозорење: Могуће је "
+"много датотека!)"
+
+#: ../tuxpaint-config2.cxx:2474
+msgid "Start Blank:"
+msgstr "Започни празним:"
+
+#: ../tuxpaint-config2.cxx:2479
+msgid "Start with &Blank Canvas"
+msgstr "Започни са &празним платном"
+
+#: ../tuxpaint-config2.cxx:2488
+msgid "Save Directory:"
+msgstr "Сачувај директоријум:"
+
+#: ../tuxpaint-config2.cxx:2492
+msgid "Use &Alternative Save Directory"
+msgstr "Користи &алтернативни директоријум за чување"
+
+#: ../tuxpaint-config2.cxx:2497
+msgid ""
+"Do not save pictures in the standard directory, use the following location:"
+msgstr ""
+"Не чувај слике у  подразумеваном директоријуму, користи следећу локацију:"
+
+#: ../tuxpaint-config2.cxx:2502
+msgid "Alternative Save Directory:"
+msgstr "Алтернативни директоријум за чување:"
+
+#: ../tuxpaint-config2.cxx:2514
+msgid "More Saving Options:"
+msgstr "Више опција за чување:"
+
+#: ../tuxpaint-config2.cxx:2519
+msgid "Disable '&Save' Button"
+msgstr "Онемогући опцију '&Сачувај' "
+
+#: ../tuxpaint-config2.cxx:2524
+msgid ""
+"Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch "
+"paper.'"
+msgstr "Без чувања. Такс цртање се понаша као папир за жврљање."
+
+#: ../tuxpaint-config2.cxx:2530
+msgid "&Auto-save on Quit"
+msgstr "Аутоматски сачувај при изласку"
+
+#: ../tuxpaint-config2.cxx:2535
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr "Не питај да ли да сачуваш тренутну слику при изласку: само сачувај."
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2547
+msgid "Data"
+msgstr "Подаци"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2555
+msgid "Lockfile:"
+msgstr "Катанац:"
+
+#: ../tuxpaint-config2.cxx:2559
+msgid "&Don't use lockfile"
+msgstr "&Не користи катанац"
+
+#: ../tuxpaint-config2.cxx:2563
+msgid ""
+"Do not check for a lockfile. Allow Tux Paint to be launched multiple times. "
+"(May be necessary in a networked environment.)"
+msgstr ""
+"Без закључавања. Дозволи Такс цртању да буде покренут више пута. (Може бити "
+"потребно у мрежном окружењу.)"
+
+#: ../tuxpaint-config2.cxx:2573
+msgid "Data Directory:"
+msgstr "База података:"
+
+#: ../tuxpaint-config2.cxx:2577
+msgid "Use &Alternative Data Directory"
+msgstr "Користи &алтернативну базу података"
+
+#: ../tuxpaint-config2.cxx:2582
+msgid ""
+"Do not load brushes, stamps, etc. from the standard directory, use the "
+"following location:"
+msgstr ""
+"Не учитавај четкице, печате, итд. из основног директоријума, користи следећу "
+"локацију:"
+
+#: ../tuxpaint-config2.cxx:2587
+msgid "Alternative Data Directory:"
+msgstr "Алтернативна база података:"
+
+#: ../tuxpaint-config2.cxx:2609
+msgid "Accessibility"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2619
+msgid "Sticky mouse clicks"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2623
+msgid ""
+"Useful for users who have difficulty clicking and dragging. When enabled, "
+"click and release to start painting, move to paint, and click and release "
+"again to stop. It can also be combined with joystick- and keyboard-based "
+"pointer controls."
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2634
+msgid "Keyboard controls the mouse pointer"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2638
+msgid ""
+"When enabled, the arrow keys or numbers can be used to move the mouse "
+"pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text"
+"\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 "
+"cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing "
+"canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 "
+"move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2646
+msgid "Onscreen keyboard:"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2650
+msgid "Show a keyboard on the screen"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2654
+msgid ""
+"Display a keyboard on the screen when the \"Text\" and \"Label\" tools are "
+"enabled, so you can 'type' with the mouse pointer."
+msgstr ""
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2659
+msgid "Layout"
+msgstr ""
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2671
+msgid "How are keys organized in the keyboard"
+msgstr ""
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2676
+msgid "Disable layout changes"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2681
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr ""
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2699
+msgid "Joystick"
+msgstr ""
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2710
+msgid "Main device:"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2720
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2731
+msgid ""
+"Joystick slowness. Increase this value for people with slow reactions. "
+"(0-500; default value is 15)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2743
+msgid ""
+"SDL events under threshold will be discarded, useful to discard accidental "
+"unwanted movements. (0-32766; default value is 3200)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2753
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr ""
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2760
+msgid "Hat:"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2769
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2781
+msgid ""
+"Hat timeout, the number of milliseconds to wait before starting to move "
+"continuously. (0-3000; default value is 1000)"
+msgstr ""
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2792
+msgid "Buttons to disable:"
+msgstr ""
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2808
+msgid ""
+"If for any reason one or more buttons of the joystick are posing problems, "
+"you can disable them here using a comma separated list of button numbers. (e."
+"g. 2,3,5)"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2817
+msgid "Button shortcuts:"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2821
+msgid ""
+"Here you can configure shortcuts for the different buttons of the joystick. "
+"(Beware to not assign a shortcut to the button used to draw.)"
+msgstr ""
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2826
+msgid "Button number for the Escape key."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2834
+msgid "Button number for the Brush tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2842
+msgid "Button number for the Stamps tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2850
+msgid "Button number for the Lines tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2858
+msgid "Button number for the Shapes tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2866
+msgid "Button number for the Text tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2874
+msgid "Button number for the Label tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2882
+msgid "Button number for the Magic tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2890
+msgid "Button number for Undo."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2898
+msgid "Button number for Redo."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2906
+msgid "Button number for the Eraser tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2914
+msgid "Button number for the New tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2922
+msgid "Button number for the Open tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2930
+msgid "Button number for saving."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2938
+msgid "Button number for Page Setup."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2946
+msgid "Button number for printing."
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2968
+msgid "Settings for : "
+msgstr "Подешавања за:"
+
+#: ../tuxpaint-config2.cxx:2972
+msgid "Current User"
+msgstr "Тренутни корисник"
+
+#: ../tuxpaint-config2.cxx:2973
+msgid "All Users"
+msgstr "Сви корисници"
+
+#: ../tuxpaint-config2.cxx:2979
+msgid "Use \"All Users\" Settings"
+msgstr "Користи \"Сви корисници\" подешавања"
+
+#: ../tuxpaint-config2.cxx:2983
+msgid "Apply"
+msgstr "Прихвати"
+
+#: ../tuxpaint-config2.cxx:2991
+msgid "Reset"
+msgstr "Поново покрени"
+
+#: ../tuxpaint-config2.cxx:2998
+msgid "Defaults"
+msgstr "Подразумевано"
+
+#: ../tuxpaint-config2.cxx:3005
+msgid "Quit"
+msgstr "Изађи"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "Tux Paint Config."
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "Подеси Такс Цртање"

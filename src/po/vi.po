@@ -1,0 +1,969 @@
+# Vietnamese translation for TuxPaint Configuration.
+# This file is distributed under the same license as the tuxpaint package.
+# Clytie Siddall <clytie@riverland.net.au>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tuxpaint-config 2.9.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-06 07:46+0200\n"
+"PO-Revision-Date: 2009-09-27 23:05+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.8\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen "
+"mode, the interface's language, or options to simplify Tux Paint for younger "
+"children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your "
+"computer by making a selection in the 'Settings for' pull-down menu at the "
+"bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change "
+"the options you'd like to change, and click the 'Apply' button at the bottom "
+"to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"Chào mừng đến công cụ cấu hình đồ họa của TuxPaint, được tạo bởi Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick và Martin Fuhrer.\n"
+"\n"
+"Công cụ này cho bạn có khả năng sửa đổi thiết lập của TuxPaint, như chế độ "
+"toàn màn hình, ngôn ngữ giao diện hay tuỳ chọn để đơn giản hoá Tux Sơn cho "
+"đứa bé.\n"
+"\n"
+"Thiết lập này có thể được đặt chỉ cho người dùng hiện thời, hoặc cho mọi "
+"người dùng trên máy tính này, bằng cách chọn một mục trong trình đơn thả "
+"xuống « Thiết lập cho » ở dưới.\n"
+"\n"
+"Hãy sử dụng các thẻ ở đầu để chọn những phân loại thiết lập khác nhau, sửa "
+"đổi những tuỳ chọn bạn muốn thay đổi, sau đó nhấn vào cái nút « Áp dụng » ở "
+"dưới để ghi ra một tập tin cấu hình mới.\n"
+"\n"
+"Lần kế tiếp khởi chạy TuxPaint thì thiết lập mới nên có tác động."
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(Dùng giá trị mặc định của hệ thống)"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(Dùng thiết lập của hệ thống)"
+
+#: ../tuxpaint-config2.cxx:1525 ../tuxpaint-config2.cxx:2129
+msgid "Default (no override)"
+msgstr "Mặc định (không ghi đè)"
+
+#: ../tuxpaint-config2.cxx:1527
+msgid "Override: Small"
+msgstr "Ghi đề: Nhỏ"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Medium"
+msgstr "Ghi đè: Vừa"
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Large"
+msgstr "Ghi đề: Lớn"
+
+#: ../tuxpaint-config2.cxx:1636
+msgid "Save Directory?"
+msgstr "Thư mục lưu ?"
+
+#: ../tuxpaint-config2.cxx:1670
+msgid "Data Directory?"
+msgstr "Thư mục dữ liệu ?"
+
+#: ../tuxpaint-config2.cxx:1703
+msgid "Color Palette File?"
+msgstr "Tập tin bảng chọn màu ?"
+
+#: ../tuxpaint-config2.cxx:1742
+msgid "Quit without applying changes?"
+msgstr "Thoát mà không ghi nhớ các thay đổi ?"
+
+#: ../tuxpaint-config2.cxx:1743
+msgid "&No"
+msgstr "Khô&ng"
+
+#: ../tuxpaint-config2.cxx:1743
+msgid "&Yes"
+msgstr "&Có"
+
+#: ../tuxpaint-config2.cxx:1779
+msgid "current user"
+msgstr "người dùng hiện thời"
+
+#: ../tuxpaint-config2.cxx:1782
+msgid "all users"
+msgstr "mọi người dùng"
+
+#: ../tuxpaint-config2.cxx:1786
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "Áp dụng các thay đổi bạn đã làm cho %s ?"
+
+#: ../tuxpaint-config2.cxx:1787
+msgid "No"
+msgstr "Không"
+
+#: ../tuxpaint-config2.cxx:1787
+msgid "Yes"
+msgstr "Có"
+
+#: ../tuxpaint-config2.cxx:1807 ../tuxpaint-config2.cxx:1810
+msgid "Tux Paint Config v"
+msgstr "Cấu hình Tux Sơn pb"
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1819
+msgid "About"
+msgstr "Giới thiệu"
+
+#: ../tuxpaint-config2.cxx:1826
+msgid "About Tux Paint Config."
+msgstr "Giới thiệu Cấu hình Tux Sơn"
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1842
+#, fuzzy
+#| msgid "Video / Sound"
+msgid "Video/Sound"
+msgstr "Phim / Âm"
+
+#: ../tuxpaint-config2.cxx:1849
+msgid "Video:"
+msgstr "Phim:"
+
+#: ../tuxpaint-config2.cxx:1853
+msgid "&Fullscreen"
+msgstr "T&oàn màn hình"
+
+#: ../tuxpaint-config2.cxx:1858
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "Chạy TuxPaint ở chế độ toàn màn hình, hơn là trong một cửa sổ."
+
+#: ../tuxpaint-config2.cxx:1864
+msgid "&Native"
+msgstr "&Sở hữu"
+
+#: ../tuxpaint-config2.cxx:1868
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "Sử dụng độ phân giải sở hữu trong chế độ Toàn màn hình."
+
+#: ../tuxpaint-config2.cxx:1874
+msgid "Window size : "
+msgstr "Kích cỡ cửa sổ : "
+
+#: ../tuxpaint-config2.cxx:1898
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "Kích cỡ của cửa sổ, hoặc độ phân giải trên toàn màn hình."
+
+#: ../tuxpaint-config2.cxx:1904
+msgid "&Rotate Orientation"
+msgstr "&Xoay hướng"
+
+#: ../tuxpaint-config2.cxx:1908
+msgid ""
+"Swap width and height, to rotate 90 degrees (useful for portrait-display on "
+"a tablet PC)"
+msgstr ""
+"Trao đổi chiều rộng và chiều cao, để xoay theo 90 độ (có ích để hiển thị "
+"thẳng đứng trên một màn hình nhỏ)."
+
+#: ../tuxpaint-config2.cxx:1914
+msgid "Allow S&creensaver"
+msgstr "&Bảo vệ màn hình"
+
+#: ../tuxpaint-config2.cxx:1918
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr "Không tắt trình bảo vệ màn hình của hệ thống trong khi chạy TuxPaint."
+
+#: ../tuxpaint-config2.cxx:1927
+msgid "Sound:"
+msgstr "Âm thanh:"
+
+#: ../tuxpaint-config2.cxx:1931
+msgid "Enable &Sound Effects"
+msgstr "Bật &Hiệu ứng Âm thanh"
+
+#: ../tuxpaint-config2.cxx:1936
+msgid "Enable/disable sound effects."
+msgstr "Bật/tắt các hiệu ứng âm thanh."
+
+#: ../tuxpaint-config2.cxx:1945 ../tuxpaint-config2.cxx:1959
+msgid "Color Palette File:"
+msgstr "Tập tin bảng chọn màu :"
+
+#: ../tuxpaint-config2.cxx:1949
+msgid "Use &Alternative Color Palette"
+msgstr "Dùng bảng chọn màu &xen kẽ"
+
+#: ../tuxpaint-config2.cxx:1954
+msgid ""
+"Don't use default color palette, use colors defined in the following file:"
+msgstr ""
+"Không sử dụng bảng chọn màu mặc định, nên sử dụng màu sắc được xác định "
+"trong tập tin theo đây:"
+
+#: ../tuxpaint-config2.cxx:1964 ../tuxpaint-config2.cxx:2507
+#: ../tuxpaint-config2.cxx:2592
+msgid "Browse..."
+msgstr "Duyệt..."
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1975
+#, fuzzy
+#| msgid "Mouse / Keyboard"
+msgid "Mouse/Keyboard"
+msgstr "Chuột / Bàn phím"
+
+#: ../tuxpaint-config2.cxx:1983
+msgid "Cursor:"
+msgstr "Con trỏ :"
+
+#: ../tuxpaint-config2.cxx:1987
+msgid "&Fancy Cursor Shapes"
+msgstr "Hình con t&rỏ khéo"
+
+#: ../tuxpaint-config2.cxx:1992
+msgid ""
+"Change the shape of the mouse pointer depending on where the mouse is and "
+"what you are doing."
+msgstr ""
+"Sửa đổi hình của con trỏ chuột phụ thuộc vào vị trí của chuột và hành động "
+"đang được làm."
+
+#: ../tuxpaint-config2.cxx:1998
+msgid "&Hide Cursor"
+msgstr "Ẩ&n con trỏ"
+
+#: ../tuxpaint-config2.cxx:2003
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr "Ẩn hoàn toàn con trỏ (có ích trên màn hình sờ)."
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2012 ../tuxpaint-config2.cxx:2630
+msgid "Keyboard:"
+msgstr "Bàn phím:"
+
+#: ../tuxpaint-config2.cxx:2016
+msgid "Enable &Keyboard Shortcuts"
+msgstr "Bật &phím tắt"
+
+#: ../tuxpaint-config2.cxx:2021
+msgid ""
+"Allows key combinations to be used as shortcuts for certain commands. (e.g., "
+"Control+S to Save)"
+msgstr ""
+"Cho phép sử dụng tổ hợp phím thay cho một số lệnh riêng (v.d. Ctrl+L để Lưu)."
+
+#: ../tuxpaint-config2.cxx:2033 ../tuxpaint-config2.cxx:2615
+msgid "Mouse:"
+msgstr "Chuột:"
+
+#: ../tuxpaint-config2.cxx:2037
+msgid "&Grab Mouse Pointer"
+msgstr "&Lấy con trỏ chuột"
+
+#: ../tuxpaint-config2.cxx:2042
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "Ngăn cản con trỏ chuột đi ra cửa sổ TuxPaint."
+
+#: ../tuxpaint-config2.cxx:2047
+msgid "Mouse &Wheel Support"
+msgstr "Hỗ trợ &bánh chuột"
+
+#: ../tuxpaint-config2.cxx:2052
+msgid ""
+"Allows a mouse wheel to be used to scroll through items. (e.g., brushes, "
+"stamps)"
+msgstr ""
+"Cho phép sử dụng một bánh chuột để cuộn qua các mục (v.d. các chổi, các dấu) "
+"khác nhau."
+
+#: ../tuxpaint-config2.cxx:2057
+msgid "No &Button Distinction"
+msgstr "Không phân &biệt nút"
+
+#: ../tuxpaint-config2.cxx:2061
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr ""
+"Cũng cho phép sử dụng cái nút ở giữa và bên phải trên chuột, để nhấn vào."
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2074
+msgid "Simplification"
+msgstr "Đơn giản hoá"
+
+#: ../tuxpaint-config2.cxx:2082
+msgid "Interface Simplification:"
+msgstr "Đơn giản hoá giao diện:"
+
+#: ../tuxpaint-config2.cxx:2086
+msgid "Disable Shape &Rotation"
+msgstr "Tắt &xoay hình"
+
+#: ../tuxpaint-config2.cxx:2091
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr "Bước xoay của công cụ hình thì bị tắt. Có ích với đứa bé."
+
+#: ../tuxpaint-config2.cxx:2096
+msgid "Simple Stamp &Outlines"
+msgstr "Nét ng&oài dấu đơn giản"
+
+#: ../tuxpaint-config2.cxx:2101
+msgid ""
+"Draw a rectangle around the cursor when placing stamps, rather than a "
+"detailed outline. (For slow computers and thin clients.)"
+msgstr ""
+"Vẽ một hình chữ nhật vòng quanh con trỏ khi đặt dấu, hơn là một nét ngoài "
+"chi tiết. (Cho máy tính chạy chậm, và ứng dụng khách mành.)"
+
+#: ../tuxpaint-config2.cxx:2106
+msgid "Show &Uppercase Text Only"
+msgstr "Hiển thị chỉ chữ &hoa"
+
+#: ../tuxpaint-config2.cxx:2111
+msgid ""
+"Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in "
+"UPPERCASE rather than Mixed Case."
+msgstr ""
+"Gây ra mọi chữ trong TuxPaint (nhãn nút, hộp thoại v.v.) xuất hiện theo CHỮ "
+"HOA thay cho Chữ Hoa Bắt Đầu Mỗi Từ."
+
+#: ../tuxpaint-config2.cxx:2120
+msgid "Initial Stamp Size:"
+msgstr "Kích cỡ dấu đầu tiên:"
+
+#: ../tuxpaint-config2.cxx:2137
+msgid "Control Simplification:"
+msgstr "Đơn giản hoá điều khiển:"
+
+#: ../tuxpaint-config2.cxx:2141
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "Tắt nút « T&hoát » và phím [Escape]"
+
+#: ../tuxpaint-config2.cxx:2146
+msgid ""
+"Clicking the window's close (X) button in the title bar, or pressing "
+"[Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr ""
+"Nhấn vào nút đóng (X) trong thanh tựa đề, hoặc bấm tổ hợp [Alt]+[F4] hay "
+"[Shift]+[Ctrl]+[Escape] vẫn còn thoát khỏi TuxPaint."
+
+#: ../tuxpaint-config2.cxx:2151
+msgid "Disable '&Stamps' Tool"
+msgstr "Tắt công cụ « &Dấu »"
+
+#: ../tuxpaint-config2.cxx:2156
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr "Không nên nạp các dấu vào lúc khởi chạy, thì vô hiệu hoá công cụ Dấu."
+
+#: ../tuxpaint-config2.cxx:2161
+msgid "Disable Stamp &Controls"
+msgstr "Tắt điề&u khiển Dấu"
+
+#: ../tuxpaint-config2.cxx:2166
+msgid ""
+"Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, "
+"Grow, Mirror and Flip)."
+msgstr ""
+"Đơn giản hoá công cụ « Dấu » bằng cách gỡ bỏ các cái nút điều khiển dấu (Nhỏ "
+"hơn, Lớn hơn, Phản chiếu và Lật)."
+
+#: ../tuxpaint-config2.cxx:2171
+#, fuzzy
+#| msgid "Disable Magic &Controls"
+msgid "Disable &Magic Controls"
+msgstr "Tắt điề&u khiển ma thuật"
+
+#: ../tuxpaint-config2.cxx:2176
+msgid ""
+"Simplify the 'Magic' tools by removing the buttons to switch between paint "
+"and fullscreen modes."
+msgstr ""
+"Đơn giản hoá công cụ « Ma thuật » bằng cách gỡ bỏ các cái nút chuyển đổi "
+"giữa chế độ sơn và chế độ toàn màn hình."
+
+#: ../tuxpaint-config2.cxx:2181
+#, fuzzy
+#| msgid "Disable '&Stamps' Tool"
+msgid "Disable '&Label' Tool"
+msgstr "Tắt công cụ « &Dấu »"
+
+#: ../tuxpaint-config2.cxx:2186
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr ""
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2197
+msgid "Languages"
+msgstr "Ngôn ngữ"
+
+#: ../tuxpaint-config2.cxx:2203
+msgid "Language:"
+msgstr "Ngôn ngữ :"
+
+#: ../tuxpaint-config2.cxx:2207
+msgid "Language : "
+msgstr "Ngôn ngữ : "
+
+#: ../tuxpaint-config2.cxx:2222
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr ""
+"Chạy TuxPaint bằng một ngôn ngữ nào đó (có quyền cao hơn thiết lập của hệ "
+"thống)."
+
+#: ../tuxpaint-config2.cxx:2227
+msgid "&Mirror Stamps"
+msgstr "&Phản chiếu dấu"
+
+#: ../tuxpaint-config2.cxx:2232
+msgid ""
+"Automatically mirror-image all mirror-able stamps. Useful for users who "
+"prefer things appearing right-to-left."
+msgstr ""
+"Tự động tạo một ảnh phản chiếu của mọi dấu có thể phản chiếu. Có ích cho "
+"người dùng thích thấy hướng trái-qua-phải."
+
+#: ../tuxpaint-config2.cxx:2241
+msgid "Fonts:"
+msgstr "Phông chữ :"
+
+#: ../tuxpaint-config2.cxx:2245
+msgid "Load System &Fonts"
+msgstr "Nạp các &phông hệ thống"
+
+#: ../tuxpaint-config2.cxx:2250
+msgid ""
+"Attempt to load more fonts, found elsewhere on your computer. (Note: may "
+"cause instability!)"
+msgstr ""
+"Thử nạp thêm phông chữ, được tìm ở nơi khác trên máy tính. (Ghi chú : có thể "
+"gây ra một trường hợp không ổn định.)"
+
+#: ../tuxpaint-config2.cxx:2255
+msgid "Load All &Locale Fonts"
+msgstr "Nạp mọi phông &miền địa phương"
+
+#: ../tuxpaint-config2.cxx:2260
+msgid ""
+"Load all locale-specific fonts installed in Tux Paint, regardless of the "
+"locale Tux Paint is being run under."
+msgstr ""
+"Nạp tất cả các phông chữ đặc trưng cho miền địa phương (v.d. tất cả các "
+"phông chữ tiếng Việt) được cài đặt vào TuxPaint, bất chấp miền địa phương "
+"dưới đó TuxPaint đang chạy."
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2271
+msgid "Printing"
+msgstr "In ấn"
+
+#: ../tuxpaint-config2.cxx:2277
+msgid "Print Permissions:"
+msgstr "Quyền hạn in ấn:"
+
+#: ../tuxpaint-config2.cxx:2281
+msgid "Allow &Printing"
+msgstr "Cho &phép in"
+
+#: ../tuxpaint-config2.cxx:2286
+msgid "Let users print from within Tux Paint."
+msgstr "Cho phép người dùng in ấn từ bên trong TuxPaint."
+
+#: ../tuxpaint-config2.cxx:2291
+msgid "Print Delay : "
+msgstr "Đợi in: "
+
+#: ../tuxpaint-config2.cxx:2297
+msgid "seconds"
+msgstr "giây"
+
+#: ../tuxpaint-config2.cxx:2301
+msgid ""
+"Restrict printing to once every N seconds. (Enter '0' to allow unrestricted "
+"printing.)"
+msgstr ""
+"Cho phép một việc in trong mỗi N giây. (Gõ « 0 » để cho phép in ấn vô hạn.)"
+
+#: ../tuxpaint-config2.cxx:2309
+msgid "Show Printer Dialog:"
+msgstr "Hiện hộp thoại máy in:"
+
+#: ../tuxpaint-config2.cxx:2314
+msgid "Only when [Alt] &modifier key is held"
+msgstr "Chỉ khi ấn giữ  biến đổi [Alt]"
+
+#: ../tuxpaint-config2.cxx:2321
+msgid "Always &show printer dialog"
+msgstr "Lúc nào &cũng hiện hộp thoại máy in"
+
+#: ../tuxpaint-config2.cxx:2328
+msgid "&Never show printer dialog"
+msgstr "Khô&ng bao giờ hiện hộp thoại máy in"
+
+#: ../tuxpaint-config2.cxx:2335
+msgid "(Even when [Alt] is held.)"
+msgstr "(Ngay cả khi ấn giữ [Alt].)"
+
+#: ../tuxpaint-config2.cxx:2349
+msgid "Save printer configuration"
+msgstr "Lưu cấu hình máy in"
+
+#: ../tuxpaint-config2.cxx:2358
+msgid "Print Commands:"
+msgstr "Câu lệnh in:"
+
+#: ../tuxpaint-config2.cxx:2362
+msgid "Use &Alternative Print Command"
+msgstr "Dùng câu lệnh in ấn &xen kẽ"
+
+#: ../tuxpaint-config2.cxx:2367
+msgid ""
+"Override Tux Paint's default setting for print command ('lpr') with another. "
+"(Advanced! Unix/Linux only!)"
+msgstr ""
+"Ghi đè lên thiết lập mặc định của TuxPaint cho lệnh in (« lpr ») bằng một "
+"lệnh khác. (Chỉ cho người dùng UNIX/Linux cấp cao !)"
+
+#: ../tuxpaint-config2.cxx:2377
+msgid ""
+"Enter the command for printing. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Hãy gõ lệnh để in ấn. Nó phải chấp nhận một định dạng PostScript trên đầu "
+"vào tiêu chuẩn."
+
+#: ../tuxpaint-config2.cxx:2388
+msgid "Use &Alternative Print Dialog"
+msgstr "Dùng hộp thoại in &xen kẽ"
+
+#: ../tuxpaint-config2.cxx:2393
+msgid ""
+"Override Tux Paint's default setting for print dialog ('kprinter') with "
+"another. (Advanced! Unix/Linux only!)"
+msgstr ""
+"Ghi đè lên thiết lập mặc định của TuxPaint cho hộp thoại in (« kprinter ») "
+"bằng một lệnh khác. (Chỉ cho người dùng UNIX/Linux cấp cao !)"
+
+#: ../tuxpaint-config2.cxx:2403
+msgid ""
+"Enter the print dialog command. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Hãy gõ lệnh cho hộp thoại in ấn. Nó phải chấp nhận một định dạng PostScript "
+"trên đầu vào tiêu chuẩn."
+
+#: ../tuxpaint-config2.cxx:2410
+msgid "Paper Size : "
+msgstr "Kích cỡ giấy: "
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2431
+msgid "Saving"
+msgstr "Đang lưu"
+
+#: ../tuxpaint-config2.cxx:2438
+msgid "Save Over Earlier Work:"
+msgstr "Lưu lên việc trước:"
+
+#: ../tuxpaint-config2.cxx:2442
+msgid "&Ask Before Overwriting"
+msgstr "&Hỏi trước khi ghi đè"
+
+#: ../tuxpaint-config2.cxx:2447
+msgid ""
+"When re-saving an image, ask whether to overwrite the earlier version, or "
+"make a new file."
+msgstr ""
+"Khi lưu lại một ảnh, hỏi có nên ghi đè lên phiên bản trước, hoặc tạo một tập "
+"tin mới."
+
+#: ../tuxpaint-config2.cxx:2452
+msgid "Always &Overwrite Older Version"
+msgstr "Lúc nà&o cũng ghi đè lên phiên bản cũ"
+
+#: ../tuxpaint-config2.cxx:2457
+msgid ""
+"When re-saving an image, always overwrite the earlier version. (Warning: "
+"Potential for lost work!)"
+msgstr ""
+"Khi lưu lại một ảnh, lúc nào cũng ghi đè lên phiên bản trước. (Cảnh báo : có "
+"thể mất sự cố gắng !)"
+
+#: ../tuxpaint-config2.cxx:2462
+msgid "Always Save &New Picture"
+msgstr "Lúc &nào cũng lưu ảnh mới"
+
+#: ../tuxpaint-config2.cxx:2467
+msgid ""
+"When re-saving an image, always make a new file. (Warning: Potential for "
+"lots of files!)"
+msgstr ""
+"Khi lưu lại một ảnh, lúc nào cũng một tập tin mới. (Cảnh báo : có thể làm "
+"rất nhiều tập tin !)"
+
+#: ../tuxpaint-config2.cxx:2474
+msgid "Start Blank:"
+msgstr "Bắt đầu trống:"
+
+#: ../tuxpaint-config2.cxx:2479
+msgid "Start with &Blank Canvas"
+msgstr "Khởi chạy với vùng vẽ t&rống"
+
+#: ../tuxpaint-config2.cxx:2488
+msgid "Save Directory:"
+msgstr "Thư mục lưu :"
+
+#: ../tuxpaint-config2.cxx:2492
+msgid "Use &Alternative Save Directory"
+msgstr "Dùng thư mục lưu &xen kẽ"
+
+#: ../tuxpaint-config2.cxx:2497
+msgid ""
+"Do not save pictures in the standard directory, use the following location:"
+msgstr "Không nên lưu ảnh vào thư mục tiêu chuẩn, dùng vị trí theo đây:"
+
+#: ../tuxpaint-config2.cxx:2502
+msgid "Alternative Save Directory:"
+msgstr "Thư mục lưu xen kẽ:"
+
+#: ../tuxpaint-config2.cxx:2514
+msgid "More Saving Options:"
+msgstr "Tùy chọn lưu bổ sung:"
+
+#: ../tuxpaint-config2.cxx:2519
+msgid "Disable '&Save' Button"
+msgstr "Tắt nút « &Lưu »"
+
+#: ../tuxpaint-config2.cxx:2524
+msgid ""
+"Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch "
+"paper.'"
+msgstr ""
+"Không cho phép lưu ảnh. Trong trường hợp này, TuxPaint chỉ là giấy nháp."
+
+#: ../tuxpaint-config2.cxx:2530
+msgid "&Auto-save on Quit"
+msgstr "&Tự động lưu khi Thoát"
+
+#: ../tuxpaint-config2.cxx:2535
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr "Không cần hỏi lưu ảnh hiện thời khi thoát: chỉ tự động lưu."
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2547
+msgid "Data"
+msgstr "Dữ liệu"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2555
+msgid "Lockfile:"
+msgstr "Tập tin khoá:"
+
+#: ../tuxpaint-config2.cxx:2559
+msgid "&Don't use lockfile"
+msgstr "Không &dùng tập tin khoá"
+
+#: ../tuxpaint-config2.cxx:2563
+msgid ""
+"Do not check for a lockfile. Allow Tux Paint to be launched multiple times. "
+"(May be necessary in a networked environment.)"
+msgstr ""
+"Không nên kiểm tra có một tập tin khoá không. Cho phép TuxPaint được khởi "
+"chạy nhiều lần. (Có thể cần thiết trong một môi trường chạy mạng.)"
+
+#: ../tuxpaint-config2.cxx:2573
+msgid "Data Directory:"
+msgstr "Thư mục dữ liệu :"
+
+#: ../tuxpaint-config2.cxx:2577
+msgid "Use &Alternative Data Directory"
+msgstr "Dùng thư mục dữ liệu &xen kẽ"
+
+#: ../tuxpaint-config2.cxx:2582
+msgid ""
+"Do not load brushes, stamps, etc. from the standard directory, use the "
+"following location:"
+msgstr ""
+"Không nên nạp các chổi, dấu v.v. từ thư mục tiêu chuẩn, dùng vị trí theo đây:"
+
+#: ../tuxpaint-config2.cxx:2587
+msgid "Alternative Data Directory:"
+msgstr "Thư mục dữ liệu xen kẽ:"
+
+#: ../tuxpaint-config2.cxx:2609
+msgid "Accessibility"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2619
+msgid "Sticky mouse clicks"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2623
+msgid ""
+"Useful for users who have difficulty clicking and dragging. When enabled, "
+"click and release to start painting, move to paint, and click and release "
+"again to stop. It can also be combined with joystick- and keyboard-based "
+"pointer controls."
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2634
+msgid "Keyboard controls the mouse pointer"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2638
+msgid ""
+"When enabled, the arrow keys or numbers can be used to move the mouse "
+"pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text"
+"\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 "
+"cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing "
+"canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 "
+"move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2646
+msgid "Onscreen keyboard:"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2650
+msgid "Show a keyboard on the screen"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2654
+msgid ""
+"Display a keyboard on the screen when the \"Text\" and \"Label\" tools are "
+"enabled, so you can 'type' with the mouse pointer."
+msgstr ""
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2659
+msgid "Layout"
+msgstr ""
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2671
+msgid "How are keys organized in the keyboard"
+msgstr ""
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2676
+msgid "Disable layout changes"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2681
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr ""
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2699
+msgid "Joystick"
+msgstr ""
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2710
+msgid "Main device:"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2720
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2731
+msgid ""
+"Joystick slowness. Increase this value for people with slow reactions. "
+"(0-500; default value is 15)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2743
+msgid ""
+"SDL events under threshold will be discarded, useful to discard accidental "
+"unwanted movements. (0-32766; default value is 3200)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2753
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr ""
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2760
+msgid "Hat:"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2769
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2781
+msgid ""
+"Hat timeout, the number of milliseconds to wait before starting to move "
+"continuously. (0-3000; default value is 1000)"
+msgstr ""
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2792
+msgid "Buttons to disable:"
+msgstr ""
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2808
+msgid ""
+"If for any reason one or more buttons of the joystick are posing problems, "
+"you can disable them here using a comma separated list of button numbers. (e."
+"g. 2,3,5)"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2817
+msgid "Button shortcuts:"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2821
+msgid ""
+"Here you can configure shortcuts for the different buttons of the joystick. "
+"(Beware to not assign a shortcut to the button used to draw.)"
+msgstr ""
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2826
+msgid "Button number for the Escape key."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2834
+msgid "Button number for the Brush tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2842
+msgid "Button number for the Stamps tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2850
+msgid "Button number for the Lines tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2858
+msgid "Button number for the Shapes tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2866
+msgid "Button number for the Text tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2874
+msgid "Button number for the Label tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2882
+msgid "Button number for the Magic tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2890
+msgid "Button number for Undo."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2898
+msgid "Button number for Redo."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2906
+msgid "Button number for the Eraser tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2914
+msgid "Button number for the New tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2922
+msgid "Button number for the Open tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2930
+msgid "Button number for saving."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2938
+msgid "Button number for Page Setup."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2946
+msgid "Button number for printing."
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2968
+msgid "Settings for : "
+msgstr "Thiết lập cho : "
+
+#: ../tuxpaint-config2.cxx:2972
+msgid "Current User"
+msgstr "Người dùng hiện thời"
+
+#: ../tuxpaint-config2.cxx:2973
+msgid "All Users"
+msgstr "Mọi người dùng"
+
+#: ../tuxpaint-config2.cxx:2979
+msgid "Use \"All Users\" Settings"
+msgstr "Dùng thiết lập « Mọi người dùng »"
+
+#: ../tuxpaint-config2.cxx:2983
+msgid "Apply"
+msgstr "Áp dụng"
+
+#: ../tuxpaint-config2.cxx:2991
+msgid "Reset"
+msgstr "Đặt lại"
+
+#: ../tuxpaint-config2.cxx:2998
+msgid "Defaults"
+msgstr "Mặc định"
+
+#: ../tuxpaint-config2.cxx:3005
+msgid "Quit"
+msgstr "Thoát"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "Cấu hình Tux Sơn"
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "Cấu hình TuxPaint"

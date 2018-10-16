@@ -1,0 +1,989 @@
+# Tuxpaint-config translation Songhay.
+# Copyright (C) 2014 the tuxpaint team.
+# This file is distributed under the same license as the tuxpaint-config package.
+# Mohomodou Houssouba <mh@bollag-areal.ch>, 2010, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tuxpaint-config\n"
+"Report-Msgid-Bugs-To: tuxpaint-i18n@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-07-19 21:57+0200\n"
+"PO-Revision-Date: 2014-08-09 21:28+0000\n"
+"Last-Translator: Mohomodou Houssouba <mh@bollag-areal.ch>\n"
+"Language-Team: Songhay Localization Team\n"
+"Language: son\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen "
+"mode, the interface's language, or options to simplify Tux Paint for younger "
+"children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your "
+"computer by making a selection in the 'Settings for' pull-down menu at the "
+"bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change "
+"the options you'd like to change, and click the 'Apply' button at the bottom "
+"to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"Kubayni Tux Paint bii-teeyan hanseyan goyjinaa do, kaŋ Torsten Giebl, Jan "
+"Wynholds, Bill Kendrick nda  Martin Fuhrer n'a tee.\n"
+"\n"
+"Goyjinaa woo mma naŋ boro ma hin ka Tux Paint hanseyaney barmay, sanda "
+"funetaraa ma hin ka beeri ka dijoo too, sennoo kaŋ ra goydoofattaroo ga "
+"bangay, wala fondawey kaŋ ga hin ka Tux Paint faalandi zanka kayney se.\n"
+"\n"
+"Kayandiyaney wey ga hin ka kayandi goykaw folloku se wala goykey kul se. Woo "
+"suubaroo ga tee nda \\\"Kayandiyaney wey se\\\" šilbaymargaroo kaŋ goo ganda.\n"
+"\n"
+"Suuba moɲey kaŋ goo beene ra ka hansedogey kaŋ g'i cire kayandi, wa barmawey "
+"kaŋ war ga baa tee jina war ma \\\"Kanandi\\\" naagu ka hanseyan tiira taaga "
+"kayandi.\n"
+"\n"
+"Nda Tux Paint daaba ka tunandi koyne kul barmawey kaŋ tee ga huru sahã ra."
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(Goy nda dabaroo tilasu kayandiyaney)"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(Goy nda dabaroo tilasu kayandiyaney)"
+
+#: ../tuxpaint-config2.cxx:1527 ../tuxpaint-config2.cxx:2131
+msgid "Default (no override)"
+msgstr "Tilasu kayandiyaney (bila nda barmay)"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Small"
+msgstr "Daaru: Kaccu"
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Medium"
+msgstr "Daaru: Sasawante"
+
+#: ../tuxpaint-config2.cxx:1533
+msgid "Override: Large"
+msgstr "Daaru: Beeri"
+
+#: ../tuxpaint-config2.cxx:1638
+msgid "Save Directory?"
+msgstr "Maašeeda gaabu?"
+
+#: ../tuxpaint-config2.cxx:1672
+msgid "Data Directory?"
+msgstr "Bayhaya maašeeda?"
+
+#: ../tuxpaint-config2.cxx:1705
+msgid "Color Palette File?"
+msgstr "Noona margari tuku?"
+
+#: ../tuxpaint-config2.cxx:1744
+msgid "Quit without applying changes?"
+msgstr "Fatta bila nda barmay kul ma kanandi?"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&No"
+msgstr "&Kalaa"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&Yes"
+msgstr "&Ayyo"
+
+#: ../tuxpaint-config2.cxx:1781
+msgid "current user"
+msgstr "sohõda goykaa"
+
+#: ../tuxpaint-config2.cxx:1784
+msgid "all users"
+msgstr "goykey kul"
+
+#: ../tuxpaint-config2.cxx:1788
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "Ka barmawey kul dam %s ga?"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "No"
+msgstr "Kalaa"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "Yes"
+msgstr "Ayyo"
+
+#: ../tuxpaint-config2.cxx:1809 ../tuxpaint-config2.cxx:1812
+msgid "Tux Paint Config v"
+msgstr "Tux Paint hanseyan goyjinay v"
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1821
+msgid "About"
+msgstr "Šilbay"
+
+#: ../tuxpaint-config2.cxx:1828
+msgid "About Tux Paint Config."
+msgstr "Tux Paint hanseyan goyjinay ga."
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1844
+msgid "Video/Sound"
+msgstr "Widewo/Jinde"
+
+#: ../tuxpaint-config2.cxx:1851
+msgid "Video:"
+msgstr "Widewo:"
+
+#: ../tuxpaint-config2.cxx:1855
+msgid "&Fullscreen"
+msgstr "&Diji timmante"
+
+#: ../tuxpaint-config2.cxx:1860
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "Tux Paint dirandi diji timmante alkadar ga, manti zanfun ra."
+
+#: ../tuxpaint-config2.cxx:1866
+msgid "&Native"
+msgstr "&Lasal"
+
+#: ../tuxpaint-config2.cxx:1870
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "Lasal diji booriyan tee diji timmante ra."
+
+#: ../tuxpaint-config2.cxx:1876
+msgid "Window size : "
+msgstr "Zanfun alkadar: "
+
+#: ../tuxpaint-config2.cxx:1900
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "Zanfun alkadar, wala booriyan diji timmante ra."
+
+#: ../tuxpaint-config2.cxx:1906
+msgid "&Rotate Orientation"
+msgstr "Jinoo &kuubi"
+
+#: ../tuxpaint-config2.cxx:1910
+msgid ""
+"Swap width and height, to rotate 90 degrees (useful for portrait-display on "
+"a tablet PC)"
+msgstr ""
+"Hayyan nda kayyan ka cere bere, ka kuubi nda 90°  (ka bii cebe kuuyan bande "
+"nda faala ordinater kayna ra)"
+
+#: ../tuxpaint-config2.cxx:1916
+msgid "Allow S&creensaver"
+msgstr "D&ijisaajawkaw tunandi"
+
+#: ../tuxpaint-config2.cxx:1920
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr "Ma si ni dabariɲaa dijisaajawkaa wii waati kaŋ Tux Paint ga dira."
+
+#: ../tuxpaint-config2.cxx:1929
+msgid "Sound:"
+msgstr "Jinde:"
+
+#: ../tuxpaint-config2.cxx:1933
+msgid "Enable &Sound Effects"
+msgstr "Jinde tammaasawey tunandi"
+
+#: ../tuxpaint-config2.cxx:1938
+msgid "Enable/disable sound effects."
+msgstr "Jinde tammaasawey kayandi."
+
+#: ../tuxpaint-config2.cxx:1947 ../tuxpaint-config2.cxx:1961
+msgid "Color Palette File:"
+msgstr "Noona kur tuku:"
+
+#: ../tuxpaint-config2.cxx:1951
+msgid "Use &Alternative Color Palette"
+msgstr "Noone &waani-waani kur zaa"
+
+#: ../tuxpaint-config2.cxx:1956
+msgid ""
+"Don't use default color palette, use colors defined in the following file:"
+msgstr "Ma si tilasu noone kur zaa, zaa noonawey kaŋ goo tiraa woo ra:"
+
+#: ../tuxpaint-config2.cxx:1966 ../tuxpaint-config2.cxx:2509
+#: ../tuxpaint-config2.cxx:2594
+msgid "Browse..."
+msgstr "Ceeci ka dii..."
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1977
+msgid "Mouse/Keyboard"
+msgstr "Ncaŋ/Kufal-ize walha"
+
+#: ../tuxpaint-config2.cxx:1985
+msgid "Cursor:"
+msgstr "Moo dirandikaw:"
+
+#: ../tuxpaint-config2.cxx:1989
+msgid "&Fancy Cursor Shapes"
+msgstr "&Hooray moo dirandikaw alhaaley"
+
+#: ../tuxpaint-config2.cxx:1994
+msgid ""
+"Change the shape of the mouse pointer depending on where the mouse is and "
+"what you are doing."
+msgstr ""
+"Moo dirandikaa tonboo alhaaloo barmay ka hanga ncaŋoo bande nda ka ni goy "
+"dogoo cebe."
+
+#: ../tuxpaint-config2.cxx:2000
+msgid "&Hide Cursor"
+msgstr "Moo dirandikaa &tugu"
+
+#: ../tuxpaint-config2.cxx:2005
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr ""
+"Woo mma moo dirandikaa tugu (a goo nda nafa dijey kaŋ ka goy nda kanba "
+"naaguyan)."
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2014 ../tuxpaint-config2.cxx:2632
+msgid "Keyboard:"
+msgstr "Kufal-ize walha:"
+
+#: ../tuxpaint-config2.cxx:2018
+msgid "Enable &Keyboard Shortcuts"
+msgstr "Kufal-ize dunbandiyaney tunandi"
+
+#: ../tuxpaint-config2.cxx:2023
+msgid ""
+"Allows key combinations to be used as shortcuts for certain commands. (e.g., "
+"Control+S to Save)"
+msgstr ""
+"Woo ga war noo fondo war ma kufal-izey ka dunbandiyan tee k'i ka goyyaŋ tee. "
+"(sanda: Ctrl+S naagu ka gaabu)"
+
+#: ../tuxpaint-config2.cxx:2035 ../tuxpaint-config2.cxx:2617
+msgid "Mouse:"
+msgstr "Ncaŋ:"
+
+#: ../tuxpaint-config2.cxx:2039
+msgid "&Grab Mouse Pointer"
+msgstr "&Ncaŋ cebekaa &zaa"
+
+#: ../tuxpaint-config2.cxx:2044
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "Ga ncaŋ cebekaa ganji a ma fatta Tux Paint zanfunoo ra."
+
+#: ../tuxpaint-config2.cxx:2049
+msgid "Mouse &Wheel Support"
+msgstr "Ncaŋ kangoo tunandi"
+
+#: ../tuxpaint-config2.cxx:2054
+msgid ""
+"Allows a mouse wheel to be used to scroll through items. (e.g., brushes, "
+"stamps)"
+msgstr ""
+"Ga too boro ma dira hayiizey (sanda: kalamey, tanpoŋey) game nda ncaŋ kangoo."
+
+#: ../tuxpaint-config2.cxx:2059
+msgid "No &Button Distinction"
+msgstr "B&utoŋ kul ma si fay-fayandi"
+
+#: ../tuxpaint-config2.cxx:2063
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr "Ga too war ma hin ka naagu ncaŋoo butoŋ gumaa wala gamoo wanoo."
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2076
+msgid "Simplification"
+msgstr "Doonandiyan"
+
+#: ../tuxpaint-config2.cxx:2084
+msgid "Interface Simplification:"
+msgstr "Goydoo fattaroo doonandiyan:"
+
+#: ../tuxpaint-config2.cxx:2088
+msgid "Disable Shape &Rotation"
+msgstr "Takari nda bii &kuubiyan kayandi"
+
+#: ../tuxpaint-config2.cxx:2093
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr "Ga bii kuubiyan kayandi. Goo nda nafa zanka kayney se."
+
+#: ../tuxpaint-config2.cxx:2098
+msgid "Simple Stamp &Outlines"
+msgstr "Tanpoŋ &takari doonantey"
+
+#: ../tuxpaint-config2.cxx:2103
+msgid ""
+"Draw a rectangle around the cursor when placing stamps, rather than a "
+"detailed outline. (For slow computers and thin clients.)"
+msgstr ""
+"Ka muulubii žeeri, ncaŋ dirandikaa windi nda n' ga tanpoŋ daŋ, manti "
+"tanpoŋoo bii beeroo. (Ordinaterey sahã buuney se.)"
+
+#: ../tuxpaint-config2.cxx:2108
+msgid "Show &Uppercase Text Only"
+msgstr "Hantumey cebe nda &harfu beeri hinne"
+
+#: ../tuxpaint-config2.cxx:2113
+msgid ""
+"Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in "
+"UPPERCASE rather than Mixed Case."
+msgstr ""
+"Ga naŋ hantum kul kaŋ goo Tux Paint ra ma hantum nda harfu beeri hinne,  "
+"bila nda jerey ma tee harfu beeri, cindey ma tee harfu kayna."
+
+#: ../tuxpaint-config2.cxx:2122
+msgid "Initial Stamp Size:"
+msgstr "Aššil tanpoŋ alkadar:"
+
+#: ../tuxpaint-config2.cxx:2139
+msgid "Control Simplification:"
+msgstr "Juwal doonandiyan:"
+
+#: ../tuxpaint-config2.cxx:2143
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "Ga '&Fatta' nda [Sar] kufal-izey kayandi"
+
+#: ../tuxpaint-config2.cxx:2148
+msgid ""
+"Clicking the window's close (X) button in the title bar, or pressing "
+"[Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr ""
+"Nda war zanfunoo daabuyan šilbaa (X) naagu, wala war na [Alt] + [F4] wala "
+"[Bere] + [Ctrl] + [Sar] naagu nda cere, a ga Tux Paint zanfunoo daabu."
+
+#: ../tuxpaint-config2.cxx:2153
+msgid "Disable '&Stamps' Tool"
+msgstr "'&Tanpoŋey' goyjinaa kayandi"
+
+#: ../tuxpaint-config2.cxx:2158
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr "Ma si tanpoŋey feeri šintinoo ga. Woo ka tanpoŋ goyjinaa ma kay."
+
+#: ../tuxpaint-config2.cxx:2163
+msgid "Disable Stamp &Controls"
+msgstr "Tanpoŋ &juwaley kayandi"
+
+#: ../tuxpaint-config2.cxx:2168
+msgid ""
+"Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, "
+"Grow, Mirror and Flip)."
+msgstr ""
+"Ga tanpoŋey goyjinaa faalandi nda tanpoŋ juwal butoŋey šilbaa hun (Nakaši, "
+"Beerandi, Diji nda Berebereyan)."
+
+#: ../tuxpaint-config2.cxx:2173
+msgid "Disable &Magic Controls"
+msgstr "&Kayfihaya juwaley kayandi"
+
+#: ../tuxpaint-config2.cxx:2178
+msgid ""
+"Simplify the 'Magic' tools by removing the buttons to switch between paint "
+"and fullscreen modes."
+msgstr ""
+"Ha kayfihaya goyjianawey faalandi nda  n'  na butoŋey kaa kaŋ ga alhaaley "
+"bere caaray nda diji timmante  game."
+
+#: ../tuxpaint-config2.cxx:2183
+msgid "Disable '&Label' Tool"
+msgstr "'Š&ilbay\" goyjinay kayandi"
+
+#: ../tuxpaint-config2.cxx:2188
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr ""
+"'Ši&lbay\" kalimaɲaa kuru damyan goyjinay kayandi (ka \"kalimaɲaa kuru\" "
+"goyjinay de naŋ)."
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2199
+msgid "Languages"
+msgstr "Šenney"
+
+#: ../tuxpaint-config2.cxx:2205
+msgid "Language:"
+msgstr "Šenni:"
+
+#: ../tuxpaint-config2.cxx:2209
+msgid "Language : "
+msgstr "Šenni: "
+
+#: ../tuxpaint-config2.cxx:2224
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr ""
+"Tux Paint dirandi šenni foo kaŋ war n'a suuba ra ( ga dabariɲaŋoo tilasu "
+"hanseyaney daaru)."
+
+#: ../tuxpaint-config2.cxx:2229
+msgid "&Mirror Stamps"
+msgstr "Tanpoŋey &kuubi k'i bere"
+
+#: ../tuxpaint-config2.cxx:2234
+msgid ""
+"Automatically mirror-image all mirror-able stamps. Useful for users who "
+"prefer things appearing right-to-left."
+msgstr ""
+"Ga tanpoŋey kul kaŋ ga hin ka bere ka kuubi bere k'a kuubi. Goo nda nafa "
+"goykaw kaŋ ga baa biyey nda ng'i tammaasawey ma bangay ka hun kanba guma ka "
+"koy kanba wowaa ga."
+
+#: ../tuxpaint-config2.cxx:2243
+msgid "Fonts:"
+msgstr "Šigirawey:"
+
+#: ../tuxpaint-config2.cxx:2247
+msgid "Load System &Fonts"
+msgstr "Sistemoo š&igirawey zumandi"
+
+#: ../tuxpaint-config2.cxx:2252
+msgid ""
+"Attempt to load more fonts, found elsewhere on your computer. (Note: may "
+"cause instability!)"
+msgstr ""
+"Ga ceeci ka sigira foo tanayaŋ kaŋ goo marsinoo boŋ zumandi. (Wa bay: woo ga "
+"hin ka kate šenday!)"
+
+#: ../tuxpaint-config2.cxx:2257
+msgid "Load All &Locale Fonts"
+msgstr "Šen&nidoo šigirawey kul zumandi"
+
+#: ../tuxpaint-config2.cxx:2262
+msgid ""
+"Load all locale-specific fonts installed in Tux Paint, regardless of the "
+"locale Tux Paint is being run under."
+msgstr ""
+"Ka šennidoo šigira tabatantey kaŋ sinja Tux Paint ra kul zumandi. A ši nda "
+"taali šennidoo foo ra Tux Paint goo ma dira."
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2273
+msgid "Printing"
+msgstr "Goo ma kar"
+
+#: ../tuxpaint-config2.cxx:2279
+msgid "Print Permissions:"
+msgstr "Karyan duɲeyaney:"
+
+#: ../tuxpaint-config2.cxx:2283
+msgid "Allow &Printing"
+msgstr "Yadda a ma &kar"
+
+#: ../tuxpaint-config2.cxx:2288
+msgid "Let users print from within Tux Paint."
+msgstr "Ga naŋ goykey ma hin ka Tux Paint bii kar."
+
+#: ../tuxpaint-config2.cxx:2293
+msgid "Print Delay : "
+msgstr "Karyan batu waati: "
+
+#: ../tuxpaint-config2.cxx:2299
+msgid "seconds"
+msgstr "moomitey"
+
+#: ../tuxpaint-config2.cxx:2303
+msgid ""
+"Restrict printing to once every N seconds. (Enter '0' to allow unrestricted "
+"printing.)"
+msgstr ""
+"Ga karyan ganji moomitey kaŋ war n'i kayandi jine. ('0' hantum nda war ši "
+"baa karyan ma tee waati kul.)"
+
+#: ../tuxpaint-config2.cxx:2311
+msgid "Show Printer Dialog:"
+msgstr "Karyan alhabar bata cebe:"
+
+#: ../tuxpaint-config2.cxx:2316
+msgid "Only when [Alt] &modifier key is held"
+msgstr "Waati kaŋ [Alt] kufal-izoo ga naaga de"
+
+#: ../tuxpaint-config2.cxx:2323
+msgid "Always &show printer dialog"
+msgstr "Karyan alhabar bataa &cebe waati kul"
+
+#: ../tuxpaint-config2.cxx:2330
+msgid "&Never show printer dialog"
+msgstr "Karyan alhabar bataa ma ši cebe abada"
+
+#: ../tuxpaint-config2.cxx:2337
+msgid "(Even when [Alt] is held.)"
+msgstr "(Baa nda [Alt] kufal-izoo naagandi.)"
+
+#: ../tuxpaint-config2.cxx:2351
+msgid "Save printer configuration"
+msgstr "Karyan hanseyanoo gaabu"
+
+#: ../tuxpaint-config2.cxx:2360
+msgid "Print Commands:"
+msgstr "Karyan juwaley:"
+
+#: ../tuxpaint-config2.cxx:2364
+msgid "Use &Alternative Print Command"
+msgstr "Goy nda karyan juwal &waani-waani"
+
+#: ../tuxpaint-config2.cxx:2369
+msgid ""
+"Override Tux Paint's default setting for print command ('lpr') with another. "
+"(Advanced! Unix/Linux only!)"
+msgstr ""
+"Tux Paint tilasu hanseyaney kaŋ kayandi ('lpr') karyan juwaloo daaru nda "
+"affoo tanaa. (Jinehere hanseyan ! Unix/Linux hinne!)"
+
+#: ../tuxpaint-config2.cxx:2379
+msgid ""
+"Enter the command for printing. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Karyan juwal hantum.  A ga hima a ma goy nda PostScript takaroo nda hankul "
+"damyan (STDIN) ga."
+
+#: ../tuxpaint-config2.cxx:2390
+msgid "Use &Alternative Print Dialog"
+msgstr "Goy nda karyan zanfun &waani-waani"
+
+#: ../tuxpaint-config2.cxx:2395
+msgid ""
+"Override Tux Paint's default setting for print dialog ('kprinter') with "
+"another. (Advanced! Unix/Linux only!)"
+msgstr ""
+"Tux Paint tilasu hanseyaney kaŋ kayandi ('kprinter') karyan alhabar bataa se "
+"daaru nda affoo tana. (Jinehere hanseyan! Unix/Linux hinne!)"
+
+#: ../tuxpaint-config2.cxx:2405
+msgid ""
+"Enter the print dialog command. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Karyan tunandiyan alhabar hantum.  A ga himai a ma goy nda PostScript "
+"takaroo nga hankul damyan (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2412
+msgid "Paper Size : "
+msgstr "Kaddasu alkadar: "
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2433
+msgid "Saving"
+msgstr "Goo ma gaabu"
+
+#: ../tuxpaint-config2.cxx:2440
+msgid "Save Over Earlier Work:"
+msgstr "Gaabu goy bisanta boŋ:"
+
+#: ../tuxpaint-config2.cxx:2444
+msgid "&Ask Before Overwriting"
+msgstr "Hãa jina nda n' ga hantum haya boŋ"
+
+#: ../tuxpaint-config2.cxx:2449
+msgid ""
+"When re-saving an image, ask whether to overwrite the earlier version, or "
+"make a new file."
+msgstr ""
+"Nda bii ga gaabu taaga, hãa wala dumi taagaa ma hantumandi ižeenaa boŋ, wala "
+"a ma bii tuku taaga tee."
+
+#: ../tuxpaint-config2.cxx:2454
+msgid "Always &Overwrite Older Version"
+msgstr "Dumi taaga ma &hantum ižeenaa boŋ waati kul."
+
+#: ../tuxpaint-config2.cxx:2459
+msgid ""
+"When re-saving an image, always overwrite the earlier version. (Warning: "
+"Potential for lost work!)"
+msgstr ""
+"Nda bii ga gaabu taaga, dumi taagaa ma hantumandi ižeenaa boŋ waati kul. "
+"(Hawgay: Goy žeeney ga hin ka tuusandi!)"
+
+#: ../tuxpaint-config2.cxx:2464
+msgid "Always Save &New Picture"
+msgstr "Bii &taaga gaabu waati kul"
+
+#: ../tuxpaint-config2.cxx:2469
+msgid ""
+"When re-saving an image, always make a new file. (Warning: Potential for "
+"lots of files!)"
+msgstr ""
+"Nda bii ga gaabu taaga, a ma tee tiira taaga waati kul. (Hawgay: Tiirawey ga "
+"kaa ka boobo!)"
+
+#: ../tuxpaint-config2.cxx:2476
+msgid "Start Blank:"
+msgstr "Šintin nda moo koonu:"
+
+#: ../tuxpaint-config2.cxx:2481
+msgid "Start with &Blank Canvas"
+msgstr "Šintin nda bandafaari &koonu"
+
+#: ../tuxpaint-config2.cxx:2490
+msgid "Save Directory:"
+msgstr "Maašeeda gaabu:"
+
+#: ../tuxpaint-config2.cxx:2494
+msgid "Use &Alternative Save Directory"
+msgstr "Maašeeda &waani-waani gaabu"
+
+#: ../tuxpaint-config2.cxx:2499
+msgid ""
+"Do not save pictures in the standard directory, use the following location:"
+msgstr "Ma ši biyey dam maašeeda boŋoo ra. Cendi nungoo woo ra:"
+
+#: ../tuxpaint-config2.cxx:2504
+msgid "Alternative Save Directory:"
+msgstr "Maašeeda waani-waani gaabu:"
+
+#: ../tuxpaint-config2.cxx:2516
+msgid "More Saving Options:"
+msgstr "Gaabuyan fondo boobey:"
+
+#: ../tuxpaint-config2.cxx:2521
+msgid "Disable '&Save' Button"
+msgstr "'&Gaabu' butoŋoo kayandi"
+
+#: ../tuxpaint-config2.cxx:2526
+msgid ""
+"Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch "
+"paper.'"
+msgstr ""
+"Ma ši naŋ biyey ma gaabundi. Tux Paint mma tee sanda 'dendenyan kaddasu.'"
+
+#: ../tuxpaint-config2.cxx:2532
+msgid "&Auto-save on Quit"
+msgstr "&Boŋ-gaabu nda Tux Paint ga daaba"
+
+#: ../tuxpaint-config2.cxx:2537
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr ""
+"Ma ši hãa wala bii tiiraa kaŋ feera ma gaabundi nda Tux Paint ga daaba; a ma "
+"gaabundi de. "
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2549
+msgid "Data"
+msgstr "Bayhayey"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2557
+msgid "Lockfile:"
+msgstr "Kufaltuku:"
+
+#: ../tuxpaint-config2.cxx:2561
+msgid "&Don't use lockfile"
+msgstr "Ma ši goy nda kufal-tuku"
+
+#: ../tuxpaint-config2.cxx:2565
+msgid ""
+"Do not check for a lockfile. Allow Tux Paint to be launched multiple times. "
+"(May be necessary in a networked environment.)"
+msgstr ""
+"Ma ši kufal-tuku guna. Ga naŋ Tux Paint ma hin ka sorro booboyaŋ tunandi.  ( "
+"Ga hin ka bara nda nafa nda war ga goy sankay ra.)"
+
+#: ../tuxpaint-config2.cxx:2575
+msgid "Data Directory:"
+msgstr "Bayhaya maašeeda:"
+
+#: ../tuxpaint-config2.cxx:2579
+msgid "Use &Alternative Data Directory"
+msgstr "Goy nda maašeeda &waani-waani"
+
+#: ../tuxpaint-config2.cxx:2584
+msgid ""
+"Do not load brushes, stamps, etc. from the standard directory, use the "
+"following location:"
+msgstr ""
+"Ma ši caaray kalamey, tanpoŋey wala haya tanawey cendi ka hun maa šeeda "
+"boŋoo ra. Cendi nungoo woo ra:"
+
+#: ../tuxpaint-config2.cxx:2589
+msgid "Alternative Data Directory:"
+msgstr "Bayhaya maašeeda waani-waani:"
+
+#: ../tuxpaint-config2.cxx:2611
+msgid "Accessibility"
+msgstr "Duuyan faalante"
+
+#: ../tuxpaint-config2.cxx:2621
+msgid "Sticky mouse clicks"
+msgstr "Ncaŋ naaguyan denjantey"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2625
+msgid ""
+"Useful for users who have difficulty clicking and dragging. When enabled, "
+"click and release to start painting, move to paint, and click and release "
+"again to stop. It can also be combined with joystick- and keyboard-based "
+"pointer controls."
+msgstr ""
+"Ga boori goykey kaŋ ga naagu ka kukusuyan ga šendi i se. Nd'a tunandi, naagu "
+"nd'a taŋ ka šintin ka caaray, ka caaray ganandi, nda naagu k'a taŋ ka kay. "
+"A ga hin ka tonton hooraybundu nda kufal-ize dabarey."
+
+#: ../tuxpaint-config2.cxx:2636
+msgid "Keyboard controls the mouse pointer"
+msgstr "Kufal-ize walha ga ncaŋoo juwal"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2640
+msgid ""
+"When enabled, the arrow keys or numbers can be used to move the mouse "
+"pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text"
+"\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 "
+"cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing "
+"canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 "
+"move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr ""
+"Nd'a tunandi, biraw kufaley wala hinnawey ga hin ka gaa ka ncaŋoo tammaasaa "
+"ɲooti. Boro ga hin ka woo tee nda 5 hinnaa, Farru wala F5. (Nda hinnawey goo "
+"\"Kalimaɲaakuru\" wala \"Šilbay\" goyjinawey ra, boro ši hin ka goy nd'ey. Da "
+"F4 mma šilbayhaya barmay \"Goyjinawey\" nda \"Noonawey\" batawey nda korfur "
+"žeeriyan game, F8 nda F7 ga ziji ka zunbu \"Goyjinawey\" bataa ra, nda F11 nda "
+"F12 ga ɲooji kanbe wowa/guma here \"Goyjinawey\" nda \"Noonawey\" batawey "
+"gundey ra."
+
+#: ../tuxpaint-config2.cxx:2648
+msgid "Onscreen keyboard:"
+msgstr "Diji-ga kufal-ize walha"
+
+#: ../tuxpaint-config2.cxx:2652
+msgid "Show a keyboard on the screen"
+msgstr "Kufal-ize walha cebe dijoo ga"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2656
+msgid ""
+"Display a keyboard on the screen when the \"Text\" and \"Label\" tools are "
+"enabled, so you can 'type' with the mouse pointer."
+msgstr ""
+"Kufal-ize walha cebe dijoo ga nda \"Kalimaɲaakuru\" nda \"Šilbay\" goyjinawey ga "
+"dira, waati din war ga hin ka hantun nda ncaŋoo tammaasaa."
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2661
+msgid "Layout"
+msgstr "Fasalri"
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2673
+msgid "How are keys organized in the keyboard"
+msgstr "Taka foo nda kufal-izey ga kanandi walhaa ga"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2678
+msgid "Disable layout changes"
+msgstr "Fasalri barmawey kayandi"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2683
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr "Butoŋey kaŋ too barmay ma tee walhaa ga kayandi."
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2701
+msgid "Joystick"
+msgstr "Hooraybundu"
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2712
+msgid "Main device:"
+msgstr "Jinay boŋ:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2722
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr "Jinay lanbaa kaŋ ma huru. (SDL hinna ga šintin 0 ga)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2733
+msgid ""
+"Joystick slowness. Increase this value for people with slow reactions. "
+"(0-500; default value is 15)"
+msgstr ""
+"Hooraybundu cee ga yay. A cãhandi borey kaŋyaŋ kanbey ga yay se. (0-500; "
+"tilasu hinna ti 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2745
+msgid ""
+"SDL events under threshold will be discarded, useful to discard accidental "
+"unwanted movements. (0-32766; default value is 3200)"
+msgstr ""
+"SDL teerey kaŋ ga hansa ka kacca ka hun, woo ga gaa a ma ši zinji nda boro "
+"ši baa. (0-32766; tilasu ti 3200)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2755
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr "Kaa cãharoo ra nd'a ga ɲooti. (1-7; tilasu hinna ti 7)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2762
+msgid "Hat:"
+msgstr "Fuula:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2771
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr "Fuulaa ga yay. (0-500; tilasu hinna ti 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2783
+msgid ""
+"Hat timeout, the number of milliseconds to wait before starting to move "
+"continuously. (0-3000; default value is 1000)"
+msgstr ""
+"Fuulaa waatoo ben, millisegondu hinnaa kaŋ a ga batu hal'a ma šintin ka "
+"ɲooti cerebande. (0-3000; tilasu hinna ti 1000)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2794
+msgid "Buttons to disable:"
+msgstr "Butoŋey wey ma kay:"
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2810
+msgid ""
+"If for any reason one or more buttons of the joystick are posing problems, "
+"you can disable them here using a comma separated list of button numbers. (e."
+"g. 2,3,5)"
+msgstr ""
+"Nd'a tee kaŋ butoŋ foo wal'ibooboyaŋ ši dira ka boori hooraybundoo ga, war "
+"ga hin k'i kayandi ne nda tonbi surkum kaŋ ga butoŋ hinnawey fay. (sanda "
+"2,3,5)"
+
+#: ../tuxpaint-config2.cxx:2819
+msgid "Button shortcuts:"
+msgstr "Butoŋ dunbandiyaney:"
+
+#: ../tuxpaint-config2.cxx:2823
+msgid ""
+"Here you can configure shortcuts for the different buttons of the joystick. "
+"(Beware to not assign a shortcut to the button used to draw.)"
+msgstr ""
+"Ne nga hin ka dunbandiyaney hanse butioŋ waani-waaney se hooraybundoo ga. "
+"(Hawgay kaŋ dunbandiyan kul ma ši tee žeeriyan butoŋoo se.)"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2828
+msgid "Button number for the Escape key."
+msgstr "Butoŋ hinna Sar kufaloo se. "
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2836
+msgid "Button number for the Brush tool."
+msgstr "Butoŋ hinna Caaray buzu goyjinaa se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2844
+msgid "Button number for the Stamps tool."
+msgstr "Butoŋ hinna Tanpoŋey goyjinaa se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2852
+msgid "Button number for the Lines tool."
+msgstr "Butoŋ hinna Žeerey goyjinaa se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2860
+msgid "Button number for the Shapes tool."
+msgstr "Butoŋ hinna Takarey goyjinaa se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2868
+msgid "Button number for the Text tool."
+msgstr "Butoŋ hinna Kalimaɲaakuru goyjinaa se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2876
+msgid "Button number for the Label tool."
+msgstr "Butoŋ hinna Šilbay goyjinaa se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2884
+msgid "Button number for the Magic tool."
+msgstr "Butoŋ hinna Kayfihaya goyjinaa se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2892
+msgid "Button number for Undo."
+msgstr "Butoŋ hinna Taaferi se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2900
+msgid "Button number for Redo."
+msgstr "Butoŋ hinna Tee koyne se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2908
+msgid "Button number for the Eraser tool."
+msgstr "Butoŋ hinna Tuusuji goyjinaa se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2916
+msgid "Button number for the New tool."
+msgstr "Butoŋ hinna Itaaga goyjinaa se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2924
+msgid "Button number for the Open tool."
+msgstr "Butoŋ hinna Feeri goyhinaa se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2932
+msgid "Button number for saving."
+msgstr "Butoŋ hinna gaabundiyan se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2940
+msgid "Button number for Page Setup."
+msgstr "Butoŋ hinna Moo fasalyan se."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2948
+msgid "Button number for printing."
+msgstr "Butoŋ hinna karyan se."
+
+#: ../tuxpaint-config2.cxx:2970
+msgid "Settings for : "
+msgstr "Kayandiyaney wey se: "
+
+#: ../tuxpaint-config2.cxx:2974
+msgid "Current User"
+msgstr "Sohõda goykaa se"
+
+#: ../tuxpaint-config2.cxx:2975
+msgid "All Users"
+msgstr "Goykey kul se"
+
+#: ../tuxpaint-config2.cxx:2981
+msgid "Use \"All Users\" Settings"
+msgstr "Goy nda \"Goykey kul\" kayandiyaney"
+
+#: ../tuxpaint-config2.cxx:2985
+msgid "Apply"
+msgstr "Kanandi"
+
+#: ../tuxpaint-config2.cxx:2993
+msgid "Reset"
+msgstr "Yeeti"
+
+#: ../tuxpaint-config2.cxx:3000
+msgid "Defaults"
+msgstr "Tilasey"
+
+#: ../tuxpaint-config2.cxx:3007
+msgid "Quit"
+msgstr "Naŋ"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "Tux Paint hanseyan"
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "Tux Paint hanse goy se"

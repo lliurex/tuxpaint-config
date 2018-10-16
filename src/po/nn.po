@@ -1,0 +1,975 @@
+# This file is distributed under the same license as the Tux Paint Config. package.
+#
+# Karl Ove Hufthammer <karl@huftis.org>, 2009, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.0.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-09 20:09+0200\n"
+"PO-Revision-Date: 2014-07-09 20:09+0200\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen "
+"mode, the interface's language, or options to simplify Tux Paint for younger "
+"children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your "
+"computer by making a selection in the 'Settings for' pull-down menu at the "
+"bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change "
+"the options you'd like to change, and click the 'Apply' button at the bottom "
+"to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"Velkommen til det grafiske oppsettverkøyet for Tux Paint, laga av Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick og Martin Fuhrer.\n"
+"\n"
+"Her kan du endra alle innstillingane til Tux Paint. Du kan blant anna velja "
+"mellom vindaugs- og fullskjermmodus, du kan endra språket i "
+"brukargrensesnittet, og du kan forenkla programmet for dei yngste barna.\n"
+"\n"
+"Bruk rullegardinmenyen «Innstillingane gjeld» nede på skjermbiletet for å "
+"velja om innstillingane skal berre gjelda denne brukaren eller alle "
+"brukarane på maskina.\n"
+"\n"
+"Bruk fanene på toppen for å velja innstillingskategori, gjer så endringane "
+"du ønskjer, og trykk til slutt på «Bruk»-knappen heilt nede for å lagra "
+"innstillingane.\n"
+"\n"
+"Dei nye innstillingane trer i kraft neste gong du startar Tux Paint."
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(Bruk systemstandard)"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(Bruk systemstandard)"
+
+#: ../tuxpaint-config2.cxx:1525 ../tuxpaint-config2.cxx:2129
+msgid "Default (no override)"
+msgstr "Standard (ikkje overstyr)"
+
+#: ../tuxpaint-config2.cxx:1527
+msgid "Override: Small"
+msgstr "Overstyr: liten"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Medium"
+msgstr "Overstyr: middels"
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Large"
+msgstr "Overstyr: stor"
+
+#: ../tuxpaint-config2.cxx:1636
+msgid "Save Directory?"
+msgstr "Lagringsmappe"
+
+#: ../tuxpaint-config2.cxx:1670
+msgid "Data Directory?"
+msgstr "Datamappe"
+
+#: ../tuxpaint-config2.cxx:1703
+msgid "Color Palette File?"
+msgstr "Fargepalettfil"
+
+#: ../tuxpaint-config2.cxx:1742
+msgid "Quit without applying changes?"
+msgstr "Vil du avslutta utan å lagra endringane?"
+
+#: ../tuxpaint-config2.cxx:1743
+msgid "&No"
+msgstr "&Nei"
+
+#: ../tuxpaint-config2.cxx:1743
+msgid "&Yes"
+msgstr "&Ja"
+
+#: ../tuxpaint-config2.cxx:1779
+msgid "current user"
+msgstr "denne brukaren"
+
+#: ../tuxpaint-config2.cxx:1782
+msgid "all users"
+msgstr "alle brukarane"
+
+#: ../tuxpaint-config2.cxx:1786
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "Vil du lagra endringane til %s?"
+
+#: ../tuxpaint-config2.cxx:1787
+msgid "No"
+msgstr "Nei"
+
+#: ../tuxpaint-config2.cxx:1787
+msgid "Yes"
+msgstr "Ja"
+
+#: ../tuxpaint-config2.cxx:1807 ../tuxpaint-config2.cxx:1810
+msgid "Tux Paint Config v"
+msgstr "Tux Paint-oppsett"
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1819
+msgid "About"
+msgstr "Om"
+
+#: ../tuxpaint-config2.cxx:1826
+msgid "About Tux Paint Config."
+msgstr "Om oppsettprogrammet"
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1842
+msgid "Video/Sound"
+msgstr "Bilete og lyd"
+
+#: ../tuxpaint-config2.cxx:1849
+msgid "Video:"
+msgstr "Bilete:"
+
+#: ../tuxpaint-config2.cxx:1853
+msgid "&Fullscreen"
+msgstr "&Fullskjerm"
+
+#: ../tuxpaint-config2.cxx:1858
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "Køyr Tux Paint i fullskjermmodus i staden for i eit vindauge."
+
+#: ../tuxpaint-config2.cxx:1864
+msgid "&Native"
+msgstr "&Hovudoppløysing"
+
+#: ../tuxpaint-config2.cxx:1868
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "Bruk standard hovudoppløysing i fullskjermmodus."
+
+#: ../tuxpaint-config2.cxx:1874
+msgid "Window size : "
+msgstr "Storleik på vindauget: "
+
+#: ../tuxpaint-config2.cxx:1898
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "Storleiken på vindauget, eller oppløysinga i fullskjermmodus."
+
+#: ../tuxpaint-config2.cxx:1904
+msgid "&Rotate Orientation"
+msgstr "&Drei skjermbiletet"
+
+#: ../tuxpaint-config2.cxx:1908
+msgid ""
+"Swap width and height, to rotate 90 degrees (useful for portrait-display on "
+"a tablet PC)"
+msgstr "Byt breidd og høgd, for å rotera 90 gradar (nyttig for tavle-PC-ar)."
+
+#: ../tuxpaint-config2.cxx:1914
+msgid "Allow S&creensaver"
+msgstr "&Tillat pauseskjerm"
+
+#: ../tuxpaint-config2.cxx:1918
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr "Ikkje slå av pauseskjermen når Tux Paint køyrer."
+
+#: ../tuxpaint-config2.cxx:1927
+msgid "Sound:"
+msgstr "Lyd:"
+
+#: ../tuxpaint-config2.cxx:1931
+msgid "Enable &Sound Effects"
+msgstr "Bruk &lydeffektar"
+
+#: ../tuxpaint-config2.cxx:1936
+msgid "Enable/disable sound effects."
+msgstr "Bruk eller ikkje bruk lydeffektar."
+
+#: ../tuxpaint-config2.cxx:1945 ../tuxpaint-config2.cxx:1959
+msgid "Color Palette File:"
+msgstr "Fargepalett:"
+
+#: ../tuxpaint-config2.cxx:1949
+msgid "Use &Alternative Color Palette"
+msgstr "Bruk &alternativ fargepalett"
+
+#: ../tuxpaint-config2.cxx:1954
+msgid ""
+"Don't use default color palette, use colors defined in the following file:"
+msgstr "Ikkje bruk standard fargepalett, men heller fargane definerte i fila:"
+
+#: ../tuxpaint-config2.cxx:1964 ../tuxpaint-config2.cxx:2507
+#: ../tuxpaint-config2.cxx:2592
+msgid "Browse..."
+msgstr "Bla gjennom …"
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1975
+msgid "Mouse/Keyboard"
+msgstr "Mus og tastatur"
+
+#: ../tuxpaint-config2.cxx:1983
+msgid "Cursor:"
+msgstr "Peikar:"
+
+#: ../tuxpaint-config2.cxx:1987
+msgid "&Fancy Cursor Shapes"
+msgstr "&Flotte peikarformer"
+
+#: ../tuxpaint-config2.cxx:1992
+msgid ""
+"Change the shape of the mouse pointer depending on where the mouse is and "
+"what you are doing."
+msgstr "Byt peikarform etter kor peikaren står og kva du gjer."
+
+#: ../tuxpaint-config2.cxx:1998
+msgid "&Hide Cursor"
+msgstr "&Gøym peikaren"
+
+#: ../tuxpaint-config2.cxx:2003
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr "Gøym peikaren. (Nyttig for peikeskjermar.)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2012 ../tuxpaint-config2.cxx:2630
+msgid "Keyboard:"
+msgstr "Tastatur:"
+
+#: ../tuxpaint-config2.cxx:2016
+msgid "Enable &Keyboard Shortcuts"
+msgstr "&Bruk snøggtastar"
+
+#: ../tuxpaint-config2.cxx:2021
+msgid ""
+"Allows key combinations to be used as shortcuts for certain commands. (e.g., "
+"Control+S to Save)"
+msgstr "Tillatt snøggtastar for visse kommandoar (som «Ctrl +S» for å lagra)."
+
+#: ../tuxpaint-config2.cxx:2033 ../tuxpaint-config2.cxx:2615
+msgid "Mouse:"
+msgstr "Mus:"
+
+#: ../tuxpaint-config2.cxx:2037
+msgid "&Grab Mouse Pointer"
+msgstr "F&ang inn musepeikaren"
+
+#: ../tuxpaint-config2.cxx:2042
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "Hindra musepeikaren å forlata Tux Paint-vindauget."
+
+#: ../tuxpaint-config2.cxx:2047
+msgid "Mouse &Wheel Support"
+msgstr "&Støtte for mushjul"
+
+#: ../tuxpaint-config2.cxx:2052
+msgid ""
+"Allows a mouse wheel to be used to scroll through items. (e.g., brushes, "
+"stamps)"
+msgstr ""
+"Tillat bruk av mushjulet til å rulla gjennom for eksempel penslar og stempel."
+
+#: ../tuxpaint-config2.cxx:2057
+msgid "No &Button Distinction"
+msgstr "&Ikkje skil mellom knappane"
+
+#: ../tuxpaint-config2.cxx:2061
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr "Tillat å bruka midtknappen og høgreknappen på musa til å klikka."
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2074
+msgid "Simplification"
+msgstr "Forenkling"
+
+#: ../tuxpaint-config2.cxx:2082
+msgid "Interface Simplification:"
+msgstr "Forenkling av grensesnittet:"
+
+#: ../tuxpaint-config2.cxx:2086
+msgid "Disable Shape &Rotation"
+msgstr "&Slå av dreiing av figurane"
+
+#: ../tuxpaint-config2.cxx:2091
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr "Slå av dreiing av figurane. Kan vera greitt for dei aller yngste."
+
+#: ../tuxpaint-config2.cxx:2096
+msgid "Simple Stamp &Outlines"
+msgstr "&Enkle stempelomriss"
+
+#: ../tuxpaint-config2.cxx:2101
+msgid ""
+"Draw a rectangle around the cursor when placing stamps, rather than a "
+"detailed outline. (For slow computers and thin clients.)"
+msgstr ""
+"Teikn ein firkant rundt peikaren ved plassering av stempel, i staden for eit "
+"detaljert omriss. (Nyttig for trege maskiner og tynnklientar.)"
+
+#: ../tuxpaint-config2.cxx:2106
+msgid "Show &Uppercase Text Only"
+msgstr "&Vis berre store bokstavar"
+
+#: ../tuxpaint-config2.cxx:2111
+msgid ""
+"Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in "
+"UPPERCASE rather than Mixed Case."
+msgstr ""
+"Vis all teksten i Tux Paint (på knappar og i dialogvindauge) med STORE "
+"BOKSTAVAR."
+
+#: ../tuxpaint-config2.cxx:2120
+msgid "Initial Stamp Size:"
+msgstr "Startstorleik for stempel:"
+
+#: ../tuxpaint-config2.cxx:2137
+msgid "Control Simplification:"
+msgstr "Forenkling av kontrollane:"
+
+#: ../tuxpaint-config2.cxx:2141
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "&Uverksam «Avslutt»-knapp og «Escape»-tast"
+
+#: ../tuxpaint-config2.cxx:2146
+msgid ""
+"Clicking the window's close (X) button in the title bar, or pressing "
+"[Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr ""
+"Du kan framleis avslutta Tux Paint ved å klikka på lukkeknappen («X») i "
+"tittellinja, eller ved å trykkja «Alt + F4» eller «Shift + Ctrl + Escape»."
+
+#: ../tuxpaint-config2.cxx:2151
+msgid "Disable '&Stamps' Tool"
+msgstr "Fjern av s&tempelverktøyet"
+
+#: ../tuxpaint-config2.cxx:2156
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr ""
+"Ikkje last stempla ved oppstart, slik at stempelverktøyet vert uverksamt."
+
+#: ../tuxpaint-config2.cxx:2161
+msgid "Disable Stamp &Controls"
+msgstr "F&jern stempelkontrollane"
+
+#: ../tuxpaint-config2.cxx:2166
+msgid ""
+"Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, "
+"Grow, Mirror and Flip)."
+msgstr ""
+"Forenkla stempelverktøyet ved å fjerna knappane for endringa av storleik og "
+"retning til stempel."
+
+#: ../tuxpaint-config2.cxx:2171
+msgid "Disable &Magic Controls"
+msgstr "Fjern &magikontrollane"
+
+#: ../tuxpaint-config2.cxx:2176
+msgid ""
+"Simplify the 'Magic' tools by removing the buttons to switch between paint "
+"and fullscreen modes."
+msgstr ""
+"Forenkla magiverktøya ved å fjerna knappane for å byta mellom pensel- og "
+"heilteikningsfunksjonane."
+
+#: ../tuxpaint-config2.cxx:2181
+msgid "Disable '&Label' Tool"
+msgstr "Fjern &merkelappverktøyet"
+
+#: ../tuxpaint-config2.cxx:2186
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr ""
+"Slå av «merkelapp»-tekstverktøyet (berre det vanlege tekstverktøyet står att)"
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2197
+msgid "Languages"
+msgstr "Språk"
+
+#: ../tuxpaint-config2.cxx:2203
+msgid "Language:"
+msgstr "Språk:"
+
+#: ../tuxpaint-config2.cxx:2207
+msgid "Language : "
+msgstr "Språk: "
+
+#: ../tuxpaint-config2.cxx:2222
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr "Køyr Tux Paint på dette språket (og overstyr systeminnstillingane)."
+
+#: ../tuxpaint-config2.cxx:2227
+msgid "&Mirror Stamps"
+msgstr "&Spegelvend stempla"
+
+#: ../tuxpaint-config2.cxx:2232
+msgid ""
+"Automatically mirror-image all mirror-able stamps. Useful for users who "
+"prefer things appearing right-to-left."
+msgstr ""
+"Spegelvend alle stempla som kan spegelvendast. (Nyttig for dei som "
+"føretrekkjer at ting går frå høgre til venstre.)"
+
+#: ../tuxpaint-config2.cxx:2241
+msgid "Fonts:"
+msgstr "Skrifter:"
+
+#: ../tuxpaint-config2.cxx:2245
+msgid "Load System &Fonts"
+msgstr "&Last systemskriftene"
+
+#: ../tuxpaint-config2.cxx:2250
+msgid ""
+"Attempt to load more fonts, found elsewhere on your computer. (Note: may "
+"cause instability!)"
+msgstr ""
+"Prøv å lasta inn alle skriftene som finst på maskina. Merk at dette kan føra "
+"til stabilitetsproblem."
+
+#: ../tuxpaint-config2.cxx:2255
+msgid "Load All &Locale Fonts"
+msgstr "Last alle &lokale-skriftene"
+
+#: ../tuxpaint-config2.cxx:2260
+msgid ""
+"Load all locale-specific fonts installed in Tux Paint, regardless of the "
+"locale Tux Paint is being run under."
+msgstr ""
+"Last inn alle lokale-spesifikke skriftene installert i Tux Paint, uavhengig "
+"av kva lokale Tux Paint vert køyrd under."
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2271
+msgid "Printing"
+msgstr "Utskrift"
+
+#: ../tuxpaint-config2.cxx:2277
+msgid "Print Permissions:"
+msgstr "Utskriftsløyve:"
+
+#: ../tuxpaint-config2.cxx:2281
+msgid "Allow &Printing"
+msgstr "Tillat &utskrift"
+
+#: ../tuxpaint-config2.cxx:2286
+msgid "Let users print from within Tux Paint."
+msgstr "Lat brukarane skriva ut frå Tux Paint."
+
+#: ../tuxpaint-config2.cxx:2291
+msgid "Print Delay : "
+msgstr "Ventetid mellom utskrifter:"
+
+#: ../tuxpaint-config2.cxx:2297
+msgid "seconds"
+msgstr "sekund"
+
+#: ../tuxpaint-config2.cxx:2301
+msgid ""
+"Restrict printing to once every N seconds. (Enter '0' to allow unrestricted "
+"printing.)"
+msgstr ""
+"Tillat berre utskrift kvart n-te sekund. (Skriv inn 0 for inga grense.)"
+
+#: ../tuxpaint-config2.cxx:2309
+msgid "Show Printer Dialog:"
+msgstr "Vis utskriftsdialog:"
+
+#: ../tuxpaint-config2.cxx:2314
+msgid "Only when [Alt] &modifier key is held"
+msgstr "&Berre når «Alt»-tasten er halden inne"
+
+#: ../tuxpaint-config2.cxx:2321
+msgid "Always &show printer dialog"
+msgstr "Vis &alltid utskriftsvindauget"
+
+#: ../tuxpaint-config2.cxx:2328
+msgid "&Never show printer dialog"
+msgstr "Vis a&ldri utskriftsvindauget"
+
+#: ../tuxpaint-config2.cxx:2335
+msgid "(Even when [Alt] is held.)"
+msgstr "(Sjølv når «Alt» er inne.)"
+
+#: ../tuxpaint-config2.cxx:2349
+msgid "Save printer configuration"
+msgstr "Lagra skrivaroppsett"
+
+#: ../tuxpaint-config2.cxx:2358
+msgid "Print Commands:"
+msgstr "Utskriftskommandoar:"
+
+#: ../tuxpaint-config2.cxx:2362
+msgid "Use &Alternative Print Command"
+msgstr "B&ruk alternativ utskriftskommando"
+
+#: ../tuxpaint-config2.cxx:2367
+msgid ""
+"Override Tux Paint's default setting for print command ('lpr') with another. "
+"(Advanced! Unix/Linux only!)"
+msgstr ""
+"Overstyr kommandoen som vert brukt til utskrift (som standard «lpr»). "
+"(Avansert, og berre for Unix og Linux.)"
+
+#: ../tuxpaint-config2.cxx:2377
+msgid ""
+"Enter the command for printing. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Skriv inn utskriftskommandoen. Han må kunna lesa PostScript-formatet som "
+"standard inn («STDIN»)."
+
+#: ../tuxpaint-config2.cxx:2388
+msgid "Use &Alternative Print Dialog"
+msgstr "Bruk al&ternativ utskriftsvindauge"
+
+#: ../tuxpaint-config2.cxx:2393
+msgid ""
+"Override Tux Paint's default setting for print dialog ('kprinter') with "
+"another. (Advanced! Unix/Linux only!)"
+msgstr ""
+"Overstyr kommandoen som vert brukt til utskriftvindauget (som standard "
+"«kprinter»). (Avansert, og berre for Unix og Linux.)"
+
+#: ../tuxpaint-config2.cxx:2403
+msgid ""
+"Enter the print dialog command. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Skriv inn utskriftvindaugekommandoen. Han må kunna lesa PostScript-formatet "
+"som standard inn («STDIN»)."
+
+#: ../tuxpaint-config2.cxx:2410
+msgid "Paper Size : "
+msgstr "Papirstorleik:"
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2431
+msgid "Saving"
+msgstr "Lagring"
+
+#: ../tuxpaint-config2.cxx:2438
+msgid "Save Over Earlier Work:"
+msgstr "Lagra over gamle teikningar:"
+
+#: ../tuxpaint-config2.cxx:2442
+msgid "&Ask Before Overwriting"
+msgstr "&Spør før overskriving"
+
+#: ../tuxpaint-config2.cxx:2447
+msgid ""
+"When re-saving an image, ask whether to overwrite the earlier version, or "
+"make a new file."
+msgstr ""
+"Spør om teikninga skal overskriva den gamle eller lagrast som ei ny teikning."
+
+#: ../tuxpaint-config2.cxx:2452
+msgid "Always &Overwrite Older Version"
+msgstr "S&kriv alltid over den gamle teikninga"
+
+#: ../tuxpaint-config2.cxx:2457
+msgid ""
+"When re-saving an image, always overwrite the earlier version. (Warning: "
+"Potential for lost work!)"
+msgstr ""
+"Skriv alltid over den gamle versjonen av teikninga ved lagring. (Åtvaring: "
+"Kan føra til tapt arbeid!)"
+
+#: ../tuxpaint-config2.cxx:2462
+msgid "Always Save &New Picture"
+msgstr "&Lagra alltid som ny teikning"
+
+#: ../tuxpaint-config2.cxx:2467
+msgid ""
+"When re-saving an image, always make a new file. (Warning: Potential for "
+"lots of files!)"
+msgstr ""
+"Lagra alltid som ei ny teikning ved lagring. (Åtvaring: Kan føra til mange "
+"filer!)"
+
+#: ../tuxpaint-config2.cxx:2474
+msgid "Start Blank:"
+msgstr "Ny teikning:"
+
+#: ../tuxpaint-config2.cxx:2479
+msgid "Start with &Blank Canvas"
+msgstr "Start &med blankt ark"
+
+#: ../tuxpaint-config2.cxx:2488
+msgid "Save Directory:"
+msgstr "Lagringsmappe:"
+
+#: ../tuxpaint-config2.cxx:2492
+msgid "Use &Alternative Save Directory"
+msgstr "&Bruk alternativ lagringsmappe"
+
+#: ../tuxpaint-config2.cxx:2497
+msgid ""
+"Do not save pictures in the standard directory, use the following location:"
+msgstr "Ikkje lagra teikningane i standardmappe, men lagra dei i:"
+
+#: ../tuxpaint-config2.cxx:2502
+msgid "Alternative Save Directory:"
+msgstr "Alternativ lagringsmappe:"
+
+#: ../tuxpaint-config2.cxx:2514
+msgid "More Saving Options:"
+msgstr "Fleire lagringsval:"
+
+#: ../tuxpaint-config2.cxx:2519
+msgid "Disable '&Save' Button"
+msgstr "Slå &av «Lagra»-knappen"
+
+#: ../tuxpaint-config2.cxx:2524
+msgid ""
+"Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch "
+"paper.'"
+msgstr ""
+"Ikkje tillat lagring av teikningar. Tux Paint fungerer då berre som eit "
+"kladdeark."
+
+#: ../tuxpaint-config2.cxx:2530
+msgid "&Auto-save on Quit"
+msgstr "La&gra automatisk ved avslutting"
+
+#: ../tuxpaint-config2.cxx:2535
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr ""
+"Ikkje spør om teikninga skal lagrast ved avslutting; lagra ho automatisk."
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2547
+msgid "Data"
+msgstr "Data"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2555
+msgid "Lockfile:"
+msgstr "Låsefil:"
+
+#: ../tuxpaint-config2.cxx:2559
+msgid "&Don't use lockfile"
+msgstr "&Ikkje bruk låsefil"
+
+#: ../tuxpaint-config2.cxx:2563
+msgid ""
+"Do not check for a lockfile. Allow Tux Paint to be launched multiple times. "
+"(May be necessary in a networked environment.)"
+msgstr ""
+"Ikkje sjå om det finst ei låsefil. Det vert då mogleg å starta Tux Paint "
+"fleire gongar. (Dette kan vera nødvendig i eit nettverksmiljø.)"
+
+#: ../tuxpaint-config2.cxx:2573
+msgid "Data Directory:"
+msgstr "Datamappe:"
+
+#: ../tuxpaint-config2.cxx:2577
+msgid "Use &Alternative Data Directory"
+msgstr "&Bruk alternativ datamappe"
+
+#: ../tuxpaint-config2.cxx:2582
+msgid ""
+"Do not load brushes, stamps, etc. from the standard directory, use the "
+"following location:"
+msgstr ""
+"Ikkje last inn penslar, stempel og liknande frå standardmappa, men heller "
+"frå mappa:"
+
+#: ../tuxpaint-config2.cxx:2587
+msgid "Alternative Data Directory:"
+msgstr "Alternativ datamappe:"
+
+#: ../tuxpaint-config2.cxx:2609
+msgid "Accessibility"
+msgstr "Tilgjenge"
+
+#: ../tuxpaint-config2.cxx:2619
+msgid "Sticky mouse clicks"
+msgstr "Trege museklikk"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2623
+msgid ""
+"Useful for users who have difficulty clicking and dragging. When enabled, "
+"click and release to start painting, move to paint, and click and release "
+"again to stop. It can also be combined with joystick- and keyboard-based "
+"pointer controls."
+msgstr ""
+"Nyttig for brukarar som har vanskar med å klikka og dra. Når dette er slått "
+"på, kan du klikka og sleppa for å starta å måla, flytta peikaren for måla, "
+"og så klikka og slepp att for å stoppa. Kan også kombinerast med styrespak- "
+"og tastaturbaserte kontrollar."
+
+#: ../tuxpaint-config2.cxx:2634
+msgid "Keyboard controls the mouse pointer"
+msgstr "Tastaturet kontrollerer musepeikaren"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2638
+msgid ""
+"When enabled, the arrow keys or numbers can be used to move the mouse "
+"pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text"
+"\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 "
+"cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing "
+"canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 "
+"move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr ""
+"Når dette er slått på, kan pil- eller taltastane brukast til å flytta "
+"peikaren. Bruk taltasten «5», mellomromstasten, «Insert» eller «F5» for å "
+"klikka. (I tekst- eller merkelappmodus, kan du ikkje bruka taltastane eller "
+"mellomromstasten.) Du kan også bruka «F4» til å byta mellom verktøy-, farge- "
+"og teikningspanelet, «F7» og «F8» til å flytta ned og opp i verktøypanelet, "
+"og «F11» og «F12» til å flytta til venstre og høgre i verktøy- og "
+"fargepanela."
+
+#: ../tuxpaint-config2.cxx:2646
+msgid "Onscreen keyboard:"
+msgstr "Skjermtastatur:"
+
+#: ../tuxpaint-config2.cxx:2650
+msgid "Show a keyboard on the screen"
+msgstr "Vis eit tastatur på skjermen"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2654
+msgid ""
+"Display a keyboard on the screen when the \"Text\" and \"Label\" tools are "
+"enabled, so you can 'type' with the mouse pointer."
+msgstr ""
+"Viser eit tastatur på skjermen når du brukar tekst- eller merkelappverktøya, "
+"slik at du kan «skriva» med musepeikaren."
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2659
+msgid "Layout"
+msgstr "Tastaturoppsett"
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2671
+msgid "How are keys organized in the keyboard"
+msgstr "Korleis tastane er organisert på tastaturet"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2676
+msgid "Disable layout changes"
+msgstr "Slå av oppsettendringar"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2681
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr "Fjern knappane som lèt deg endra tastaturoppsett."
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2699
+msgid "Joystick"
+msgstr "Styrespak"
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2710
+msgid "Main device:"
+msgstr "Hovudeining:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2720
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr "Einingsnummer å bruka. (SDL startar nummereringa på 0.)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2731
+msgid ""
+"Joystick slowness. Increase this value for people with slow reactions. "
+"(0-500; default value is 15)"
+msgstr ""
+"Styrespak-saktheit. Auk denne verdien for folk som har treg reaksjonsevne. "
+"(0–500 – standard er 15.)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2743
+msgid ""
+"SDL events under threshold will be discarded, useful to discard accidental "
+"unwanted movements. (0-32766; default value is 3200)"
+msgstr ""
+"SDL-hendingar under grensa vert forkasta. Nyttig for å unngå enkle "
+"feilrørsler. (0–32766 – standard er 3200.)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2753
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr "Avgrens rørslefarten. (1–7 – standard er 7.)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2760
+msgid "Hat:"
+msgstr "Hatt:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2769
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr "Hatt-saktheit. (0–500 – standard er 15.)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2781
+msgid ""
+"Hat timeout, the number of milliseconds to wait before starting to move "
+"continuously. (0-3000; default value is 1000)"
+msgstr ""
+"Talet på millisekund programmet skal venta før peikaren startar å røra på "
+"seg kontinuerleg. (0–3000 – standard er 1000.)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2792
+msgid "Buttons to disable:"
+msgstr "Knappar å slå av:"
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2808
+msgid ""
+"If for any reason one or more buttons of the joystick are posing problems, "
+"you can disable them here using a comma separated list of button numbers. (e."
+"g. 2,3,5)"
+msgstr ""
+"Viss nokre av knappane på styrespaken medfører problem, kan du slå dei av "
+"her, ved å oppgje ei kommadelt liste over knappar (eksempelvis. «2,3,5»)."
+
+#: ../tuxpaint-config2.cxx:2817
+msgid "Button shortcuts:"
+msgstr "Knappsnarvegar:"
+
+#: ../tuxpaint-config2.cxx:2821
+msgid ""
+"Here you can configure shortcuts for the different buttons of the joystick. "
+"(Beware to not assign a shortcut to the button used to draw.)"
+msgstr ""
+"Her kan du setja opp snarvegar for dei ulike knappane på styrespaken. (Pass "
+"å ikkje tildela ein snarveg til teikneknappen.)"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2826
+msgid "Button number for the Escape key."
+msgstr "Knappnummer for «Escape»-tasten."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2834
+msgid "Button number for the Brush tool."
+msgstr "Knappnummer for penselverktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2842
+msgid "Button number for the Stamps tool."
+msgstr "Knappnummer for stempelverktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2850
+msgid "Button number for the Lines tool."
+msgstr "Knappnummer for linjeverktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2858
+msgid "Button number for the Shapes tool."
+msgstr "Knappnummer for figurverktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2866
+msgid "Button number for the Text tool."
+msgstr "Knappnummer for tekstverktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2874
+msgid "Button number for the Label tool."
+msgstr "Knappnummer for merkelappverktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2882
+msgid "Button number for the Magic tool."
+msgstr "Knappnummer for magiverktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2890
+msgid "Button number for Undo."
+msgstr "Knappnummer for å angra."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2898
+msgid "Button number for Redo."
+msgstr "Knappnummer for å gjera om ei angring."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2906
+msgid "Button number for the Eraser tool."
+msgstr "Knappnummer for viskelêrverktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2914
+msgid "Button number for the New tool."
+msgstr "Knappnummer for «ny teikning»-verktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2922
+msgid "Button number for the Open tool."
+msgstr "Knappnummer for «opna teikning»-verktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2930
+msgid "Button number for saving."
+msgstr "Knappnummer for lagringsverktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2938
+msgid "Button number for Page Setup."
+msgstr "Knappnummer for sideoppsettverktøyet."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2946
+msgid "Button number for printing."
+msgstr "Knappnummer for utskriftsverktøyet."
+
+#: ../tuxpaint-config2.cxx:2968
+msgid "Settings for : "
+msgstr "Innstillingane gjeld:"
+
+#: ../tuxpaint-config2.cxx:2972
+msgid "Current User"
+msgstr "Gjeldande brukar"
+
+#: ../tuxpaint-config2.cxx:2973
+msgid "All Users"
+msgstr "Alle brukarane"
+
+#: ../tuxpaint-config2.cxx:2979
+msgid "Use \"All Users\" Settings"
+msgstr "Bruk «alle brukarar»-innstillingane"
+
+#: ../tuxpaint-config2.cxx:2983
+msgid "Apply"
+msgstr "Bruk"
+
+#: ../tuxpaint-config2.cxx:2991
+msgid "Reset"
+msgstr "Nullstill"
+
+#: ../tuxpaint-config2.cxx:2998
+msgid "Defaults"
+msgstr "Standard"
+
+#: ../tuxpaint-config2.cxx:3005
+msgid "Quit"
+msgstr "Avslutt"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "Tux Paint-oppsett."
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "Set opp Tux Paint"

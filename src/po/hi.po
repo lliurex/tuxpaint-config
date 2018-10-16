@@ -1,0 +1,954 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: TuxPaint Config\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-06 07:46+0200\n"
+"PO-Revision-Date: 2010-12-19 00:15+0530\n"
+"Last-Translator: Gautam <gautam.2011@gmail.com>\n"
+"Language-Team: Gautam Gupta <admin@gaut.am>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hindi\n"
+"X-Poedit-Country: India\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen "
+"mode, the interface's language, or options to simplify Tux Paint for younger "
+"children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your "
+"computer by making a selection in the 'Settings for' pull-down menu at the "
+"bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change "
+"the options you'd like to change, and click the 'Apply' button at the bottom "
+"to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"टक्स पेंट के चित्रमय विन्यास उपकरण में आपका स्वागत है| यह टोरस्टेन गीब्ल, जन वीन्होल्ड्स, "
+"बिल केंद्रीक और मार्टिन फिउह्रेर द्वारा गया है|\n"
+"\n"
+"यह उपकरण आपको टक्स पेंट के विकल्प जैसे पूर्ण स्क्रीन मोड, इंटरफ़ेस भाषा, या छोटे बच्चों के लिए "
+"टक्स पेंट सरल विकल्प के रूप में बदलने में सहायता करेगा|\n"
+"\n"
+"यह सेटिंग्स केवल वर्तमान उपयोगकर्ता के लिए या 'के लिए सेटिंग' मेनू में नीचे वाले विकल्प का "
+"चयन करके कंप्यूटर के सभी उपयोगकर्ताओं के लिए सेट किये जा सकते हैं|\n"
+"\n"
+"शीर्ष पर टैब का उपयोग करके भिन्न सेटिंग श्रेणियों का चयन करें, विकल्पों को आप परिवर्तित "
+"करें, और नई विन्यास फाइल लिखने के लिए नीचे 'लागू करें' बटन पर क्लिक करें|.\n"
+"\n"
+"अगली बार जब टक्स पेंट शुरू किया जायेगा, नई सेटिंग का प्रभाव पड़ जायेगा|"
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(सिस्टम डिफ़ॉल्ट का प्रयोग करें)"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(सिस्टम विकल्प का प्रयोग करें)"
+
+#: ../tuxpaint-config2.cxx:1525 ../tuxpaint-config2.cxx:2129
+msgid "Default (no override)"
+msgstr "डिफ़ॉल्ट (कोई ओवरराइड नहीं)"
+
+#: ../tuxpaint-config2.cxx:1527
+msgid "Override: Small"
+msgstr "ओवरराइड: छोटा"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Medium"
+msgstr "ओवरराइड: मध्यम"
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Large"
+msgstr "ओवरराइड: बड़ा"
+
+#: ../tuxpaint-config2.cxx:1636
+msgid "Save Directory?"
+msgstr "निर्देशिका सहेजें?"
+
+#: ../tuxpaint-config2.cxx:1670
+msgid "Data Directory?"
+msgstr "डाटा निर्देशिका?"
+
+#: ../tuxpaint-config2.cxx:1703
+msgid "Color Palette File?"
+msgstr "रंग पैलेट फ़ाइल?"
+
+#: ../tuxpaint-config2.cxx:1742
+msgid "Quit without applying changes?"
+msgstr "परिवर्तन लागू किए बिना छोडें?"
+
+#: ../tuxpaint-config2.cxx:1743
+msgid "&No"
+msgstr "&नहीं"
+
+#: ../tuxpaint-config2.cxx:1743
+msgid "&Yes"
+msgstr "&हाँ"
+
+#: ../tuxpaint-config2.cxx:1779
+msgid "current user"
+msgstr "वर्तमान उपयोगकर्ता"
+
+#: ../tuxpaint-config2.cxx:1782
+msgid "all users"
+msgstr "सभी उपयोगकर्ता"
+
+#: ../tuxpaint-config2.cxx:1786
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "%s पर किये गए परिवर्तन लागू करें?"
+
+#: ../tuxpaint-config2.cxx:1787
+msgid "No"
+msgstr "नहीं"
+
+#: ../tuxpaint-config2.cxx:1787
+msgid "Yes"
+msgstr "हाँ"
+
+#: ../tuxpaint-config2.cxx:1807 ../tuxpaint-config2.cxx:1810
+msgid "Tux Paint Config v"
+msgstr "टक्स पेंट विन्यास संस्करण"
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1819
+msgid "About"
+msgstr "इसके बारे में"
+
+#: ../tuxpaint-config2.cxx:1826
+msgid "About Tux Paint Config."
+msgstr "टक्स पेंट के बारे में|"
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1842
+#, fuzzy
+#| msgid "Video / Sound"
+msgid "Video/Sound"
+msgstr "वीडियो / ध्वनि"
+
+#: ../tuxpaint-config2.cxx:1849
+msgid "Video:"
+msgstr "वीडियो:"
+
+#: ../tuxpaint-config2.cxx:1853
+msgid "&Fullscreen"
+msgstr "&पूर्ण स्क्रीन"
+
+#: ../tuxpaint-config2.cxx:1858
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "टक्स पेंट को फुल स्क्रीन मोड में चलाएँ, बजाय विंडो में चलाने के|"
+
+#: ../tuxpaint-config2.cxx:1864
+msgid "&Native"
+msgstr "&मूल निवासी"
+
+#: ../tuxpaint-config2.cxx:1868
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "फुल स्क्रीन मोड में मूल निवासी स्क्रीन संकल्प का उपयोग करें|"
+
+#: ../tuxpaint-config2.cxx:1874
+msgid "Window size : "
+msgstr "खिड़की का आकार : "
+
+#: ../tuxpaint-config2.cxx:1898
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "खिड़की, या पूर्ण स्क्रीन में संकल्प का आकार|"
+
+#: ../tuxpaint-config2.cxx:1904
+msgid "&Rotate Orientation"
+msgstr "&ओरिएंटेशन घुमाएँ"
+
+#: ../tuxpaint-config2.cxx:1908
+msgid ""
+"Swap width and height, to rotate 90 degrees (useful for portrait-display on "
+"a tablet PC)"
+msgstr ""
+"स्वैप चौड़ाई और ऊंचाई, ९० डिग्री घुमाने के लिए (चित्र-प्रदर्शन टैबलेट पीसी पर प्रदर्शन के "
+"लिए उपयोगी)"
+
+#: ../tuxpaint-config2.cxx:1914
+msgid "Allow S&creensaver"
+msgstr "&स्क्रीनसेवर को अनुमति दें"
+
+#: ../tuxpaint-config2.cxx:1918
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr "जब टक्स पेंट चल रहा है, तब अपने सिस्टम के स्क्रीनसेवर निष्क्रिय न करें|"
+
+#: ../tuxpaint-config2.cxx:1927
+msgid "Sound:"
+msgstr "ध्वनि:"
+
+#: ../tuxpaint-config2.cxx:1931
+msgid "Enable &Sound Effects"
+msgstr "&ध्वनि प्रभावों को सक्षम करें"
+
+#: ../tuxpaint-config2.cxx:1936
+msgid "Enable/disable sound effects."
+msgstr "ध्वनि प्रभाव सक्षम/निष्क्रिय करें|"
+
+#: ../tuxpaint-config2.cxx:1945 ../tuxpaint-config2.cxx:1959
+msgid "Color Palette File:"
+msgstr "रंग पैलेट फाईल:"
+
+#: ../tuxpaint-config2.cxx:1949
+msgid "Use &Alternative Color Palette"
+msgstr "&वैकल्पिक रंग पट्टी का उपयोग करें"
+
+#: ../tuxpaint-config2.cxx:1954
+msgid ""
+"Don't use default color palette, use colors defined in the following file:"
+msgstr ""
+"डिफ़ॉल्ट रंग पट्टी का उपयोग न करें, निम्नलिखित फाइल में परिभाषित रंगों का उपयोग करें:"
+
+#: ../tuxpaint-config2.cxx:1964 ../tuxpaint-config2.cxx:2507
+#: ../tuxpaint-config2.cxx:2592
+msgid "Browse..."
+msgstr "ब्राउज़ करें..."
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1975
+#, fuzzy
+#| msgid "Mouse / Keyboard"
+msgid "Mouse/Keyboard"
+msgstr "माउस / कुंजीपटल"
+
+#: ../tuxpaint-config2.cxx:1983
+msgid "Cursor:"
+msgstr "कर्सर:"
+
+#: ../tuxpaint-config2.cxx:1987
+msgid "&Fancy Cursor Shapes"
+msgstr "&बढ़िया संकेतक आकार"
+
+#: ../tuxpaint-config2.cxx:1992
+msgid ""
+"Change the shape of the mouse pointer depending on where the mouse is and "
+"what you are doing."
+msgstr "माउस जहां है और आप क्या कर रहे हैं के आधार पर माउस की आकृति बदलें."
+
+#: ../tuxpaint-config2.cxx:1998
+msgid "&Hide Cursor"
+msgstr "संकेतक &छुपाएँ"
+
+#: ../tuxpaint-config2.cxx:2003
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr "पूरी तरह से कर्सर को छिपा रेता है (टचस्क्रीन उपकरणों पर उपयोगी)|"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2012 ../tuxpaint-config2.cxx:2630
+msgid "Keyboard:"
+msgstr "कुंजीपटल:"
+
+#: ../tuxpaint-config2.cxx:2016
+msgid "Enable &Keyboard Shortcuts"
+msgstr "&कुंजीपटल शॉर्टकट्स सक्षम करें"
+
+#: ../tuxpaint-config2.cxx:2021
+msgid ""
+"Allows key combinations to be used as shortcuts for certain commands. (e.g., "
+"Control+S to Save)"
+msgstr ""
+"कुछ आदेशों के लिए शॉर्टकट के रूप में इस्तेमाल होने वाले कुंजी संयोजन की अनुमति दें| (उदाहरण के "
+"लिए, सहेज करने के लिए Control+S)"
+
+#: ../tuxpaint-config2.cxx:2033 ../tuxpaint-config2.cxx:2615
+msgid "Mouse:"
+msgstr "माउस:"
+
+#: ../tuxpaint-config2.cxx:2037
+msgid "&Grab Mouse Pointer"
+msgstr "&माउस सूचक पकडें"
+
+#: ../tuxpaint-config2.cxx:2042
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "माउस को टक्स पेंट की विंडो से जाने से रोकता है|"
+
+#: ../tuxpaint-config2.cxx:2047
+msgid "Mouse &Wheel Support"
+msgstr "माउस &व्हील समर्थन"
+
+#: ../tuxpaint-config2.cxx:2052
+msgid ""
+"Allows a mouse wheel to be used to scroll through items. (e.g., brushes, "
+"stamps)"
+msgstr "माउस के पहिया को चीजों से गुज़रने की अनुमति देता है| (जैसे, ब्रश, टिकटें)"
+
+#: ../tuxpaint-config2.cxx:2057
+msgid "No &Button Distinction"
+msgstr "कोई &बटन भेद नहीं"
+
+#: ../tuxpaint-config2.cxx:2061
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr "माउस का बीच का और दायां बटन को क्लिकिंग के प्रयोग के लिए अनुमति देता है|"
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2074
+msgid "Simplification"
+msgstr "सरलीकरण"
+
+#: ../tuxpaint-config2.cxx:2082
+msgid "Interface Simplification:"
+msgstr "इंटरफ़ेस सरलीकरण:"
+
+#: ../tuxpaint-config2.cxx:2086
+msgid "Disable Shape &Rotation"
+msgstr "आकृति धुमाव को निष्क्रिय करें"
+
+#: ../tuxpaint-config2.cxx:2091
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr "आकृति उपकरण के रोटेशन कदम अक्षम है| छोटे बच्चों के लिए उपयोगी|"
+
+#: ../tuxpaint-config2.cxx:2096
+msgid "Simple Stamp &Outlines"
+msgstr "साधारण टिकट &रूपरेखा"
+
+#: ../tuxpaint-config2.cxx:2101
+msgid ""
+"Draw a rectangle around the cursor when placing stamps, rather than a "
+"detailed outline. (For slow computers and thin clients.)"
+msgstr ""
+"टिकटों को लगते समय कर्सर के चारों ओर एक आयत आरेखित करें, एक विस्तृत रूपरेखा के बजाय| (धीमे "
+"कंप्यूटर और पतली ग्राहकों के लिए|)"
+
+#: ../tuxpaint-config2.cxx:2106
+msgid "Show &Uppercase Text Only"
+msgstr "केवल &अपरकेस टेक्स्ट दिखाएँ"
+
+#: ../tuxpaint-config2.cxx:2111
+msgid ""
+"Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in "
+"UPPERCASE rather than Mixed Case."
+msgstr ""
+"टक्स पेंट में सभी पाठ/टेक्स्ट (बटन लेबल्स, संवाद, आदि) को मिश्रित प्रकरण में दिखने के बजाय "
+"अपरकेस में प्रदर्शित करता है|"
+
+#: ../tuxpaint-config2.cxx:2120
+msgid "Initial Stamp Size:"
+msgstr "प्रारंभिक टिकट का आकार:"
+
+#: ../tuxpaint-config2.cxx:2137
+msgid "Control Simplification:"
+msgstr "नियंत्रण सरलीकरण:"
+
+#: ../tuxpaint-config2.cxx:2141
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "'&छोड़ने' और [Escape] कुंजी अक्षम करें"
+
+#: ../tuxpaint-config2.cxx:2146
+msgid ""
+"Clicking the window's close (X) button in the title bar, or pressing "
+"[Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr ""
+"इस विंडो की शीर्षक पट्टी में बंद (X) बटन को क्लिक करके, या [Alt]+[F4] या "
+"[Shift]+[Ctrl]+[Escape] दबाकर टक्स पेंट को फिर भी छोड़ा जा सकता है|"
+
+#: ../tuxpaint-config2.cxx:2151
+msgid "Disable '&Stamps' Tool"
+msgstr "'&स्टाम्प' नियंत्रण निष्क्रिय करें"
+
+#: ../tuxpaint-config2.cxx:2156
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr "स्टार्टअप पर टिकटें लोड ने करें, इस प्रकार टिकटें उपकरण निष्क्रिय जो जायेगा|"
+
+#: ../tuxpaint-config2.cxx:2161
+msgid "Disable Stamp &Controls"
+msgstr "स्टाम्प &नियंत्रण निष्क्रिय करें"
+
+#: ../tuxpaint-config2.cxx:2166
+msgid ""
+"Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, "
+"Grow, Mirror and Flip)."
+msgstr ""
+"टिकट नियंत्रण बटनों (घटना, बढना, मिरर और फ्लिप) को हटाकर 'टिकट' उपकरण को सरल "
+"बनाएँ|"
+
+#: ../tuxpaint-config2.cxx:2171
+msgid "Disable &Magic Controls"
+msgstr "&जादू नियंत्रण निष्क्रिय करें"
+
+#: ../tuxpaint-config2.cxx:2176
+msgid ""
+"Simplify the 'Magic' tools by removing the buttons to switch between paint "
+"and fullscreen modes."
+msgstr ""
+"पेंट और फुल स्क्रीन मोड के बीच स्विच करने वाले बटनों को हटाकर 'जादू' उपकरण को सरल बनाएँ|"
+
+#: ../tuxpaint-config2.cxx:2181
+msgid "Disable '&Label' Tool"
+msgstr "'&लेबल' नियंत्रण निष्क्रिय करें"
+
+#: ../tuxpaint-config2.cxx:2186
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr "'लेबल' टेक्स्ट उपकरण को निष्क्रिय करें (फिर केवल 'टेक्स्ट' उपकरण बचेगा)|"
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2197
+msgid "Languages"
+msgstr "भाषाएँ"
+
+#: ../tuxpaint-config2.cxx:2203
+msgid "Language:"
+msgstr "भाषा:"
+
+#: ../tuxpaint-config2.cxx:2207
+msgid "Language : "
+msgstr "भाषा : "
+
+#: ../tuxpaint-config2.cxx:2222
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr "टक्स पेंट को किसी विशेष भाषा में चलाएँ (सिस्टम सेटिंग्स अधिभावी करके)|"
+
+#: ../tuxpaint-config2.cxx:2227
+msgid "&Mirror Stamps"
+msgstr "&मिरर टिकटें"
+
+#: ../tuxpaint-config2.cxx:2232
+msgid ""
+"Automatically mirror-image all mirror-able stamps. Useful for users who "
+"prefer things appearing right-to-left."
+msgstr ""
+"स्वतः दर्पण में सभी सक्षम टिकटों की एक छवि बन जायेगी| उन उपयोगकर्ताओं के लिए अच्छा जो "
+"दाएँ से बाएँ प्रदर्शित चीज़ें पसंद करते हैं|"
+
+#: ../tuxpaint-config2.cxx:2241
+msgid "Fonts:"
+msgstr "फ़ॉन्ट:"
+
+#: ../tuxpaint-config2.cxx:2245
+msgid "Load System &Fonts"
+msgstr "सिस्टम &फ़ॉन्ट लोड करें"
+
+#: ../tuxpaint-config2.cxx:2250
+msgid ""
+"Attempt to load more fonts, found elsewhere on your computer. (Note: may "
+"cause instability!)"
+msgstr ""
+"अधिक फोंट लोड करने के लिए प्रयास करें, जो आपके कंप्यूटर में कहीं और मिल सकते हैं| (नोट: "
+"अस्थिरता का कारण हो सकता!)"
+
+#: ../tuxpaint-config2.cxx:2255
+msgid "Load All &Locale Fonts"
+msgstr "सभी लोकेल &फ़ॉन्ट लोड करें"
+
+#: ../tuxpaint-config2.cxx:2260
+msgid ""
+"Load all locale-specific fonts installed in Tux Paint, regardless of the "
+"locale Tux Paint is being run under."
+msgstr ""
+"सभी भाषा-विशेष फोंट में लोड करें जो टक्स पेंट में स्थापित हैं, बिना इस बात को जांचे की टक्स "
+"पेंट कौनसी भाषा में चल रहा है|"
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2271
+msgid "Printing"
+msgstr "छपाई"
+
+#: ../tuxpaint-config2.cxx:2277
+msgid "Print Permissions:"
+msgstr "प्रिंट अनुमतियाँ:"
+
+#: ../tuxpaint-config2.cxx:2281
+msgid "Allow &Printing"
+msgstr "&प्रिंटिंग के लिए अनुमति दें"
+
+#: ../tuxpaint-config2.cxx:2286
+msgid "Let users print from within Tux Paint."
+msgstr "उपयोगकर्ताओं को टक्स पेंट के भीतर से प्रिंट करने की अनुमति दें|"
+
+#: ../tuxpaint-config2.cxx:2291
+msgid "Print Delay : "
+msgstr "प्रिंट विलंब : "
+
+#: ../tuxpaint-config2.cxx:2297
+msgid "seconds"
+msgstr "सेकंड"
+
+#: ../tuxpaint-config2.cxx:2301
+msgid ""
+"Restrict printing to once every N seconds. (Enter '0' to allow unrestricted "
+"printing.)"
+msgstr ""
+"एक बार में 'एन' सेकंड के लिए प्रिंट को प्रतिबंधित करें| (अप्रतिबंधित अनुमति प्रिंटिंग के लिए "
+"'०' दर्ज करें|)"
+
+#: ../tuxpaint-config2.cxx:2309
+msgid "Show Printer Dialog:"
+msgstr "प्रिंटर संवाद दिखाएँ:"
+
+#: ../tuxpaint-config2.cxx:2314
+msgid "Only when [Alt] &modifier key is held"
+msgstr "तभी जब [Alt] &आपरिवर्तक कुंजी दबी हुई हो"
+
+#: ../tuxpaint-config2.cxx:2321
+msgid "Always &show printer dialog"
+msgstr "हमेशा प्रिंटर संवाद &दिखाएँ"
+
+#: ../tuxpaint-config2.cxx:2328
+msgid "&Never show printer dialog"
+msgstr "कभी प्रिंटर संवाद &न दिखाएँ"
+
+#: ../tuxpaint-config2.cxx:2335
+msgid "(Even when [Alt] is held.)"
+msgstr "(तब भी जब [Alt] दबा हुआ है|)"
+
+#: ../tuxpaint-config2.cxx:2349
+msgid "Save printer configuration"
+msgstr "प्रिंटर विन्यास सहेजें"
+
+#: ../tuxpaint-config2.cxx:2358
+msgid "Print Commands:"
+msgstr "प्रिंट कमानों:"
+
+#: ../tuxpaint-config2.cxx:2362
+msgid "Use &Alternative Print Command"
+msgstr "वैकल्पिक प्रिंट कमांड का प्रयोग करें"
+
+#: ../tuxpaint-config2.cxx:2367
+msgid ""
+"Override Tux Paint's default setting for print command ('lpr') with another. "
+"(Advanced! Unix/Linux only!)"
+msgstr ""
+"टक्स पेंट की प्रिंट कमांड के लिए डिफ़ॉल्ट सेटिंग ('lpr') को किसी दूसरी से ओवरराइड करें| "
+"(उन्नत! केवल यूनिक्स/लिनक्स!)"
+
+#: ../tuxpaint-config2.cxx:2377
+msgid ""
+"Enter the command for printing. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"प्रिंटिंग के लिए कमांड दर्ज करें| इसे अपने मानक इनपुट (STDIN) पर एक पोस्ट स्क्रिप्ट प्रारूप "
+"स्वीकार करना होगा|"
+
+#: ../tuxpaint-config2.cxx:2388
+msgid "Use &Alternative Print Dialog"
+msgstr "&वैकल्पिक प्रिंट संवाद का प्रयोग करें"
+
+#: ../tuxpaint-config2.cxx:2393
+msgid ""
+"Override Tux Paint's default setting for print dialog ('kprinter') with "
+"another. (Advanced! Unix/Linux only!)"
+msgstr ""
+"टक्स पेंट की प्रिंट संवाद के लिए डिफ़ॉल्ट सेटिंग ('kprinter') को किसी दूसरी से ओवरराइड "
+"करें| (उन्नत! केवल यूनिक्स/लिनक्स!)"
+
+#: ../tuxpaint-config2.cxx:2403
+msgid ""
+"Enter the print dialog command. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"प्रिंट संवाद कमांड दर्ज करें| इसे अपने मानक इनपुट (STDIN) पर एक पोस्ट स्क्रिप्ट प्रारूप "
+"स्वीकार करना होगा|"
+
+#: ../tuxpaint-config2.cxx:2410
+msgid "Paper Size : "
+msgstr "काग़ज़ का आकार : "
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2431
+msgid "Saving"
+msgstr "सहेज रहे हैं"
+
+#: ../tuxpaint-config2.cxx:2438
+msgid "Save Over Earlier Work:"
+msgstr "इस पहले के कार्य पर सहेजें:"
+
+#: ../tuxpaint-config2.cxx:2442
+msgid "&Ask Before Overwriting"
+msgstr "अधिलेखित से पहले &पूछें"
+
+#: ../tuxpaint-config2.cxx:2447
+msgid ""
+"When re-saving an image, ask whether to overwrite the earlier version, or "
+"make a new file."
+msgstr ""
+"छवि को फिरसे दर्ज करते वक्त, पिछले संस्करण को अधिलेखित करने के लिए, या एक नई फ़ाइल बनाने "
+"के लिए पूछें|"
+
+#: ../tuxpaint-config2.cxx:2452
+msgid "Always &Overwrite Older Version"
+msgstr "हमेशा पुराने संस्करण &अधिलेखित करें"
+
+#: ../tuxpaint-config2.cxx:2457
+msgid ""
+"When re-saving an image, always overwrite the earlier version. (Warning: "
+"Potential for lost work!)"
+msgstr ""
+"छवि को फिरसे दर्ज करते वक्त, हमेशा पिछले संस्करण को अधिलेखित करें| (चेतावनी: काम खोने की "
+"संभावना!)"
+
+#: ../tuxpaint-config2.cxx:2462
+msgid "Always Save &New Picture"
+msgstr "हमेशा &नया चित्र सहेजें"
+
+#: ../tuxpaint-config2.cxx:2467
+msgid ""
+"When re-saving an image, always make a new file. (Warning: Potential for "
+"lots of files!)"
+msgstr ""
+"छवि को फिरसे दर्ज करते वक्त, हमेशा एक नई फ़ाइल बनाएँ| (चेतावनी: फ़ाइलों की तादाद बढ़ने "
+"की संभावना!)"
+
+#: ../tuxpaint-config2.cxx:2474
+msgid "Start Blank:"
+msgstr "रिक्त शुरू:"
+
+#: ../tuxpaint-config2.cxx:2479
+msgid "Start with &Blank Canvas"
+msgstr "खाली कैनवास के साथ शुरू करें"
+
+#: ../tuxpaint-config2.cxx:2488
+msgid "Save Directory:"
+msgstr "निर्देशिका सहेजें:"
+
+#: ../tuxpaint-config2.cxx:2492
+msgid "Use &Alternative Save Directory"
+msgstr "सहेजने के लिए वैकल्पिक निर्देशिका का उपयोग करें"
+
+#: ../tuxpaint-config2.cxx:2497
+msgid ""
+"Do not save pictures in the standard directory, use the following location:"
+msgstr "मानक निर्देशिका में तस्वीरों को दर्ज न करें, निम्न स्थान का उपयोग करें:"
+
+#: ../tuxpaint-config2.cxx:2502
+msgid "Alternative Save Directory:"
+msgstr "वैकल्पिक सहेजें के लिए निर्देशिका:"
+
+#: ../tuxpaint-config2.cxx:2514
+msgid "More Saving Options:"
+msgstr "अधिक सहेजने के विकल्प:"
+
+#: ../tuxpaint-config2.cxx:2519
+msgid "Disable '&Save' Button"
+msgstr "'&सहेज' बटन अक्षम करें"
+
+#: ../tuxpaint-config2.cxx:2524
+msgid ""
+"Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch "
+"paper.'"
+msgstr ""
+"चित्रों को दर्ज करने की अनुमति न दें| टक्स पेंट अस्थायी रूप में 'खरोंच कागज' का कार्य करता है|"
+
+#: ../tuxpaint-config2.cxx:2530
+msgid "&Auto-save on Quit"
+msgstr "छोड़ने पर स्वत: सहेजें"
+
+#: ../tuxpaint-config2.cxx:2535
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr "जाते समे तस्वीर को दर्ज करने के लिए न पूछें; सीधा दर्ज करें|"
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2547
+msgid "Data"
+msgstr "डेटा"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2555
+msgid "Lockfile:"
+msgstr "कुंजीफ़ाइल:"
+
+#: ../tuxpaint-config2.cxx:2559
+msgid "&Don't use lockfile"
+msgstr "कुंजीफ़ाइल का प्रोयोग &न करें"
+
+#: ../tuxpaint-config2.cxx:2563
+msgid ""
+"Do not check for a lockfile. Allow Tux Paint to be launched multiple times. "
+"(May be necessary in a networked environment.)"
+msgstr ""
+"एक लोकफाइल के लिए खोज न करें| टक्स पेंट को कई बार शुरू करने की अनुमति दे (नेटवर्क वातावरण "
+"में आवश्यक को सकता ह|)"
+
+#: ../tuxpaint-config2.cxx:2573
+msgid "Data Directory:"
+msgstr "डाटा निर्देशिका:"
+
+#: ../tuxpaint-config2.cxx:2577
+msgid "Use &Alternative Data Directory"
+msgstr "&वैकल्पिक डेटा निर्देशिका का प्रयोग करें"
+
+#: ../tuxpaint-config2.cxx:2582
+msgid ""
+"Do not load brushes, stamps, etc. from the standard directory, use the "
+"following location:"
+msgstr "ब्रश, टिकटें, आदि मानक निर्देशिका से लोड न करें, निम्न स्थान का उपयोग करें:"
+
+#: ../tuxpaint-config2.cxx:2587
+msgid "Alternative Data Directory:"
+msgstr "वैकल्पिक डेटा निर्देशिका:"
+
+#: ../tuxpaint-config2.cxx:2609
+msgid "Accessibility"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2619
+msgid "Sticky mouse clicks"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2623
+msgid ""
+"Useful for users who have difficulty clicking and dragging. When enabled, "
+"click and release to start painting, move to paint, and click and release "
+"again to stop. It can also be combined with joystick- and keyboard-based "
+"pointer controls."
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2634
+msgid "Keyboard controls the mouse pointer"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2638
+msgid ""
+"When enabled, the arrow keys or numbers can be used to move the mouse "
+"pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text"
+"\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 "
+"cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing "
+"canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 "
+"move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2646
+msgid "Onscreen keyboard:"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2650
+msgid "Show a keyboard on the screen"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2654
+msgid ""
+"Display a keyboard on the screen when the \"Text\" and \"Label\" tools are "
+"enabled, so you can 'type' with the mouse pointer."
+msgstr ""
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2659
+msgid "Layout"
+msgstr ""
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2671
+msgid "How are keys organized in the keyboard"
+msgstr ""
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2676
+msgid "Disable layout changes"
+msgstr ""
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2681
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr ""
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2699
+msgid "Joystick"
+msgstr ""
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2710
+msgid "Main device:"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2720
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2731
+msgid ""
+"Joystick slowness. Increase this value for people with slow reactions. "
+"(0-500; default value is 15)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2743
+msgid ""
+"SDL events under threshold will be discarded, useful to discard accidental "
+"unwanted movements. (0-32766; default value is 3200)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2753
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr ""
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2760
+msgid "Hat:"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2769
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2781
+msgid ""
+"Hat timeout, the number of milliseconds to wait before starting to move "
+"continuously. (0-3000; default value is 1000)"
+msgstr ""
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2792
+msgid "Buttons to disable:"
+msgstr ""
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2808
+msgid ""
+"If for any reason one or more buttons of the joystick are posing problems, "
+"you can disable them here using a comma separated list of button numbers. (e."
+"g. 2,3,5)"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2817
+msgid "Button shortcuts:"
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2821
+msgid ""
+"Here you can configure shortcuts for the different buttons of the joystick. "
+"(Beware to not assign a shortcut to the button used to draw.)"
+msgstr ""
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2826
+msgid "Button number for the Escape key."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2834
+msgid "Button number for the Brush tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2842
+msgid "Button number for the Stamps tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2850
+msgid "Button number for the Lines tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2858
+msgid "Button number for the Shapes tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2866
+msgid "Button number for the Text tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2874
+msgid "Button number for the Label tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2882
+msgid "Button number for the Magic tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2890
+msgid "Button number for Undo."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2898
+msgid "Button number for Redo."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2906
+msgid "Button number for the Eraser tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2914
+msgid "Button number for the New tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2922
+msgid "Button number for the Open tool."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2930
+msgid "Button number for saving."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2938
+msgid "Button number for Page Setup."
+msgstr ""
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2946
+msgid "Button number for printing."
+msgstr ""
+
+#: ../tuxpaint-config2.cxx:2968
+msgid "Settings for : "
+msgstr "के लिए सेटिंग्स:"
+
+#: ../tuxpaint-config2.cxx:2972
+msgid "Current User"
+msgstr "वर्तमान उपयोगकर्ता"
+
+#: ../tuxpaint-config2.cxx:2973
+msgid "All Users"
+msgstr "सभी उपयोगकर्ता"
+
+#: ../tuxpaint-config2.cxx:2979
+msgid "Use \"All Users\" Settings"
+msgstr "\"सभी उपयोगकर्ता\" सेटिंग्स का उपयोग करें"
+
+#: ../tuxpaint-config2.cxx:2983
+msgid "Apply"
+msgstr "लागू"
+
+#: ../tuxpaint-config2.cxx:2991
+msgid "Reset"
+msgstr "रीसेट"
+
+#: ../tuxpaint-config2.cxx:2998
+msgid "Defaults"
+msgstr "डिफ़ॉल्ट"
+
+#: ../tuxpaint-config2.cxx:3005
+msgid "Quit"
+msgstr "छोडें"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "टक्स पेंट विन्यास"
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "टक्स पेंट कॉन्फ़िगर करें"

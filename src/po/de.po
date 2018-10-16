@@ -1,0 +1,1006 @@
+# German translation of tuxpaint-config templates.
+# Copyright (C) 2014 the tuxpaint team.
+# This file is distributed under the same license as the tuxpaint-config package.
+# Markus Hinkelmann <markus@mhinkelmann.de>, 2010.
+# Holger Wansing <hwansing@mailbox.org>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tuxpaint-config\n"
+"Report-Msgid-Bugs-To: tuxpaint-i18n@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-07-19 21:57+0200\n"
+"PO-Revision-Date: 2014-07-24 23:05+0200\n"
+"Last-Translator: Holger Wansing <hwansing@mailbox.org>\n"
+"Language-Team: debian-l10n-german@lists.debian.org\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen "
+"mode, the interface's language, or options to simplify Tux Paint for younger "
+"children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your "
+"computer by making a selection in the 'Settings for' pull-down menu at the "
+"bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change "
+"the options you'd like to change, and click the 'Apply' button at the bottom "
+"to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"Willkommen bei dem grafischen Konfigurationstool für Tux Paint, erstellt von "
+"Torsten Giebl, Jan Wynholds, Bill Kendrick und Martin Fuhrer.\n"
+"\n"
+"Dieses Tool ermöglicht es Ihnen, Einstellungen von Tux Paint, wie den "
+"Vollbildmodus oder die Sprache einzustellen. Außerdem können Sie Tux Paint "
+"für jüngere Kinder vereinfachen.\n"
+"\n"
+"Diese Einstellungen können für den aktuellen Benutzer oder für alle Benutzer "
+"des Computers gesetzt werden, indem Sie den gewünschten Punkt im "
+"Aufklappmenü am unteren Rand auswählen.\n"
+"\n"
+"Verwenden Sie die Registerkarten am oberen Rand, um die unterschiedlichen "
+"Kategorien zu wählen, ändern Sie die Optionen, die Sie ändern wollen und "
+"klicken Sie auf den »Übernehmen«-Knopf, um eine neue Konfigurationsdatei zu "
+"erstellen.\n"
+"\n"
+"Wenn Sie das nächste Mal Tux Paint starten, werden die Einstellungen "
+"wirksam."
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(Nutze Standard-Systemeinstellungen)"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(Nutze Systemeinstellungen)"
+
+#: ../tuxpaint-config2.cxx:1527 ../tuxpaint-config2.cxx:2131
+msgid "Default (no override)"
+msgstr "Standard (keine Aufhebung)"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Small"
+msgstr "Überschreiben: klein"
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Medium"
+msgstr "Überschreiben: mittel"
+
+#: ../tuxpaint-config2.cxx:1533
+msgid "Override: Large"
+msgstr "Überschreiben: groß"
+
+#: ../tuxpaint-config2.cxx:1638
+msgid "Save Directory?"
+msgstr "Speicherordner?"
+
+#: ../tuxpaint-config2.cxx:1672
+msgid "Data Directory?"
+msgstr "Datenordner?"
+
+#: ../tuxpaint-config2.cxx:1705
+msgid "Color Palette File?"
+msgstr "Datei für die Farbpalette?"
+
+#: ../tuxpaint-config2.cxx:1744
+msgid "Quit without applying changes?"
+msgstr "Programm beenden, ohne die Änderungen zu übernehmen?"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&No"
+msgstr "&Nein"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&Yes"
+msgstr "&Ja"
+
+#: ../tuxpaint-config2.cxx:1781
+msgid "current user"
+msgstr "aktueller Nutzer"
+
+#: ../tuxpaint-config2.cxx:1784
+msgid "all users"
+msgstr "alle Nutzer"
+
+#: ../tuxpaint-config2.cxx:1788
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "Änderungen für %s übernehmen?"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "No"
+msgstr "Nein"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "Yes"
+msgstr "Ja"
+
+#: ../tuxpaint-config2.cxx:1809 ../tuxpaint-config2.cxx:1812
+msgid "Tux Paint Config v"
+msgstr "Tux Paint Config v"
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1821
+msgid "About"
+msgstr "Über"
+
+#: ../tuxpaint-config2.cxx:1828
+msgid "About Tux Paint Config."
+msgstr "Über Tux Paint Config."
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1844
+msgid "Video/Sound"
+msgstr "Video/Ton"
+
+#: ../tuxpaint-config2.cxx:1851
+msgid "Video:"
+msgstr "Video:"
+
+#: ../tuxpaint-config2.cxx:1855
+msgid "&Fullscreen"
+msgstr "&Vollbild"
+
+#: ../tuxpaint-config2.cxx:1860
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "Tux Paint lieber im Vollbild als im Fenstermodus ausführen"
+
+#: ../tuxpaint-config2.cxx:1866
+msgid "&Native"
+msgstr "&Nativ"
+
+#: ../tuxpaint-config2.cxx:1870
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "Originale Bildschirmauflösung im Vollbildmodus nutzen"
+
+#: ../tuxpaint-config2.cxx:1876
+msgid "Window size : "
+msgstr "Fenstergröße:"
+
+#: ../tuxpaint-config2.cxx:1900
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "Größe des Fensters oder die Auflösung im Vollbildmodus"
+
+#: ../tuxpaint-config2.cxx:1906
+msgid "&Rotate Orientation"
+msgstr "&Ansicht drehen"
+
+#: ../tuxpaint-config2.cxx:1910
+msgid ""
+"Swap width and height, to rotate 90 degrees (useful for portrait-display on "
+"a tablet PC)"
+msgstr ""
+"Vertauscht Breite und Höhe, um das Bild um 90° zu drehen (nützlich für "
+"Hochkant-Displays bei Tablet-Computern)"
+
+#: ../tuxpaint-config2.cxx:1916
+msgid "Allow S&creensaver"
+msgstr "&Bildschirmschoner erlauben"
+
+#: ../tuxpaint-config2.cxx:1920
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr "Den Bildschirmschoner nicht deaktivieren, während Tux Paint läuft"
+
+#: ../tuxpaint-config2.cxx:1929
+msgid "Sound:"
+msgstr "Ton:"
+
+#: ../tuxpaint-config2.cxx:1933
+msgid "Enable &Sound Effects"
+msgstr "&Toneffekte aktivieren"
+
+#: ../tuxpaint-config2.cxx:1938
+msgid "Enable/disable sound effects."
+msgstr "Toneffekte aktivieren / deaktivieren"
+
+#: ../tuxpaint-config2.cxx:1947 ../tuxpaint-config2.cxx:1961
+msgid "Color Palette File:"
+msgstr "Datei für die Farbpalette:"
+
+#: ../tuxpaint-config2.cxx:1951
+msgid "Use &Alternative Color Palette"
+msgstr "&Alternative Farbpalette verwenden"
+
+#: ../tuxpaint-config2.cxx:1956
+msgid ""
+"Don't use default color palette, use colors defined in the following file:"
+msgstr ""
+"Nutze nicht die Standardfarbpalette, sondern die in untenstehender Datei "
+"angegebene"
+
+#: ../tuxpaint-config2.cxx:1966 ../tuxpaint-config2.cxx:2509
+#: ../tuxpaint-config2.cxx:2594
+msgid "Browse..."
+msgstr "Durchsuchen ..."
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1977
+msgid "Mouse/Keyboard"
+msgstr "Maus/Tastatur"
+
+#: ../tuxpaint-config2.cxx:1985
+msgid "Cursor:"
+msgstr "Mauszeiger:"
+
+#: ../tuxpaint-config2.cxx:1989
+msgid "&Fancy Cursor Shapes"
+msgstr "&Verbesserte Mauszeigerformen"
+
+#: ../tuxpaint-config2.cxx:1994
+msgid ""
+"Change the shape of the mouse pointer depending on where the mouse is and "
+"what you are doing."
+msgstr ""
+"Ändert die Form des Mauszeiges abhängig davon, wo die Maus ist und welche "
+"Aktion ausgeführt wird"
+
+#: ../tuxpaint-config2.cxx:2000
+msgid "&Hide Cursor"
+msgstr "&Mauszeiger verstecken"
+
+#: ../tuxpaint-config2.cxx:2005
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr "Versteckt den Mauszeiger (nützlich für Touchscreen-Geräte)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2014 ../tuxpaint-config2.cxx:2632
+msgid "Keyboard:"
+msgstr "Tastatur:"
+
+#: ../tuxpaint-config2.cxx:2018
+msgid "Enable &Keyboard Shortcuts"
+msgstr "Tastaturkürzel &aktivieren"
+
+#: ../tuxpaint-config2.cxx:2023
+msgid ""
+"Allows key combinations to be used as shortcuts for certain commands. (e.g., "
+"Control+S to Save)"
+msgstr ""
+"Ermöglicht Tastenkombinationen als Kürzel für bestimmte Befehle zu verwenden "
+"(z. B. Strg + S zum Speichern)"
+
+#: ../tuxpaint-config2.cxx:2035 ../tuxpaint-config2.cxx:2617
+msgid "Mouse:"
+msgstr "Maus:"
+
+#: ../tuxpaint-config2.cxx:2039
+msgid "&Grab Mouse Pointer"
+msgstr "&Mauszeiger fangen"
+
+#: ../tuxpaint-config2.cxx:2044
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "Verhindert, dass der Mauszeiger das Tux-Paint-Fenster verlassen kann"
+
+#: ../tuxpaint-config2.cxx:2049
+msgid "Mouse &Wheel Support"
+msgstr "Maus&radunterstützung"
+
+#: ../tuxpaint-config2.cxx:2054
+msgid ""
+"Allows a mouse wheel to be used to scroll through items. (e.g., brushes, "
+"stamps)"
+msgstr ""
+"Erlaubt das Scrollen der Elemente (z.B. Pinsel, Stempel) mit dem Mausrad"
+
+#: ../tuxpaint-config2.cxx:2059
+msgid "No &Button Distinction"
+msgstr "&Keine Unterscheidung der Maustasten"
+
+#: ../tuxpaint-config2.cxx:2063
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr "Auch die mittlere und rechte Maustaste zum Klicken zulassen"
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2076
+msgid "Simplification"
+msgstr "Vereinfachungen"
+
+#: ../tuxpaint-config2.cxx:2084
+msgid "Interface Simplification:"
+msgstr "Vereinfachung der Oberfläche:"
+
+#: ../tuxpaint-config2.cxx:2088
+msgid "Disable Shape &Rotation"
+msgstr "Drehen von &Formen deaktivieren"
+
+#: ../tuxpaint-config2.cxx:2093
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr ""
+"Rotation beim Formenwerkzeug deaktivieren, nützlich für kleinere Kinder"
+
+#: ../tuxpaint-config2.cxx:2098
+msgid "Simple Stamp &Outlines"
+msgstr "&Einfache Kontur der Stempel"
+
+#: ../tuxpaint-config2.cxx:2103
+msgid ""
+"Draw a rectangle around the cursor when placing stamps, rather than a "
+"detailed outline. (For slow computers and thin clients.)"
+msgstr ""
+"Zeichnet beim Platzieren eines Stempels ein Rechteck um den Mauszeiger statt "
+"einer detallierten Skizze (für langsame Computer oder Thin Clients)"
+
+#: ../tuxpaint-config2.cxx:2108
+msgid "Show &Uppercase Text Only"
+msgstr "Text nur in &Großbuchstaben anzeigen"
+
+#: ../tuxpaint-config2.cxx:2113
+msgid ""
+"Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in "
+"UPPERCASE rather than Mixed Case."
+msgstr ""
+"Alle Texte in Tux Paint (Knöpfe, Dialoge etc.) erscheinen in GROßBUCHSTABEN "
+"statt in Groß-/Kleinschreibung"
+
+#: ../tuxpaint-config2.cxx:2122
+msgid "Initial Stamp Size:"
+msgstr "Anfängliche Stempelgröße:"
+
+#: ../tuxpaint-config2.cxx:2139
+msgid "Control Simplification:"
+msgstr "Vereinfachung der Steuerung:"
+
+#: ../tuxpaint-config2.cxx:2143
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "&Beenden-Knopf und [Escape]-Taste deaktivieren"
+
+#: ../tuxpaint-config2.cxx:2148
+msgid ""
+"Clicking the window's close (X) button in the title bar, or pressing "
+"[Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr ""
+"Ein Klick auf den »Fenster schließen«-Knopf (X) in der Titelleiste oder die "
+"Tastenkombinationen [Alt]+[F4] und [Shift]+[Strg]+[Escape] beendeen Tux "
+"Paint trotzdem."
+
+#: ../tuxpaint-config2.cxx:2153
+msgid "Disable '&Stamps' Tool"
+msgstr "»&Stempel«-Werkzeug deaktivieren"
+
+#: ../tuxpaint-config2.cxx:2158
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr "Stempel beim Starten nicht laden; das deaktiviert das Stempelwerkzeug."
+
+#: ../tuxpaint-config2.cxx:2163
+msgid "Disable Stamp &Controls"
+msgstr "»Stempel«-Steuerung &deaktivieren"
+
+#: ../tuxpaint-config2.cxx:2168
+msgid ""
+"Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, "
+"Grow, Mirror and Flip)."
+msgstr ""
+"Vereinfacht das Stempelwerkzeug durch Entfernen der Steuerungsknöpfe "
+"(schrumpfen, vergrößern, spiegeln und drehen)."
+
+#: ../tuxpaint-config2.cxx:2173
+msgid "Disable &Magic Controls"
+msgstr "»&Magie«-Steuerung deaktivieren"
+
+#: ../tuxpaint-config2.cxx:2178
+msgid ""
+"Simplify the 'Magic' tools by removing the buttons to switch between paint "
+"and fullscreen modes."
+msgstr ""
+"Vereinfacht das Magiewerkzeug durch Entfernen der Knöpfe zum Umschalten "
+"zwischen »Malen« und »Vollbildmodus«."
+
+#: ../tuxpaint-config2.cxx:2183
+msgid "Disable '&Label' Tool"
+msgstr "»Etikett«-&Werkzeug deaktivieren"
+
+#: ../tuxpaint-config2.cxx:2188
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr ""
+"Deaktiviert das Etikettwerkzeug (nur das Textwerkzeug bleibt bestehen)."
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2199
+msgid "Languages"
+msgstr "Sprachen"
+
+#: ../tuxpaint-config2.cxx:2205
+msgid "Language:"
+msgstr "Sprache:"
+
+#: ../tuxpaint-config2.cxx:2209
+msgid "Language : "
+msgstr "Sprache: "
+
+#: ../tuxpaint-config2.cxx:2224
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr ""
+"Führt Tux Paint in der ausgewählten Sprache aus (überschreibt die "
+"Systemeinstellungen)"
+
+#: ../tuxpaint-config2.cxx:2229
+msgid "&Mirror Stamps"
+msgstr "&Stempel spiegeln"
+
+#: ../tuxpaint-config2.cxx:2234
+msgid ""
+"Automatically mirror-image all mirror-able stamps. Useful for users who "
+"prefer things appearing right-to-left."
+msgstr ""
+"Spiegelt automatisch alle Stempel, die gespiegelt werden können. Nützlich "
+"für Nutzer, die es bevorzugen, wenn Bilder von rechts nach links auftauchen."
+
+#: ../tuxpaint-config2.cxx:2243
+msgid "Fonts:"
+msgstr "Schriftarten:"
+
+#: ../tuxpaint-config2.cxx:2247
+msgid "Load System &Fonts"
+msgstr "&Lade Systemschriftarten"
+
+#: ../tuxpaint-config2.cxx:2252
+msgid ""
+"Attempt to load more fonts, found elsewhere on your computer. (Note: may "
+"cause instability!)"
+msgstr ""
+"Versucht, alle Schriftarten zu laden, die auf Ihrem Computer gefunden "
+"wurden. (Hinweis: Dies kann zu Abstürzen führen!)"
+
+#: ../tuxpaint-config2.cxx:2257
+msgid "Load All &Locale Fonts"
+msgstr "Lade &alle Locale-Schriftarten"
+
+#: ../tuxpaint-config2.cxx:2262
+msgid ""
+"Load all locale-specific fonts installed in Tux Paint, regardless of the "
+"locale Tux Paint is being run under."
+msgstr ""
+"Lädt alle in Tux Paint installierten Locale-spezifischen Schriftarten "
+"unabhängig davon, unter welcher Locale (Gebietsschema) Tux Paint ausgeführt "
+"wird."
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2273
+msgid "Printing"
+msgstr "Drucken"
+
+#: ../tuxpaint-config2.cxx:2279
+msgid "Print Permissions:"
+msgstr "Druckberechtigungen:"
+
+#: ../tuxpaint-config2.cxx:2283
+msgid "Allow &Printing"
+msgstr "Drucken &erlauben"
+
+#: ../tuxpaint-config2.cxx:2288
+msgid "Let users print from within Tux Paint."
+msgstr "Erlaubt Nutzern, aus Tux Paint heraus zu drucken"
+
+#: ../tuxpaint-config2.cxx:2293
+msgid "Print Delay : "
+msgstr "Druckverzögerung:"
+
+#: ../tuxpaint-config2.cxx:2299
+msgid "seconds"
+msgstr "Sekunden"
+
+#: ../tuxpaint-config2.cxx:2303
+msgid ""
+"Restrict printing to once every N seconds. (Enter '0' to allow unrestricted "
+"printing.)"
+msgstr ""
+"Erlaubt das Drucken nur alle N Sekunden (0 eingeben für keine Beschränkung)"
+
+#: ../tuxpaint-config2.cxx:2311
+msgid "Show Printer Dialog:"
+msgstr "Zeige den Druckdialog:"
+
+#: ../tuxpaint-config2.cxx:2316
+msgid "Only when [Alt] &modifier key is held"
+msgstr "Nur wenn die &Modifikationstaste [Alt] gedrückt wird"
+
+#: ../tuxpaint-config2.cxx:2323
+msgid "Always &show printer dialog"
+msgstr "&Immer den Druckdialog anzeigen"
+
+#: ../tuxpaint-config2.cxx:2330
+msgid "&Never show printer dialog"
+msgstr "&Niemals den Druckdialog anzeigen"
+
+#: ../tuxpaint-config2.cxx:2337
+msgid "(Even when [Alt] is held.)"
+msgstr "(Selbst wenn [Alt] gedrückt wird)"
+
+#: ../tuxpaint-config2.cxx:2351
+msgid "Save printer configuration"
+msgstr "Druckeinstellungen speichern"
+
+#: ../tuxpaint-config2.cxx:2360
+msgid "Print Commands:"
+msgstr "Druckbefehle:"
+
+#: ../tuxpaint-config2.cxx:2364
+msgid "Use &Alternative Print Command"
+msgstr "&Alternativen Druckbefehl verwenden"
+
+#: ../tuxpaint-config2.cxx:2369
+msgid ""
+"Override Tux Paint's default setting for print command ('lpr') with another. "
+"(Advanced! Unix/Linux only!)"
+msgstr ""
+"Überschreiben der Tux-Paint-Standardeinstellung für den Druckbefehl (»lpr«). "
+"(Fortgeschritten! Nur unter Unix / Linux!)"
+
+#: ../tuxpaint-config2.cxx:2379
+msgid ""
+"Enter the command for printing. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Hier den Befehl für das Drucken eingeben. Er muss das PostScript-Format auf "
+"seiner Standardeingabe (STDIN) akzeptieren."
+
+#: ../tuxpaint-config2.cxx:2390
+msgid "Use &Alternative Print Dialog"
+msgstr "Nutze alternativen &Druckdialog"
+
+#: ../tuxpaint-config2.cxx:2395
+msgid ""
+"Override Tux Paint's default setting for print dialog ('kprinter') with "
+"another. (Advanced! Unix/Linux only!)"
+msgstr ""
+"Überschreiben der Tux-Paint-Standardeinstellung für den Druckdialog "
+"(»kprinter«). (Fortgeschritten! Nur unter Unix / Linux!)"
+
+#: ../tuxpaint-config2.cxx:2405
+msgid ""
+"Enter the print dialog command. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Hier den Befehl für den Druckdialog eingeben. Er muss das PostScript-Format "
+"auf seiner Standardeingabe (STDIN) akzeptieren."
+
+#: ../tuxpaint-config2.cxx:2412
+msgid "Paper Size : "
+msgstr "Papiergröße:"
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2433
+msgid "Saving"
+msgstr "Speichern"
+
+#: ../tuxpaint-config2.cxx:2440
+msgid "Save Over Earlier Work:"
+msgstr "Frühere Arbeit überschreiben:"
+
+#: ../tuxpaint-config2.cxx:2444
+msgid "&Ask Before Overwriting"
+msgstr "&Vor dem Überschreiben nachfragen"
+
+#: ../tuxpaint-config2.cxx:2449
+msgid ""
+"When re-saving an image, ask whether to overwrite the earlier version, or "
+"make a new file."
+msgstr ""
+"Beim erneuten Speichern eines Bildes fragen, ob die vorherige Version "
+"überschrieben oder eine neue Datei angelegt werden soll."
+
+#: ../tuxpaint-config2.cxx:2454
+msgid "Always &Overwrite Older Version"
+msgstr "&Immer ältere Version überschreiben"
+
+#: ../tuxpaint-config2.cxx:2459
+msgid ""
+"When re-saving an image, always overwrite the earlier version. (Warning: "
+"Potential for lost work!)"
+msgstr ""
+"Beim erneuten Speichern eines Bildes immer die vorherige Version "
+"überschreiben. (Warnung: Änderungen können verloren gehen!)"
+
+#: ../tuxpaint-config2.cxx:2464
+msgid "Always Save &New Picture"
+msgstr "Immer als &neues Bild speichern"
+
+#: ../tuxpaint-config2.cxx:2469
+msgid ""
+"When re-saving an image, always make a new file. (Warning: Potential for "
+"lots of files!)"
+msgstr ""
+"Beim erneuten Speichern eines Bildes immer eine neue Datei anlegen. "
+"(Warnung: Es können sehr viele Dateien entstehen!)"
+
+#: ../tuxpaint-config2.cxx:2476
+msgid "Start Blank:"
+msgstr "Leer starten:"
+
+#: ../tuxpaint-config2.cxx:2481
+msgid "Start with &Blank Canvas"
+msgstr "&Starten mit einer weißen Leinwand"
+
+#: ../tuxpaint-config2.cxx:2490
+msgid "Save Directory:"
+msgstr "Speicherordner: "
+
+#: ../tuxpaint-config2.cxx:2494
+msgid "Use &Alternative Save Directory"
+msgstr "&Alternativen Speicherordner verwenden"
+
+#: ../tuxpaint-config2.cxx:2499
+msgid ""
+"Do not save pictures in the standard directory, use the following location:"
+msgstr ""
+"Bilder nicht in dem Standardordner speichern. Folgenden Ordner verwenden:"
+
+#: ../tuxpaint-config2.cxx:2504
+msgid "Alternative Save Directory:"
+msgstr "Alternativer Speicherordner: "
+
+#: ../tuxpaint-config2.cxx:2516
+msgid "More Saving Options:"
+msgstr "Mehr Speicheroptionen: "
+
+#: ../tuxpaint-config2.cxx:2521
+msgid "Disable '&Save' Button"
+msgstr "»Speichern«-Knopf &deaktivieren"
+
+#: ../tuxpaint-config2.cxx:2526
+msgid ""
+"Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch "
+"paper.'"
+msgstr ""
+"Das Speichern von Bildern nicht erlauben. Tux Paint fungiert als temporäre "
+"»Zeichentafel«."
+
+#: ../tuxpaint-config2.cxx:2532
+msgid "&Auto-save on Quit"
+msgstr "Automatisch beim &Verlassen speichern"
+
+#: ../tuxpaint-config2.cxx:2537
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr ""
+"Beim Beenden nicht fragen, ob das aktuelle Bild gespeichert werden soll, "
+"dass Bild einfach speichern."
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2549
+msgid "Data"
+msgstr "Daten"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2557
+msgid "Lockfile:"
+msgstr "Sperrdatei:"
+
+#: ../tuxpaint-config2.cxx:2561
+msgid "&Don't use lockfile"
+msgstr "&Keine Sperrdatei verwenden"
+
+#: ../tuxpaint-config2.cxx:2565
+msgid ""
+"Do not check for a lockfile. Allow Tux Paint to be launched multiple times. "
+"(May be necessary in a networked environment.)"
+msgstr ""
+"Nicht überprüfen, ob eine Sperrdatei existiert. Erlaubt das mehrfache "
+"Starten von Tux Paint (unter Umständen in Netzwerkumgebungen nötig)."
+
+#: ../tuxpaint-config2.cxx:2575
+msgid "Data Directory:"
+msgstr "Datenordner: "
+
+#: ../tuxpaint-config2.cxx:2579
+msgid "Use &Alternative Data Directory"
+msgstr "&Alternativen Datenordner nutzen"
+
+#: ../tuxpaint-config2.cxx:2584
+msgid ""
+"Do not load brushes, stamps, etc. from the standard directory, use the "
+"following location:"
+msgstr ""
+"Pinsel, Stempel etc. nicht aus dem Standardordner laden. Folgenden "
+"Speicherort nutzen:"
+
+#: ../tuxpaint-config2.cxx:2589
+msgid "Alternative Data Directory:"
+msgstr "Alternativer Datenordner:"
+
+#: ../tuxpaint-config2.cxx:2611
+msgid "Accessibility"
+msgstr "Barrierefreiheit"
+
+#: ../tuxpaint-config2.cxx:2621
+msgid "Sticky mouse clicks"
+msgstr "Klebrige Mausklicks"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2625
+msgid ""
+"Useful for users who have difficulty clicking and dragging. When enabled, "
+"click and release to start painting, move to paint, and click and release "
+"again to stop. It can also be combined with joystick- and keyboard-based "
+"pointer controls."
+msgstr ""
+"Nützlich für Benutzer, die Probleme beim Klicken und Ziehen haben. Falls "
+"aktiviert, klicken und wieder loslassen, um mit dem Zeichnen zu beginnen, "
+"bewegen der Maus zum Zeichnen, dann wieder klicken und loslassen, um das "
+"Zeichnen zu beenden. Dies kann auch mit Joystick- und Tastatur-basierter "
+"Zeigersteuerung kombiniert werden."
+
+#: ../tuxpaint-config2.cxx:2636
+msgid "Keyboard controls the mouse pointer"
+msgstr "Tastatursteuerung für den Mauszeiger"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2640
+msgid ""
+"When enabled, the arrow keys or numbers can be used to move the mouse "
+"pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text"
+"\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 "
+"cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing "
+"canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 "
+"move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr ""
+"Falls aktiviert, können die Pfeiltasten oder Zahlen genutzt werden, um den "
+"Mauszeiger zu bewegen. Die Zahl [5], [Leertaste], [Einfügen] oder [F5] "
+"können verwendet werden, um zu klicken. (Im »Text«- oder »Etikett«-Werkzeug "
+"können die Zahlen und die Leertaste nicht verwendet werden.) Außerdem "
+"schaltet [F4] den Zeiger zwischen »Werkzeug«, »Farbpalette« und Leinwand um; "
+"[F8] und [F7] bewegen innerhalb der »Werkzeuge« aufwärts/abwärts; [F11] und "
+"[F12] bewegen innerhalb der »Werkzeuge« und »Farbpalette« nach "
+"links/rechts. "
+
+#: ../tuxpaint-config2.cxx:2648
+msgid "Onscreen keyboard:"
+msgstr "Bildschirmtastatur"
+
+#: ../tuxpaint-config2.cxx:2652
+msgid "Show a keyboard on the screen"
+msgstr "Eine Tastatur auf dem Bildschirm anzeigen"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2656
+msgid ""
+"Display a keyboard on the screen when the \"Text\" and \"Label\" tools are "
+"enabled, so you can 'type' with the mouse pointer."
+msgstr ""
+"Eine Tastatur anzeigen, wenn das »Text«- oder »Etikett«-Werkzeug aktiviert "
+"ist, so dass man mit dem Mauszeiger »tippen« kann."
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2661
+msgid "Layout"
+msgstr "Tastenbelegung"
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2673
+msgid "How are keys organized in the keyboard"
+msgstr "Wie die Tasten auf der Tastatur angeordnet sind"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2678
+msgid "Disable layout changes"
+msgstr "Änderungen der Belegung deaktivieren"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2683
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr "Knöpfe zum Ändern der Tastaturbelegung deaktivieren"
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2701
+msgid "Joystick"
+msgstr "Joystick"
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2712
+msgid "Main device:"
+msgstr "Haupt-Gerät:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2722
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr "Zu verwendende Gerätenummer (SDL beginnt die Nummerierung bei 0)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2733
+msgid ""
+"Joystick slowness. Increase this value for people with slow reactions. "
+"(0-500; default value is 15)"
+msgstr ""
+"Joystick-Geschwindigkeit bremsen. Erhöhe diesen Wert für Leute mit langsamer "
+"Reaktion (0-500; Standardwert ist 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2745
+msgid ""
+"SDL events under threshold will be discarded, useful to discard accidental "
+"unwanted movements. (0-32766; default value is 3200)"
+msgstr ""
+"SDL-Ereignisse unterhalb des Schwellwerts werden verworfen; nützlich um "
+"versehentliche unbeabsichtigte Bewegungen zu unterdrücken. (0-32766; "
+"Standardwert ist 3200)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2755
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr ""
+"Geschwindigkeit während der Bewegung begrenzen (1-7; Standardwert ist "
+"7)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2762
+msgid "Hat:"
+msgstr "Hut-Knopf:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2771
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr ""
+"Geschwindigkeit des Hut-Knopfes bremsen. (0-500; Standardwert ist 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2783
+msgid ""
+"Hat timeout, the number of milliseconds to wait before starting to move "
+"continuously. (0-3000; default value is 1000)"
+msgstr ""
+"Hut-Zeitüberschreitung: Anzahl an Millisekunden, die gewartet wird, "
+"bevor eine kontinuierliche Bewegung gestartet wird. (0-3000; Standardwert "
+"ist 1000)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2794
+msgid "Buttons to disable:"
+msgstr "Zu deaktivierende Knöpfe:"
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2810
+msgid ""
+"If for any reason one or more buttons of the joystick are posing problems, "
+"you can disable them here using a comma separated list of button numbers. (e."
+"g. 2,3,5)"
+msgstr ""
+"Falls aus irgendeinem Grund ein oder mehrere Knöpfe des Joysticks Probleme "
+"bereiten, kannst du sie hier über eine durch Kommas getrennte Liste "
+"deaktivieren (z.B. 2,3,5)."
+
+#: ../tuxpaint-config2.cxx:2819
+msgid "Button shortcuts:"
+msgstr "Kurzbefehle der Knöpfe:"
+
+#: ../tuxpaint-config2.cxx:2823
+msgid ""
+"Here you can configure shortcuts for the different buttons of the joystick. "
+"(Beware to not assign a shortcut to the button used to draw.)"
+msgstr ""
+"Hier kannst du Kurzbefehle für die verschiedenen Joystick-Knöpfe festlegen. "
+"(Achte darauf, dass du keinen Kurzbefehl für den Knopf definierst, mit dem "
+"du zeichnest.)"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2828
+msgid "Button number for the Escape key."
+msgstr "Nummer des Knopfes für die [Escape]-Taste"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2836
+msgid "Button number for the Brush tool."
+msgstr "Nummer des Knopfes für das Pinselwerkzeug"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2844
+msgid "Button number for the Stamps tool."
+msgstr "Nummer des Knopfes für das Stempelwerkzeug"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2852
+msgid "Button number for the Lines tool."
+msgstr "Nummer des Knopfes für das Linienwerkzeug"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2860
+msgid "Button number for the Shapes tool."
+msgstr "Nummer des Knopfes für das Schattenwerkzeug"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2868
+msgid "Button number for the Text tool."
+msgstr "Nummer des Knopfes für das Textwerkzeug"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2876
+msgid "Button number for the Label tool."
+msgstr "Nummer des Knopfes für das Etikettwerkzeug"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2884
+msgid "Button number for the Magic tool."
+msgstr "Nummer des Knopfes für das Magiewerkzeug"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2892
+msgid "Button number for Undo."
+msgstr "Nummer des Knopfes für Rückgängig"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2900
+msgid "Button number for Redo."
+msgstr "Nummer des Knopfes für Änderung wiederholen"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2908
+msgid "Button number for the Eraser tool."
+msgstr "Nummer des Knopfes für den Radierer"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2916
+msgid "Button number for the New tool."
+msgstr "Nummer des Knopfes für Neu"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2924
+msgid "Button number for the Open tool."
+msgstr "Nummer des Knopfes für Öffnen"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2932
+msgid "Button number for saving."
+msgstr "Nummer des Knopfes für Speichern"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2940
+msgid "Button number for Page Setup."
+msgstr "Nummer des Knopfes für Seiteneinrichtung"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2948
+msgid "Button number for printing."
+msgstr "Nummer des Knopfes für Drucken"
+
+#: ../tuxpaint-config2.cxx:2970
+msgid "Settings for : "
+msgstr "Einstellungen für:"
+
+#: ../tuxpaint-config2.cxx:2974
+msgid "Current User"
+msgstr "Aktueller Benutzer"
+
+#: ../tuxpaint-config2.cxx:2975
+msgid "All Users"
+msgstr "Alle Nutzer"
+
+#: ../tuxpaint-config2.cxx:2981
+msgid "Use \"All Users\" Settings"
+msgstr "»Alle Nutzer«-Einstellungen verwenden"
+
+#: ../tuxpaint-config2.cxx:2985
+msgid "Apply"
+msgstr "Übernehmen"
+
+#: ../tuxpaint-config2.cxx:2993
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: ../tuxpaint-config2.cxx:3000
+msgid "Defaults"
+msgstr "Standardwerte"
+
+#: ../tuxpaint-config2.cxx:3007
+msgid "Quit"
+msgstr "Ende"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "Tux Paint Config."
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "Einstellungen für Tux Paint setzen"

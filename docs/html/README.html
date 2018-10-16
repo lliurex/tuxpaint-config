@@ -1,0 +1,470 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Tux Paint Config. README</title>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#FF0000"
+alink="#FF00FF">
+
+<center>
+<h1>Tux Paint Config.<br>
+
+version
+
+0.0.12
+
+</h1>
+<h3>Configuration tool for Tux Paint</h3>
+
+<p>Copyright 2002-2008 by Bill Kendrick and others<br>
+New Breed Software</p>
+
+<p><a href="mailto:bill@newbreedsoftware.com">bill@newbreedsoftware.com</a><br>
+<a href="http://www.tuxpaint.org/">http://www.tuxpaint.org/</a></p>
+
+<p>September 22, 2004 - July 14, 2008</p>
+</center>
+
+<hr size=2 noshade>
+
+<h1>About</h1>
+<blockquote>
+  <p>"Tux&nbsp;Paint&nbsp;Config." is a graphical configuration tool for
+  "Tux&nbsp;Paint."  It provides a point-and-click interface that allows
+  parents and teachers to alter Tux&nbsp;Paint's behavior -- disable sound
+  effects, run in full-screen mode, etc. &mdash; without needing to manipulate
+  a text-based configuration file.</p>
+</blockquote>
+
+<hr size=2 noshade>
+
+<h1>License</h1>
+<blockquote>
+  <p>Tux&nbsp;Paint&nbsp;Config. is an Open&nbsp;Source project,
+  Free&nbsp;Software released under the GNU General Public License (GPL).
+  It is free, and the 'source&nbsp;code' behind the program is available.
+  (This allows others to add features, fix bugs, and use parts of the
+  program in their own GPL'd software.)</p>
+
+  <p>See <a href="../COPYING.txt">COPYING.txt</a> for the full text of
+  the GPL license.</p>
+</blockquote>
+
+<hr size=2 noshade>
+
+<h1>Other Documentation</h1>
+<blockquote>
+  Other documentation included with Tux&nbsp;Paint&nbsp;Config.
+  (in the "<code>docs</code>" folder/directory) include:
+
+  <ul>
+  <li><a href="../AUTHORS.txt">AUTHORS</a><br>
+    List of authors and contributors
+
+  <li><a href="../CHANGES.txt">CHANGES</a><br>
+    Summary of changed between releases
+
+  <li><a href="../INSTALL.txt">INSTALL</a><br>
+    Instructions on how to compile and install
+
+  <li><a href="../COPYING.txt">COPYING</a><br>
+    Copying license (The GPL)
+
+  <li>README<br>
+    (This file)
+
+  <li><a href="../TODO.txt">TODO</a><br>
+    A list of pending features or bugs needing fixed
+  </ul>
+</blockquote>
+
+<hr size=2 noshade>
+
+<h1>Using Tux Paint Config.</h1>
+
+<blockquote>
+  <p>Tux&nbsp;Paint&nbsp;Config.'s interface is divided into seven (7) tabs,
+  each containing a different category of options that you can change in
+  Tux&nbsp;Paint.  (For full details on Tux&nbsp;Paint's options, we
+  recommend reading Tux&nbsp;Paint's own documentation.)</p>
+
+  <p>At the bottom of the screen are three buttons:</p>
+
+  <ul>
+  <li><b>Defaults</b> - This sets the options shown on the current tab to
+    their default settings.  (In other words, how Tux&nbsp;Paint would operate
+    if you didn't make any changes to the options.)</li>
+
+  <li><b>Apply</b> - This saves settings of all the options, on all the
+    tabs, to your Tux&nbsp;Paint configuration file.  (On Linux and Unix,
+    this is "<code>~/.tuxpaintrc</code>".  On Windows, this is
+    "<code>tuxpaint.cfg</code>".  On Mac OS X, it is "<code>
+    ~/Library/Application Support/TuxPaint/tuxpaint.cfg</code>".)</li>
+
+  <li><b>Reset</b> - This discards all unsaved changes on all the tabs.
+    It loads whatever settings are currently stored in your Tux&nbsp;Paint
+    configuration file.</li>
+  </ul>
+
+  <p>Also at the bottom are two additional options:</p>
+
+  <ul>
+  <li><b>Settings for:</b> - This lets you change which configuration file
+  Tux&nbsp;Paitn&nbsp;Config. tries to save to when you click "Apply":
+  either the <b>Current&nbsp;User</b>'s, or
+  <b>All&nbsp;Users</b>' (the system-wide config. file).</li>
+
+  <li><b>Use "All Users" Settings</b> - Checking this option causes all
+  configuration options in Tux&nbsp;Paint&nbsp;Config. to be greyed out.
+  When you click "Apply", the current user's config. file will be deleted,
+  causing them to use <i>only</i> the system-wide ("All&nbsp;users")
+  config. file!</li>
+  </ul>
+
+  <p>The various tabs, and the options found within, are described below:</p>
+
+  <h2>About</h2>
+  <blockquote>
+    <p>This tab simply contains some information about
+    Tux&nbsp;Paint&nbsp;Config.</p>
+  </blockquote>
+
+  <h2>Video &amp; Sound</h2>
+  <blockquote>
+    <ul>
+    <li><b>Fullscreen</b> - This causes Tux&nbsp;Paint to (attempt to) run
+      in fullscreen mode, rather than in a window on your desktop.  It causes
+      Tux&nbsp;Paint to display across your entire screen (or as much as it
+      can, with a border around the outside), in essense turning your monitor
+      into a Tux&nbsp;Paint-only display.
+
+      <ul>
+      <li><b>Native</b> - This causes Tux&nbsp;Paint to run using your
+        current desktop resolution when you run in fullscreen mode.
+        Example: If you have Tux&nbsp;Paint set to run in a 800x600 window
+        on your 1280x800 laptop, but you have this option enabled, it
+        will run at 1280x800 when you launch Tux&nbsp;Paint in fullscreen
+        mode (rather than dropping your laptop's LCD display down to 800x600,
+        which might not look right).</li>
+      </ul>
+
+    <li><b>Window Size</b> - By default, Tux&nbsp;Paint creates
+      a relatively small window (800&nbsp;pixels across by 600&nbsp;pixels
+      high).  Since many people prefer a larger drawing canvas, or have
+      screens at different aspect ratios or larger sizes, Tux&nbsp;Paint
+      can be told to create a larger window, instead.  If running in
+      fullscreen, this also determines the monitor resolution Tux&nbsp;Paint
+      will try to switch into, unless the "Native" option is set.</li>
+
+    <li><b>Rotate Orientation</b> - This option swaps the width and height
+      values given in the "Window&nbsp;Size" setting, which can be useful
+      for displays with portrait aspect ratios (e.g., a tablet PC in the
+      tablet orientation, vs. the laptop orientation).</li>
+
+    <li><b>Allow Screensaver</b> - By default, the underlying system that
+      Tux&nbsp;Paint uses for graphics disables your screensaver.  You can
+      set this option to allow your screensaver to appear, even while
+      Tux&nbsp;Paint is running.</li>
+
+    <li><b>Enable Sound Effects</b> - By default, Tux&nbsp;Paint plays
+      sounds for practically every action that takes place... drawing with
+      the brush, displaying a pop-up dialog, painting a rainbow.  By
+      un-checking this option, you can turn sounds off.</li>
+
+    <li><b>Use Alternative Color Palette</b> - This allows you to specify
+      a file containing colors that Tux&nbsp;Paint should provide to the
+      user.  (See Tux&nbsp;Paint's documentation for details on the
+      format.)</li>
+    </ul>
+  </blockquote>
+
+  <h2>Mouse &amp; Keyboard</h2>
+  <blockquote>
+    <ul>
+    <li><b>Fancy Cursor Shapes</b> - Normally, Tux&nbsp;Paint changes the
+      shape of your mouse pointer when the mouse is inside the Tux&nbsp;Paint
+      window.  It turns into a large brush when painting, and a cross-hair
+      when drawing lines, for example.  However, the large brushes can cause
+      problems on some systems, so you can disable this option if the brushes
+      don't work right for you.</li>
+
+    <li><b>Hide Cursor</b> - Completely hides the mouse pointer in
+      Tux&nbsp;Paint.  Useful when using a touchscreen (such as a tablet PC
+      or handheld device), rather than a mouse or drawing tablet.</li>
+
+    <li><b>Enable Keyboard Shortcuts</b> - Tux&nbsp;Paint supports some
+      keyboard shortcuts ('accelerators'), like Control&nbsp;+&nbsp;S to Save
+      and Control&nbsp;+&nbsp;Z to Undo.  If your child hits the keyboard
+      accidentally, you can disable these shortcuts to prevent them from being
+      used accidentally.</li>
+
+    <li><b>Grab Mouse Pointer</b> - If you'd rather not run Tux&nbsp;Paint
+      in fullscreen mode, but you want to keep children from getting at your
+      desktop files or other applications, you can have Tux&nbsp;Paint 'grab'
+      the mouse pointer, which prevents it from leaving the Tux&nbsp;Paint
+      window.</li>
+
+    <li><b>Mouse Wheel Support</b> - If your mouse has a scroll wheel,
+      Tux&nbsp;Paint will let you use it to scroll up and down through the
+      selection menu on the right (e.g., the brush or stamp collections).
+      However, if your child still lacks dexterity with the mouse, they may
+      hit the scroll wheel accidentally, and get frustrated.  You can tell
+      Tux&nbsp;Paint to ignore the mouse wheel, if that is the case.</li>
+
+    <li><b>No Button Distinction</b> - Tux Paint notices if the user is
+      accidentally clicking with the middle or right button on a mouse,
+      and after a number of clicks, pops up a window explaining which
+      button should be used.  If this option is enabled, the pop-up does
+      not appear, and the middle and right mouse button can be used
+      (they act the same as the left button).</li>
+    </ul>
+  </blockquote>
+
+  <h2>Simplification</h2>
+  <blockquote>
+    <p>If your child is very young, or is handicapped, the 'Simplification'
+    options can help make Tux&nbsp;Paint even easier to use.</p>
+
+    <ul>
+    <li><b>Disable Shape Rotation</b> - Tux&nbsp;Paint's 'Shape' tool works
+      in three steps: (1)&nbsp;click where you want the center of your shape
+      to be, (2)&nbsp;drag out from the center to determine the size of the
+      shape, and (3)&nbsp;move the mouse to rotate the shape, and click once
+      more to finalize it.  The third step (rotation) can be tricky to get
+      the hang of, and very young children are more interested in the shapes
+      themselves, not the angles they can be drawn at.  Hence, you can
+      disable shape rotation by selecting this option.</li>
+
+    <li><b>Simple Stamp Outlines</b> - If your computer is very slow, or
+      you're using Tux&nbsp;Paint on a thin client (displaying over a network),
+      you can simplify the outlines drawn around stamps to help speed up the
+      display.</li>
+
+    <li><b>Show Uppercase Text Only</b> - If your child is just learning to
+      read, and hasn't yet mastered the lowercase alphabet, you can tell
+      Tux&nbsp;Paint to display everything in uppercase. (LIKE THIS.)</li>
+
+    <li><b>Disable Quit Button</b> - This greys out the 'Quit' button in
+      Tux&nbsp;Paint.  The Escape key and the close button in the window's
+      toolbar still work (though the latter can be made inaccessible by
+      running Tux&nbsp;Paint in fullscreen mode, or in mouse-grab mode.)</li>
+
+    <li><b>Disable Stamps Tool</b> - This prevents Tux&nbsp;Paint from loading
+      any stamps at start-up, this speeding up the load process and, of course,
+      causing the 'Stamps' tool button to be greyed out.</li>
+
+    <li><b>Disable Stamp Controls</b> - Tux&nbsp;Paint allows stamps to be
+      shrunk and grown, and many stamps can be flipped and/or mirrored.
+      These options add four buttons to the Stamp tool's selector, however,
+      which can confuse the younger users.  Disable those controls with this
+      option.</li>
+
+    <li><b>Disable Magic Controls</b> - Some of Tux&nbsp;Paint's Magic tools
+      work as a painting tool, some apply their effect to the entire canvas,
+      and some can do both.  This option removes the button that selects
+      which mode Magic tools run in.  (If this option is set, tools will
+      default to painting mode, unless they do not support it.)</li>
+
+    <li><b>Initial Stamp Size</b> - This lets you set a default size for
+      all Stamps in Tux&nbsp;Paint. Normally, it picks a size based on the
+      stamp's size, your canvas size, and/or settings provided specifically
+      for the stamp.</li>
+    </ul>
+  </blockquote>
+
+  <h2>Languages</h2>
+  <blockquote>
+    <ul>
+    <li><b>Language</b> - Tux&nbsp;Paint has been translated into dozens of
+      languages.  While it can use your system's global language preference,
+      you may prefer to run your desktop in one language, and have your
+      children use Tux&nbsp;Paint in another.  Select the language you want
+      Tux&nbsp;Paint to run in from the pull-down menu.  (Select "Use system's
+      setting" to use your system's global language preference.)</li>
+
+    <li><b>Mirror Stamps</b> - Some people are used to things going
+      right-to-left, rather than left-to-right.  (Hebrew is written
+      right-to-left, for example.)  Most stamps are oriented left-to-right,
+      and many can be mirrored using the 'Mirror' stamp control.  You can
+      tell Tux&nbsp;Paint to mirror <i>all</i> such stamps, by default,
+      when it starts up.</li>
+
+    <li><b>Load System Fonts</b> - This causes Tux&nbsp;Paint to look
+      around typical locations on your hard drive for fonts, and adds ones
+      that seem useful to the fonts available in the "Text" tool.</li>
+    </ul>
+  </blockquote>
+
+  <h2>Printing</h2>
+  <blockquote>
+    <ul>
+    <li><b>Allow Printing</b> - If you wish to disable the 'Print' button
+      in Tux&nbsp;Paint, un-check this option.</li>
+
+    <li><b>Print Delay</b> - If you wish to allow printing in Tux&nbsp;Paint,
+      but limit it to, say, only once every 5 minutes, you can enter a delay
+      value (in seconds).  After printing, Tux&nbsp;Paint will wait that
+      long before the 'Print' button works again.</li>
+
+    <li><b>Show Printer Dialog</b> - Tux Paint can bring up a system
+      printer dialog if the [Alt] key ([Option] on Macs) is held while the
+      "Print" button is clicked.  These options allow you to disable this
+      feature (never show a dialog), or to <i>always</i> show a dialog,
+      even when [Alt] isn't being held.</li>
+
+    <li><b>Use Alternative Print Command / Alternative Print Command</b> -
+      <i>(Advanced! Unix/Linux only!)</i> By default, Tux&nbsp;Paint under
+      Linux and Unix uses the external program '<code>lpr</code>' for printing
+      pictures.  You can specify a different command here.
+      The command you specify must accept PostScript format
+      on it's standard input (STDIN).</li>
+
+    <li><b>Use Alternative Print Dialog</b> -
+      <i>(Advanced! Unix/Linux only!)</i> By default, Tux&nbsp;Paint under
+      Linux and Unix uses the extnernal program '<code>kprinter</code>'
+      (KDE, the K&nbsp;Desktop&nbsp;Environment's printer tool).
+      You can specify a different command here.
+      The command you specify must accept PostScript format
+      on it's standard input (STDIN).</li>
+
+    <li><b>Paper Size</b> - This lets you choose the size of paper that
+      you're using with Tux&nbsp;Paint.  You can use your system's default,
+      or override it with a specific paper size (e.g., "A4" or
+      "US&nbsp;Letter").</li>
+    </ul>
+  </blockquote>
+
+  <h2>Saving</h2>
+  <blockquote>
+     <h3>Save Over Earlier Work</h3>
+     <blockquote>
+       <p>Tux&nbsp;Paint has one 'Save' command, which works with one click.
+       If you're done drawing a picture, click 'Save' and it is saved, no
+       questions asked!</p>
+
+       <p><i>However</i>, if you're re-saving a picture that you loaded using
+       the 'Open' command, Tux&nbsp;Paint needs to know whether you want to
+       save over the original, or save a new image.  (In most other programs,
+       this would be 'Save' versus 'Save&nbsp;As...', respectively.)</p>
+
+       <p>By default, Tux&nbsp;Paint will pop up a prompt asking whether to
+       'save over the older version of [the] picture.'  Choosing 'Yes' will
+       wipe out the old version, replacing it with the updated drawing.
+       Choosing 'No' will preserve the old version, and save a completely new
+       file.</p>
+
+       <p>To simplify the 'Save' process by never asking the 'save&nbsp;over?'
+       question, you can tell Tux&nbsp;Paint what to do ahead of time:</p>
+
+       <ul>
+       <li><b>Ask Before Overwriting</b> - This is the default behavior,
+         described above.  (Ask whether to save over, or not.)</li>
+
+       <li><b>Always Overwrite Older Version</b> - This will always
+         wipe out the old version, replacing it with any updates to the
+         drawing.  (It's like 'Save' in other desktop applications.)</li>
+
+       <li><b>Always Save New Picture</b> - This will never wipe out older
+         work, this preserving every single change that's ever been saved.
+         (It's like always using 'Save&nbsp;As...' in other desktop
+         applications.)  <u>Warning:</u> Using this option obviously
+         creates the potential for <i>many</i> files being stored in
+         Tux&nbsp;Paint!  You may want to go in and manually remove
+         files for your child.  (Tux&nbsp;Paint's 'Open' dialog uses
+         thumbnails to show the saved pictures, and includes an 'Erase'
+         button, so you can do this from within Tux&nbsp;Paint.)</li>
+       </ul>
+     </blockquote>
+
+     <h3>Start Blank</h3>
+     <blockquote>
+       <p>This option tells Tux&nbsp;Paint to always start with a blank
+       (white) drawing canvas, rather than re-loading the last-saved picture
+       (its default behavior).</p>
+     </blockquote>
+
+     <h3>Save Directory</h3>
+     <blockquote>
+       <p>Since Tux&nbsp;Paint never asks where to save pictures (or what
+       filename to use when creating the files), it keeps all of its pictures
+       in its own special directory.</p>
+
+       <p>If you wish to change where Tux&nbsp;Paint saves pictures
+       (and, of course, where it looks for them when the 'Open' command is
+       used), you can do so here.</p>
+
+       <p>This can be useful in a school lab where all of the computers are
+       shared by students, and students must log into a special network
+       drive to save their files.  You can tell Tux&nbsp;Paint to save on the
+       mapped network drive, rather than on the local hard drive.</p>
+
+       <p>See Tux&nbsp;Paint's own documentation for more on the subject.</p>
+     </blockquote>
+
+     <h3>Disable 'Save' Button</h3>
+     <blockquote>
+       <p>If you wish for Tux&nbsp;Paint to be used only as a 'scratch&nbsp;pad'
+       for drawing, you may disable the 'Save' button.  Obviously, this
+       makes it impossible to save any drawings, so most people will have no
+       use for this option.</p>
+     </blockquote>
+
+     <h3>Auto-save on Quit</h3>
+     <blockquote>
+       <p>This tells Tux&nbsp;Paint not to ask whether you wish to save
+       the current picture (if unsaved) when you quit.  It will assume
+       you always do.  (If it needs to ask about saving over an old copy,
+       it will still do so.)</p>
+     </blockquote>
+
+  </blockquote>
+  
+  <h2>Data</h2>
+  <blockquote>
+    <ul>
+    <li><b>Don't use lockfile</b> - Normally, when Tux&nbsp;Paint is launched
+      it creates a small data file called a 'lockfile.'  If this file exists,
+      and Tux&nbsp;Paint is launched again, the second copy will quit
+      immediately.  This was done to prevent multiple copies of Tux&nbsp;Paint
+      from loading when children over-eagerly and/or impatiently click the
+      launcher icon.  However, if you're using Tux&nbsp;Paint on a networked
+      filesystem, and all users share the same folder, this may prevent more
+      than one computer from running Tux&nbsp;Paint.  Enable this setting
+      to ask Tux&nbsp;Paint to not use lockfiles, and ignore any that may
+      be there.</li>
+
+    <li><b>Use Alternative Data Directory</b> - Similar to
+      "Use Alternative Save Directory," above, this option lets you
+      specify a different location for Tux&nbsp;Paint to look for its
+      data files: brushes, stamps, etc.  (This can be good if you have
+      school-specific data for Tux&nbsp;Paint stored on a network drive
+      that you'd like all your students to use, rather than Tux&nbsp;Paint's
+      default data files, located on the local hard disk.)</li>
+    </ul>
+  </blockquote>
+</blockquote>
+
+<hr size=2 noshade>
+
+<h1>More Information</h1>
+<blockquote>
+  <p>For more information, see the other documentation files that come
+  with Tux&nbsp;Paint.</p>
+
+  <p>If you need help, feel free to contact New Breed Software:</p>
+
+  <blockquote>
+    <a href="http://www.newbreedsoftware.com/">http://www.newbreedsoftware.com/</a>
+  </blockquote>
+
+  <p>You may also wish to participate in the numerous Tux&nbsp;Paint mailing
+  lists:</p>
+
+  <blockquote>
+    <a href="http://www.tuxpaint.org/lists/">http://www.tuxpaint.org/lists/</a>
+  </blockquote>
+
+</blockquote>
+
+</body></html>
+

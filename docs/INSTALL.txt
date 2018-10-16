@@ -1,0 +1,49 @@
+INSTALL.txt for Tux Paint Configuration Tool
+
+Tux Paint Configuration Tool - A GUI-based configurator for
+                               Tux Paint, a simple drawing program for children.
+
+Copyright (c) 2002-2007
+http://www.tuxpaint.org/
+
+February 26, 2005 - January 21, 2007
+
+
+Windows
+-------
+  Compiling
+  ---------
+    Tux Paint Config. comes pre-compiled for Windows, so no compilation
+    is necessary.
+    
+    As of February 2005 (starting with Tux Paint Config v.0.0.6), the Makefile
+    included support for building on a Windows system using MinGW/MSYS.
+
+    After building and installing all the dependencies, use these commands,
+    in MSYS, to build, install and run:
+
+      export set CPATH=/usr/local/include
+      export set LIBRARY_PATH=/usr/local/bin:/usr/local/lib
+      make win32
+      make install-win32
+      tuxpaint-config
+
+  Installing
+  ----------
+    [To be written]
+
+
+Linux / Unix
+------------
+  Compiling
+  ---------
+    Simply run "make" to compile Tux Paint Config.
+
+    [Makefile options should be described here]
+
+  Installing
+  ----------
+    Simply run "make install" (as 'root' superuser, if you're installing
+    it system-wide, which is the default) to install it.
+
+

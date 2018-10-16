@@ -1,0 +1,980 @@
+# Translation tuxpaint-config Latvian.
+# Copyright (C) 2014 the tuxpaint team.
+# This file is distributed under the same license as the tuxpaint-config package.
+# Raivis Strogonovs <raivucis@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tuxpaint-config\n"
+"Report-Msgid-Bugs-To: tuxpaint-i18n@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-07-19 21:57+0200\n"
+"PO-Revision-Date: 2014-07-28 09:43-0000\n"
+"Last-Translator: Raivis Strogonovs <raivucis@gmail.com>\n"
+"Language-Team: none\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen "
+"mode, the interface's language, or options to simplify Tux Paint for younger "
+"children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your "
+"computer by making a selection in the 'Settings for' pull-down menu at the "
+"bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change "
+"the options you'd like to change, and click the 'Apply' button at the bottom "
+"to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"Laipni aicināti Tux Paint grafiskajā uzstādījumu programmā, kuru radījuši "
+"Torsten Giebl, Jan Wynholds, Bill Kendrick un Martin Fuhrer.\n"
+"\n"
+"Šis rīks atļauj mainīt Tux Paint uzstādījumus, piemēram, pilnekrāna režīms, "
+"saskarsnes valoda, vai citas lietas, lai vienkāršotu Tux Paint bērniem.\n"
+"\n"
+"Šie uzstādījumi tiek mainīti tikai šim lietotājam, var arī visiem, apakšā "
+"pie teksta 'Uzstādīt priekš' norādīt visiem lietotājiem.\n"
+"\n"
+"Lieto ciļņus šī loga augšā lai izvēlētos kategorijas, kuru opcijas vēlaties "
+"mainīt un apakšā spiežat pogu 'Mainīt', lai uzstādījumi tiktu saglabāti.\n"
+"\n"
+"Nākamreiz kad Tux Paintu ieslēgsiet, tiks izmantoti Jūsu norādītie "
+"uzstādījumi."
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(Lietot sistēmas noklusējuma uzstādījumus)"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(Lietot sistēmas uzstādījumus)"
+
+#: ../tuxpaint-config2.cxx:1527 ../tuxpaint-config2.cxx:2131
+msgid "Default (no override)"
+msgstr "Noklusējuma (Nenotiek apiešana)"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Small"
+msgstr "Apiet: Maz"
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Medium"
+msgstr "Apiet: Vidēji"
+
+#: ../tuxpaint-config2.cxx:1533
+msgid "Override: Large"
+msgstr "Apiet: Daudz"
+
+#: ../tuxpaint-config2.cxx:1638
+msgid "Save Directory?"
+msgstr "Saglabāt direkotriju?"
+
+#: ../tuxpaint-config2.cxx:1672
+msgid "Data Directory?"
+msgstr "Datu direktorija?"
+
+#: ../tuxpaint-config2.cxx:1705
+msgid "Color Palette File?"
+msgstr "Krāsu paletes fails?"
+
+#: ../tuxpaint-config2.cxx:1744
+msgid "Quit without applying changes?"
+msgstr "Iziet nesaglabājot uzstādījumus?"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&No"
+msgstr "&Nē"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&Yes"
+msgstr "&Jā"
+
+#: ../tuxpaint-config2.cxx:1781
+msgid "current user"
+msgstr "šis lietotājs"
+
+#: ../tuxpaint-config2.cxx:1784
+msgid "all users"
+msgstr "visi lietotāji"
+
+#: ../tuxpaint-config2.cxx:1788
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "Apstiprināt izmaiņas priekš %s?"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "No"
+msgstr "Nē"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "Yes"
+msgstr "Jā"
+
+#: ../tuxpaint-config2.cxx:1809 ../tuxpaint-config2.cxx:1812
+msgid "Tux Paint Config v"
+msgstr "Tux Paint uzstadījumi v"
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1821
+msgid "About"
+msgstr "Par programmu"
+
+#: ../tuxpaint-config2.cxx:1828
+msgid "About Tux Paint Config."
+msgstr "Par Tux Paint uzstādījumu programmu."
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1844
+msgid "Video/Sound"
+msgstr "Video / Skaņa"
+
+#: ../tuxpaint-config2.cxx:1851
+msgid "Video:"
+msgstr "Video:"
+
+#: ../tuxpaint-config2.cxx:1855
+msgid "&Fullscreen"
+msgstr "&Pilnekrāna"
+
+#: ../tuxpaint-config2.cxx:1860
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "Palaist  Tux Paint pilnekrāna režīmā, nevis kā vienkāršu logu."
+
+#: ../tuxpaint-config2.cxx:1866
+msgid "&Native"
+msgstr "&Sistēmas"
+
+#: ../tuxpaint-config2.cxx:1870
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "Lieto sistēmas izšķirtspēju pilnekrāna režīmā."
+
+#: ../tuxpaint-config2.cxx:1876
+msgid "Window size : "
+msgstr "Loga lielums :"
+
+#: ../tuxpaint-config2.cxx:1900
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "Loga lielums vai arī izšķirtspēja pilnekrāna režīmā."
+
+#: ../tuxpaint-config2.cxx:1906
+msgid "&Rotate Orientation"
+msgstr "&Rotācijas orientācija"
+
+#: ../tuxpaint-config2.cxx:1910
+msgid ""
+"Swap width and height, to rotate 90 degrees (useful for portrait-display on "
+"a tablet PC)"
+msgstr ""
+"Apmainīt platumu ar augstumu, lai Tux Paint pagrieztu par 90 grādiem "
+"(Noderīgs planšetdatoriem)"
+
+#: ../tuxpaint-config2.cxx:1916
+msgid "Allow S&creensaver"
+msgstr "Atļaut E&krānsaudzētāju"
+
+#: ../tuxpaint-config2.cxx:1920
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr "Neizslēdz tavu sistēmas ekrānsaudzētāju, kamēr Tux Paint ir ieslēgts."
+
+#: ../tuxpaint-config2.cxx:1929
+msgid "Sound:"
+msgstr "Skaņa"
+
+#: ../tuxpaint-config2.cxx:1933
+msgid "Enable &Sound Effects"
+msgstr "Ieslēgt &Skaņas efektus"
+
+#: ../tuxpaint-config2.cxx:1938
+msgid "Enable/disable sound effects."
+msgstr "Ieslēgts/Izslēgts skaņas efektus"
+
+#: ../tuxpaint-config2.cxx:1947 ../tuxpaint-config2.cxx:1961
+msgid "Color Palette File:"
+msgstr "Krāsas paletes fails:"
+
+#: ../tuxpaint-config2.cxx:1951
+msgid "Use &Alternative Color Palette"
+msgstr "Lietot &Alternatīvu krāsas paleti"
+
+#: ../tuxpaint-config2.cxx:1956
+msgid ""
+"Don't use default color palette, use colors defined in the following file:"
+msgstr "Nelieto nosacījuma krāsu paleti, lieto krāsas kas definētas failā:"
+
+#: ../tuxpaint-config2.cxx:1966 ../tuxpaint-config2.cxx:2509
+#: ../tuxpaint-config2.cxx:2594
+msgid "Browse..."
+msgstr "Pārlūkot..."
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1977
+msgid "Mouse/Keyboard"
+msgstr "Pele / Tastatūra"
+
+#: ../tuxpaint-config2.cxx:1985
+msgid "Cursor:"
+msgstr "Kursors:"
+
+#: ../tuxpaint-config2.cxx:1989
+msgid "&Fancy Cursor Shapes"
+msgstr "&Stilīgas Kursora formas"
+
+#: ../tuxpaint-config2.cxx:1994
+msgid ""
+"Change the shape of the mouse pointer depending on where the mouse is and "
+"what you are doing."
+msgstr "Maina peles kursora formu, atkarībā kur ir pele vai arī ko tu dari."
+
+#: ../tuxpaint-config2.cxx:2000
+msgid "&Hide Cursor"
+msgstr "&Slēpt kursoru"
+
+#: ../tuxpaint-config2.cxx:2005
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr "Pilnība paslēpj peles kursoru (Noderīgs skārienjūtīgām ierīcēm)."
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2014 ../tuxpaint-config2.cxx:2632
+msgid "Keyboard:"
+msgstr "Tastatūra"
+
+#: ../tuxpaint-config2.cxx:2018
+msgid "Enable &Keyboard Shortcuts"
+msgstr "Lietot &Tastatūras saīsinājumus"
+
+#: ../tuxpaint-config2.cxx:2023
+msgid ""
+"Allows key combinations to be used as shortcuts for certain commands. (e.g., "
+"Control+S to Save)"
+msgstr ""
+"Atļauj izmantot taustiņu kombināciju kā īsceļus noteiktām darbībām (piem. "
+"Control+S lai saglabātu)"
+
+#: ../tuxpaint-config2.cxx:2035 ../tuxpaint-config2.cxx:2617
+msgid "Mouse:"
+msgstr "Pele:"
+
+#: ../tuxpaint-config2.cxx:2039
+msgid "&Grab Mouse Pointer"
+msgstr "&Satvert peles kursoru"
+
+#: ../tuxpaint-config2.cxx:2044
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "Neatļauj peles kursoru pārvietot ārpus Tux Paint loga."
+
+#: ../tuxpaint-config2.cxx:2049
+msgid "Mouse &Wheel Support"
+msgstr "Peles &Rullīša Atbalsts"
+
+#: ../tuxpaint-config2.cxx:2054
+msgid ""
+"Allows a mouse wheel to be used to scroll through items. (e.g., brushes, "
+"stamps)"
+msgstr ""
+"Atļauj izmantot peles rulli, kas ļauj ritināt caur lietu sarakstiem. (piem. "
+"otas,zīmogi)"
+
+#: ../tuxpaint-config2.cxx:2059
+msgid "No &Button Distinction"
+msgstr "Nav &Pogu atšķirības"
+
+#: ../tuxpaint-config2.cxx:2063
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr "Atļauj vidējo un labo peles pogu lietot arī priekš klikšķināšanas."
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2076
+msgid "Simplification"
+msgstr "Vienkāršošana"
+
+#: ../tuxpaint-config2.cxx:2084
+msgid "Interface Simplification:"
+msgstr "Saskarsnes vienkāršošana:"
+
+#: ../tuxpaint-config2.cxx:2088
+msgid "Disable Shape &Rotation"
+msgstr "Izslēgt Formas &Rotāciju"
+
+#: ../tuxpaint-config2.cxx:2093
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr "Formas rīks rotācijai ir izslēgts. Noderīgs maziem bērniem."
+
+#: ../tuxpaint-config2.cxx:2098
+msgid "Simple Stamp &Outlines"
+msgstr "Vienkārša Zīmoga &Attēlošana"
+
+#: ../tuxpaint-config2.cxx:2103
+msgid ""
+"Draw a rectangle around the cursor when placing stamps, rather than a "
+"detailed outline. (For slow computers and thin clients.)"
+msgstr ""
+"Ap kursoru apzīmē taisnstūri kad tiek ievietoti zīmogi, nevis parāda zīmogu "
+"visās detaļās. (Paredzēts lēniem un maziem datoriem)"
+
+#: ../tuxpaint-config2.cxx:2108
+msgid "Show &Uppercase Text Only"
+msgstr "Rādit tikai &Lielos burtus"
+
+#: ../tuxpaint-config2.cxx:2113
+msgid ""
+"Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in "
+"UPPERCASE rather than Mixed Case."
+msgstr ""
+"Visus tekstus Tux Paint (pogu tekstus, dialogus utt.) parāda ar lielajiem "
+"burtiem, nevis miksētiem ar mazajiem burtiem."
+
+#: ../tuxpaint-config2.cxx:2122
+msgid "Initial Stamp Size:"
+msgstr "Sākotnējais Zīmoga izmērs:"
+
+#: ../tuxpaint-config2.cxx:2139
+msgid "Control Simplification:"
+msgstr "Kontroles vienkāršošana:"
+
+#: ../tuxpaint-config2.cxx:2143
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "Atslēgt  '&Iziet' pogu un [Escape] taustiņu"
+
+#: ../tuxpaint-config2.cxx:2148
+msgid ""
+"Clicking the window's close (X) button in the title bar, or pressing "
+"[Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr ""
+"Noklikšķinot uz loga (X) pogu virsrakstjoslā, vai arī spiežot [Alt}+[F4] vai "
+"[Shift]+[Ctrl]+[Escape] tāpat izies no Tux Paint."
+
+#: ../tuxpaint-config2.cxx:2153
+msgid "Disable '&Stamps' Tool"
+msgstr "Atslēgt  '&Zīmoga' rīkus"
+
+#: ../tuxpaint-config2.cxx:2158
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr "Neielādē zīmogus pie ieslēgšanas, tādējādi izslēdzot zīmoga rīkus."
+
+#: ../tuxpaint-config2.cxx:2163
+msgid "Disable Stamp &Controls"
+msgstr "Atslēgt Zīmoga &pogas"
+
+#: ../tuxpaint-config2.cxx:2168
+msgid ""
+"Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, "
+"Grow, Mirror and Flip)."
+msgstr ""
+"Vienkāršo 'Zīmoga' rīku, nerādot kontroles pogas (Samazināt, Palielināt, "
+"Spoguļskatā un Apgriezt otrādi)  "
+
+#: ../tuxpaint-config2.cxx:2173
+msgid "Disable &Magic Controls"
+msgstr "Atslēgt Maģijas &pogas"
+
+#: ../tuxpaint-config2.cxx:2178
+msgid ""
+"Simplify the 'Magic' tools by removing the buttons to switch between paint "
+"and fullscreen modes."
+msgstr ""
+"Vienkāršo 'Maģijas' rīku, noņemot pogu, kas ļauj pārslēgties starp zīmēšanu "
+"un pilnekrāna režīmu."
+
+#: ../tuxpaint-config2.cxx:2183
+msgid "Disable '&Label' Tool"
+msgstr "Izslēgt '&Etiķetes' rīkus"
+
+#: ../tuxpaint-config2.cxx:2188
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr "\"Etiķetes\" rīka vietā ieslēgt \"Teksta\" rīku"
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2199
+msgid "Languages"
+msgstr "Valodas"
+
+#: ../tuxpaint-config2.cxx:2205
+msgid "Language:"
+msgstr "Valoda:"
+
+#: ../tuxpaint-config2.cxx:2209
+msgid "Language : "
+msgstr "Valoda :"
+
+#: ../tuxpaint-config2.cxx:2224
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr ""
+"Palaiž Tux Paint Jūsu norādītajā valodā (apejot sistēmas uzstādījumus)."
+
+#: ../tuxpaint-config2.cxx:2229
+msgid "&Mirror Stamps"
+msgstr "&Spoguļa zīmogi"
+
+#: ../tuxpaint-config2.cxx:2234
+msgid ""
+"Automatically mirror-image all mirror-able stamps. Useful for users who "
+"prefer things appearing right-to-left."
+msgstr ""
+"Automātiski visu iespējamo attēlos spoguļ skatā. Noderīgs lietotājiem, kas "
+"dod priekšroku lietām no labās uz kreiso pusi."
+
+#: ../tuxpaint-config2.cxx:2243
+msgid "Fonts:"
+msgstr "Fonts:"
+
+#: ../tuxpaint-config2.cxx:2247
+msgid "Load System &Fonts"
+msgstr "Ielādēt sistēmas &Fontus"
+
+#: ../tuxpaint-config2.cxx:2252
+msgid ""
+"Attempt to load more fonts, found elsewhere on your computer. (Note: may "
+"cause instability!)"
+msgstr ""
+"Ielādē fontus, kuri ir atrodami uz tava datora. (Brīdinājums var radīt "
+"programmas nestabilitāti!)"
+
+#: ../tuxpaint-config2.cxx:2257
+msgid "Load All &Locale Fonts"
+msgstr "Ielādēt Visus &Lokālos fontus"
+
+#: ../tuxpaint-config2.cxx:2262
+msgid ""
+"Load all locale-specific fonts installed in Tux Paint, regardless of the "
+"locale Tux Paint is being run under."
+msgstr ""
+"Ielādēs visus fontus, kas instalēti Tux Paint, neatkarīgi vai fonti tiks "
+"izmantoti, vai nē."
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2273
+msgid "Printing"
+msgstr "Printēšana"
+
+#: ../tuxpaint-config2.cxx:2279
+msgid "Print Permissions:"
+msgstr "Printēšanas atļaujas:"
+
+#: ../tuxpaint-config2.cxx:2283
+msgid "Allow &Printing"
+msgstr "Atļaut &Printēšanu"
+
+#: ../tuxpaint-config2.cxx:2288
+msgid "Let users print from within Tux Paint."
+msgstr "Atļauj lietotājiem printēt no Tux Paint."
+
+#: ../tuxpaint-config2.cxx:2293
+msgid "Print Delay : "
+msgstr "Starp Printēšanu pauzes :"
+
+#: ../tuxpaint-config2.cxx:2299
+msgid "seconds"
+msgstr "sekundes"
+
+#: ../tuxpaint-config2.cxx:2303
+msgid ""
+"Restrict printing to once every N seconds. (Enter '0' to allow unrestricted "
+"printing.)"
+msgstr ""
+"Atļauj printēt vienreiz N sekundēs. (Ievadi '0' lai nebūtu ierobežojumi)"
+
+#: ../tuxpaint-config2.cxx:2311
+msgid "Show Printer Dialog:"
+msgstr "Parādīt printera dialogu:"
+
+#: ../tuxpaint-config2.cxx:2316
+msgid "Only when [Alt] &modifier key is held"
+msgstr "Tikai tad kad [Alt] &modifiktora poga tiek turēta"
+
+#: ../tuxpaint-config2.cxx:2323
+msgid "Always &show printer dialog"
+msgstr "Vienmēr &rādīt printera dialogu"
+
+#: ../tuxpaint-config2.cxx:2330
+msgid "&Never show printer dialog"
+msgstr "&Nekad nerādit printera dialogu"
+
+#: ../tuxpaint-config2.cxx:2337
+msgid "(Even when [Alt] is held.)"
+msgstr "(Pat tad kad [Alt] ir nospiests.)"
+
+#: ../tuxpaint-config2.cxx:2351
+msgid "Save printer configuration"
+msgstr "Saglabāt printera uzstādījumus"
+
+#: ../tuxpaint-config2.cxx:2360
+msgid "Print Commands:"
+msgstr "Printēt komandas:"
+
+#: ../tuxpaint-config2.cxx:2364
+msgid "Use &Alternative Print Command"
+msgstr "Lietot &Citu printēšanas komandu"
+
+#: ../tuxpaint-config2.cxx:2369
+msgid ""
+"Override Tux Paint's default setting for print command ('lpr') with another. "
+"(Advanced! Unix/Linux only!)"
+msgstr ""
+"Tiek izmantota cita komanda printēšanai nevis komanda ('lpr'). (Sarežģīts "
+"process! Tikai Linux/Unix sistēmai!)"
+
+#: ../tuxpaint-config2.cxx:2379
+msgid ""
+"Enter the command for printing. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Ievadi komandu printēšanai. Komandai ir jāsaprot PostSCript formāta dati no "
+"standarta ievades (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2390
+msgid "Use &Alternative Print Dialog"
+msgstr "Lietot &Citu printera dialogu"
+
+#: ../tuxpaint-config2.cxx:2395
+msgid ""
+"Override Tux Paint's default setting for print dialog ('kprinter') with "
+"another. (Advanced! Unix/Linux only!)"
+msgstr ""
+"Lieto kādu citu printera dialogu, nevis noklusējuma dialogu ('kprinter'). "
+"(Sarežģīts process! Tikai Linux/Unix sistēmai!)"
+
+#: ../tuxpaint-config2.cxx:2405
+msgid ""
+"Enter the print dialog command. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Ievadi printera dialoga komandu. Kuram ir jāsaprot PostScript formāta dati "
+"no standarta ievades (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2412
+msgid "Paper Size : "
+msgstr "Papīra lielums:"
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2433
+msgid "Saving"
+msgstr "Saglabāju"
+
+#: ../tuxpaint-config2.cxx:2440
+msgid "Save Over Earlier Work:"
+msgstr "Saglabāt pāri iepriekšējam darbam:"
+
+#: ../tuxpaint-config2.cxx:2444
+msgid "&Ask Before Overwriting"
+msgstr "&Jautāt pirm pārrakstīšanas"
+
+#: ../tuxpaint-config2.cxx:2449
+msgid ""
+"When re-saving an image, ask whether to overwrite the earlier version, or "
+"make a new file."
+msgstr ""
+"Kad pārglabā bildi, programma jautā vai pārrakstīt jau esošu failu vai "
+"izveidotu jaunu."
+
+#: ../tuxpaint-config2.cxx:2454
+msgid "Always &Overwrite Older Version"
+msgstr "Vienmēr &Pārrakstītu vecāku versiju"
+
+#: ../tuxpaint-config2.cxx:2459
+msgid ""
+"When re-saving an image, always overwrite the earlier version. (Warning: "
+"Potential for lost work!)"
+msgstr ""
+"Pārglabājot bildi, vienmēr tiks aizvietots iepriekšējais faila variants. "
+"(Brīdinājums: Var tikt pazaudēti darbi!)"
+
+#: ../tuxpaint-config2.cxx:2464
+msgid "Always Save &New Picture"
+msgstr "Vienmēr saglabāt kā &Jaunu bildi"
+
+#: ../tuxpaint-config2.cxx:2469
+msgid ""
+"When re-saving an image, always make a new file. (Warning: Potential for "
+"lots of files!)"
+msgstr ""
+"Bilde vienmēr tiks pārglabāta jaunā failā. (Brīdinājums: Var tikt pazaudēti "
+"darbi!)"
+
+#: ../tuxpaint-config2.cxx:2476
+msgid "Start Blank:"
+msgstr "Sākt ar tukšu:"
+
+#: ../tuxpaint-config2.cxx:2481
+msgid "Start with &Blank Canvas"
+msgstr "Sākt ar &Tukšu audeklu"
+
+#: ../tuxpaint-config2.cxx:2490
+msgid "Save Directory:"
+msgstr "Direktorija glabāšanai:"
+
+#: ../tuxpaint-config2.cxx:2494
+msgid "Use &Alternative Save Directory"
+msgstr "Lietot &Citu direktoriju glabāšanai"
+
+#: ../tuxpaint-config2.cxx:2499
+msgid ""
+"Do not save pictures in the standard directory, use the following location:"
+msgstr "Nesaglabāt bildes noklusējuma direktorijā, lietot šo vietu glabāšanai:"
+
+#: ../tuxpaint-config2.cxx:2504
+msgid "Alternative Save Directory:"
+msgstr "Cita direktorija glabāšanai:"
+
+#: ../tuxpaint-config2.cxx:2516
+msgid "More Saving Options:"
+msgstr "Vairāk saglabāšanas opcijas:"
+
+#: ../tuxpaint-config2.cxx:2521
+msgid "Disable '&Save' Button"
+msgstr "Izslēgt '&Saglabāt' Pogu"
+
+#: ../tuxpaint-config2.cxx:2526
+msgid ""
+"Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch "
+"paper.'"
+msgstr "Neatļaus saglabāt bildes. Tux Paints paliek par 'švīkāšanas papīru'."
+
+#: ../tuxpaint-config2.cxx:2532
+msgid "&Auto-save on Quit"
+msgstr "&Automātiski saglabāt izejot no Tux Paint"
+
+#: ../tuxpaint-config2.cxx:2537
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr "Nejautās vai saglabāt bildi, vienkārši saglabās."
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2549
+msgid "Data"
+msgstr "Dati"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2557
+msgid "Lockfile:"
+msgstr "Aizslēgfails"
+
+#: ../tuxpaint-config2.cxx:2561
+msgid "&Don't use lockfile"
+msgstr "&Nelietot aizslēgfailu"
+
+#: ../tuxpaint-config2.cxx:2565
+msgid ""
+"Do not check for a lockfile. Allow Tux Paint to be launched multiple times. "
+"(May be necessary in a networked environment.)"
+msgstr ""
+"Nepārbaudīs aizslēgfailu. Atļaus Tux Paint programmu palaist vairākas reizes "
+"vienlaikus. (Iespējams vajadzīgs, tīklā saslēgtiem datoriem.)"
+
+#: ../tuxpaint-config2.cxx:2575
+msgid "Data Directory:"
+msgstr "Datu direktorija:"
+
+#: ../tuxpaint-config2.cxx:2579
+msgid "Use &Alternative Data Directory"
+msgstr "Lietot &Citu datu direktoriju"
+
+#: ../tuxpaint-config2.cxx:2584
+msgid ""
+"Do not load brushes, stamps, etc. from the standard directory, use the "
+"following location:"
+msgstr ""
+"Neielādēs otas, zīmogus utt. no noklusējuma direktorijas, bet lietos šo "
+"vietu:"
+
+#: ../tuxpaint-config2.cxx:2589
+msgid "Alternative Data Directory:"
+msgstr "Cita Datu direktorija:"
+
+#: ../tuxpaint-config2.cxx:2611
+msgid "Accessibility"
+msgstr "Pieejamība"
+
+#: ../tuxpaint-config2.cxx:2621
+msgid "Sticky mouse clicks"
+msgstr "Lipīgīgas peles pogas"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2625
+msgid ""
+"Useful for users who have difficulty clicking and dragging. When enabled, "
+"click and release to start painting, move to paint, and click and release "
+"again to stop. It can also be combined with joystick- and keyboard-based "
+"pointer controls."
+msgstr ""
+"Noderīgs lietotājiem, kam ir grūtības ar klikšķināšanu un peles vilkšanu. "
+"Kad funkcija ieslēgta, nospied un atlaid peles pogu, lai sāktu zīmēt, "
+"nospied un atlaid peles pogu, lai beigtu zīmēt. Šo funkciju arī var apvienot "
+"ar džoistika un tastatūras kontolētu peles rādītāju"
+
+#: ../tuxpaint-config2.cxx:2636
+msgid "Keyboard controls the mouse pointer"
+msgstr "Tastatūra vada peles rādītāju"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2640
+msgid ""
+"When enabled, the arrow keys or numbers can be used to move the mouse "
+"pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text"
+"\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 "
+"cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing "
+"canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 "
+"move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr ""
+"Kad ieslēgts, bultiņas vai cipari var tikt izmantoti lai vadītu peles "
+"rādītāju. Numurs 5, Atstarpes, Ievietot vai F5 taustiņš var tikt izmantots "
+"lai nospiestu peles pogu. (Kad lietojat \"Teksts\" vai \"Uzlīmes\" rīkus, "
+"cipari un atstarpes taustiņu nevar izmantot.) Ar F4 taustiņu peles rādītāju "
+"pārslēdz starp \"Rīku\" sadaļu, \"Krāsu\" sadaļu un starp zīmēšanas audekli, "
+"F8 un F7 pārvieto rādītāju uz augšu un uz leju, kad \"Rīku\" sadaļa ir "
+"aktīva. F11 un F12 pārvieto rādītāju pa kreisi un pa labi, kas \"Rīku\" un "
+"\"Krāsu\" sadaļas ir aktīvas."
+
+#: ../tuxpaint-config2.cxx:2648
+msgid "Onscreen keyboard:"
+msgstr "Ekrāna tastatūra:"
+
+#: ../tuxpaint-config2.cxx:2652
+msgid "Show a keyboard on the screen"
+msgstr "Rādīt tastatūru uz ekrāna"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2656
+msgid ""
+"Display a keyboard on the screen when the \"Text\" and \"Label\" tools are "
+"enabled, so you can 'type' with the mouse pointer."
+msgstr ""
+"Parādīs tastatūru uz ekrāna kad \"Teksta\" vai \"Uzlīmes\" rīks ir izvēlēts, "
+"lai lietotājs varētu 'rakstīt' ar peles rādītāju."
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2661
+msgid "Layout"
+msgstr "Izkārtojums"
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2673
+msgid "How are keys organized in the keyboard"
+msgstr "Kā taustiņi ir sakārtoti uz tastatūras"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2678
+msgid "Disable layout changes"
+msgstr "Izslēgt izkārtojuma izmaiņas"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2683
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr "Izslēgt pogas, kas var mainīt tastatūras izkārtojumu."
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2701
+msgid "Joystick"
+msgstr "Džoistiks"
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2712
+msgid "Main device:"
+msgstr "Galvenā ierīce:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2722
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr "Ierīces numurs. (SDL numuri sākas ar 0)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2733
+msgid ""
+"Joystick slowness. Increase this value for people with slow reactions. "
+"(0-500; default value is 15)"
+msgstr ""
+"Džoistika lēnums. Palielina šo vērtību priekš cilvēkiem ar lēnu reakciju. "
+"(0-500; Noklusējuma vērtīva ir 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2745
+msgid ""
+"SDL events under threshold will be discarded, useful to discard accidental "
+"unwanted movements. (0-32766; default value is 3200)"
+msgstr ""
+"SDL notikumi zem norādītā sliekšņa tiks noraidīti. Noderīgs lai noraidītu "
+"netīšus un nevēlamas kustības. (0-32766; Noklusējuma vērtība ir 3200)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2755
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr "Ierobežot kustības ātrumu. (1-7; Noklusējuma vērtība ir 7)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2762
+msgid "Hat:"
+msgstr "Cepure:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2771
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr "Cepures lēnums. (0-500; Noklusējuma vērtība ir 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2783
+msgid ""
+"Hat timeout, the number of milliseconds to wait before starting to move "
+"continuously. (0-3000; default value is 1000)"
+msgstr ""
+"Cepures taimauts, gaidīšanas laiks milisekundēs pirms sākt nepārtrauktu "
+"kustību. (0-3000; Noklusējuma vērtība ir 1000) "
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2794
+msgid "Buttons to disable:"
+msgstr "Pogu atslēgšana:"
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2810
+msgid ""
+"If for any reason one or more buttons of the joystick are posing problems, "
+"you can disable them here using a comma separated list of button numbers. (e."
+"g. 2,3,5)"
+msgstr ""
+"Ja kādu iemeslu dēļ viena vai vairākas džoistika pogas rada problēmas, Jūs "
+"varat tās atslēgt šeit ievadot sarakstu ar pogu numuriem kuri ir atdalīti ar "
+"komatu. Piemēram: \"2,3,5\""
+
+#: ../tuxpaint-config2.cxx:2819
+msgid "Button shortcuts:"
+msgstr "Pogu īsceļi:"
+
+#: ../tuxpaint-config2.cxx:2823
+msgid ""
+"Here you can configure shortcuts for the different buttons of the joystick. "
+"(Beware to not assign a shortcut to the button used to draw.)"
+msgstr ""
+"Šeit jūs varat norādīt džoistika pogu īsceļus. (Lūdzu nenorādiet īsceļu "
+"pogai, kuru izmanto zīmēšanai.)"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2828
+msgid "Button number for the Escape key."
+msgstr "Pogas numurs priekš \"Escape\" taustiņa."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2836
+msgid "Button number for the Brush tool."
+msgstr "Pogas numurs priekš otas rīka"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2844
+msgid "Button number for the Stamps tool."
+msgstr "Pogas numurs priekš Zīmoga rīka."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2852
+msgid "Button number for the Lines tool."
+msgstr "Pogas numurs priekš Līniju rīka"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2860
+msgid "Button number for the Shapes tool."
+msgstr "Pogas numurs priekš Formu rīka"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2868
+msgid "Button number for the Text tool."
+msgstr "Pogas numurs priekš Teksta rīka"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2876
+msgid "Button number for the Label tool."
+msgstr "Pogas numurs priekš Uzlīmju rīka."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2884
+msgid "Button number for the Magic tool."
+msgstr "Pogas numurs priekš Maģijas rīka"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2892
+msgid "Button number for Undo."
+msgstr "Pogas numurs priekš Atiestatīsanas (Undo)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2900
+msgid "Button number for Redo."
+msgstr "Pogas numurs priekš Atatiestatīšanas (Redo)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2908
+msgid "Button number for the Eraser tool."
+msgstr "Pogas numurs priekš Dzēšgumijas rīka."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2916
+msgid "Button number for the New tool."
+msgstr "Pogas numurs priekš Jauna audekļa"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2924
+msgid "Button number for the Open tool."
+msgstr "Pogas numurs priekš Atvēršanas rīka"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2932
+msgid "Button number for saving."
+msgstr "Pogas numurs priekš saglabāšanas"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2940
+msgid "Button number for Page Setup."
+msgstr "Pogas numurs priekš Lapas uzstādījumiem"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2948
+msgid "Button number for printing."
+msgstr "Pogas numurs priekš printēšanas."
+
+#: ../tuxpaint-config2.cxx:2970
+msgid "Settings for : "
+msgstr "Uzstādījumi priekš :"
+
+#: ../tuxpaint-config2.cxx:2974
+msgid "Current User"
+msgstr "Šī lietotāja"
+
+#: ../tuxpaint-config2.cxx:2975
+msgid "All Users"
+msgstr "Visiem lietotājiem"
+
+#: ../tuxpaint-config2.cxx:2981
+msgid "Use \"All Users\" Settings"
+msgstr "Lietot \"Visiem lietotājiem\" uzstādījumus"
+
+#: ../tuxpaint-config2.cxx:2985
+msgid "Apply"
+msgstr "Mainīt"
+
+#: ../tuxpaint-config2.cxx:2993
+msgid "Reset"
+msgstr "Atiestatīt"
+
+#: ../tuxpaint-config2.cxx:3000
+msgid "Defaults"
+msgstr "Noklusējumi"
+
+#: ../tuxpaint-config2.cxx:3007
+msgid "Quit"
+msgstr "Iziet"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "Tux Paint uzstādījumi."
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "Uzstādīt Tux Paint"

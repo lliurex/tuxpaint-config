@@ -1,0 +1,836 @@
+# Georgian Translation tuxpaint-config.
+# Copyright (C) 2014 the tuxpaint team.
+# This file is distributed under the same license as the tuxpaint-config package.
+# Gia Shervashidze <giasher@telenet.ge>, 2014..
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tuxpaint-config\n"
+"Report-Msgid-Bugs-To: tuxpaint-i18n@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-07-19 21:57+0200\n"
+"PO-Revision-Date: 2014-07-22 00:17+0400\n"
+"Last-Translator: Giasher <giasher@gmail.com>\n"
+"Language-Team: Giasher <http://giasher.com>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Georgian\n"
+"X-Poedit-Country: GEORGIA\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen mode, the interface's language, or options to simplify Tux Paint for younger children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your computer by making a selection in the 'Settings for' pull-down menu at the bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change the options you'd like to change, and click the 'Apply' button at the bottom to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"მოგესალმებით Tux Paint გრაფიკული პროგრამის კონფიგურაციის მეგზური. ავტორები: ტორსტენ გიბლი, იან ვაინოლდსი, ბილ კენდრიკი და მარტინ ფურერი.\n"
+"\n"
+"მეგზური საშუალებას მოგცემთ შეცვალოთ Tux Paint პარამეტრები, როგორებიცაა სრული ეკრანის რეჟიმი, დიალოგებია ენა ან სხვა პარამეტრები პროგრამასთან მუშაობის გასაადვილებლად.\n"
+"\n"
+"ამ პარამეტრების მითითება შესაძლებელია ცალკეული პირისთვის ან კომპიუტერის ყველა მომხმარებლისთვის მენიუდან 'პარამეტრები ...'.\n"
+"\n"
+"პარამეტრების სხვადასხვა კატეგორიის შესარჩევად ისარგებლეთ ზედა დაფებით, მიუთითეთ სასურველი მნიშვნელობები და კონფიგურაციის ახალი ფაილის შესანახად დაწკაპეთ ქვედა ღილაკი 'შესრულება'.\n"
+"\n"
+"ხელახლა გახსნისას Tux Paint პროგრამის ახალი, თქვენი მითითებული პარამეტრებით ისარგებლებს."
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(სისტემის ნაგულისხმები)"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(სისტემური პარამეტრები)"
+
+#: ../tuxpaint-config2.cxx:1527
+#: ../tuxpaint-config2.cxx:2131
+msgid "Default (no override)"
+msgstr "ნაგულისხმები (ჩანაცვლების გარეშე)"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Small"
+msgstr "ჩანაცვლება: მცირე"
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Medium"
+msgstr "ჩანაცვლება: საშუალო"
+
+#: ../tuxpaint-config2.cxx:1533
+msgid "Override: Large"
+msgstr "ჩანაცვლება: დიდი"
+
+#: ../tuxpaint-config2.cxx:1638
+msgid "Save Directory?"
+msgstr "შევინახო დასტა?"
+
+#: ../tuxpaint-config2.cxx:1672
+msgid "Data Directory?"
+msgstr "მონაცემთა დასტა?"
+
+#: ../tuxpaint-config2.cxx:1705
+msgid "Color Palette File?"
+msgstr "პალიტრის ფაილი?"
+
+#: ../tuxpaint-config2.cxx:1744
+msgid "Quit without applying changes?"
+msgstr "გამოსვლა შენახვის გარეშე?"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&No"
+msgstr "&არა"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&Yes"
+msgstr "&დიახ"
+
+#: ../tuxpaint-config2.cxx:1781
+msgid "current user"
+msgstr "მიმდინარე მომხმარებელი"
+
+#: ../tuxpaint-config2.cxx:1784
+msgid "all users"
+msgstr "ყველა მომხმარებელი"
+
+#: ../tuxpaint-config2.cxx:1788
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "შევინახო ცვლილებები - %s?"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "No"
+msgstr "არა"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "Yes"
+msgstr "დიახ"
+
+#: ../tuxpaint-config2.cxx:1809
+#: ../tuxpaint-config2.cxx:1812
+msgid "Tux Paint Config v"
+msgstr "Tux Paint კონფიგურაცია v."
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1821
+msgid "About"
+msgstr "პროგრამის შესახებ"
+
+#: ../tuxpaint-config2.cxx:1828
+msgid "About Tux Paint Config."
+msgstr "Tux Paint კონფიგურაცია."
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1844
+msgid "Video/Sound"
+msgstr "ვიდეო/აუდიო"
+
+#: ../tuxpaint-config2.cxx:1851
+msgid "Video:"
+msgstr "ვიდეო:"
+
+#: ../tuxpaint-config2.cxx:1855
+msgid "&Fullscreen"
+msgstr "&სრული ეკრანი"
+
+#: ../tuxpaint-config2.cxx:1860
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "Tux Paint პროგრამის გახსნა სრული ეკრანის რეჟიმში, სარკმლის ნაცვლად."
+
+#: ../tuxpaint-config2.cxx:1866
+msgid "&Native"
+msgstr "&არსებული"
+
+#: ../tuxpaint-config2.cxx:1870
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "ეკრანის არსებული გარჩევადობის გამოყენება სრული ეკრანის რეჟიმში."
+
+#: ../tuxpaint-config2.cxx:1876
+msgid "Window size : "
+msgstr "სარკმლის ზომა : "
+
+#: ../tuxpaint-config2.cxx:1900
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "სარკმლის ზომა ან გარჩევადობა სრული ეკრანის რეჟიმში."
+
+#: ../tuxpaint-config2.cxx:1906
+msgid "&Rotate Orientation"
+msgstr "&ორიენტაციის დატრიალება"
+
+#: ../tuxpaint-config2.cxx:1910
+msgid "Swap width and height, to rotate 90 degrees (useful for portrait-display on a tablet PC)"
+msgstr "სიგანისა და სიმაღლის შეცვლა, დატრიალება 90 გრადუსით (გამოიყენება ტაბლეტებისთვის)"
+
+#: ../tuxpaint-config2.cxx:1916
+msgid "Allow S&creensaver"
+msgstr "ეკრანის &დამცველით სარგებლობა"
+
+#: ../tuxpaint-config2.cxx:1920
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr "ეკრანის სისტემური დამცველის შენარჩუნება პროგრამით სარგებლობისას."
+
+#: ../tuxpaint-config2.cxx:1929
+msgid "Sound:"
+msgstr "აუდიო:"
+
+#: ../tuxpaint-config2.cxx:1933
+msgid "Enable &Sound Effects"
+msgstr "&ხმის ეფექტების ჩართვა"
+
+#: ../tuxpaint-config2.cxx:1938
+msgid "Enable/disable sound effects."
+msgstr "ხმის ეფექტების ჩართვა/ამორთვა."
+
+#: ../tuxpaint-config2.cxx:1947
+#: ../tuxpaint-config2.cxx:1961
+msgid "Color Palette File:"
+msgstr "პალიტრის ფაილი:"
+
+#: ../tuxpaint-config2.cxx:1951
+msgid "Use &Alternative Color Palette"
+msgstr "&ფერთა ალტერნატული პალიტრა"
+
+#: ../tuxpaint-config2.cxx:1956
+msgid "Don't use default color palette, use colors defined in the following file:"
+msgstr "ფერთა ნაგულისხმები პალიტრის ნაცვლად საკუთარი ფერების გამოყენება შემდეგი ფაილიდან:"
+
+#: ../tuxpaint-config2.cxx:1966
+#: ../tuxpaint-config2.cxx:2509
+#: ../tuxpaint-config2.cxx:2594
+msgid "Browse..."
+msgstr "ნუსხა..."
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1977
+msgid "Mouse/Keyboard"
+msgstr "თაგუნა/კლავიატურა"
+
+#: ../tuxpaint-config2.cxx:1985
+msgid "Cursor:"
+msgstr "კურსორი:"
+
+#: ../tuxpaint-config2.cxx:1989
+msgid "&Fancy Cursor Shapes"
+msgstr "&კურსორის ფორმები"
+
+#: ../tuxpaint-config2.cxx:1994
+msgid "Change the shape of the mouse pointer depending on where the mouse is and what you are doing."
+msgstr "თაგუნას კურსორის ფორმების შეცვლა ადგილისა და ქმედებების შესაბამისად."
+
+#: ../tuxpaint-config2.cxx:2000
+msgid "&Hide Cursor"
+msgstr "კურსორის &დამალვა"
+
+#: ../tuxpaint-config2.cxx:2005
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr "კურსორის სრულად დამალვა (გამოიყენება ტაბლეტებისთვის)."
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2014
+#: ../tuxpaint-config2.cxx:2632
+msgid "Keyboard:"
+msgstr "კლავიატურა:"
+
+#: ../tuxpaint-config2.cxx:2018
+msgid "Enable &Keyboard Shortcuts"
+msgstr "&კლავიატურის ბილიკების ჩართვა"
+
+#: ../tuxpaint-config2.cxx:2023
+msgid "Allows key combinations to be used as shortcuts for certain commands. (e.g., Control+S to Save)"
+msgstr "კლავიატურის კლავიშთა კომბინაციების გამოყენება გარკვეული ბრძანებებისთვის. (მაგალითად, Ctrl+S - შენახვა)"
+
+#: ../tuxpaint-config2.cxx:2035
+#: ../tuxpaint-config2.cxx:2617
+msgid "Mouse:"
+msgstr "თაგუნა:"
+
+#: ../tuxpaint-config2.cxx:2039
+msgid "&Grab Mouse Pointer"
+msgstr "თაგუნას კურსორის &შეზღუდვა"
+
+#: ../tuxpaint-config2.cxx:2044
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "არ მისცემს თაგუნას კურსორს პროგრამის სარკმლის გარეთ გასვლის შესაძლებლობას."
+
+#: ../tuxpaint-config2.cxx:2049
+msgid "Mouse &Wheel Support"
+msgstr "თაგინას &ბორბლის გააქტივება"
+
+#: ../tuxpaint-config2.cxx:2054
+msgid "Allows a mouse wheel to be used to scroll through items. (e.g., brushes, stamps)"
+msgstr "თაგუნას ბორბლით ელემენტების (მაგალითად ფუნჯები, შტამპები) გადაფურცვლის შესაძლებლობას იძლევა."
+
+#: ../tuxpaint-config2.cxx:2059
+msgid "No &Button Distinction"
+msgstr "&ღილაკების განსხვავების გარეშე"
+
+#: ../tuxpaint-config2.cxx:2063
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr "იძლევა თაგუნას მარჯვენა და შუა ღილაკებით დაწკაპვის შესაძლებლობასაც."
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2076
+msgid "Simplification"
+msgstr "გამარტივება"
+
+#: ../tuxpaint-config2.cxx:2084
+msgid "Interface Simplification:"
+msgstr "ინტერფეისის გამარტივება:"
+
+#: ../tuxpaint-config2.cxx:2088
+msgid "Disable Shape &Rotation"
+msgstr "ფორმის &დატრიალების ამორთვა"
+
+#: ../tuxpaint-config2.cxx:2093
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr "ფორმის დატრიალების ამოირთვება. გამოსადეგია პაწიებისთვის."
+
+#: ../tuxpaint-config2.cxx:2098
+msgid "Simple Stamp &Outlines"
+msgstr "შტამპის &კონტურის გააქტივება"
+
+#: ../tuxpaint-config2.cxx:2103
+msgid "Draw a rectangle around the cursor when placing stamps, rather than a detailed outline. (For slow computers and thin clients.)"
+msgstr "ასახავს მართკუთხედს კურსორის გარშემო რთული კონტურის ნაცვლად. (ნელი კომპიუტერებისთვის.)"
+
+#: ../tuxpaint-config2.cxx:2108
+msgid "Show &Uppercase Text Only"
+msgstr "მხოლოდ &მთავრული ტექსტი"
+
+#: ../tuxpaint-config2.cxx:2113
+msgid "Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in UPPERCASE rather than Mixed Case."
+msgstr "Tux Paint პროგრამაში ყველა ტექსტი (წარწერები, დიალოგები და ა.შ.) მთავრულით აისახება."
+
+#: ../tuxpaint-config2.cxx:2122
+msgid "Initial Stamp Size:"
+msgstr "შტამპის საწყისი ზომა:"
+
+#: ../tuxpaint-config2.cxx:2139
+msgid "Control Simplification:"
+msgstr "გამარტივების მართვა:"
+
+#: ../tuxpaint-config2.cxx:2143
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "ღილაკების '&გამოსვლა' და [Escape] ამორთვა"
+
+#: ../tuxpaint-config2.cxx:2148
+msgid "Clicking the window's close (X) button in the title bar, or pressing [Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr "პროგრამიდან გამოსვლა კვლავ შესაძლებელი იქნება (X) ღილაკით სარკმლის სათაურის პანელზე ან კლავიშებით [Alt]+[F4] ან [Shift]+[Ctrl]+[Escape]."
+
+#: ../tuxpaint-config2.cxx:2153
+msgid "Disable '&Stamps' Tool"
+msgstr "'&შტამპების' სამარჯვის ამორთვა"
+
+#: ../tuxpaint-config2.cxx:2158
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr "პროგრამის შტამპები აღარ ჩაიტვირთება და სამარჯვი ამოირთვება."
+
+#: ../tuxpaint-config2.cxx:2163
+msgid "Disable Stamp &Controls"
+msgstr "შტამპების &მართვის ამორთვა"
+
+#: ../tuxpaint-config2.cxx:2168
+msgid "Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, Grow, Mirror and Flip)."
+msgstr "შტამპების მართვის ღილაკები (შეკუმშვა, გაზრდა, დასარკვა) აღარ აისახება და 'შტამპების' სამარჯვი გამარტივდება."
+
+#: ../tuxpaint-config2.cxx:2173
+msgid "Disable &Magic Controls"
+msgstr "&მაგიის მართვის ამორთვა"
+
+#: ../tuxpaint-config2.cxx:2178
+msgid "Simplify the 'Magic' tools by removing the buttons to switch between paint and fullscreen modes."
+msgstr "სარკმლისა და სრული ეკრანის რეჟიმების გადამრთველი ღილაკი აღარ აისახება და 'მაგიის' სამარჯვი გამარტივდება."
+
+#: ../tuxpaint-config2.cxx:2183
+msgid "Disable '&Label' Tool"
+msgstr "'&წარწერის' სამარჯვის ამორთვა"
+
+#: ../tuxpaint-config2.cxx:2188
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr "ამოირთვება 'წარწერის' სამარჯვი ტექსტის შესატანად (დარჩება მხოლოდ 'ტექსტის' სამარჯვი)."
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2199
+msgid "Languages"
+msgstr "ენები"
+
+#: ../tuxpaint-config2.cxx:2205
+msgid "Language:"
+msgstr "ენა:"
+
+#: ../tuxpaint-config2.cxx:2209
+msgid "Language : "
+msgstr "ენა : "
+
+#: ../tuxpaint-config2.cxx:2224
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr "Tux Paint პროგრამის გახსნა მითითებული ენით (ჩანაცვლდება სისტემური ენა)."
+
+#: ../tuxpaint-config2.cxx:2229
+msgid "&Mirror Stamps"
+msgstr "შტამპების &დასარკვა"
+
+#: ../tuxpaint-config2.cxx:2234
+msgid "Automatically mirror-image all mirror-able stamps. Useful for users who prefer things appearing right-to-left."
+msgstr "დასარკვადი შტამპების თვითდასარკვა. სურვილისამებრ, გამოსადეგია ცაცია მომხმარებლებისთვის."
+
+#: ../tuxpaint-config2.cxx:2243
+msgid "Fonts:"
+msgstr "შრიფტები:"
+
+#: ../tuxpaint-config2.cxx:2247
+msgid "Load System &Fonts"
+msgstr "სისტემური &შრიფტების ჩატვირთვა"
+
+#: ../tuxpaint-config2.cxx:2252
+msgid "Attempt to load more fonts, found elsewhere on your computer. (Note: may cause instability!)"
+msgstr "შესაძლებელია სხვა შრიფტების ჩატვირთვა თქვენი კომპიუტერიდან. (შენიშვნა: ნუ გადატვირთავთ!)"
+
+#: ../tuxpaint-config2.cxx:2257
+msgid "Load All &Locale Fonts"
+msgstr "ყველა &ლოკალური შრიფტის ჩატვირთვა"
+
+#: ../tuxpaint-config2.cxx:2262
+msgid "Load all locale-specific fonts installed in Tux Paint, regardless of the locale Tux Paint is being run under."
+msgstr "Tux Paint პროგრამის ყველა ლოკალური შრიფტის ჩატვირთვა, გარდა Tux Paint პროგრამის მიმდინარე ენისა."
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2273
+msgid "Printing"
+msgstr "ამობეჭდვა"
+
+#: ../tuxpaint-config2.cxx:2279
+msgid "Print Permissions:"
+msgstr "ბეჭდვის უფლებები:"
+
+#: ../tuxpaint-config2.cxx:2283
+msgid "Allow &Printing"
+msgstr "&ბეჭდვის უფლება"
+
+#: ../tuxpaint-config2.cxx:2288
+msgid "Let users print from within Tux Paint."
+msgstr "მომხმარებლებისთვის Tux Paint პროგრამიდან ბეჭდვის უფლება."
+
+#: ../tuxpaint-config2.cxx:2293
+msgid "Print Delay : "
+msgstr "ბეჭდვის დაყოვნება : "
+
+#: ../tuxpaint-config2.cxx:2299
+msgid "seconds"
+msgstr "წამი"
+
+#: ../tuxpaint-config2.cxx:2303
+msgid "Restrict printing to once every N seconds. (Enter '0' to allow unrestricted printing.)"
+msgstr "ერთხელ ამობეჭდვის შეზღუდვა N წამში. ('0' - შეზღუდვის გარეშე.)"
+
+#: ../tuxpaint-config2.cxx:2311
+msgid "Show Printer Dialog:"
+msgstr "პრინტერის დიალოგის ჩვენება:"
+
+#: ../tuxpaint-config2.cxx:2316
+msgid "Only when [Alt] &modifier key is held"
+msgstr "მხოლოდ როცა [Alt] &მოდიფიკატორი კლავიში დაჭერილია"
+
+#: ../tuxpaint-config2.cxx:2323
+msgid "Always &show printer dialog"
+msgstr "ბეჭდვის დიალოგის &ჩვენება ყოველთვის"
+
+#: ../tuxpaint-config2.cxx:2330
+msgid "&Never show printer dialog"
+msgstr "ბეჭდვის დიალოგის &არასოდეს"
+
+#: ../tuxpaint-config2.cxx:2337
+msgid "(Even when [Alt] is held.)"
+msgstr "(მაშინაც, როცა [Alt] დაჭერილია.)"
+
+#: ../tuxpaint-config2.cxx:2351
+msgid "Save printer configuration"
+msgstr "პრინტერის კონფიგურაციის შენახვა"
+
+#: ../tuxpaint-config2.cxx:2360
+msgid "Print Commands:"
+msgstr "ბეჭდვის ბრძანებები:"
+
+#: ../tuxpaint-config2.cxx:2364
+msgid "Use &Alternative Print Command"
+msgstr "ბეჭდვის ალტერნატული &ბრძანების გამოყენება"
+
+#: ../tuxpaint-config2.cxx:2369
+msgid "Override Tux Paint's default setting for print command ('lpr') with another. (Advanced! Unix/Linux only!)"
+msgstr "Tux Paint პროგრამის ბეჭდვის ნაგულისხმები ბრძანების ('lpr') ჩანაცვლება. (მხოლოდ Unix/Linux გარემოში!)"
+
+#: ../tuxpaint-config2.cxx:2379
+msgid "Enter the command for printing. It must accept a PostScript format on its standard input (STDIN)."
+msgstr "შეიტანეთ ბრძანება ბეჭდვის დიალოგისთვის. მიიღება PostScript ფორმატი სტანდარტული ფორმით (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2390
+msgid "Use &Alternative Print Dialog"
+msgstr "ბეჭდვის &ალტერნატული დიალოგით სარგებლობა"
+
+#: ../tuxpaint-config2.cxx:2395
+msgid "Override Tux Paint's default setting for print dialog ('kprinter') with another. (Advanced! Unix/Linux only!)"
+msgstr "Tux Paint პროგრამის ბეჭდვის ნაგულისხმები ბრძანების ('kprinter') ჩანაცვლება. (მხოლოდ Unix/Linux გარემოში!)"
+
+#: ../tuxpaint-config2.cxx:2405
+msgid "Enter the print dialog command. It must accept a PostScript format on its standard input (STDIN)."
+msgstr "შეიტანეთ ბრძანება ბეჭდვის დიალოგისთვის. მიიღება PostScript ფორმატი სტანდარტული ფორმით (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2412
+msgid "Paper Size : "
+msgstr "ქაღალდის ზომა :"
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2433
+msgid "Saving"
+msgstr "შენახვა"
+
+#: ../tuxpaint-config2.cxx:2440
+msgid "Save Over Earlier Work:"
+msgstr "ადრეული ნამუშევრის ჩანაცვლება:"
+
+#: ../tuxpaint-config2.cxx:2444
+msgid "&Ask Before Overwriting"
+msgstr "&შეკითხვა ჩანაცვლებამდე"
+
+#: ../tuxpaint-config2.cxx:2449
+msgid "When re-saving an image, ask whether to overwrite the earlier version, or make a new file."
+msgstr "გამოსახულების შენახვისას, შეკითხვა - ჩანაცვლდეს თუ არა ადრეული ნამუშევარი თუ შეიქმნას ახალი ფაილი."
+
+#: ../tuxpaint-config2.cxx:2454
+msgid "Always &Overwrite Older Version"
+msgstr "ძველი ვერსიის ყოველთვის &ჩანაცვლება"
+
+#: ../tuxpaint-config2.cxx:2459
+msgid "When re-saving an image, always overwrite the earlier version. (Warning: Potential for lost work!)"
+msgstr "გამოსახულების ხლეახლა შენახვისას, ადრეული ვერსიის ყოველთვის ჩანაცვლება. (ყურადღება: შესაძლოა ნამუშევარი დაიკარგოს!)"
+
+#: ../tuxpaint-config2.cxx:2464
+msgid "Always Save &New Picture"
+msgstr "ყოველთვის &ახალ გამოსახულებად შენახვა"
+
+#: ../tuxpaint-config2.cxx:2469
+msgid "When re-saving an image, always make a new file. (Warning: Potential for lots of files!)"
+msgstr "გამოსახულების ხლეახლა შენახვისას, ყოველთვის ახალი ფაილის შექმნა. (ყურადღება: შესაძლოა მეტისმეტი ფაილის დაგროვება!)"
+
+#: ../tuxpaint-config2.cxx:2476
+msgid "Start Blank:"
+msgstr "სუფთა ფურცელი:"
+
+#: ../tuxpaint-config2.cxx:2481
+msgid "Start with &Blank Canvas"
+msgstr "დაწყება &სუფთა ფურცელი"
+
+#: ../tuxpaint-config2.cxx:2490
+msgid "Save Directory:"
+msgstr "საცავის დასტა:"
+
+#: ../tuxpaint-config2.cxx:2494
+msgid "Use &Alternative Save Directory"
+msgstr "საცავის &ალტერნატული დასტით სარგებლობა"
+
+#: ../tuxpaint-config2.cxx:2499
+msgid "Do not save pictures in the standard directory, use the following location:"
+msgstr "გამოსახულებათა შენახვა არა სტანდარტულ დასტაში, არამედ ამ მისამართზე:"
+
+#: ../tuxpaint-config2.cxx:2504
+msgid "Alternative Save Directory:"
+msgstr "საცავის ალტერნატული დასტა:"
+
+#: ../tuxpaint-config2.cxx:2516
+msgid "More Saving Options:"
+msgstr "შენახვის სხვა პარამეტრები:"
+
+#: ../tuxpaint-config2.cxx:2521
+msgid "Disable '&Save' Button"
+msgstr "'&შენახვის' ღილაკის ამორთვა"
+
+#: ../tuxpaint-config2.cxx:2526
+msgid "Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch paper.'"
+msgstr "ნახატთა შენახვის შესაძლებლობის ამორთვა. Tux Paint გამოიყენება მხოლოდ წაშლადი დაფა"
+
+#: ../tuxpaint-config2.cxx:2532
+msgid "&Auto-save on Quit"
+msgstr "&თვითშენახვა გამოსვლისას"
+
+#: ../tuxpaint-config2.cxx:2537
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr "ნახატის ავტომატური შენახვა პროგრამიდან გამოსვლისას."
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2549
+msgid "Data"
+msgstr "მონაცემები"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2557
+msgid "Lockfile:"
+msgstr "ბლოკფაილი:"
+
+#: ../tuxpaint-config2.cxx:2561
+msgid "&Don't use lockfile"
+msgstr "&ნუ ისარგებლებთ ბლოკფაილით"
+
+#: ../tuxpaint-config2.cxx:2565
+msgid "Do not check for a lockfile. Allow Tux Paint to be launched multiple times. (May be necessary in a networked environment.)"
+msgstr "ბლოკფაილის გამოყენების გარეშე. შესაძლებელია Tux Paint პროგრამის რამდენჯერმე გახსნა (გამოსადეგია ქსელურ გარემოში)."
+
+#: ../tuxpaint-config2.cxx:2575
+msgid "Data Directory:"
+msgstr "მონაცემთა დასტა:"
+
+#: ../tuxpaint-config2.cxx:2579
+msgid "Use &Alternative Data Directory"
+msgstr "მონაცემთა &ალტერნატული დასტით სარგებლობა"
+
+#: ../tuxpaint-config2.cxx:2584
+msgid "Do not load brushes, stamps, etc. from the standard directory, use the following location:"
+msgstr "სტანდარტული დასტიდან ჩატვირთვის ნაცვლად ფუნჯების, შტამპების და ა.შ. ჩატვირთვა აქედან:"
+
+#: ../tuxpaint-config2.cxx:2589
+msgid "Alternative Data Directory:"
+msgstr "მონაცემთა ალტერნატული დასტა:"
+
+#: ../tuxpaint-config2.cxx:2611
+msgid "Accessibility"
+msgstr "დამხმარე საშუალებები"
+
+#: ../tuxpaint-config2.cxx:2621
+msgid "Sticky mouse clicks"
+msgstr "თაგუნას ნიშნულად დაწკაპვა"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2625
+msgid "Useful for users who have difficulty clicking and dragging. When enabled, click and release to start painting, move to paint, and click and release again to stop. It can also be combined with joystick- and keyboard-based pointer controls."
+msgstr "სასარგებლოა კოორდინაციადარღვეულ მომხმარებელთათვის, რომელთც დაწკაპვა და გადათრევა ურთულდებათ. თუ ჩართულია დაწკაპეთ და აუშვით საწყის წერტილზე გადააადგილეთ და ხელახლა დაწკაპეთ და აუშვით დასასრულებლად. შესაძლოა მისი გამოყენება ჯოისტიკითა და კლავიატურით მართვისას."
+
+#: ../tuxpaint-config2.cxx:2636
+msgid "Keyboard controls the mouse pointer"
+msgstr "თაგუნას კონტროლი კლავიატურით"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2640
+msgid "When enabled, the arrow keys or numbers can be used to move the mouse pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr "თუ ჩართულია, თაგუნას ისრის გადაადგილება ისრების კლავიშებითა და ნომრებით შეიძლება. ნომერი 5, შორისი, Insert ან F5 დასაწკაპად გამოიყენება (სამარჯვებით \"ტექსტი\" და \"წარწერა\" სარგებლობისას ნომრებს და შორისს ვერ გამოიყენებთ.) ასევე, F4 გადამრრთველია \"ხელსაწყოთა\" დაფას, \"პალიტრის\" დაფას და სახატავ არეს შორის, F8 და F7 ამოძრავებს ზემოთ და ქვემოთ \"ხელსაწყოთა\" დაფაზე, ხოლ F11 და F12 - მარცხნივ და მარჯვნივ \"ხელსაწყოთა\" და \"პალიტრის\" დაფებზე."
+
+#: ../tuxpaint-config2.cxx:2648
+msgid "Onscreen keyboard:"
+msgstr "ეკრანის კლავიატურა:"
+
+#: ../tuxpaint-config2.cxx:2652
+msgid "Show a keyboard on the screen"
+msgstr "კლავიატურის ჩვენება ეკრანზე"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2656
+msgid "Display a keyboard on the screen when the \"Text\" and \"Label\" tools are enabled, so you can 'type' with the mouse pointer."
+msgstr "კლავიატურის ჩვენება ეკრანზე სამარჯვებით \"ტექსტი\" და \"წარწერა\" სარგებლობისას, ტექსტის შეტანას თაგუნათი შეძლებთ."
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2661
+msgid "Layout"
+msgstr "განთავსება"
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2673
+msgid "How are keys organized in the keyboard"
+msgstr "როგორ განთავსდება კლავიშები კლავიატურაზე"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2678
+msgid "Disable layout changes"
+msgstr "განთავსების შეცვლის ამორთვა"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2683
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr "იმ ღილაკების ამორთვა, რომლითაც კლავიშების რომლითაც განთავსების შეცვლა შეიძლება."
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2701
+msgid "Joystick"
+msgstr "ჯოისტიკი"
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2712
+msgid "Main device:"
+msgstr "მოწყობილობა:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2722
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr "მოწყობილობის ნომერი (SDL გადანომვრა იწყება 0-ით)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2733
+msgid "Joystick slowness. Increase this value for people with slow reactions. (0-500; default value is 15)"
+msgstr "ჯოისტიკის ინერცია. გაზარდეთ მნიშვნელობა დაბალი რეაქციის მქონე პირთათვის (0-500; ნაგულისხმებად 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2745
+msgid "SDL events under threshold will be discarded, useful to discard accidental unwanted movements. (0-32766; default value is 3200)"
+msgstr "SDL მოვლენათა შეზღუდვა გასაუქმებლად, სასარგებლოა უნებლიე ან შემთხვევითი მოძრაობების გასაუქმებლად (0-32766; ნაგულისხმებად 3200)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2755
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr "სიჩქარის შეზღუდვა მოძრაობისას (1-7; ნაგულისხმებად 7)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2762
+msgid "Hat:"
+msgstr "ყოვნი:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2771
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr "ყოვნის ხანგრძლიობა (0-500; ნაგულისხმებად 15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2783
+msgid "Hat timeout, the number of milliseconds to wait before starting to move continuously. (0-3000; default value is 1000)"
+msgstr "ყოვნი - მილიწამთა რაოდენობა მუდმივი მოძრაობის დაწყებამდე (0-3000; ნაგულისხმებად 1000)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2794
+msgid "Buttons to disable:"
+msgstr "ამოსართავი ღილაკები:"
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2810
+msgid "If for any reason one or more buttons of the joystick are posing problems, you can disable them here using a comma separated list of button numbers. (e.g. 2,3,5)"
+msgstr "თუ რაიმე მიზეზით ჯოისტიკის ერთი ან მეტი ღილაკი პრობლემურია, აქედან შეგიძლიათ მათი ამორთვა თუ მიუთითებთ მძიმეებით დაყოფილ ნიმრებს (მაგალითად: 2,3,5)"
+
+#: ../tuxpaint-config2.cxx:2819
+msgid "Button shortcuts:"
+msgstr "ღილაკის ბილიკები:"
+
+#: ../tuxpaint-config2.cxx:2823
+msgid "Here you can configure shortcuts for the different buttons of the joystick. (Beware to not assign a shortcut to the button used to draw.)"
+msgstr "აქ შეგიძლიათ ბილიკების მითითება ჯოისტიკის სხვადასხვა ღილაკისთვის (გაითვალისწინეთ, არ მიაკუთვნოთ ბილიკი სახატავ ღილაკს.)"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2828
+msgid "Button number for the Escape key."
+msgstr "ღილაკის ნომერი კლავიშისთვის - Escape"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2836
+msgid "Button number for the Brush tool."
+msgstr "ღილაკის ნომერი სამარჯვისთვის - ფუნჯი."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2844
+msgid "Button number for the Stamps tool."
+msgstr "ღილაკის ნომერი სამარჯვისთვის - შტამპი."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2852
+msgid "Button number for the Lines tool."
+msgstr "ღილაკის ნომერი სამარჯვისთვის - ხაზები."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2860
+msgid "Button number for the Shapes tool."
+msgstr "ღილაკის ნომერი სამარჯვისთვის - ფორმები."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2868
+msgid "Button number for the Text tool."
+msgstr "ღილაკის ნომერი სამარჯვისთვის - ტექსტი."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2876
+msgid "Button number for the Label tool."
+msgstr "ღილაკის ნომერი სამარჯვისთვის - წარწერა."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2884
+msgid "Button number for the Magic tool."
+msgstr "ღილაკის ნომერი სამარჯვისთვის - მაგია."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2892
+msgid "Button number for Undo."
+msgstr "ღილაკის ნომერი ფუნქციისთვის - დაბრუნება."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2900
+msgid "Button number for Redo."
+msgstr "ღილაკის ნომერი ფუნქციისთვის - დაბრუნება."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2908
+msgid "Button number for the Eraser tool."
+msgstr "ღილაკის ნომერი სამარჯვისთვის - საშლელი."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2916
+msgid "Button number for the New tool."
+msgstr "ღილაკის ნომერი ფუნქციისთვის - ახალი."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2924
+msgid "Button number for the Open tool."
+msgstr "ღილაკის ნომერი ფუნქციისთვის - გახსნა."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2932
+msgid "Button number for saving."
+msgstr "ღილაკის ნომერი ფუნქციისთვის - შენახვა."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2940
+msgid "Button number for Page Setup."
+msgstr "ღილაკის ნომერი გვერდისთვის - პარამეტრები."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2948
+msgid "Button number for printing."
+msgstr "ღილაკის ნომერი ფუნქციისთვის - ბეჭდვა."
+
+#: ../tuxpaint-config2.cxx:2970
+msgid "Settings for : "
+msgstr "პარამეტრები : "
+
+#: ../tuxpaint-config2.cxx:2974
+msgid "Current User"
+msgstr "არსებული მომხმარებელი"
+
+#: ../tuxpaint-config2.cxx:2975
+msgid "All Users"
+msgstr "ყველა მომხმარებელი"
+
+#: ../tuxpaint-config2.cxx:2981
+msgid "Use \"All Users\" Settings"
+msgstr "\"ყველა მომხმარებლია\" პარამეტრები"
+
+#: ../tuxpaint-config2.cxx:2985
+msgid "Apply"
+msgstr "შესრულება"
+
+#: ../tuxpaint-config2.cxx:2993
+msgid "Reset"
+msgstr "აღდგენა"
+
+#: ../tuxpaint-config2.cxx:3000
+msgid "Defaults"
+msgstr "ნაგულისხმები"
+
+#: ../tuxpaint-config2.cxx:3007
+msgid "Quit"
+msgstr "გამოსვლა"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "Tux Paint კონფიგურაცია."
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "Tux Paint კონფიგურაცია"
+

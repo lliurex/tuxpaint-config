@@ -1,0 +1,36 @@
+TODO.txt for Tux Paint Configuration Tool
+
+Tux Paint Configuration Tool - A GUI-based configurator for
+                               Tux Paint, a simple drawing program for children.
+
+Copyright (c) 2002-2011
+
+Torsten Giebl <wizard@turricane.org>
+Jan Wynholds
+Bill Kendrick <bill@newbreedsoftware.com>
+Martin Fuhrer <mfuhrer@gmail.com>
+
+http://www.tuxpaint.org/
+
+April 15, 2011
+
+
+Options
+  * --mouse vs --keyboard options are not exposed
+    (because that feature doesn't work well)
+
+  * --mouse-accessibility option is not exposed yet
+    (TODO)
+
+  * --onscreen-keyboard option is not exposed yet
+    (TODO)
+
+Interface
+  * Reset button
+    - Deactivate it when app first loads
+    - Deactivate it when Apply is clicked
+    - Deactivate it when Reset is clicked
+
+    - Enable if any changes are made
+
+    - Reload conf file to undo any unapplied changes if "Reset" is clicked

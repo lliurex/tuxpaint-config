@@ -1,0 +1,40 @@
+Tux Paint Config XCode 2.4 Project
+notes by Martin Fuhrer <mfuhrer@alumni.ucalgary.ca>
+
+This Tux Paint Config project file is located in a folder titled "macosx", which should in turn be placed in the root folder of the Tux Paint Config source code distribution.  You will require Mac OS X 10.4 and XCode 2.4 or later to build this project.
+
+This XCode project has been configured under the assumption that  you have certain libraries and files installed in particular locations under Mac OS X.  This file indicates what you must install, and where these items go.  Some of the libraries are installed via the MacPorts package manager, which can be downloaded from <www.macports.org>. The Fink package manager <fink.sourceforge.net> may also be used.
+
+
+-- FLTK --
+
+Install FLTK for Aqua via MacPorts:  
+% port install fltk +aqua +universal
+
+By default, MacPorts will place the libraries in /opt/local/lib.  These libraries will be statically linked into the Tux Paint binary.
+
+
+-- Universal and Cross Development --
+
+Tux Paint Config can be built for PowerPC, Intel, or both (as a universal binary).  MacPorts takes care of building universal versions of the FLTK libraries via the +universal variant. For more information on building universal binaries, see <http://developer.apple.com/documentation/Porting/Conceptual/PortingUnix/compiling/chapter_4_section_3.html>.
+
+To set the target platform for your build:
+1) Choose Project > Edit Active Target 'Tux Paint Config'
+2) Click the Build tab.
+3) Set Configuration to "All Configurations" and Collection to "Customized Settings"
+4) Select the "Architectures" setting and click the Edit button.
+5) Select PowerPC, Intel, or both.
+
+In order to allow the Tux Paint Config application to run on older versions of Mac OS X, it is necessary to compile and link against an older version of the Mac OS X SDK (eg. Mac OS X 10.2.8) using an older version of gcc (eg. gcc 3.3).  Various versions of the Mac OS X SDKs and gcc can be installed from the XCode Installation DVD or disk image.  Note that any libraries Tux Paint Config links against (eg. libraries installed by MacPorts) should also be compiled and linked against the same SDK, using the same version of gcc.  Universal binary and Intel applications must be compiled using gcc 4.0 and the Mac OS X 10.4u SDK.
+
+To set the desired Mac OS X SDK:
+1) Choose Project > Edit Project Settings
+2) Click on the General tab.
+2) Choose the desired SDK from the "Cross-Develop Using Target SDK" menu.
+
+To set the desired compiler version:
+1) Choose Project > Edit Active Target 'Tux Paint Config'
+2) Click on the Rules tab.
+3) Set the desired associations between file types (eg. C++ source files) and the compiler version (eg. GCC 3.3).
+
+

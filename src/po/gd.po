@@ -1,0 +1,1017 @@
+# Translation of tuxpaint-config to Gaelic (Scottish) (gd).
+# Copyright (C) 2014 the tuxpaint team.
+# This file is distributed under the same license as the tuxpaint-config package.
+# GunChleoc <fios@foramnagaidhlig.net>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: tuxpaint-config\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-06 07:46+0200\n"
+"PO-Revision-Date: 2014-07-28 08:14+0100\n"
+"Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
+"Language-Team: Fòram na Gàidhlig\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
+"(n > 2 && n < 20) ? 2 : 3;\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten "
+"Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen "
+"mode, the interface's language, or options to simplify Tux Paint for younger "
+"children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your "
+"computer by making a selection in the 'Settings for' pull-down menu at the "
+"bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change "
+"the options you'd like to change, and click the 'Apply' button at the bottom "
+"to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"Fàilte dhan inneal rèiteachaidh ghrafaigich aig Tux Paint, air a "
+"chruthachadh le Torsten Giebl, Jan Wynholds, Bill Kendrick agus Martin "
+"Fuhrer.\n"
+"\n"
+"Leigidh an t-inneal seo leat roghainnean Tux Paint atharrachadh, can am modh "
+"làn-sgrìn, cànan a' phrògraim no roghainnean gus Tux Paint a dhèanamh nas "
+"simplidh do chlann òga.\n"
+"\n"
+"'S urrainn dhut na roghainnean atharrachadh airson aon duine a-mhàin no "
+"duine sam bith a chleachdas e air a' choimpiutair agad ma thèid thu gun "
+"chlàr-taice \"Roghainnean airson\" aig a' bhonn.\n"
+"\n"
+"Cleachd na tabaichean aig a' bharr gus seòladh eadar na diofar roinnean agus "
+"ma dh'atharraich thu dad, cuiridh tu an sàs e ma bhriogas tu air \"Cuir an "
+"sàs\" aig a' bhonn.\n"
+"\n"
+"Bidh na roghainnean ùra an sàs ann an ath thuras a chuireas tu gu dol Tux "
+"Paint."
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(Cleachd bun-roghainn an t-siostaim)"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(Cleachd roghainnean an t-siostaim)"
+
+#: ../tuxpaint-config2.cxx:1525 ../tuxpaint-config2.cxx:2129
+msgid "Default (no override)"
+msgstr "Bun-roghainnean (gun tar-àithne)"
+
+#: ../tuxpaint-config2.cxx:1527
+msgid "Override: Small"
+msgstr "Tar-àithne: Beag"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Medium"
+msgstr "Tar-àithne: Meadhanach"
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Large"
+msgstr "Tar-àithne: Mòr"
+
+#: ../tuxpaint-config2.cxx:1636
+msgid "Save Directory?"
+msgstr "A bheil thu airson an t-eòlaire a shàbhaladh?"
+
+#: ../tuxpaint-config2.cxx:1670
+msgid "Data Directory?"
+msgstr "Pasgan dàta?"
+
+#: ../tuxpaint-config2.cxx:1703
+msgid "Color Palette File?"
+msgstr "Faidhle pailead dhathan?"
+
+#: ../tuxpaint-config2.cxx:1742
+msgid "Quit without applying changes?"
+msgstr ""
+"A bheil thu airson fàgail às aonais na dh'atharraich thu a chur an sàs?"
+
+#: ../tuxpaint-config2.cxx:1743
+msgid "&No"
+msgstr "&Chan eil"
+
+#: ../tuxpaint-config2.cxx:1743
+msgid "&Yes"
+msgstr "&Tha"
+
+#: ../tuxpaint-config2.cxx:1779
+msgid "current user"
+msgstr "a' chleachdaiche làithrich"
+
+#: ../tuxpaint-config2.cxx:1782
+msgid "all users"
+msgstr "a h-uile cleachdaiche"
+
+#: ../tuxpaint-config2.cxx:1786
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "An cuir sinn an sàs na dh'atharraich thu airson %s?"
+
+#: ../tuxpaint-config2.cxx:1787
+msgid "No"
+msgstr "Cha chuir"
+
+#: ../tuxpaint-config2.cxx:1787
+msgid "Yes"
+msgstr "Cuiridh"
+
+#: ../tuxpaint-config2.cxx:1807 ../tuxpaint-config2.cxx:1810
+msgid "Tux Paint Config v"
+msgstr "Rèiteachadh Tux Paint v"
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1819
+msgid "About"
+msgstr "Mu dheidhinn"
+
+#: ../tuxpaint-config2.cxx:1826
+msgid "About Tux Paint Config."
+msgstr "Mu dheidhinn Rèiteachadh Tux Paint."
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1842
+msgid "Video/Sound"
+msgstr "Video/Fuaim"
+
+#: ../tuxpaint-config2.cxx:1849
+msgid "Video:"
+msgstr "Video:"
+
+#: ../tuxpaint-config2.cxx:1853
+msgid "&Fullscreen"
+msgstr "&Làn-sgrìn"
+
+#: ../tuxpaint-config2.cxx:1858
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "Cleachd Tux Paint sa mhodh làn-sgrìn seach ann an uinneag."
+
+#: ../tuxpaint-config2.cxx:1864
+msgid "&Native"
+msgstr "&Tùsail"
+
+#: ../tuxpaint-config2.cxx:1868
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "Cleachd dùmhlachd-bhreacaidh thùsail na sgrìn sa mhodh làn-sgrìn."
+
+#: ../tuxpaint-config2.cxx:1874
+msgid "Window size : "
+msgstr "Meud na h-uinneige : "
+
+#: ../tuxpaint-config2.cxx:1898
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "Meud na h-uinneige no an dùmhlachd-bhreacaidh sa mhodh làn-sgrìn."
+
+#: ../tuxpaint-config2.cxx:1904
+msgid "&Rotate Orientation"
+msgstr "&Tionndaidh a' chomhair"
+
+#: ../tuxpaint-config2.cxx:1908
+msgid ""
+"Swap width and height, to rotate 90 degrees (useful for portrait-display on "
+"a tablet PC)"
+msgstr ""
+"Cuir leud is àirde mu seach gus a thionndaidh le 90 ceum (feumail airson "
+"sealladh portraid air tablaid)"
+
+#: ../tuxpaint-config2.cxx:1914
+msgid "Allow S&creensaver"
+msgstr "Ceadaich an &sàbhalaiche-sgrìn"
+
+#: ../tuxpaint-config2.cxx:1918
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr ""
+"Na cuir à comas sàbhalaiche-sgrìn an t-siostaim agad nuair a bhios Tux Paint "
+"a' dol."
+
+#: ../tuxpaint-config2.cxx:1927
+msgid "Sound:"
+msgstr "Fuaim:"
+
+#: ../tuxpaint-config2.cxx:1931
+msgid "Enable &Sound Effects"
+msgstr "Cuir na &fuaimean an comas"
+
+#: ../tuxpaint-config2.cxx:1936
+msgid "Enable/disable sound effects."
+msgstr "Cuir na fuaimean an comas/à comas."
+
+#: ../tuxpaint-config2.cxx:1945 ../tuxpaint-config2.cxx:1959
+msgid "Color Palette File:"
+msgstr "Faidhle pailead dhathan:"
+
+#: ../tuxpaint-config2.cxx:1949
+msgid "Use &Alternative Color Palette"
+msgstr "Cleachd &pailead dhathan eile"
+
+#: ../tuxpaint-config2.cxx:1954
+msgid ""
+"Don't use default color palette, use colors defined in the following file:"
+msgstr ""
+"Na cleachd am pailead dhathan bunaiteach ach cleachd na dathan a tha "
+"mìnichte san fhaidhle a leanas:"
+
+#: ../tuxpaint-config2.cxx:1964 ../tuxpaint-config2.cxx:2507
+#: ../tuxpaint-config2.cxx:2592
+msgid "Browse..."
+msgstr "Brabhsaich..."
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1975
+msgid "Mouse/Keyboard"
+msgstr "Luchag/Meur-chlàr"
+
+#: ../tuxpaint-config2.cxx:1983
+msgid "Cursor:"
+msgstr "Cùrsair:"
+
+#: ../tuxpaint-config2.cxx:1987
+msgid "&Fancy Cursor Shapes"
+msgstr "&Cruthan annasach airson a' chùrsair"
+
+#: ../tuxpaint-config2.cxx:1992
+msgid ""
+"Change the shape of the mouse pointer depending on where the mouse is and "
+"what you are doing."
+msgstr ""
+"Atharraich cruth cùrsair na luchaige a-rèir ionad a' chùrsair 's na tha thu "
+"ris."
+
+#: ../tuxpaint-config2.cxx:1998
+msgid "&Hide Cursor"
+msgstr "&Falaich an cùrsair"
+
+#: ../tuxpaint-config2.cxx:2003
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr ""
+"Cuiridh seo an cùrsair am falach gu tur (feumail air innealan le sgrìn "
+"suathaidh)."
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2012 ../tuxpaint-config2.cxx:2630
+msgid "Keyboard:"
+msgstr "Meur-chlàr:"
+
+#: ../tuxpaint-config2.cxx:2016
+msgid "Enable &Keyboard Shortcuts"
+msgstr "Cuir an comas &ath-ghoiridean a' mheur-chlàir"
+
+#: ../tuxpaint-config2.cxx:2021
+msgid ""
+"Allows key combinations to be used as shortcuts for certain commands. (e.g., "
+"Control+S to Save)"
+msgstr ""
+"Leigidh seo leat co-mheasgachadh de dh'iuchraichean a chleachdadh airson "
+"àitheantan àraidh (m.e. Control+S gus rud a shàbhaladh)"
+
+#: ../tuxpaint-config2.cxx:2033 ../tuxpaint-config2.cxx:2615
+msgid "Mouse:"
+msgstr "Luchag:"
+
+#: ../tuxpaint-config2.cxx:2037
+msgid "&Grab Mouse Pointer"
+msgstr "&Cum greim air tomhaire na luchaige"
+
+#: ../tuxpaint-config2.cxx:2042
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "Cha leig seo le tomhaire na luchaige falbh à uinneag Tux Paint."
+
+#: ../tuxpaint-config2.cxx:2047
+msgid "Mouse &Wheel Support"
+msgstr "&Taic do chuibhle luchaige"
+
+#: ../tuxpaint-config2.cxx:2052
+msgid ""
+"Allows a mouse wheel to be used to scroll through items. (e.g., brushes, "
+"stamps)"
+msgstr ""
+"Leigidh seo leat cuibhle luchaige a chleachdadh gus sgroladh tro nithean (m."
+"e. bruisean, stampaichean)"
+
+#: ../tuxpaint-config2.cxx:2057
+msgid "No &Button Distinction"
+msgstr "Gun diofar &eadar na putain"
+
+#: ../tuxpaint-config2.cxx:2061
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr ""
+"Leigidh seo leat putan meadhan is deas na luchaige a chleachdadh airson "
+"briogadh cuideachd."
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2074
+msgid "Simplification"
+msgstr "Simpleachadh"
+
+#: ../tuxpaint-config2.cxx:2082
+msgid "Interface Simplification:"
+msgstr "Simpleachadh na h-eadar-aghaidh:"
+
+#: ../tuxpaint-config2.cxx:2086
+msgid "Disable Shape &Rotation"
+msgstr "C&uir cuairteachadh chruthan à comas"
+
+#: ../tuxpaint-config2.cxx:2091
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr ""
+"Bidh comas cuairteachaidh aig inneal nan cruthan à comas. Feumail don chlann "
+"òga."
+
+#: ../tuxpaint-config2.cxx:2096
+msgid "Simple Stamp &Outlines"
+msgstr "&Oir-loidhnichean simplidh airson stampaichean"
+
+#: ../tuxpaint-config2.cxx:2101
+msgid ""
+"Draw a rectangle around the cursor when placing stamps, rather than a "
+"detailed outline. (For slow computers and thin clients.)"
+msgstr ""
+"Cuiridh seo ceart-cheàrnaich mun chùrsair nuair a chuirear stampa ann seach "
+"oir-loidhne mhionaideach. (Airson coimpiutairean slaodach is cliantan tana.)"
+
+#: ../tuxpaint-config2.cxx:2106
+msgid "Show &Uppercase Text Only"
+msgstr "Teacsa ann an &litrichean mòra a-mhàin"
+
+#: ../tuxpaint-config2.cxx:2111
+msgid ""
+"Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in "
+"UPPERCASE rather than Mixed Case."
+msgstr ""
+"Cuiridh seo an teacsa air fad ann an Tux Paint (leubailean nam putan, "
+"còmhraidhean is msaa) ann an litrichean mòra seach feadhainn mhòra 's bheaga."
+
+#: ../tuxpaint-config2.cxx:2120
+msgid "Initial Stamp Size:"
+msgstr "Meud tùsail nan stampaichean:"
+
+#: ../tuxpaint-config2.cxx:2137
+msgid "Control Simplification:"
+msgstr "Simpleachadh nan innealan-smachd:"
+
+#: ../tuxpaint-config2.cxx:2141
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "Cuir à comas am putan \"&Fàg an-seo\" 's an iuchair [Escape]"
+
+#: ../tuxpaint-config2.cxx:2146
+msgid ""
+"Clicking the window's close (X) button in the title bar, or pressing "
+"[Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr ""
+"Fàgaidh tu Tux Paint fhathast ma bhriogas tu air a' phutan X a dhùineas an "
+"uinneag air a' bhàr-tiotail no ma bhrùthas tu [Alt]+[F4] no "
+"[Shift]+[Ctrl]+[Escape]."
+
+#: ../tuxpaint-config2.cxx:2151
+msgid "Disable '&Stamps' Tool"
+msgstr "Cuir inneal nan \"&Stampaichean\" à comas"
+
+#: ../tuxpaint-config2.cxx:2156
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr ""
+"Na luchdaich na stampaichean nuair a thòisicheas am prògram is leis a sin, "
+"bidh inneal nan stampaichean à comas."
+
+#: ../tuxpaint-config2.cxx:2161
+msgid "Disable Stamp &Controls"
+msgstr "Cuir &innealan-smachd nan stampaichean à comas"
+
+#: ../tuxpaint-config2.cxx:2166
+msgid ""
+"Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, "
+"Grow, Mirror and Flip)."
+msgstr ""
+"Nì seo inneal nan stampaichean nas simplidhe le bhith a' toirt air falbh "
+"putain-smachd nan stampaichean (Crùb, Fàs, Sgàthanaich is Flip)."
+
+#: ../tuxpaint-config2.cxx:2171
+msgid "Disable &Magic Controls"
+msgstr "Cuir na &h-innealan-smachd draoidheil à comas"
+
+#: ../tuxpaint-config2.cxx:2176
+msgid ""
+"Simplify the 'Magic' tools by removing the buttons to switch between paint "
+"and fullscreen modes."
+msgstr ""
+"Nì seo na h-innealan draoidheil nas simplidhe le bhith a' toirt air falbh na "
+"putain a leumas eadar na modhan peantaidh is làn-sgrìn."
+
+#: ../tuxpaint-config2.cxx:2181
+msgid "Disable '&Label' Tool"
+msgstr "Cuir inneal nan \"&Leubailean\" à comas"
+
+#: ../tuxpaint-config2.cxx:2186
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr ""
+"Cuir à comas inneal nan \"Leubailean\" leis a chuireas tu teacsa ann "
+"cuideachd (a' fàgail an inneil \"Teacsa\" a-mhàin)."
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2197
+msgid "Languages"
+msgstr "Cànain"
+
+#: ../tuxpaint-config2.cxx:2203
+msgid "Language:"
+msgstr "Cànan:"
+
+#: ../tuxpaint-config2.cxx:2207
+msgid "Language : "
+msgstr "Cànan : "
+
+#: ../tuxpaint-config2.cxx:2222
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr ""
+"Cleachd Tux Paint ann an cànan àraidh (a' leigeil seachad roghainnean an t-"
+"siostaim)."
+
+#: ../tuxpaint-config2.cxx:2227
+msgid "&Mirror Stamps"
+msgstr "&Sgàthanaich stampaichean"
+
+#: ../tuxpaint-config2.cxx:2232
+msgid ""
+"Automatically mirror-image all mirror-able stamps. Useful for users who "
+"prefer things appearing right-to-left."
+msgstr ""
+"Dèan dealbh sgàthanaichte de gach stampa a ghabhas sgàthanachadh gu fèin-"
+"obrachail. Feumail do chleachdaichean as fhearr leotha rudan a' dol on taobh "
+"deas gun taobh chlì."
+
+#: ../tuxpaint-config2.cxx:2241
+msgid "Fonts:"
+msgstr "Cruthan-clò:"
+
+#: ../tuxpaint-config2.cxx:2245
+msgid "Load System &Fonts"
+msgstr "&Luchdaich cruthan-clò an t-siostaim"
+
+#: ../tuxpaint-config2.cxx:2250
+msgid ""
+"Attempt to load more fonts, found elsewhere on your computer. (Note: may "
+"cause instability!)"
+msgstr ""
+"Feuch is luchdaich barrachd chruthan-clò a tha ann an àitichean eile air a' "
+"choimpiutair agad. (An aire: Faodaidh gun adhbharaich seo neo-sheasmhachd!)"
+
+#: ../tuxpaint-config2.cxx:2255
+msgid "Load All &Locale Fonts"
+msgstr "Luchdaich gach cruth-clò an &sgeama ionadail"
+
+#: ../tuxpaint-config2.cxx:2260
+msgid ""
+"Load all locale-specific fonts installed in Tux Paint, regardless of the "
+"locale Tux Paint is being run under."
+msgstr ""
+"Luchdaich gach cruth-clò a tha sònraichte dhan sgeama ionadail agad ann an "
+"Tux Paint, ge b' e dè an sgeama ionadail sa bheil Tux Paint 'na ruith ann."
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2271
+msgid "Printing"
+msgstr "Clò-bhualadh"
+
+#: ../tuxpaint-config2.cxx:2277
+msgid "Print Permissions:"
+msgstr "Ceadan a' chlò-bhualaidh:"
+
+#: ../tuxpaint-config2.cxx:2281
+msgid "Allow &Printing"
+msgstr "&Ceadaich clò-bhualadh"
+
+#: ../tuxpaint-config2.cxx:2286
+msgid "Let users print from within Tux Paint."
+msgstr "Leig le cleachdaichean clò-bhualaidh o bhroinn Tux Paint fhèin."
+
+#: ../tuxpaint-config2.cxx:2291
+msgid "Print Delay : "
+msgstr "Dàil air a' chlò-bhualadh : "
+
+#: ../tuxpaint-config2.cxx:2297
+msgid "seconds"
+msgstr "diogan"
+
+#: ../tuxpaint-config2.cxx:2301
+msgid ""
+"Restrict printing to once every N seconds. (Enter '0' to allow unrestricted "
+"printing.)"
+msgstr ""
+"Na ceadach clò-bhualadh ach aon turas gach N-amh diog (Cuir a-steach 0 gus "
+"nach bi cuingeachadh sam bith ann.)"
+
+#: ../tuxpaint-config2.cxx:2309
+msgid "Show Printer Dialog:"
+msgstr "Seall còmhradh a' chlò-bhualadair:"
+
+#: ../tuxpaint-config2.cxx:2314
+msgid "Only when [Alt] &modifier key is held"
+msgstr "'S an iuchair atharrachaidh [Alt] 'ga chu&mail sìos a-mhàin"
+
+#: ../tuxpaint-config2.cxx:2321
+msgid "Always &show printer dialog"
+msgstr "&Seall còmhradh a' chlò-bhualadair an-còmhnaidh"
+
+#: ../tuxpaint-config2.cxx:2328
+msgid "&Never show printer dialog"
+msgstr "&Na seall còmhradh a' chlò-bhualadair idir"
+
+#: ../tuxpaint-config2.cxx:2335
+msgid "(Even when [Alt] is held.)"
+msgstr "(Fiù ma chumar sìos [Alt].)"
+
+#: ../tuxpaint-config2.cxx:2349
+msgid "Save printer configuration"
+msgstr "Sàbhail rèiteachadh a' chlò-bhualadair"
+
+#: ../tuxpaint-config2.cxx:2358
+msgid "Print Commands:"
+msgstr "Àitheantan a' chlò-bhualaidh:"
+
+#: ../tuxpaint-config2.cxx:2362
+msgid "Use &Alternative Print Command"
+msgstr "Cleachd &roghainn eile mar àithne clò-bhualaidh"
+
+#: ../tuxpaint-config2.cxx:2367
+msgid ""
+"Override Tux Paint's default setting for print command ('lpr') with another. "
+"(Advanced! Unix/Linux only!)"
+msgstr ""
+"Cleachd roghainn eile mar àithne clò-bhualaidh seach an àithne bhunaiteach "
+"ann an Tux Paint (lpr). (Sàr chleachdaichean Unix/Linux a-mhàin!)"
+
+#: ../tuxpaint-config2.cxx:2377
+msgid ""
+"Enter the command for printing. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Cuir a-steach an àithne airson clò-bhualadh, Feumaidh e gabhail ri fòrmat "
+"PostScript air an ion-chur stannardach (STDIN) aige."
+
+#: ../tuxpaint-config2.cxx:2388
+msgid "Use &Alternative Print Dialog"
+msgstr "Cleachd &roghainn eile mar chòmhradh clò-bhualaidh"
+
+#: ../tuxpaint-config2.cxx:2393
+msgid ""
+"Override Tux Paint's default setting for print dialog ('kprinter') with "
+"another. (Advanced! Unix/Linux only!)"
+msgstr ""
+"Cleachd roghainn eile mar àithne clò-bhualaidh seach an còmhradh bunaiteach "
+"ann an Tux Paint (kprinter). (Sàr chleachdaichean Unix/Linux a-mhàin!)"
+
+#: ../tuxpaint-config2.cxx:2403
+msgid ""
+"Enter the print dialog command. It must accept a PostScript format on its "
+"standard input (STDIN)."
+msgstr ""
+"Cuir a-steach an àithne airson còmhradh a' chlò-bhualaidh, Feumaidh e "
+"gabhail ri fòrmat PostScript air an ion-chur stannardach (STDIN) aige."
+
+#: ../tuxpaint-config2.cxx:2410
+msgid "Paper Size : "
+msgstr "Meud a' phàipeir : "
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2431
+msgid "Saving"
+msgstr "'Ga shàbhaladh"
+
+#: ../tuxpaint-config2.cxx:2438
+msgid "Save Over Earlier Work:"
+msgstr "Ma thathar an impis sàbhaladh thairis air obair roimhpe:"
+
+#: ../tuxpaint-config2.cxx:2442
+msgid "&Ask Before Overwriting"
+msgstr "&Faighnich mus sgrìobhar thairis air stuth"
+
+#: ../tuxpaint-config2.cxx:2447
+msgid ""
+"When re-saving an image, ask whether to overwrite the earlier version, or "
+"make a new file."
+msgstr ""
+"Nuair a shàbhaileas mi dealbh a-rithist, faighnich dhìom a bheil mi airson "
+"sgrìobhadh thairis air an t-seann dealbh no airson a shàbhaladh mar fhaidhle "
+"ùr."
+
+#: ../tuxpaint-config2.cxx:2452
+msgid "Always &Overwrite Older Version"
+msgstr "&Sgrìobh thairis air an t-seann fhaidhle an-còmhnaidh"
+
+#: ../tuxpaint-config2.cxx:2457
+msgid ""
+"When re-saving an image, always overwrite the earlier version. (Warning: "
+"Potential for lost work!)"
+msgstr ""
+"Nuair a shàbhaileas mi dealbh a-rithist, sgrìobh thairis air an t-seann "
+"fhaidhle an-còmhnaidh. (Rabhadh: Faodaidh gun caill thu obair a rinn thu!)"
+
+#: ../tuxpaint-config2.cxx:2462
+msgid "Always Save &New Picture"
+msgstr "Sàbhail mar &dhealbh ùr an-còmhnaidh"
+
+#: ../tuxpaint-config2.cxx:2467
+msgid ""
+"When re-saving an image, always make a new file. (Warning: Potential for "
+"lots of files!)"
+msgstr ""
+"Nuair a shàbhaileas mi dealbh a-rithist, sàbhail e mar fhaidhle ùr. "
+"(Rabhadh: Faodaidh gum bi torr mòr fhaidhlichean agad ri linn seo!)"
+
+#: ../tuxpaint-config2.cxx:2474
+msgid "Start Blank:"
+msgstr "Tòiseachadh bàn:"
+
+#: ../tuxpaint-config2.cxx:2479
+msgid "Start with &Blank Canvas"
+msgstr "Tòisich le canabhas &bàn"
+
+#: ../tuxpaint-config2.cxx:2488
+msgid "Save Directory:"
+msgstr "Pasgan sàbhalaidh:"
+
+#: ../tuxpaint-config2.cxx:2492
+msgid "Use &Alternative Save Directory"
+msgstr "Cleachd &pasgan eile gus rudan a shàbhaladh ann"
+
+#: ../tuxpaint-config2.cxx:2497
+msgid ""
+"Do not save pictures in the standard directory, use the following location:"
+msgstr ""
+"Na sàbhail dealbhan sa phasgan bhunaiteach ach cleachd an t-aite a leanas:"
+
+#: ../tuxpaint-config2.cxx:2502
+msgid "Alternative Save Directory:"
+msgstr "Roghainn eile de phasgan sàbhalaidh:"
+
+#: ../tuxpaint-config2.cxx:2514
+msgid "More Saving Options:"
+msgstr "Barrachd roghainnean sàbhalaidh:"
+
+#: ../tuxpaint-config2.cxx:2519
+msgid "Disable '&Save' Button"
+msgstr "Cuir am putan \"&Sàbhail\" à comas"
+
+#: ../tuxpaint-config2.cxx:2524
+msgid ""
+"Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch "
+"paper.'"
+msgstr ""
+"Cha bhi comas ann dealbhan a shàbhaladh. Thèid Tux Paint a chleachdadh mar "
+"\"phàipear sgrìobaidh\" sealach."
+
+#: ../tuxpaint-config2.cxx:2530
+msgid "&Auto-save on Quit"
+msgstr "Dèan &fèin-sàbhaladh nuair a dh'fhàgar"
+
+#: ../tuxpaint-config2.cxx:2535
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr ""
+"Na faighnich dhìom a bheil mi airson an dealbh làithreach a shàbhaladh nuair "
+"a dh'fhàgas mi am prògram ach sàbhail e."
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2547
+msgid "Data"
+msgstr "Dàta"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2555
+msgid "Lockfile:"
+msgstr "Faidhle glasaidh:"
+
+#: ../tuxpaint-config2.cxx:2559
+msgid "&Don't use lockfile"
+msgstr "&Na cleachd faidhle glasaidh"
+
+#: ../tuxpaint-config2.cxx:2563
+msgid ""
+"Do not check for a lockfile. Allow Tux Paint to be launched multiple times. "
+"(May be necessary in a networked environment.)"
+msgstr ""
+"Na toir sùil airson faidhle glasaidh. Leig le daoine Tux Paint a chur gu dol "
+"iomadh turas aig an aon àm. (Faodaidh gum bi feum air seo air lìonradh.)"
+
+#: ../tuxpaint-config2.cxx:2573
+msgid "Data Directory:"
+msgstr "Pasgan an dàta:"
+
+#: ../tuxpaint-config2.cxx:2577
+msgid "Use &Alternative Data Directory"
+msgstr "Cleachd &roghainn eile de phasgan dàta"
+
+#: ../tuxpaint-config2.cxx:2582
+msgid ""
+"Do not load brushes, stamps, etc. from the standard directory, use the "
+"following location:"
+msgstr ""
+"Na luchdaich bruisean, stampaichean is msaa on phasgan bhunaiteach ach "
+"cleachd an t-aite a leanas:"
+
+#: ../tuxpaint-config2.cxx:2587
+msgid "Alternative Data Directory:"
+msgstr "Roghainn eile de phasgan dàta:"
+
+#: ../tuxpaint-config2.cxx:2609
+msgid "Accessibility"
+msgstr "So-ruigsinneachd"
+
+#: ../tuxpaint-config2.cxx:2619
+msgid "Sticky mouse clicks"
+msgstr "Briogadh luchaige steigeach"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2623
+msgid ""
+"Useful for users who have difficulty clicking and dragging. When enabled, "
+"click and release to start painting, move to paint, and click and release "
+"again to stop. It can also be combined with joystick- and keyboard-based "
+"pointer controls."
+msgstr ""
+"Tha seo feumail dhan fheadhainn aig a bheil trioblaid le briogadh 's "
+"slaodadh. Nuair a bhios seo air, briog 's leig às gus tòiseachadh air "
+"peantadh, gluais gus peantadh 's briog 's leig às a-rithist gus sgur dhen "
+"pheantadh. Gabhaidh a chleachdadh le innealan-smachd tomhaire stèidhichte "
+"air meur-chlàr no joystick cuideachd."
+
+#: ../tuxpaint-config2.cxx:2634
+msgid "Keyboard controls the mouse pointer"
+msgstr "Smachd aig a' mheur-chlàr air tomhaire na luchaige"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2638
+msgid ""
+"When enabled, the arrow keys or numbers can be used to move the mouse "
+"pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text"
+"\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 "
+"cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing "
+"canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 "
+"move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr ""
+"Nuair a bhios seo an comas, gabhaidh iuchraichean saighde no àireimh a "
+"chleachdadh gus tomhaire na luchaige a ghluasad. Cleachd àireamh 5, Space, "
+"Insert no F5 airson briogadh (Nuair a bhios tu am broinn nan innealan "
+"\"Teacsa\" no \"Leubail\", cha ghabh na h-àireamhan no Space a cleachdadh). "
+"Cuideachd gearraidh F4 leum tro na bogsaichean \"Innealan\", \"Dathan\" 's "
+"canabhas a' pheantaidh, Gluaisidh F8 's F7 suas/sìos am broinn a' bhogsa "
+"\"Innealan\" agus gluaisidh F11 's F12 gu clì/deas am broinn nam bogsaichean "
+"\"Innealan\" 's \"Dathan\"."
+
+#: ../tuxpaint-config2.cxx:2646
+msgid "Onscreen keyboard:"
+msgstr "Meur-chlàr air an sgrìn:"
+
+#: ../tuxpaint-config2.cxx:2650
+msgid "Show a keyboard on the screen"
+msgstr "Seall meur-chlàr air an sgrìn"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2654
+msgid ""
+"Display a keyboard on the screen when the \"Text\" and \"Label\" tools are "
+"enabled, so you can 'type' with the mouse pointer."
+msgstr ""
+"Seall meur-chlàr air an sgrìn nuair a bhios inneal \"Teacsa\" no \"Leubail\" an "
+"comas ach an urrainn dhut sgrìobhadh le tomhaire na luchaige."
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2659
+msgid "Layout"
+msgstr "Co-dhealbhachd"
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2671
+msgid "How are keys organized in the keyboard"
+msgstr "Mar a tha iuchraichean 'gan eagrachadh sa mheur-chlàr"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2676
+msgid "Disable layout changes"
+msgstr "Cuir atharrachadh air a' cho-dhealbhachd à comas"
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2681
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr ""
+"Cuir na putanan gus co-dhealbhachd a' mheur-chlàir atharrachadh à comas."
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2699
+msgid "Joystick"
+msgstr "Joystick"
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2710
+msgid "Main device:"
+msgstr "Prìomh uidheam:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2720
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr ""
+"Àireamh an uidheam ri chleachdadh. (tòisichidh àireamhan aig SDL air 0)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2731
+msgid ""
+"Joystick slowness. Increase this value for people with slow reactions. "
+"(0-500; default value is 15)"
+msgstr ""
+"Maille a' joystick. Meudaich an luach seo airson daoine a ghluaiseas gu "
+"slaodach. (0-500; is 15 an luach tùsail)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2743
+msgid ""
+"SDL events under threshold will be discarded, useful to discard accidental "
+"unwanted movements. (0-32766; default value is 3200)"
+msgstr ""
+"Thèid tachartasan SDL fon stairsneach a shadail air falbh, tha seo feumail "
+"gus gluasad gun iarraidh a sheachnadh. (0-32766; is 3200 an luach tùsail)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2753
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr "Cuingich luaths a' ghluasaid. (1-7; is 7 an luach tùsail)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2760
+msgid "Hat:"
+msgstr "Ad:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2769
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr "Maille an aid. (0-500; is 15 an luach tùsail)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2781
+msgid ""
+"Hat timeout, the number of milliseconds to wait before starting to move "
+"continuously. (0-3000; default value is 1000)"
+msgstr ""
+"Nuair a dh'fhalbhas an ùine air an ad, an àireamh de mhille-dhiogan mus "
+"tòisichear air gluasad gu leantainneach. (0-3000; is 1000 an luach tùsail)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2792
+msgid "Buttons to disable:"
+msgstr "Putanan à comas:"
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2808
+msgid ""
+"If for any reason one or more buttons of the joystick are posing problems, "
+"you can disable them here using a comma separated list of button numbers. (e."
+"g. 2,3,5)"
+msgstr ""
+"Ma dh'adhbharaicheas putan no dhà a' joystick duilgheadasan, 's urrainn dhut "
+"an cur à comas le liosta de dh'àireamhan nam putan 'gan sgaradh le cromagan. "
+"(m.e. 2,3,5)"
+
+#: ../tuxpaint-config2.cxx:2817
+msgid "Button shortcuts:"
+msgstr "Ath-ghoiridean nam putan:"
+
+#: ../tuxpaint-config2.cxx:2821
+#| msgid ""
+#| "Here you can configure shortcuts for the different buttons of the "
+#| "joystick, beware to not assign a shortcut to the button used to draw."
+msgid ""
+"Here you can configure shortcuts for the different buttons of the joystick. "
+"(Beware to not assign a shortcut to the button used to draw.)"
+msgstr ""
+"'S urrainn dhut ath-ghoiridean a rèiteachadh airson putanan a' joystick. "
+"(Thoir an aire nach sònraich thu ath-ghoirid dhan phutan a chleachdar airson "
+"tarraing.)"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2826
+msgid "Button number for the Escape key."
+msgstr "Àireamh a' phutain airson an iuchair Escape."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2834
+msgid "Button number for the Brush tool."
+msgstr "Àireamh a' phutain airson inneal nam bruis."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2842
+msgid "Button number for the Stamps tool."
+msgstr "Àireamh a' phutain airson inneal nan stampaichean."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2850
+msgid "Button number for the Lines tool."
+msgstr "Àireamh a' phutain airson inneal nan loidhnichean."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2858
+msgid "Button number for the Shapes tool."
+msgstr "Àireamh a' phutain airson inneal nan cumaidhean."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2866
+msgid "Button number for the Text tool."
+msgstr "Àireamh a' phutain airson inneal an teacsa."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2874
+msgid "Button number for the Label tool."
+msgstr "Àireamh a' phutain airson inneal nan leubailean."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2882
+msgid "Button number for the Magic tool."
+msgstr "Àireamh a' phutain airson inneal na draoidheachd."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2890
+msgid "Button number for Undo."
+msgstr "Àireamh a' phutain airson neo-dhèanamh."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2898
+msgid "Button number for Redo."
+msgstr "Àireamh a' phutain airson ath-dhèanamh."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2906
+msgid "Button number for the Eraser tool."
+msgstr "Àireamh a' phutain airson inneal an t-suathain."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2914
+msgid "Button number for the New tool."
+msgstr "Àireamh a' phutain airson inneal nan dealbh ùra."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2922
+msgid "Button number for the Open tool."
+msgstr "Àireamh a' phutain airson an inneal fosglaidh."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2930
+msgid "Button number for saving."
+msgstr "Àireamh a' phutain airson sàbhaladh."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2938
+msgid "Button number for Page Setup."
+msgstr "Àireamh a' phutain airson rèiteachadh na duilleige."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2946
+msgid "Button number for printing."
+msgstr "Àireamh a' phutain airson clò-bhualadh."
+
+#: ../tuxpaint-config2.cxx:2968
+msgid "Settings for : "
+msgstr "Na roghainnean airson : "
+
+#: ../tuxpaint-config2.cxx:2972
+msgid "Current User"
+msgstr "a' chleachdaiche làithrich"
+
+#: ../tuxpaint-config2.cxx:2973
+msgid "All Users"
+msgstr "a h-uile cleachdaiche"
+
+#: ../tuxpaint-config2.cxx:2979
+msgid "Use \"All Users\" Settings"
+msgstr "Cleachd roghainnean \"A h-uile cleachdaiche\""
+
+#: ../tuxpaint-config2.cxx:2983
+msgid "Apply"
+msgstr "Cuir an sàs"
+
+#: ../tuxpaint-config2.cxx:2991
+msgid "Reset"
+msgstr "Ath-shuidhich"
+
+#: ../tuxpaint-config2.cxx:2998
+msgid "Defaults"
+msgstr "Bun-roghainnean"
+
+#: ../tuxpaint-config2.cxx:3005
+msgid "Quit"
+msgstr "Fàg an-seo"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "Rèiteachadh Tux Paint."
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "Rèitich Tux Paint"

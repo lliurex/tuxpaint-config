@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Tux Paint Config.
+_Comment=Configure Tux Paint
+Icon=tuxpaint-config
+Exec=tuxpaint-config
+Terminal=false
+Type=Application
+Categories=Settings;

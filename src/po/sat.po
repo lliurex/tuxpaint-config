@@ -1,0 +1,835 @@
+# Santali (devaganari) translation tuxpaint-config.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Louni kandulna <kandulna.louni@gmail.com>, 2014.
+# Note: "Ganesh Murmu" <murmu.ganesh@gmail.com> is the contact person.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tuxpaint-config\n"
+"Report-Msgid-Bugs-To: tuxpaint-i18n@lists.sourceforge.net\n"
+"POT-Creation-Date: 2014-07-19 21:57+0200\n"
+"PO-Revision-Date: 2014-07-24 13:05+0530\n"
+"Last-Translator: Louni kandulna <kandulna.louni@gmail.com>\n"
+"Language-Team: \n"
+"Language: sat\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../about.h:10
+msgid ""
+"Welcome to Tux Paint's graphical configuration tool, created by Torsten Giebl, Jan Wynholds, Bill Kendrick, and Martin Fuhrer.\n"
+"\n"
+"This tool allows you to alter Tux Paint's settings, such as full-screen mode, the interface's language, or options to simplify Tux Paint for younger children.\n"
+"\n"
+"These settings can be set for the current user only or for all users of your computer by making a selection in the 'Settings for' pull-down menu at the bottom.\n"
+"\n"
+"Use the tabs at the top to select the different setting categories, change the options you'd like to change, and click the 'Apply' button at the bottom to write out a new configuration file.\n"
+"\n"
+"The next time Tux Paint is launched, the new settings should take effect."
+msgstr ""
+"टो़रस्टेन गियेबल, जान विनहोल्ड़स, बिल केंड्रिक, आर मारटिन कुहरा दाराय रे तेयार पेंट रेयाक् गार चिता़र भितिर तेयार टुल रे आमाक् सा़गुन दाराम, .\n"
+"\n"
+"नोवा टुल आम ओनकान पुरा़-स्क्रिन ओबसता रे, इन्टारफेस रेयाक् पा़रसी आर बाङ का़टिछ् गिदरा़ ला़गित् टाक्स पेंट आलगाय ला़गित् आपनार मोने तेयाक् लेकाते टाक्य पेंट साजाव को एपेटाक् ला़गित् आम बातावे एमामा .\n"
+"\n"
+"नोवा साजाव को एकेन नित् बेभार को ला़गित् आर बाङ लातार रे ओर-आंडगो मिनु  'ला़गित् साजाव को 'रे मित् बाछाव चिनहा़ दाराय ते आमाक् काम्प्युटार रिन जोतो बेभार को ला़गित् साजाव दाड़ेयाक् आम .\n"
+"\n"
+"भेनेगार साजाव हा़टिञ को बाछाव ला़गित् चोट रेटेब को बेभार मे, आम बोदोल सानाम कान आपनार मोने तेयाक् बोदोल मे आर मित् नावा भितिर तेयार ओल ओडोक् ला़गित् लातार रे  'बाहाल' बुता़म ओताय मे .\n"
+"\n"
+"दोसार ओकतो टाक्स पेंट उछा़नोक् आ, नावा साजाव को पोरभाव हाताव ला़कती ."
+
+#: ../tuxpaint-config.cxx:208
+msgid "(Use system's default)"
+msgstr "(सेस्टेम रेयाक्  हुड़ा़क् बेभार मे )"
+
+#: ../tuxpaint-config2.cxx:95
+msgid "(Use system's setting)"
+msgstr "(सेस्टेम रेयाक् साजाव को बेभार मे )"
+
+#: ../tuxpaint-config2.cxx:1527
+#: ../tuxpaint-config2.cxx:2131
+msgid "Default (no override)"
+msgstr "हुड़ा़क्  (जाहान तालोम बाङ )"
+
+#: ../tuxpaint-config2.cxx:1529
+msgid "Override: Small"
+msgstr "तालोम : हुडिञ "
+
+#: ../tuxpaint-config2.cxx:1531
+msgid "Override: Medium"
+msgstr "तालोम: चा़टिया़ "
+
+#: ../tuxpaint-config2.cxx:1533
+msgid "Override: Large"
+msgstr "तालोम:माराङ ओकोच् "
+
+#: ../tuxpaint-config2.cxx:1638
+msgid "Save Directory?"
+msgstr "उनुदुक सांचाव मे ?"
+
+#: ../tuxpaint-config2.cxx:1672
+msgid "Data Directory?"
+msgstr "डाटा उनुदुक् ?"
+
+#: ../tuxpaint-config2.cxx:1705
+msgid "Color Palette File?"
+msgstr "रोङ पाटा रेत् ?"
+
+#: ../tuxpaint-config2.cxx:1744
+msgid "Quit without applying changes?"
+msgstr "बेगोर बोदोल को बाहाल ते बोनदोय मे ?"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&No"
+msgstr "बाङ हें (&N)"
+
+#: ../tuxpaint-config2.cxx:1745
+msgid "&Yes"
+msgstr "हें (&Y)"
+
+#: ../tuxpaint-config2.cxx:1781
+msgid "current user"
+msgstr "नितोक बेभारिच् "
+
+#: ../tuxpaint-config2.cxx:1784
+msgid "all users"
+msgstr "जोतो बेभार को"
+
+#: ../tuxpaint-config2.cxx:1788
+#, c-format
+msgid "Apply changes you made to %s?"
+msgstr "आमेम तेयार आकात् रे बोदोल को बाहाल मे  %s?"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "No"
+msgstr "बाङ हें"
+
+#: ../tuxpaint-config2.cxx:1789
+msgid "Yes"
+msgstr "हें"
+
+#: ../tuxpaint-config2.cxx:1809
+#: ../tuxpaint-config2.cxx:1812
+msgid "Tux Paint Config v"
+msgstr "टाक्स पेंट भितिर तेयार  v"
+
+#. TAB: ABOUT
+#: ../tuxpaint-config2.cxx:1821
+msgid "About"
+msgstr "बाबोत् ते"
+
+#: ../tuxpaint-config2.cxx:1828
+msgid "About Tux Paint Config."
+msgstr "टाक्स पेंट भितिर तेयार बाबोत ते ."
+
+#. TAB: VIDEO / SOUND
+#: ../tuxpaint-config2.cxx:1844
+msgid "Video/Sound"
+msgstr "बिडियो/साडे "
+
+#: ../tuxpaint-config2.cxx:1851
+msgid "Video:"
+msgstr "बिडियो:"
+
+#: ../tuxpaint-config2.cxx:1855
+msgid "&Fullscreen"
+msgstr "पुरा़ स्क्रिन  (&F)"
+
+#: ../tuxpaint-config2.cxx:1860
+msgid "Run Tux Paint in fullscreen mode, rather than in a window."
+msgstr "पुरा़ स्क्रिन ओबोसता रे टाक्स पेंट चालाव, मेनखान मित् बिंडो रेयाक् खोन ."
+
+#: ../tuxpaint-config2.cxx:1866
+msgid "&Native"
+msgstr "आदिम (&N)"
+
+#: ../tuxpaint-config2.cxx:1870
+msgid "Use native screen resolution in fullscreen mode."
+msgstr "पुरा़ स्क्रिन ओबोसता रे आ़द स्क्रिन  गोटा बेभार मे ."
+
+#: ../tuxpaint-config2.cxx:1876
+msgid "Window size : "
+msgstr "बिंडो माराङ तेत् : "
+
+#: ../tuxpaint-config2.cxx:1900
+msgid "Size of the window, or the resolution in fullscreen."
+msgstr "बिंडो रेयाक् माराङ तेत् , आर बाङ पुरा़ स्क्रिन रे गोटा ."
+
+#: ../tuxpaint-config2.cxx:1906
+msgid "&Rotate Orientation"
+msgstr "दोहड़ा ते थापोन आ़चुर(&R)"
+
+#: ../tuxpaint-config2.cxx:1910
+msgid "Swap width and height, to rotate 90 degrees (useful for portrait-display on a tablet PC)"
+msgstr " 90 दारजा आ़चुर ला़गित् ओसार आर उसुला दाल  (मित् टेवलेट  PC रे चिता़र उदुक् ला़गित् लाब आना)"
+
+#: ../tuxpaint-config2.cxx:1916
+msgid "Allow S&creensaver"
+msgstr "स्क्रिन सार्बार बाताव एम(&c)"
+
+#: ../tuxpaint-config2.cxx:1920
+msgid "Don't disable your system's screensaver while Tux Paint is running."
+msgstr "टाक्स पेंट चालाक् ओकतो आमाक् ,सेस्टेम स्क्रिन सार्बार बाङ हुय होचो आलोम तेयार  ."
+
+#: ../tuxpaint-config2.cxx:1929
+msgid "Sound:"
+msgstr "साडे :"
+
+#: ../tuxpaint-config2.cxx:1933
+msgid "Enable &Sound Effects"
+msgstr "साडे पोरभाव हुय होचो तेयार ( &S) ."
+
+#: ../tuxpaint-config2.cxx:1938
+msgid "Enable/disable sound effects."
+msgstr "साडे पोरभाव को हुय होचो /बाङ हुय होचो तेयार ."
+
+#: ../tuxpaint-config2.cxx:1947
+#: ../tuxpaint-config2.cxx:1961
+msgid "Color Palette File:"
+msgstr "रोङ हुय होचो तेयार :"
+
+#: ../tuxpaint-config2.cxx:1951
+msgid "Use &Alternative Color Palette"
+msgstr "एपेटाक रोङ पाटा बेभार मे ( &A) "
+
+#: ../tuxpaint-config2.cxx:1956
+msgid "Don't use default color palette, use colors defined in the following file:"
+msgstr "हुड़ा़क् रोङ पाटा आलोम बेभारा, नोवा को रेत् गोटावाक् रोङ को बेभार मे :"
+
+#: ../tuxpaint-config2.cxx:1966
+#: ../tuxpaint-config2.cxx:2509
+#: ../tuxpaint-config2.cxx:2594
+msgid "Browse..."
+msgstr "ब्राउज..."
+
+#. TAB: MOUSE / KEYBOARD
+#: ../tuxpaint-config2.cxx:1977
+msgid "Mouse/Keyboard"
+msgstr "माउस /का़ठी बोर्ड"
+
+#: ../tuxpaint-config2.cxx:1985
+msgid "Cursor:"
+msgstr "कार्सार:"
+
+#: ../tuxpaint-config2.cxx:1989
+msgid "&Fancy Cursor Shapes"
+msgstr "मोंज कार्सार बेनाव को (&F)"
+
+#: ../tuxpaint-config2.cxx:1994
+msgid "Change the shape of the mouse pointer depending on where the mouse is and what you are doing."
+msgstr "माउस ओकारे आर आम चेत् एम का़मी काना चेतान रे माउस उदुक् रेयाक् बेनाव बोदोल मे ."
+
+#: ../tuxpaint-config2.cxx:2000
+msgid "&Hide Cursor"
+msgstr " कार्सार  उकुया मे(&H)"
+
+#: ../tuxpaint-config2.cxx:2005
+msgid "Completely hides cursor (useful on touchscreen devices)."
+msgstr " कार्सार पुरा़य उकुया (टाचस्क्रिन डिवाइस रे लाब आना )."
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2014
+#: ../tuxpaint-config2.cxx:2632
+msgid "Keyboard:"
+msgstr "का़ठी बोर्ड :"
+
+#: ../tuxpaint-config2.cxx:2018
+msgid "Enable &Keyboard Shortcuts"
+msgstr "का़ठी बोर्ड खाटो तेत् हुय होचो (&K)"
+
+#: ../tuxpaint-config2.cxx:2023
+msgid "Allows key combinations to be used as shortcuts for certain commands. (e.g., Control+S to Save)"
+msgstr "का़ठी मित् सांवते को तिना़क् गान कोमांड ला़गित् खाटो तेत् लेका ते बेभार बाताव एम दाड़ेयाक् आ . (e.g., Control+S to Save)"
+
+#: ../tuxpaint-config2.cxx:2035
+#: ../tuxpaint-config2.cxx:2617
+msgid "Mouse:"
+msgstr "माउस :"
+
+#: ../tuxpaint-config2.cxx:2039
+msgid "&Grab Mouse Pointer"
+msgstr "माउस उदुक् तेत् साब मे (&G)"
+
+#: ../tuxpaint-config2.cxx:2044
+msgid "Prevents the mouse pointer from leaving the Tux Paint window."
+msgstr "टाक्स पेंट बिंडो बाडगियाक् खोन माउस उदुक् ए आकोटा ."
+
+#: ../tuxpaint-config2.cxx:2049
+msgid "Mouse &Wheel Support"
+msgstr "माउस चाक गोड़ो( &W) "
+
+#: ../tuxpaint-config2.cxx:2054
+msgid "Allows a mouse wheel to be used to scroll through items. (e.g., brushes, stamps)"
+msgstr "मित् माउस चाक जिनिस सेत् ते तोतरो ला़गित् बेभार बाताव एम दाड़ेयाक् आ.  (e.g., brushes, stamps)"
+
+#: ../tuxpaint-config2.cxx:2059
+msgid "No &Button Distinction"
+msgstr "जाहान बुता़म भेनेगार बाङ (&B)"
+
+#: ../tuxpaint-config2.cxx:2063
+msgid "Allows middle and right mouse buttons to be used for clicking, too."
+msgstr "ताला आर जोजोम माउस बुता़म हों, ओना ला़गित् बाताव एम दाड़ेयाक् आ ."
+
+#. TAB: SIMPLIFCIATION
+#. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk 2011.04.15
+#: ../tuxpaint-config2.cxx:2076
+msgid "Simplification"
+msgstr "आलगा तेयार"
+
+#: ../tuxpaint-config2.cxx:2084
+msgid "Interface Simplification:"
+msgstr "इन्टार फेस आलगा तेयार :"
+
+#: ../tuxpaint-config2.cxx:2088
+msgid "Disable Shape &Rotation"
+msgstr " बेनाव आ़तुर बाङ हुय होचो तेयार( &R)"
+
+#: ../tuxpaint-config2.cxx:2093
+msgid "Shape tool's rotation step is disabled. Useful for younger children."
+msgstr "बेनाव टुल्स रेयाक् रेयाक् झांप बाङ हुय होचोवा. हुडिञ गिदरा़ ला़गित् लाबानाक् ."
+
+#: ../tuxpaint-config2.cxx:2098
+msgid "Simple Stamp &Outlines"
+msgstr "साधारोन मोहोर बाहरे तेयार ( &O)."
+
+#: ../tuxpaint-config2.cxx:2103
+msgid "Draw a rectangle around the cursor when placing stamps, rather than a detailed outline. (For slow computers and thin clients.)"
+msgstr "मोहोर को दोहो जोहोक कार्सार बेड़हाय बेड़हाय ते मित् आयात तेयार मे, मेनखान मित् पुरा़ बिवरोन बाहरे गार (खोन बा़यबा़यते चालाक् काम्प्युटार आर नानहा गांहकी ला़गित् .)"
+
+#: ../tuxpaint-config2.cxx:2108
+msgid "Show &Uppercase Text Only"
+msgstr "एकेन गार चेतान ओल ओनोल उदुग मे (&U) "
+
+#: ../tuxpaint-config2.cxx:2113
+msgid "Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in UPPERCASE rather than Mixed Case."
+msgstr "टाक्स पेंट (बुता़म चिखना़, काथा एमान.)  UPPERCASE  रे ओडोकोक् बादाल मेसा साना  जोतो ओनोल रेयाक्."
+
+#: ../tuxpaint-config2.cxx:2122
+msgid "Initial Stamp Size:"
+msgstr "एतोहोब मोहोर माराङ तेत् :"
+
+#: ../tuxpaint-config2.cxx:2139
+msgid "Control Simplification:"
+msgstr "आलगा तेयार रे कोबोज :"
+
+#: ../tuxpaint-config2.cxx:2143
+msgid "Disable '&Quit' Button and [Escape] key"
+msgstr "बोनदो बुता़म आर  [आड़ाक्]  का़ठी बाङ हुय होचो  (&Q) "
+
+#: ../tuxpaint-config2.cxx:2148
+msgid "Clicking the window's close (X) button in the title bar, or pressing [Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
+msgstr "ञुतुम बार रे बिंडो रेयाक् सुर  (X) बुता़म ओताय मे, आर बाङ  [Alt]+[F4]   [Shift]+[Ctrl]+[आड़ाक् ] नित हों टाक्स पेंट आड़ाक् काक् आ ओता ."
+
+#: ../tuxpaint-config2.cxx:2153
+msgid "Disable '&Stamps' Tool"
+msgstr "मोहोर टुल बाङ हुय होचो तेयार ('&S) ."
+
+#: ../tuxpaint-config2.cxx:2158
+msgid "Do not load stamps at startup, thus disabling the Stamps tool."
+msgstr "स्टार्ट ऑप रे मोहोर आलोम लादेया ओना ते मोहोर टुल को बाङ हुय होचो तेयार मे ."
+
+#: ../tuxpaint-config2.cxx:2163
+msgid "Disable Stamp &Controls"
+msgstr "मोहोर कोबोज को बाङ हुय होचो (&C) ."
+
+#: ../tuxpaint-config2.cxx:2168
+msgid "Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, Grow, Mirror and Flip)."
+msgstr "मोहोर कोबोज बुता़म को ओचोक दाराय ते  'मोहोर ' टुल आलगा तेयार  (खाटोक् ,बाड़हाव, आ़रसी आर फिलिप)."
+
+#: ../tuxpaint-config2.cxx:2173
+msgid "Disable &Magic Controls"
+msgstr "जादु को बोज बाङ हुय होचो तेयार ( &M)."
+
+#: ../tuxpaint-config2.cxx:2178
+msgid "Simplify the 'Magic' tools by removing the buttons to switch between paint and fullscreen modes."
+msgstr "रोङ आर पुरा़ स्क्रिन ओबोसता ताला ओता ला़गित् बुता़म को ओचोक् दाराय ते  'जादु ' टुल को आलगा तेयार. "
+
+#: ../tuxpaint-config2.cxx:2183
+msgid "Disable '&Label' Tool"
+msgstr " 'चिखना़' टुल बाङ हुय होचो (&L)"
+
+#: ../tuxpaint-config2.cxx:2188
+msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
+msgstr " 'चिखना़ ' ओनोल - आदेर टुल बाङ हुय होचो तेयार  (एकेन  'ओनोल ' टुल बा़गियाक् आ )."
+
+#. TAB: LANGUAGES
+#: ../tuxpaint-config2.cxx:2199
+msgid "Languages"
+msgstr "पा़रसी को"
+
+#: ../tuxpaint-config2.cxx:2205
+msgid "Language:"
+msgstr "पा़रसी:"
+
+#: ../tuxpaint-config2.cxx:2209
+msgid "Language : "
+msgstr "पा़रसी : "
+
+#: ../tuxpaint-config2.cxx:2224
+msgid "Run Tux Paint in a particular language (overriding system's settings)."
+msgstr "मित् बिसेस पा़रसी रे टाक्स पेंट चालाव (सेस्टेम रेयाक् साजाव को तालोम )."
+
+#: ../tuxpaint-config2.cxx:2229
+msgid "&Mirror Stamps"
+msgstr "आ़रसी  मोहोर (&M)"
+
+#: ../tuxpaint-config2.cxx:2234
+msgid "Automatically mirror-image all mirror-able stamps. Useful for users who prefer things appearing right-to-left."
+msgstr "आच् आच् ते जोतो आ़रसी लेक मोहोर को आ़रसी-चिता़र. बेभार को ला़गित् लाबा ओकोय जोजोम-खोन-लेंगा जिनिस को ञेलोक् कुसियाक् आ."
+
+#: ../tuxpaint-config2.cxx:2243
+msgid "Fonts:"
+msgstr "फोन्टस :"
+
+#: ../tuxpaint-config2.cxx:2247
+msgid "Load System &Fonts"
+msgstr " सेस्टेम फोन्ट को लादे ( &F)."
+
+#: ../tuxpaint-config2.cxx:2252
+msgid "Attempt to load more fonts, found elsewhere on your computer. (Note: may cause instability!)"
+msgstr "ढेर फोन्ट को  लादे लेगा लेना, आमाक् काम्प्युटार रे एटाक् रे ञाम लेना. (खाटो ओल : बाङ थिर का़मी हुय दाड़ेयाक् आ!)"
+
+#: ../tuxpaint-config2.cxx:2257
+msgid "Load All &Locale Fonts"
+msgstr "जोतो नोडेनाक् फोन्ट को लादे( &L) ."
+
+#: ../tuxpaint-config2.cxx:2262
+msgid "Load all locale-specific fonts installed in Tux Paint, regardless of the locale Tux Paint is being run under."
+msgstr "टाक्स पेंट रे जोतो नोडेनाक्- बिसेस फोन्ट को बोहालाक् लादे, नोडेनाक् टाक्स  पेंट रेयाक् बाङ गोरोजाक् दो भितिर रे चालाक् आ ."
+
+#. TAB: PRINTING
+#: ../tuxpaint-config2.cxx:2273
+msgid "Printing"
+msgstr "छापाक् काना"
+
+#: ../tuxpaint-config2.cxx:2279
+msgid "Print Permissions:"
+msgstr "छापा छा़ड को :"
+
+#: ../tuxpaint-config2.cxx:2283
+msgid "Allow &Printing"
+msgstr "छापा होचो बाताव एम( &P) "
+
+#: ../tuxpaint-config2.cxx:2288
+msgid "Let users print from within Tux Paint."
+msgstr "बेभार को टाक्स पेंट भितिर खोन छापा याको ."
+
+#: ../tuxpaint-config2.cxx:2293
+msgid "Print Delay : "
+msgstr "छापा बिलोम : "
+
+#: ../tuxpaint-config2.cxx:2299
+msgid "seconds"
+msgstr "टिच् को "
+
+#: ../tuxpaint-config2.cxx:2303
+msgid "Restrict printing to once every N seconds. (Enter '0' to allow unrestricted printing.)"
+msgstr "मित् धाव जोतो  N टिच् को रे छापा कोहड़ावा, . (बाङ केहड़ाव छापा बाताव एम ला़गित्  '0' आदेर मे .)"
+
+#: ../tuxpaint-config2.cxx:2311
+msgid "Show Printer Dialog:"
+msgstr "छापा काथा उदुग मे :"
+
+#: ../tuxpaint-config2.cxx:2316
+msgid "Only when [Alt] &modifier key is held"
+msgstr "एकेन उनरे [Alt] बोदोल होचो वाक् का़ठी हुयुक् आ (&m) ."
+
+#: ../tuxpaint-config2.cxx:2323
+msgid "Always &show printer dialog"
+msgstr "छापा काथा जावगे उदुग मे ( &s)"
+
+#: ../tuxpaint-config2.cxx:2330
+msgid "&Never show printer dialog"
+msgstr "छापावाक् काथा तिस हों आलोम उदुगा (&N) ."
+
+#: ../tuxpaint-config2.cxx:2337
+msgid "(Even when [Alt] is held.)"
+msgstr "(एन रेहों तिन रे  [Alt] हुयुक् आ .)"
+
+#: ../tuxpaint-config2.cxx:2351
+msgid "Save printer configuration"
+msgstr "छापावाक् भितिर तेयार सांचाव मे ."
+
+#: ../tuxpaint-config2.cxx:2360
+msgid "Print Commands:"
+msgstr "कोमांड को छापाय मे :"
+
+#: ../tuxpaint-config2.cxx:2364
+msgid "Use &Alternative Print Command"
+msgstr "एपेटाक् छापा कोमांड बेभार मे ( &A) ."
+
+#: ../tuxpaint-config2.cxx:2369
+msgid "Override Tux Paint's default setting for print command ('lpr') with another. (Advanced! Unix/Linux only!)"
+msgstr "एटाक् सांव छापावाक् कोमांड ('lpr') ला़गित् टाक्स पेंट रेयाक् हुड़ा़क् साजाव तालोम. (लाहावाक्! एकेन युनिक्स/लिनुक्स !)"
+
+#: ../tuxpaint-config2.cxx:2379
+msgid "Enter the command for printing. It must accept a PostScript format on its standard input (STDIN)."
+msgstr "छापा ला़गित् कोमांड आदेर. नोवा आजाक् बातावाक् आदेर रे मित् तायोम चिकी तेयार आंगोच ला़कती  (STDIN)."
+
+#: ../tuxpaint-config2.cxx:2390
+msgid "Use &Alternative Print Dialog"
+msgstr "एपेटाक् छापा काथा बेभार मे ( &A) ."
+
+#: ../tuxpaint-config2.cxx:2395
+msgid "Override Tux Paint's default setting for print dialog ('kprinter') with another. (Advanced! Unix/Linux only!)"
+msgstr "एटाक् सांव छापा काथा ('kprinter') ला़गित् टाक्, पेंट रेयाक् हुड़ाक् साजाव तालोम (लाहावाक् ! एकेन युनिक्स/लिनुक्स !)"
+
+#: ../tuxpaint-config2.cxx:2405
+msgid "Enter the print dialog command. It must accept a PostScript format on its standard input (STDIN)."
+msgstr "छापा काथा कोमांड आदेर मे. नोवा दो आजाक् बातावाक् आदेर  (STDIN) रे मित् तायोम चिकी तेयार आंगोच् ला़कती."
+
+#: ../tuxpaint-config2.cxx:2412
+msgid "Paper Size : "
+msgstr "कागोज माराङ तेत् : "
+
+#. TAB: SAVING
+#: ../tuxpaint-config2.cxx:2433
+msgid "Saving"
+msgstr "सांचाव"
+
+#: ../tuxpaint-config2.cxx:2440
+msgid "Save Over Earlier Work:"
+msgstr "पा़हिल का़मी रे सांचाव :"
+
+#: ../tuxpaint-config2.cxx:2444
+msgid "&Ask Before Overwriting"
+msgstr "ओल चेतान ओल माड़ाङ कुलियिय मे (&A)"
+
+#: ../tuxpaint-config2.cxx:2449
+msgid "When re-saving an image, ask whether to overwrite the earlier version, or make a new file."
+msgstr "तिन रे मित् चिता़र दोहड़ा सांचावा, कुलियेम चेत् पा़हिल तेयाक् बार्सान ताहेंना, आर बाङ मित् नावा रेत् तेयार. "
+
+#: ../tuxpaint-config2.cxx:2454
+msgid "Always &Overwrite Older Version"
+msgstr "मारेयाक् वार्सान जावगे ओल चेतान ओल (&O) ."
+
+#: ../tuxpaint-config2.cxx:2459
+msgid "When re-saving an image, always overwrite the earlier version. (Warning: Potential for lost work!)"
+msgstr "तिन रे मित् चिता़र दोहड़ा  साजावा, पा़हिल तेयाक् बार्सान जावगे ओल चेतान ओला . (होंसियार : आत् का़मी ला़गित् हुय दाड़ेयाक् !)"
+
+#: ../tuxpaint-config2.cxx:2464
+msgid "Always Save &New Picture"
+msgstr "नावा चिता़र जावगे सांचाव मे. ( &N)"
+
+#: ../tuxpaint-config2.cxx:2469
+msgid "When re-saving an image, always make a new file. (Warning: Potential for lots of files!)"
+msgstr "तिन रे मित् चिता़र दोहड़ा सांचावा, जावगे मित् रे मित्  नावा रेत् तेयार मे, . (होंसिया़र : आयमा रेत् को ला़गित् हुय दाड़ेयाक् आ !)"
+
+#: ../tuxpaint-config2.cxx:2476
+msgid "Start Blank:"
+msgstr "एकेनाक् एहोब:"
+
+#: ../tuxpaint-config2.cxx:2481
+msgid "Start with &Blank Canvas"
+msgstr "एकेनाक् केनबास सांव एहोब ( &B) "
+
+#: ../tuxpaint-config2.cxx:2490
+msgid "Save Directory:"
+msgstr "उनुदुक् सांचाव मे :"
+
+#: ../tuxpaint-config2.cxx:2494
+msgid "Use &Alternative Save Directory"
+msgstr "एपेटाक् सांचाव उनुदुक् बेभार मे ( &A)"
+
+#: ../tuxpaint-config2.cxx:2499
+msgid "Do not save pictures in the standard directory, use the following location:"
+msgstr "बातावाक उनुदुक रे चिता़र को आलोम सांचाव, नोवा ठांव बेभार मे :"
+
+#: ../tuxpaint-config2.cxx:2504
+msgid "Alternative Save Directory:"
+msgstr "एपेटाक् सांचाव उनुदुक् :"
+
+#: ../tuxpaint-config2.cxx:2516
+msgid "More Saving Options:"
+msgstr "ढेर सांचाव आपनार मोने तेयाक् को :"
+
+#: ../tuxpaint-config2.cxx:2521
+msgid "Disable '&Save' Button"
+msgstr " ' सांचाव ' बुता़म बाङ हुय होचो तेयार (  &S) "
+
+#: ../tuxpaint-config2.cxx:2526
+msgid "Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch paper.'"
+msgstr "चिता़र को सांचाव आलोम बातावाक् आ टाक्स पेंट सुयदोमाक्  'खारोक कागोज ' लेका का़मी या,"
+
+#: ../tuxpaint-config2.cxx:2532
+msgid "&Auto-save on Quit"
+msgstr "बोनदो रे आच् ते-सांचाव (&A)"
+
+#: ../tuxpaint-config2.cxx:2537
+msgid "Don't ask to save current picture when quitting; just save."
+msgstr "बोनदो जोहोक् निताक् चिता़र सांचाव ला़गित् आलोम कुलियेया ; एकेन सांचाव मे ."
+
+#. TAB: DATA
+#: ../tuxpaint-config2.cxx:2549
+msgid "Data"
+msgstr "डाटा"
+
+#. FIXME: Looks awful:
+#: ../tuxpaint-config2.cxx:2557
+msgid "Lockfile:"
+msgstr "कुलुप रेत्:"
+
+#: ../tuxpaint-config2.cxx:2561
+msgid "&Don't use lockfile"
+msgstr " कुलुप रेत् को  आलोम बेभार (&D)"
+
+#: ../tuxpaint-config2.cxx:2565
+msgid "Do not check for a lockfile. Allow Tux Paint to be launched multiple times. (May be necessary in a networked environment.)"
+msgstr "मित् कुलुप रेत् लागित् आलोम ञेला. आयमा ओकतो उछा़न ला़गित् टाक्स पेंट बाताव एम.( मित्  नेट वार्क बातावरण रे ला़कती हुय दाड़ेयाक् आ ) "
+
+#: ../tuxpaint-config2.cxx:2575
+msgid "Data Directory:"
+msgstr "डाटा उनुदुक् :"
+
+#: ../tuxpaint-config2.cxx:2579
+msgid "Use &Alternative Data Directory"
+msgstr "एपेटाक् डाटा उनुदुक् बेभार मे (&A) ."
+
+#: ../tuxpaint-config2.cxx:2584
+msgid "Do not load brushes, stamps, etc. from the standard directory, use the following location:"
+msgstr "बातावाक उनुदुक् खोन ब्रास, मोहोर एमान को आलोम लादेया, नोवा ठांव को बेभार मे :"
+
+#: ../tuxpaint-config2.cxx:2589
+msgid "Alternative Data Directory:"
+msgstr "एपेटाक् डाटा उनुदुक् :"
+
+#: ../tuxpaint-config2.cxx:2611
+msgid "Accessibility"
+msgstr "आ़तुर दाड़ेलेक् ."
+
+#: ../tuxpaint-config2.cxx:2621
+msgid "Sticky mouse clicks"
+msgstr "लाठावाक् माउस ओता को "
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2625
+msgid "Useful for users who have difficulty clicking and dragging. When enabled, click and release to start painting, move to paint, and click and release again to stop. It can also be combined with joystick- and keyboard-based pointer controls."
+msgstr "बेबार को ला़गित् लाबानाक् ओकोयाक् ओता आर ओर खारोक रे दिगधा़ मेनाक् आ. तिन रे हुय होचोया, ओताय मे. आर रोङ एम एहोब ला़गित् उछा़न मे रोङ ला़गित् लाड़ाव, आर बोनदो ला़गित् दोहड़ा ओता आर उछा़न नोवा हों जोय इसटिक-आर का़ठी बोर्ड बा़यसा़व उदुक् कोबोज को सांव जोड़ाव दाड़ेयाक् आ."
+
+#: ../tuxpaint-config2.cxx:2636
+msgid "Keyboard controls the mouse pointer"
+msgstr "का़ठी बोर्ड माउस उदुक् कोबोजा ."
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2640
+msgid "When enabled, the arrow keys or numbers can be used to move the mouse pointer. Number 5, Space, Insert or F5 can be used to click. (When in \"Text\" or \"Label\" tools, the numbers and space cannot be used.) Also, F4 cycles the pointer between the \"Tools\" box, \"Colors\" box and drawing canvas, F8 and F7 move up/down inside the \"Tools\" box, and F11 and F12 move left/right inside the \"Tools\" and \"Colors\" boxes."
+msgstr "जुदी हुय होचोया , सार का़ठी को आर बाङ लेखा को माउस उदुक् लाड़ाव  ला़गित् बेभार दाड़ेयाक् आ. लेखा 5,फांक, सोगे आर बाङ  F5 ओता ला़गित् बेभार दाड़ेयाक् आ.  (तिन रे  \"ओनोल\" आर बाङ \"चिखना\"टुल्स को, लेखा आर फांक बाङ बेभार दाड़ेयाक् आ .) , F4 बेड़हाय उदुक्  \"टुल्स\"बाक्सा, \" रोङ को \" बाक्सा आर गार तेयार केनवास  ताला हों,  F8 आर F7 चेतान /लातार लाड़ाव  \"टुल्स \" बाक्सा  भितिर, आर  F11 आर  F12 लेंगा /जोजोम सेत् लाड़ाव ओनोल को  \"टुल्स को \" भितिर  आर\"रोङ को\" बाक्सा ."
+
+#: ../tuxpaint-config2.cxx:2648
+msgid "Onscreen keyboard:"
+msgstr "ओन स्क्रिन का़ठीबोर्ड :"
+
+#: ../tuxpaint-config2.cxx:2652
+msgid "Show a keyboard on the screen"
+msgstr "स्क्रिन  रे मित् का़ठी बोर्ड उदुक् मे ."
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2656
+msgid "Display a keyboard on the screen when the \"Text\" and \"Label\" tools are enabled, so you can 'type' with the mouse pointer."
+msgstr "  \"ओनोल \"आर \"चिखना़ \"टुल्स हुय होचो ओकतो स्क्रिन  रे मित् का़ठी उदुग मे, जाहां ते आम माउस उदुक् सांव टाइप दाड़े के ."
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2661
+msgid "Layout"
+msgstr "ञेल ओडोक"
+
+#. Fl_Choice* o
+#: ../tuxpaint-config2.cxx:2673
+msgid "How are keys organized in the keyboard"
+msgstr "का़ठी बोर्ड रे चेत् लेका का़ठी को साजाक् आ ."
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2678
+msgid "Disable layout changes"
+msgstr "ञेल ओडोक बोदोल को बाङ हुय होचो. "
+
+#. Fl_Check_Button* o
+#: ../tuxpaint-config2.cxx:2683
+msgid "Disable the buttons that allow changing the keyboard layout."
+msgstr "बुता़म को बाङ हुय होचो तेयार ओका का़ठीबोर्ड ञेल ओडोक बोदोल ला़गित् बातावे एमा ."
+
+#. Fl_Group* o
+#. TAB: JOYSTICK
+#: ../tuxpaint-config2.cxx:2701
+msgid "Joystick"
+msgstr "जोय इसटिक"
+
+#. o->box(FL_PLASTIC_UP_BOX);
+#: ../tuxpaint-config2.cxx:2712
+msgid "Main device:"
+msgstr "मुल डिबाइस :"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2722
+msgid "Device number to use. (SDL starts numbering at 0)"
+msgstr "बेभार ला़गित् डिबाइस लेखा . (SDL 0 रे लेखा एहोबोक् आ )"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2733
+msgid "Joystick slowness. Increase this value for people with slow reactions. (0-500; default value is 15)"
+msgstr "जोयइसटिक बा़य बा़य तेत्, बा़य बा़य बिचार एम सांव होड़ को ला़गित् नोवा गोनोङ बाड़हाव . (0-500; हुड़ा़क् गोनोङ दो  15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2745
+msgid "SDL events under threshold will be discarded, useful to discard accidental unwanted movements. (0-32766; default value is 3200)"
+msgstr "सिमा़ रेयाक् भितिर  SDL घोटना को दा़व लेका ते बाङ ञामाक् हुल को आड़ाक् का ला़गित् लाबानाक्. (0-32766;हुड़ाक् गोनोङ दो  3200 काना.)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2755
+msgid "Limit speed when moving. (1-7; default value is 7)"
+msgstr "लड़ाव जोहोक्सिमा़ तोड़ . (1-7;हुड़ाक् गोनोङ दो  7)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2762
+msgid "Hat:"
+msgstr "टुपरी:"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2771
+msgid "Hat slowness. (0-500; default value is 15)"
+msgstr "टुपरी बा़य बा़यतेत् . (0-500; हुड़ाक् गोनोङ दो  15)"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2783
+msgid "Hat timeout, the number of milliseconds to wait before starting to move continuously. (0-3000; default value is 1000)"
+msgstr "टुपरी ओकतो चाबा, लेताड़ गे चालाव ला़गित् एहोब माड़ाङ तांगी ला़गित् मिलिसेकेंड रेयाक् लेखा.  (0-3000; हुड़ाक् गोनोङ 1000)"
+
+#. Fl_Group* o
+#: ../tuxpaint-config2.cxx:2794
+msgid "Buttons to disable:"
+msgstr "बाङ हुय होचो ला़गित् बुता़म को :"
+
+#. Fl_Input* o
+#: ../tuxpaint-config2.cxx:2810
+msgid "If for any reason one or more buttons of the joystick are posing problems, you can disable them here using a comma separated list of button numbers. (e.g. 2,3,5)"
+msgstr "जुदी जाहान कारोन ला़गित् जोयइसटिक रेयाक् मित् आर बाङ ढेर बुता़म दिगधा़ को सामाङा, आम ना को नोडे बाम हुय होचो केया बुता़म लेखा को रेयाक् मित् कोमा भेगाराक् सुची बेभाराते  (जेलेका . 2,3,5)"
+
+#: ../tuxpaint-config2.cxx:2819
+msgid "Button shortcuts:"
+msgstr "बुता़म खाटो माछा को :"
+
+#: ../tuxpaint-config2.cxx:2823
+msgid "Here you can configure shortcuts for the different buttons of the joystick. (Beware to not assign a shortcut to the button used to draw.)"
+msgstr "नोडे आम जोयइसटिक रेयाक् भेनेगार बुता़म को ला़गित् भितिर तेयार खाटो माछा दाड़ेयाक् आ. (गार तेयार ला़गित् बुता़म बेभार रे मित् खाटो माछा का़मी बाङ हाताव रे होंसिया़र .)"
+
+#. Fl_Box* o
+#: ../tuxpaint-config2.cxx:2828
+msgid "Button number for the Escape key."
+msgstr "आड़ाक् काक् का़ठी ला़गित् बुता़म लेखा. "
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2836
+msgid "Button number for the Brush tool."
+msgstr "ब्रास टुल  ला़गित् बुता़म लेखा."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2844
+msgid "Button number for the Stamps tool."
+msgstr " मोहोर टुल ला़गित् बुता़म लेखा ."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2852
+msgid "Button number for the Lines tool."
+msgstr "गार टुल  ला़गित् बुता़म लेखा."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2860
+msgid "Button number for the Shapes tool."
+msgstr "बेनाव टुल ला़गित् बुता़म लेखा."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2868
+msgid "Button number for the Text tool."
+msgstr "ओनोल टुल ला़गित् बुता़म लेखा."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2876
+msgid "Button number for the Label tool."
+msgstr "चिखना़  टुल ला़गित् बुता़म लेखा."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2884
+msgid "Button number for the Magic tool."
+msgstr "जादु टुल ला़गित् बुता़म लेखा."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2892
+msgid "Button number for Undo."
+msgstr "ञाम रुवा़ड़  ला़गित् बुता़म लेखा."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2900
+msgid "Button number for Redo."
+msgstr "दोहड़ा का़मी  ला़गित् बुता़म लेखा."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2908
+msgid "Button number for the Eraser tool."
+msgstr "मेटावाक् टुल ला़गित् बुता़म लेखा."
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2916
+msgid "Button number for the New tool."
+msgstr "नावा टुल  ला़गित् बुता़म लेखा"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2924
+msgid "Button number for the Open tool."
+msgstr "झिज टुल  ला़गित् बुता़म लेखा"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2932
+msgid "Button number for saving."
+msgstr "सांचाव  ला़गित् बुता़म लेखा"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2940
+msgid "Button number for Page Setup."
+msgstr "साहटा सेटऑप  ला़गित् बुता़म लेखा"
+
+#. Fl_Spinner* o
+#: ../tuxpaint-config2.cxx:2948
+msgid "Button number for printing."
+msgstr "छापा ला़गित् बुता़म लेखा"
+
+#: ../tuxpaint-config2.cxx:2970
+msgid "Settings for : "
+msgstr "ला़गित् साजाव  : "
+
+#: ../tuxpaint-config2.cxx:2974
+msgid "Current User"
+msgstr "नित् बेभारिच्"
+
+#: ../tuxpaint-config2.cxx:2975
+msgid "All Users"
+msgstr "जोतो बेभार को"
+
+#: ../tuxpaint-config2.cxx:2981
+msgid "Use \"All Users\" Settings"
+msgstr "\"जोतो बेभार को\" साजाव को बेभार मे ."
+
+#: ../tuxpaint-config2.cxx:2985
+msgid "Apply"
+msgstr "बाहाल"
+
+#: ../tuxpaint-config2.cxx:2993
+msgid "Reset"
+msgstr "दोहड़ाक् को"
+
+#: ../tuxpaint-config2.cxx:3000
+msgid "Defaults"
+msgstr "हुड़ा़क् को"
+
+#: ../tuxpaint-config2.cxx:3007
+msgid "Quit"
+msgstr "बोनदो"
+
+#: ../tuxpaint-config.desktop.in.h:1
+msgid "Tux Paint Config."
+msgstr "टाक्स पेंट भितिर तेयार"
+
+#: ../tuxpaint-config.desktop.in.h:2
+msgid "Configure Tux Paint"
+msgstr "टाक्स पेंट भितिर तेयार मे."
+

@@ -1,0 +1,144 @@
+AUTHORS.txt for Tux Paint Configuration Tool
+
+Tux Paint Configuration Tool - A GUI-based configurator for
+                               Tux Paint, a simple drawing program for children.
+
+Copyright (c) 2002-2014
+http://www.tuxpaint.org/
+
+
+November 12, 2002 - March 19, 2014
+
+
+* Design and Coding:
+
+  Torsten Giebl <wizard@turricane.org>
+  Jan Wynholds
+  Bill Kendrick <bill@newbreedsoftware.com>
+  Martin Fuhrer <mfuhrer@gmail.com>
+
+* Translations:
+  + Acholi
+    Alfred John <agwanta2004@yahoo.co.uk>
+
+  + Arabic
+    Mohammed <ab.kareem026@gmail.com>
+
+  + Basque
+    Juan Irigoien <juanirigoien@gmail.com>
+    Ander Elortondo <ander.elor@gmail.com>
+
+  + Bulgarian
+    Todor Stoyanov
+
+  + Brazilian Portuguese
+    Frederico Goncalves Guimaraes <frederico@teia.bio.br>
+
+  + Chinese (Traditional)
+    Song Huang <Song@song.idv.tw>
+
+  + Czech
+    Zdenìk Chalupský <chalzd@gmail.com>
+
+  + Danish
+    Dalton <joedalton2@yahoo.dk>
+
+  + Dutch
+    Bert Saal <bertsaal@gmail.com>
+
+  + Finnish
+    Olli <ollinpostit@gmail.com>
+
+  + French
+    Arnaud Champollion <arnaud.champollion@laposte.net>
+    Jacques Chion <jacques.chion@orange.fr>
+
+  + Fula
+    Ibraahiima SAAR <ibrahima.sarr@pulaagu.com>,
+    Fula Localization Project, http://www.pulaar-fulfulde.org/
+
+  + German
+    Markus Hinkelmann <markus@mhinkelmann.de>
+
+  + Greek
+    Serafeim Kyriaki <pse04178@rhodes.aegean.gr>
+
+  + Hindi
+    Gautam <gautam.2011@gmail.com>
+
+  + Inuktitut
+    Harvey Ginter <harveyginter@gmail.com>
+
+  + Italian
+    Simona Riva <simona.riva@tiscali.it>
+    Flavio Pastore <ironbishop@fsfe.org>
+
+  + Japanese
+    Shin-ichi TOYAMA <dolphin6k@users.sourceforge.net>
+
+  + Latvian
+    Raivis Strogonovs <raivucis@gmail.com>
+
+  + Malay
+    Muhammad Najmi Ahmad Zabidi <najmi.zabidi@gmail.com>
+
+  + Mongolian
+    Batkhuu Ichinkhorloo <batkhu_i@yahoo.com>
+
+  + Polish
+    Piotr Kwiliński <euvcp@hotmail.com>
+
+  + Portuguese
+    Sergio Marques <smarquespt@gmail.com>
+
+  + Romanian
+    Vlad Ungureanu <ungureanuvladvictor@gmail.com>
+
+  + Scottish gaelic
+    Michael Bauer <fios@akerbeltz.org>
+
+  + Serbian cyrillic
+    Ivana <reci.ne.silvesteru@gmail.com> as a work in GCI
+
+  + Serbian latin
+    Ivana <reci.ne.silvesteru@gmail.com> as a work in GCI
+
+  + Russian
+    Sergei Popov <skein@rambler.ru>
+    Nikolay Parukhin <parukhin@gmail.com>
+
+  + Slovak
+    Jaroslav Rynik <jrynik@yahoo.co.uk>
+
+  + Slovenian
+    Matej Urban <matej.urban@gmail.com>
+
+  + Songhay
+    Abdoul Cisse <abdoulseydou@hotmail.com>
+    Mohomodou Houssouba <mh@bollag-areal.ch>
+
+  + Spanish
+    Gabriel Gazzan <ggabriel@internet.com.uy>
+    Lantz Gomez de Segura <lantzgs@yahoo.com>
+
+  + Swedish
+    Daniel Nylander <po@danielnylander.se>
+    Henrik Holst <henrik.holst@millistream.com>
+
+  + Turkish
+    Enes Burhan KURAN
+
+  + Venetian language
+    Fabio Lazarin, El Galepìn <mistro@elgalepin.com>
+
+  + Vietnamese
+    Clytie Siddall <clytie@riverland.net.au>
+
+  + Ukranian
+    Serhij Dubyk <dubyk@library.lviv.ua>
+
+  + Zulu
+    sipho <sipho@translate.org.za>
+
+See also:  CHANGES.txt
+
