@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: cvs 2009-06-21\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-06 07:46+0200\n"
-"PO-Revision-Date: 2021-01-28 09:47+0000\n"
+"PO-Revision-Date: 2021-01-29 13:40+0000\n"
 "Last-Translator: Angels <gimenez_angcam@gva.es>\n"
 "Language-Team: Valencian <http://weblate.lliurex.net/projects/"
 "tuxpaint-config/tuxpaint-config/ca@valencia/>\n"
@@ -38,12 +38,12 @@ msgstr ""
 "opcions per a simplificar el Tuxpaint per als més menuts, etc.\n"
 "\n"
 "Aquestes preferències es poden establir per a l'usuari actual o bé per a "
-"tots els usuaris de l'ordinador seleccionant una opció del menú  «Paràmetres "
+"tots els usuaris de l'ordinador seleccionant una opció del menú «Paràmetres "
 "per a:» a la part inferior.\n"
 "\n"
 "Feu servir les solapes en la part superior per a seleccionar les diferents "
 "categories d'opcions; canviar les opcions que es desitgen i després feu clic "
-"en el botó 'Aplica' en la part inferior per a  guardar un nou arxiu de "
+"en el botó 'Aplica' en la part inferior per a guardar un nou arxiu de "
 "configuració.\n"
 "\n"
 "La pròxima vegada que s'inicie el Tuxpaint, s'activaran els nous paràmetres."
@@ -129,7 +129,7 @@ msgstr "Quant a"
 
 #: ../tuxpaint-config2.cxx:1826
 msgid "About Tux Paint Config."
-msgstr "Quant a Configuració de Tux Paint"
+msgstr "Quant a la configuració de Tux Paint"
 
 #. TAB: VIDEO / SOUND
 #: ../tuxpaint-config2.cxx:1842
@@ -141,221 +141,181 @@ msgid "Video:"
 msgstr "Imatge:"
 
 #: ../tuxpaint-config2.cxx:1853
-#, fuzzy
 msgid "&Fullscreen"
 msgstr "&Pantalla sencera"
 
 #: ../tuxpaint-config2.cxx:1858
-#, fuzzy
 msgid "Run Tux Paint in fullscreen mode, rather than in a window."
 msgstr "Mostra Tux Paint en mode de pantalla sencera i no en una finestra."
 
 #: ../tuxpaint-config2.cxx:1864
-#, fuzzy
 msgid "&Native"
 msgstr "&Nadiva"
 
 #: ../tuxpaint-config2.cxx:1868
-#, fuzzy
 msgid "Use native screen resolution in fullscreen mode."
-msgstr "Fa servir la resolució nadiva en el mode de pantalla sencera."
+msgstr "Fes servir la resolució nadiva en el mode de pantalla sencera."
 
 #: ../tuxpaint-config2.cxx:1874
-#, fuzzy
 msgid "Window size : "
 msgstr "Mida de la finestra : "
 
 #: ../tuxpaint-config2.cxx:1898
-#, fuzzy
 msgid "Size of the window, or the resolution in fullscreen."
-msgstr "Mida de la finestra, o la resolució en pantalla sencera."
+msgstr "Mida de la finestra o la resolució en pantalla sencera."
 
 #: ../tuxpaint-config2.cxx:1904
-#, fuzzy
 msgid "&Rotate Orientation"
 msgstr "&Gira l'orientació"
 
 #: ../tuxpaint-config2.cxx:1908
-#, fuzzy
 msgid ""
 "Swap width and height, to rotate 90 degrees (useful for portrait-display on "
 "a tablet PC)"
 msgstr ""
-"Canvia ample per alt per girar 90 graus (útil per pantalles verticals)"
+"Canvia ample i alt per a girar 90 graus (útil per a pantalles verticals)"
 
 #: ../tuxpaint-config2.cxx:1914
-#, fuzzy
 msgid "Allow S&creensaver"
 msgstr "&Admet salvapantalles"
 
 #: ../tuxpaint-config2.cxx:1918
-#, fuzzy
 msgid "Don't disable your system's screensaver while Tux Paint is running."
 msgstr "No desactiva el salvapantalles quan estiga engegat el Tux Paint."
 
 #: ../tuxpaint-config2.cxx:1927
-#, fuzzy
 msgid "Sound:"
 msgstr "So:"
 
 #: ../tuxpaint-config2.cxx:1931
-#, fuzzy
 msgid "Enable &Sound Effects"
 msgstr "Activa els efectes de &so"
 
 #: ../tuxpaint-config2.cxx:1936
-#, fuzzy
 msgid "Enable/disable sound effects."
 msgstr "Activa/desactiva els efectes de so."
 
 #: ../tuxpaint-config2.cxx:1945 ../tuxpaint-config2.cxx:1959
-#, fuzzy
 msgid "Color Palette File:"
 msgstr "Fitxer de la paleta de colors:"
 
 #: ../tuxpaint-config2.cxx:1949
-#, fuzzy
 msgid "Use &Alternative Color Palette"
 msgstr "Empra una altra &paleta de colors"
 
 #: ../tuxpaint-config2.cxx:1954
-#, fuzzy
 msgid ""
 "Don't use default color palette, use colors defined in the following file:"
 msgstr ""
-"No fa servir la paleta de colors per defecte, empra els colors definits en "
+"No fa servir la paleta de colors per defecte. Empra els colors definits en "
 "el fitxer següent:"
 
 #: ../tuxpaint-config2.cxx:1964 ../tuxpaint-config2.cxx:2507
 #: ../tuxpaint-config2.cxx:2592
-#, fuzzy
 msgid "Browse..."
 msgstr "Navega..."
 
 #. TAB: MOUSE / KEYBOARD
 #: ../tuxpaint-config2.cxx:1975
-#, fuzzy
 msgid "Mouse/Keyboard"
 msgstr "Teclat i ratolí"
 
 #: ../tuxpaint-config2.cxx:1983
-#, fuzzy
 msgid "Cursor:"
 msgstr "Cursor:"
 
 #: ../tuxpaint-config2.cxx:1987
-#, fuzzy
 msgid "&Fancy Cursor Shapes"
 msgstr "&Formes del punter del ratolí"
 
 #: ../tuxpaint-config2.cxx:1992
-#, fuzzy
 msgid ""
 "Change the shape of the mouse pointer depending on where the mouse is and "
 "what you are doing."
 msgstr "Canvia la forma del punter del ratolí segons el que es faça."
 
 #: ../tuxpaint-config2.cxx:1998
-#, fuzzy
 msgid "&Hide Cursor"
 msgstr "&Amaga el cursor"
 
 #: ../tuxpaint-config2.cxx:2003
-#, fuzzy
 msgid "Completely hides cursor (useful on touchscreen devices)."
 msgstr "Amaga completament el cursor (útil en dispositius tàctils)"
 
 #. Fl_Group* o
 #: ../tuxpaint-config2.cxx:2012 ../tuxpaint-config2.cxx:2630
-#, fuzzy
 msgid "Keyboard:"
 msgstr "Teclat:"
 
 #: ../tuxpaint-config2.cxx:2016
-#, fuzzy
 msgid "Enable &Keyboard Shortcuts"
 msgstr "Activa les dreceres del &teclat"
 
 #: ../tuxpaint-config2.cxx:2021
-#, fuzzy
 msgid ""
 "Allows key combinations to be used as shortcuts for certain commands. (e.g.,"
 " Control+S to Save)"
 msgstr "Permet les dreceres del teclat (p.e. Control+S per guardar)"
 
 #: ../tuxpaint-config2.cxx:2033 ../tuxpaint-config2.cxx:2615
-#, fuzzy
 msgid "Mouse:"
 msgstr "Ratolí:"
 
 #: ../tuxpaint-config2.cxx:2037
-#, fuzzy
 msgid "&Grab Mouse Pointer"
 msgstr "&Captura el ratolí"
 
 #: ../tuxpaint-config2.cxx:2042
-#, fuzzy
 msgid "Prevents the mouse pointer from leaving the Tux Paint window."
-msgstr "Guarda el ratolí dins la finestra del Tux Paint"
+msgstr "Guarda el ratolí dins de la finestra del Tux Paint"
 
 #: ../tuxpaint-config2.cxx:2047
-#, fuzzy
 msgid "Mouse &Wheel Support"
 msgstr "Suport de la &roda del ratolí"
 
 #: ../tuxpaint-config2.cxx:2052
-#, fuzzy
 msgid ""
 "Allows a mouse wheel to be used to scroll through items. (e.g., brushes, "
 "stamps)"
 msgstr ""
-"Permet fer servir la roda del ratolí per desplaçar-se pels elements "
-"(pinzells, segells...)"
+"Permet fer servir la roda del ratolí per a desplaçar-se pels elements ("
+"pinzells, segells... )"
 
 #: ../tuxpaint-config2.cxx:2057
-#, fuzzy
 msgid "No &Button Distinction"
 msgstr "No &distinguir els butons"
 
 #: ../tuxpaint-config2.cxx:2061
-#, fuzzy
 msgid "Allows middle and right mouse buttons to be used for clicking, too."
 msgstr ""
-"Permetre que els butons central i dret també es puguen fer servir per "
-"clicar."
+"Permetre que els butons central i dret també es puguen fer servir per clicar."
 
 #. TAB: SIMPLIFCIATION
 #. FIXME: From here on, not using 'boxx/boxy' trick, used above -bjk
 #. 2011.04.15
 #: ../tuxpaint-config2.cxx:2074
-#, fuzzy
 msgid "Simplification"
 msgstr "Simplificació"
 
 #: ../tuxpaint-config2.cxx:2082
-#, fuzzy
 msgid "Interface Simplification:"
 msgstr "Simplifcació de l'interfície:"
 
 #: ../tuxpaint-config2.cxx:2086
-#, fuzzy
 msgid "Disable Shape &Rotation"
 msgstr "Desactiva el gir de les formes &geomètriques"
 
 #: ../tuxpaint-config2.cxx:2091
-#, fuzzy
 msgid "Shape tool's rotation step is disabled. Useful for younger children."
 msgstr ""
 "En el procés de dibuixar formes geomètriques, desactiva el pas que admet "
 "girar-les. Útil per als més menuts."
 
 #: ../tuxpaint-config2.cxx:2096
-#, fuzzy
 msgid "Simple Stamp &Outlines"
 msgstr "Simplifica la &vora dels segells"
 
 #: ../tuxpaint-config2.cxx:2101
-#, fuzzy
 msgid ""
 "Draw a rectangle around the cursor when placing stamps, rather than a "
 "detailed outline. (For slow computers and thin clients.)"
@@ -364,138 +324,115 @@ msgstr ""
 "d'una vora detallada. (Útil per ordinadors lents i clients lleugers)"
 
 #: ../tuxpaint-config2.cxx:2106
-#, fuzzy
 msgid "Show &Uppercase Text Only"
 msgstr "Mostra el text només en &majúscules"
 
 #: ../tuxpaint-config2.cxx:2111
-#, fuzzy
 msgid ""
 "Cause all text in Tux Paint (button labels, dialogs, etc.) to appear in "
 "UPPERCASE rather than Mixed Case."
 msgstr ""
-"Fa que tot el text (butons, etiquetes, diàlegs, etc.) aparega en MAJÚSCULES "
-"en comptes de Majúscules i minúscules."
+"Fa que tot el text (botons, etiquetes, diàlegs, etc.) aparega en MAJÚSCULES "
+"en comptes de majúscules i minúscules."
 
 #: ../tuxpaint-config2.cxx:2120
-#, fuzzy
 msgid "Initial Stamp Size:"
 msgstr "Mida inicial dels segells:"
 
 #: ../tuxpaint-config2.cxx:2137
-#, fuzzy
 msgid "Control Simplification:"
 msgstr "Simplificació dels controls:"
 
 #: ../tuxpaint-config2.cxx:2141
-#, fuzzy
 msgid "Disable '&Quit' Button and [Escape] key"
 msgstr "Desactiva la tecla d'&escapament i el botó d'eixir"
 
 #: ../tuxpaint-config2.cxx:2146
-#, fuzzy
 msgid ""
 "Clicking the window's close (X) button in the title bar, or pressing "
 "[Alt]+[F4] or [Shift]+[Ctrl]+[Escape] will still quit Tux Paint."
 msgstr ""
-"Tanmateix, fent clic en el botó de tancar la finestra (X) o prèmer Alt+F4 o "
-"Shift+ALt+Esc finalitzaran el Tuxpaint."
+"Tanmateix, fent clic en el botó de tancar la finestra (X) o prement Alt+F4 o "
+"Shift+ALt+Esc finalitzaran el Tux Paint."
 
 #: ../tuxpaint-config2.cxx:2151
-#, fuzzy
 msgid "Disable '&Stamps' Tool"
 msgstr "Desactiva els &segells"
 
 #: ../tuxpaint-config2.cxx:2156
-#, fuzzy
 msgid "Do not load stamps at startup, thus disabling the Stamps tool."
 msgstr "No carrega els segells en engegar, desactivant aquesta eina."
 
 #: ../tuxpaint-config2.cxx:2161
-#, fuzzy
 msgid "Disable Stamp &Controls"
 msgstr "Desactiva els &controls dels segells"
 
 #: ../tuxpaint-config2.cxx:2166
-#, fuzzy
 msgid ""
 "Simplify the 'Stamps' tool by removing the stamp control buttons (Shrink, "
 "Grow, Mirror and Flip)."
 msgstr ""
-"Simplifica l'eina \"Segells\" eliminant els botons de control (Mida, Mirall,"
-" Invertir)"
+"Simplifica l'eina \"Segells\" eliminant els botons de control (mida, espill, "
+"invertir)"
 
 #: ../tuxpaint-config2.cxx:2171
-#, fuzzy
 msgid "Disable &Magic Controls"
-msgstr "Desactiva els controls de les eines \"&Màgiques\""
+msgstr "Desactiva els controls de les eines \"&màgiques\""
 
 #: ../tuxpaint-config2.cxx:2176
-#, fuzzy
 msgid ""
 "Simplify the 'Magic' tools by removing the buttons to switch between paint "
 "and fullscreen modes."
 msgstr ""
-"Simplifica les eines \"Màgiques\" desactivant els botons per canviar entre "
+"Simplifica les eines \"màgiques\" desactivant els botons per a canviar entre "
 "els modes de pintar i de pantalla sencera."
 
 #: ../tuxpaint-config2.cxx:2181
-#, fuzzy
 msgid "Disable '&Label' Tool"
 msgstr "Desactiva l'eina e&tiquetes"
 
 #: ../tuxpaint-config2.cxx:2186
-#, fuzzy
 msgid "Disable the 'Label' text-entry tool (leaving only the 'Text' tool)."
 msgstr "Desactiva l'eina etiquetes, deixant només l'eina text."
 
 #. TAB: LANGUAGES
 #: ../tuxpaint-config2.cxx:2197
-#, fuzzy
 msgid "Languages"
 msgstr "Idiomes"
 
 #: ../tuxpaint-config2.cxx:2203
-#, fuzzy
 msgid "Language:"
 msgstr "Idioma:"
 
 #: ../tuxpaint-config2.cxx:2207
-#, fuzzy
 msgid "Language : "
 msgstr "Idioma : "
 
 #: ../tuxpaint-config2.cxx:2222
-#, fuzzy
 msgid "Run Tux Paint in a particular language (overriding system's settings)."
-msgstr "Fa servir un determinat idioma obviant l'idioma del sistema."
+msgstr "Fes servir un determinat idioma obviant l'idioma del sistema."
 
 #: ../tuxpaint-config2.cxx:2227
-#, fuzzy
 msgid "&Mirror Stamps"
-msgstr "&Mirall dels segells"
+msgstr "&Espill dels segells"
 
 #: ../tuxpaint-config2.cxx:2232
-#, fuzzy
 msgid ""
 "Automatically mirror-image all mirror-able stamps. Useful for users who "
 "prefer things appearing right-to-left."
 msgstr ""
-"Canvia automàticament l'orientació de tots els segells que ho permeten. Útil"
-" pels que prefereixen que les coses apareguen de dreta a esquerra."
+"Canvia automàticament l'orientació de tots els segells que ho permeten. Útil "
+"pels que prefereixen que les coses apareguen de dreta a esquerra."
 
 #: ../tuxpaint-config2.cxx:2241
-#, fuzzy
 msgid "Fonts:"
 msgstr "Tipus de lletra:"
 
 #: ../tuxpaint-config2.cxx:2245
-#, fuzzy
 msgid "Load System &Fonts"
 msgstr "&Carrega els tipus de lletra del sistema"
 
 #: ../tuxpaint-config2.cxx:2250
-#, fuzzy
 msgid ""
 "Attempt to load more fonts, found elsewhere on your computer. (Note: may "
 "cause instability!)"
@@ -504,116 +441,97 @@ msgstr ""
 "inestabilitat!)"
 
 #: ../tuxpaint-config2.cxx:2255
-#, fuzzy
 msgid "Load All &Locale Fonts"
 msgstr "Carrega tots els tipus de lletra de localització"
 
 #: ../tuxpaint-config2.cxx:2260
-#, fuzzy
 msgid ""
 "Load all locale-specific fonts installed in Tux Paint, regardless of the "
 "locale Tux Paint is being run under."
 msgstr ""
-"Carrega tots els tipus de lletra de localització independentment de l'idioma"
-" en el qual funcione el Tux Paint."
+"Carrega tots els tipus de lletra de localització independentment de l'idioma "
+"en el qual funcione el Tux Paint."
 
 #. TAB: PRINTING
 #: ../tuxpaint-config2.cxx:2271
-#, fuzzy
 msgid "Printing"
-msgstr "Imprimir"
+msgstr "Impressió"
 
 #: ../tuxpaint-config2.cxx:2277
-#, fuzzy
 msgid "Print Permissions:"
-msgstr "Permisos per imprimir:"
+msgstr "Permisos per a imprimir:"
 
 #: ../tuxpaint-config2.cxx:2281
-#, fuzzy
 msgid "Allow &Printing"
-msgstr "&Permet Imprimir"
+msgstr "&Permet imprimir"
 
 #: ../tuxpaint-config2.cxx:2286
-#, fuzzy
 msgid "Let users print from within Tux Paint."
-msgstr "Permet que es puga imprimir des del Tuxpaint."
+msgstr "Permet que es puga imprimir des del Tux Paint"
 
 #: ../tuxpaint-config2.cxx:2291
-#, fuzzy
 msgid "Print Delay : "
 msgstr "Retardament de la impressió : "
 
 #: ../tuxpaint-config2.cxx:2297
-#, fuzzy
 msgid "seconds"
 msgstr "segons"
 
 #: ../tuxpaint-config2.cxx:2301
-#, fuzzy
 msgid ""
 "Restrict printing to once every N seconds. (Enter '0' to allow unrestricted "
 "printing.)"
 msgstr ""
-"Restringeix la impressió a una vegada cada X segons. (Entreu 0 per no "
+"Restringeix la impressió a una vegada cada X segons. (Entreu 0 per a no "
 "restringir-la.)"
 
 #: ../tuxpaint-config2.cxx:2309
-#, fuzzy
 msgid "Show Printer Dialog:"
 msgstr "Mostra el diàleg d'impressió:"
 
 #: ../tuxpaint-config2.cxx:2314
-#, fuzzy
 msgid "Only when [Alt] &modifier key is held"
 msgstr "Només quant la tecla &Alt està premuda"
 
 #: ../tuxpaint-config2.cxx:2321
-#, fuzzy
 msgid "Always &show printer dialog"
 msgstr "&Sempre"
 
 #: ../tuxpaint-config2.cxx:2328
-#, fuzzy
 msgid "&Never show printer dialog"
-msgstr "&Mai"
+msgstr "&No mostres mai el diàleg d'impressió"
 
 #: ../tuxpaint-config2.cxx:2335
-#, fuzzy
 msgid "(Even when [Alt] is held.)"
 msgstr "(Encara que Alt estiga premuda.)"
 
 #: ../tuxpaint-config2.cxx:2349
-#, fuzzy
 msgid "Save printer configuration"
 msgstr "Guarda la configuració de l'impresora"
 
 #: ../tuxpaint-config2.cxx:2358
-#, fuzzy
 msgid "Print Commands:"
 msgstr "Ordres d'impressió:"
 
 #: ../tuxpaint-config2.cxx:2362
-#, fuzzy
 msgid "Use &Alternative Print Command"
-msgstr "Fes servir aquesta altra &ordre per imprimir"
+msgstr "Fes servir aquesta altra &ordre per a imprimir"
 
 #: ../tuxpaint-config2.cxx:2367
-#, fuzzy
 msgid ""
 "Override Tux Paint's default setting for print command ('lpr') with another."
 " (Advanced! Unix/Linux only!)"
 msgstr ""
-"Obvia l'ordre d'impressió predefina pel Tuxpaint (\"lpr\") i en fa servir "
-"una altra. (Avançat! Només Unix/Linux!)"
+"Ignora l'ordre d'impressió predefinida per al Tux Paint (\"lpr\") i en fa "
+"servir una altra. (Avançat! Només per a Unix/Linux!)"
 
 #: ../tuxpaint-config2.cxx:2377
-#, fuzzy
 msgid ""
 "Enter the command for printing. It must accept a PostScript format on its "
 "standard input (STDIN)."
 msgstr ""
-"Entreu l'ordre d'impressió. Ha d'acceptar el format Postscript per la seua "
-"entrada estàndard (STDIN)."
+"Introduïu l'ordre d'impressió. Heu d'acceptar el format Postscript per la "
+"seua entrada estàndard (STDIN)."
 
 #: ../tuxpaint-config2.cxx:2388
 #, fuzzy
@@ -621,27 +539,24 @@ msgid "Use &Alternative Print Dialog"
 msgstr "Fes servir aquest altre &diàleg per imprimir"
 
 #: ../tuxpaint-config2.cxx:2393
-#, fuzzy
 msgid ""
 "Override Tux Paint's default setting for print dialog ('kprinter') with "
 "another. (Advanced! Unix/Linux only!)"
 msgstr ""
-"Obvia el diàleg d'impressió predefinit (kprinter) per fer-ne servir un "
-"altre. (Avançat! Només Unix/Linux!) "
+"Ignora el diàleg d'impressió predefinit (kprinter) per a fer-ne servir un "
+"altre. (Avançat! Només per a Unix/Linux!)"
 
 #: ../tuxpaint-config2.cxx:2403
-#, fuzzy
 msgid ""
 "Enter the print dialog command. It must accept a PostScript format on its "
 "standard input (STDIN)."
 msgstr ""
-"\"Entreu el diàleg d'impressió. Ha d'acceptar el format Postscript per la "
+"Introduïu el diàleg d'impressió. Heu d'acceptar el format Postscript per la "
 "seua entrada estàndard (STDIN)"
 
 #: ../tuxpaint-config2.cxx:2410
-#, fuzzy
 msgid "Paper Size : "
-msgstr "Mida del paper :"
+msgstr "Mida del paper: "
 
 #. TAB: SAVING
 #: ../tuxpaint-config2.cxx:2431
@@ -728,9 +643,8 @@ msgid "Alternative Save Directory:"
 msgstr "Directori alternatiu per guardar:"
 
 #: ../tuxpaint-config2.cxx:2514
-#, fuzzy
 msgid "More Saving Options:"
-msgstr "Més opcions de guardar"
+msgstr "Més opcions per a guardar:"
 
 #: ../tuxpaint-config2.cxx:2519
 #, fuzzy
@@ -738,12 +652,11 @@ msgid "Disable '&Save' Button"
 msgstr "Desactiva el &botó de \"Guardar\""
 
 #: ../tuxpaint-config2.cxx:2524
-#, fuzzy
 msgid ""
 "Don't allow pictures to be saved. Tux Paint acts as temporary 'scratch "
 "paper.'"
 msgstr ""
-"No permet que els dibuixos es guarden. Tuxpaint actúa com un esborrany "
+"No permet que els dibuixos es guarden. Tux Paint actua com un esborrany "
 "temporal."
 
 #: ../tuxpaint-config2.cxx:2530
@@ -867,11 +780,10 @@ msgstr "Mostra un teclat en pantalla"
 
 #. Fl_Check_Button* o
 #: ../tuxpaint-config2.cxx:2654
-#, fuzzy
 msgid ""
 "Display a keyboard on the screen when the \"Text\" and \"Label\" tools are "
 "enabled, so you can 'type' with the mouse pointer."
-msgstr "Mostra un teclat en la pantalla en les eines \"Texte\" i \"Etiquetes\""
+msgstr "Mostra un teclat en la pantalla en les eines \"Text\" i \"Etiquetes\""
 
 #. Fl_Box* o
 #: ../tuxpaint-config2.cxx:2659
@@ -881,9 +793,8 @@ msgstr "Disposició"
 
 #. Fl_Choice* o
 #: ../tuxpaint-config2.cxx:2671
-#, fuzzy
 msgid "How are keys organized in the keyboard"
-msgstr "Com es distribueixen les tecles dins el teclat."
+msgstr "Com es distribueixen les tecles dins del teclat"
 
 #. Fl_Box* o
 #: ../tuxpaint-config2.cxx:2676
@@ -902,9 +813,8 @@ msgstr ""
 #. Fl_Group* o
 #. TAB: JOYSTICK
 #: ../tuxpaint-config2.cxx:2699
-#, fuzzy
 msgid "Joystick"
-msgstr "Joystick"
+msgstr "Palanca de control"
 
 #. o->box(FL_PLASTIC_UP_BOX);
 #: ../tuxpaint-config2.cxx:2710
@@ -920,13 +830,12 @@ msgstr "Nombre de dispositiu. (SDL comença pel 0)"
 
 #. Fl_Spinner* o
 #: ../tuxpaint-config2.cxx:2731
-#, fuzzy
 msgid ""
 "Joystick slowness. Increase this value for people with slow reactions. "
 "(0-500; default value is 15)"
 msgstr ""
-"Lentitud. Incrementeu aquest valor per a gent amb reaccions lentes. (Valors "
-"admesos de 0 a 500, per defecte és 15) "
+"Lentitud. Incrementeu aquest valor per a persones amb reaccions lentes. ("
+"Valors admesos de 0 a 500, per defecte és 15)"
 
 #. Fl_Spinner* o
 #: ../tuxpaint-config2.cxx:2743
@@ -992,14 +901,13 @@ msgid "Button shortcuts:"
 msgstr "Dreceres:"
 
 #: ../tuxpaint-config2.cxx:2821
-#, fuzzy
 msgid ""
 "Here you can configure shortcuts for the different buttons of the joystick. "
 "(Beware to not assign a shortcut to the button used to draw.)"
 msgstr ""
-"Podeu configurar dreceres pels diferents botons del joystick. Assegureu-vos "
-"de no assignar cap drecera pel botó principal que es farà servir per "
-"dibuixar."
+"Podeu configurar dreceres pels diferents botons de la palanca de control. "
+"Assegureu-vos de no assignar cap drecera per al botó principal que es farà "
+"servir per a dibuixar."
 
 #. Fl_Box* o
 #: ../tuxpaint-config2.cxx:2826
@@ -1139,9 +1047,8 @@ msgstr "Ix"
 
 # generated by Fast Light User Interface Designer (fluid) version 1.0104
 #: ../tuxpaint-config.desktop.in.h:1
-#, fuzzy
 msgid "Tux Paint Config."
-msgstr "Tux Paint Config."
+msgstr "Configuració de Tux Paint"
 
 #: ../tuxpaint-config.desktop.in.h:2
 #, fuzzy
