@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: cvs 2009-06-21\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-06 07:46+0200\n"
-"PO-Revision-Date: 2021-01-29 13:40+0000\n"
+"PO-Revision-Date: 2021-02-01 12:59+0000\n"
 "Last-Translator: Angels <gimenez_angcam@gva.es>\n"
 "Language-Team: Valencian <http://weblate.lliurex.net/projects/"
 "tuxpaint-config/tuxpaint-config/ca@valencia/>\n"
@@ -534,9 +534,8 @@ msgstr ""
 "seua entrada estàndard (STDIN)."
 
 #: ../tuxpaint-config2.cxx:2388
-#, fuzzy
 msgid "Use &Alternative Print Dialog"
-msgstr "Fes servir aquest altre &diàleg per imprimir"
+msgstr "Fes servir &diàleg alternatiu d'impressió"
 
 #: ../tuxpaint-config2.cxx:2393
 msgid ""
@@ -565,91 +564,77 @@ msgid "Saving"
 msgstr "Guardar"
 
 #: ../tuxpaint-config2.cxx:2438
-#, fuzzy
 msgid "Save Over Earlier Work:"
-msgstr "Guardar sobre el treball anterior :"
+msgstr "Sobreescriure el treball anterior:"
 
 #: ../tuxpaint-config2.cxx:2442
-#, fuzzy
 msgid "&Ask Before Overwriting"
-msgstr "&Demana abans de sobreescriure"
+msgstr "&Pregunta abans de sobreescriure"
 
 #: ../tuxpaint-config2.cxx:2447
-#, fuzzy
 msgid ""
 "When re-saving an image, ask whether to overwrite the earlier version, or "
 "make a new file."
 msgstr ""
-"Quan es guarda de nou un dibuix, demana si s'ha de guardar sobre la versió "
-"antiga o bé en un nou dibuix."
+"Quan es torna a guardar un dibuix, demana si s'ha de guardar sobre la versió "
+"antiga o bé en un dibuix nou."
 
 #: ../tuxpaint-config2.cxx:2452
-#, fuzzy
 msgid "Always &Overwrite Older Version"
 msgstr "&Sobreescriu sempre la versió antiga"
 
 #: ../tuxpaint-config2.cxx:2457
-#, fuzzy
 msgid ""
 "When re-saving an image, always overwrite the earlier version. (Warning: "
 "Potential for lost work!)"
 msgstr ""
-"Quan es guarda de nou un dibuix, sempre sobreescriure la versió antiga. "
-"(Avís: Perdreu el dibuix antic!)"
+"Quan es torna a guardar un dibuix, sobreescriu sempre la versió antiga. "
+"(Avís: Perdreu el dibuix anterior!)"
 
 #: ../tuxpaint-config2.cxx:2462
-#, fuzzy
 msgid "Always Save &New Picture"
-msgstr "Guarda sempre un &nou dibuix"
+msgstr "Guarda sempre un &dibuix nou"
 
 #: ../tuxpaint-config2.cxx:2467
-#, fuzzy
 msgid ""
 "When re-saving an image, always make a new file. (Warning: Potential for "
 "lots of files!)"
 msgstr ""
-"Quan es guarda un dibuix, sempre crea un fitxer nou. (Avís: De mica en mica "
-"es crearan una muntera de fitxers!)"
+"Quan es guarda un dibuix, crea sempre un fitxer nou. (Avís: És possible que "
+"es generen molts fitxers!)"
 
 #: ../tuxpaint-config2.cxx:2474
-#, fuzzy
 msgid "Start Blank:"
-msgstr "Engegar en blanc:"
+msgstr "Començament en blanc:"
 
 #: ../tuxpaint-config2.cxx:2479
-#, fuzzy
 msgid "Start with &Blank Canvas"
 msgstr "Comença sempre amb un dibuix en &blanc"
 
 #: ../tuxpaint-config2.cxx:2488
-#, fuzzy
 msgid "Save Directory:"
-msgstr "Directori per guardar:"
+msgstr "Directori per a guardar:"
 
 #: ../tuxpaint-config2.cxx:2492
-#, fuzzy
 msgid "Use &Alternative Save Directory"
-msgstr "Fes servir &un altre directori"
+msgstr "Fes servir &un directori alternatiu per a guardar"
 
 #: ../tuxpaint-config2.cxx:2497
-#, fuzzy
 msgid ""
 "Do not save pictures in the standard directory, use the following location:"
-msgstr "No guarda imatges al directori estàndar, fa servir el següent:"
+msgstr "No guardes imatges al directori estàndar. Fes servir el següent:"
 
 #: ../tuxpaint-config2.cxx:2502
-#, fuzzy
 msgid "Alternative Save Directory:"
-msgstr "Directori alternatiu per guardar:"
+msgstr "Directori alternatiu per a guardar:"
 
 #: ../tuxpaint-config2.cxx:2514
 msgid "More Saving Options:"
 msgstr "Més opcions per a guardar:"
 
 #: ../tuxpaint-config2.cxx:2519
-#, fuzzy
 msgid "Disable '&Save' Button"
-msgstr "Desactiva el &botó de \"Guardar\""
+msgstr "Desactiva el &botó de \"Guarda\""
 
 #: ../tuxpaint-config2.cxx:2524
 msgid ""
@@ -660,30 +645,25 @@ msgstr ""
 "temporal."
 
 #: ../tuxpaint-config2.cxx:2530
-#, fuzzy
 msgid "&Auto-save on Quit"
 msgstr "Guarda &automàticament en eixir"
 
 #: ../tuxpaint-config2.cxx:2535
-#, fuzzy
 msgid "Don't ask to save current picture when quitting; just save."
 msgstr ""
-"No demana si es guarda el dibuix actual en eixir, el guarda automàticament."
+"No pregunta si es guarda el dibuix actual en eixir; el guarda automàticament."
 
 #. TAB: DATA
 #: ../tuxpaint-config2.cxx:2547
-#, fuzzy
 msgid "Data"
 msgstr "Dades"
 
 #. FIXME: Looks awful:
 #: ../tuxpaint-config2.cxx:2555
-#, fuzzy
 msgid "Lockfile:"
 msgstr "Fitxer de bloqueig:"
 
 #: ../tuxpaint-config2.cxx:2559
-#, fuzzy
 msgid "&Don't use lockfile"
 msgstr "&No faces servir un fitxer de bloqueig"
 
