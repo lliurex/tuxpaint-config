@@ -1,3 +1,9 @@
+tuxpaint-config (0.0.13-8+lliurex5) jammy; urgency=medium
+
+  * Initial release for Jammy
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 01 Sep 2023 13:26:51 +0200
+
 tuxpaint-config (0.0.13-8+lliurex4) focal; urgency=medium
 
   * Focal release 
