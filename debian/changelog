@@ -1,0 +1,166 @@
+tuxpaint-config (0.0.13-8+lliurex4) focal; urgency=medium
+
+  * Focal release 
+
+ -- Juanma1980 <juanma1980@gmail.com>  Tue, 15 Jun 2021 17:51:17 +0200
+
+tuxpaint-config (0.0.13-8+lliurex3) bionic; urgency=medium
+
+  * Patched for missing string.h header, strlen function not recognized
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 16 Oct 2018 09:40:52 +0200
+
+tuxpaint-config (0.0.13-8) unstable; urgency=medium
+
+  * Move git repository to salsa.debian.org
+  * Update standards version to 4.1.3
+  * Update compat level to 11
+  * Add Debian Junior team to uploaders
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 14 Feb 2018 11:53:42 +0200
+
+tuxpaint-config (0.0.13-7) unstable; urgency=medium
+
+  * Fix parallel builds (Closes: #879042)
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 13 Nov 2017 15:07:32 +0200
+
+tuxpaint-config (0.0.13-6) unstable; urgency=medium
+
+  * Update standards version to 4.1.1
+    - Update copyright file to copyright format 1.0
+    - Remove obsolete menu file
+    - Remove obsolete -k from dh_clean
+    - Set hardening=+all
+    - Remove ancient conflicts
+  * Fix spelling mistakes in man page
+  * debian/rules:
+    - Remove boilerplate text
+  * Add -fpic for x32
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 30 Oct 2017 09:20:13 +0200
+
+tuxpaint-config (0.0.13-5) unstable; urgency=medium
+
+  * Fix cross-builds (Closes: #878365)
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 28 Oct 2017 22:11:39 +0200
+
+tuxpaint-config (0.0.13-4) unstable; urgency=medium
+
+  * Adopting package (Closes: #848989)
+  * Remove boilerplate from include-standard-flags patch
+  * Update compat to 10
+  * Update copyright file to copyright-format 1.0
+  * debian/rules:
+     - Remove boilerplate comments from debian/rules
+     - Set DEB_BUILD_MAINT_OPTIONS=hardening=+all
+     - Use build architecture toolchain (Closes: #878365)
+  * debian/control:
+     - Remove ancient Conflicts
+     - Update standards version to 4.1.1
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 18 Oct 2017 15:08:25 +0200
+
+tuxpaint-config (0.0.13-3) unstable; urgency=medium
+
+  * QA upload.
+  * Imported source into a gbp repo in collab-maint.
+  * Removed empty /usr/share/applnk/ from binary package.
+  * Changed Standards-Version from 3.9.6 to 4.1.0.
+  * Added homepage link to d/control.
+  * Removed obsolete menu file.
+  * Changed to debhelper level 9.
+  * Added gbp.conf file to enfore use of pristine-tar.
+  * Added watch file pointing to sourceforge.
+
+ -- Petter Reinholdtsen <pere@debian.org>  Wed, 30 Aug 2017 13:31:19 +0200
+
+tuxpaint-config (0.0.13-2) unstable; urgency=medium
+
+  * QA upload.
+  * Set maintainer to Debian QA Group. (see #848989)
+  * Add patch from Chris Lamb to make the build reproducible.
+    (Closes:  #834780)
+
+ -- Adrian Bunk <bunk@debian.org>  Sun, 22 Jan 2017 01:48:06 +0200
+
+tuxpaint-config (0.0.13-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #626782, #722947)
+  * Switch to dpkg-source 3.0 (quilt) format.
+  * Include watch file, thanks to Daniel Liedert <daniel.leidert@wgdd.de>.
+    (Closes: #549385).
+  * Update watch file to new location.
+  * Update to current standards.
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Sun, 26 Oct 2014 09:53:13 -0300
+
+tuxpaint-config (0.0.12-3) unstable; urgency=low
+
+  * Eliminate non-literal format string. (Closes: #652175)
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Mon, 19 Dec 2011 05:50:56 -0400
+
+tuxpaint-config (0.0.12-2) unstable; urgency=low
+
+  * Remove redundant desktop file.  (Closes: #498927)
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Fri, 16 Oct 2009 09:30:06 -0300
+
+tuxpaint-config (0.0.12-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Sun, 09 Aug 2009 12:20:30 -0300
+
+tuxpaint-config (0.0.10-1) unstable; urgency=low
+
+  * New upstream release.
+  * Install desktop file to opendesktop location.
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Sun, 08 Jun 2008 14:41:23 -0300
+
+tuxpaint-config (0.0.8-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Tue, 03 Jul 2007 22:12:27 -0300
+
+tuxpaint-config (0.0.7+0.0.8rc1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Sat, 30 Jun 2007 17:46:26 -0300
+
+tuxpaint-config (0.0.7-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Sun, 22 Oct 2006 12:00:14 -0300
+
+tuxpaint-config (0.0.6+0.0.7rc5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Sun, 15 Oct 2006 11:05:04 -0300
+
+tuxpaint-config (0.0.6-2) unstable; urgency=low
+
+  * Fixed X11 dependencies (thanks, Matt Kraai) (Closes: #356274)
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Sun,  2 Apr 2006 10:28:04 -0300
+
+tuxpaint-config (0.0.6-1) unstable; urgency=low
+
+  * New upstream release.
+  * Fix missing menu entry.
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Sat, 21 Jan 2006 19:06:41 -0400
+
+tuxpaint-config (0.0.5-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Ben Armstrong <synrg@sanctuary.nslug.ns.ca>  Thu,  7 Oct 2004 10:26:42 -0300
+

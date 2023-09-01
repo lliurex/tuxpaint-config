@@ -1,0 +1,26 @@
+From: Chris Lamb <lamby@debian.org>
+Date: Tue, 16 Oct 2018 09:39:37 +0200
+Subject: Make the build reproducible
+
+Last-Update: 2016-08-19
+---
+ Makefile | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 871fa87..68283b9 100644
+--- a/Makefile
++++ b/Makefile
+@@ -15,7 +15,11 @@
+ 
+ 
+ VER_VERSION=0.0.13
+-VER_DATE=`date +"%Y-%m-%d"`
++ifdef SOURCE_DATE_EPOCH
++	VER_DATE=$(shell date -u -d "@$(SOURCE_DATE_EPOCH)" "+%Y-%m-%d" 2>/dev/null || date -u -r "$(SOURCE_DATE_EPOCH)" "+%Y-%m-%d" 2>/dev/null || date -u "+%Y-%m-%d")
++else
++	VER_DATE=$(shell date "+%Y-%m-%d")
++endif
+ 
+ 
+ # Where to install things:

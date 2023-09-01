@@ -1,0 +1,28 @@
+From: Jonathan Carter <jcc@debian.org>
+Date: Tue, 16 Oct 2018 09:39:37 +0200
+Subject: fix manpage errors
+
+Remove .l macro that causes errors and no visible effect.
+---
+ src/tuxpaint-config.1 | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/src/tuxpaint-config.1 b/src/tuxpaint-config.1
+index 08846fc..9e1c46c 100644
+--- a/src/tuxpaint-config.1
++++ b/src/tuxpaint-config.1
+@@ -29,14 +29,12 @@ Display a list of all commandline options.
+ Show the license (GNU GPL) under which Tux Paint is released.
+ 
+ .SH OPTIONS - LANGUAGE
+-.l
+ Much like Tux Paint itself, \fITux Paint Configuration Tool\fP has been
+ translated into numerous languages.  \fItuxpaint-config\fP will try its
+ best to honor your \fIlocale\fP setting (i.e., the \fILANG\fP environment
+ variable), if possible.
+ 
+ .SH ENVIRONMENT
+-.l
+ .PP
+ .TP 8
+ .B HOME

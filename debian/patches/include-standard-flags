@@ -1,0 +1,32 @@
+From: Ben Armstrong <synrg@sanctuary.nslug.ns.ca>
+Date: Tue, 16 Oct 2018 09:39:37 +0200
+Subject: Include standard flags
+
+Include all dpkg-dev standard flags in build.
+---
+ Makefile | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 70d73a9..871fa87 100644
+--- a/Makefile
++++ b/Makefile
+@@ -90,7 +90,8 @@ CFLAGS=-O2 -Wall
+ ALL_CFLAGS=$(CFLAGS) $(FLTK_CFLAGS) -DDATA_PREFIX=\"$(DATA_PREFIX)\" \
+ 	-D$(NOSOUNDFLAG) -DDOC_PREFIX=\"$(DOC_PREFIX)\" \
+ 	-DLOCALEDIR=\"$(LOCALE_PREFIX)\" -DCONFDIR=\"$(CONFDIR)\" \
+-	-DVER_VERSION=\"$(VER_VERSION)\" -DVER_DATE=\"$(VER_DATE)\"
++	-DVER_VERSION=\"$(VER_VERSION)\" -DVER_DATE=\"$(VER_DATE)\" \
++	$(CPPFLAGS) $(CXXFLAGS)
+ 
+ 
+ # "make" with no arguments builds the program and man page from sources:
+@@ -304,7 +305,7 @@ install-man:
+ tuxpaint-config:	obj/tuxpaint-config.o obj/tuxpaint-config2.o	\
+ 			obj/defaults.o $(ARCH_LIBS)
+ 	@echo Linking
+-	$(CXX) $(ALL_CFLAGS) -o tuxpaint-config obj/tuxpaint-config.o 	\
++	$(CXX) $(ALL_CFLAGS) $(LDFLAGS) -o tuxpaint-config obj/tuxpaint-config.o 	\
+ 			obj/tuxpaint-config2.o obj/defaults.o $(ARCH_LIBS) \
+ 			$(FLTK_LIBS) $(ARCH_LINKS) $(PAPER_LIB)
+ 

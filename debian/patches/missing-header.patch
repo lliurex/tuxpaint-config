@@ -1,0 +1,19 @@
+From: Enrique Medina Gremaldos <quiqueiii@gmail.com>
+Date: Wed, 24 Sep 2014 14:21:18 +0200
+Subject: missing-header
+
+---
+ src/defaults.cxx | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/defaults.cxx b/src/defaults.cxx
+index b2ee7d1..6d3ebf3 100644
+--- a/src/defaults.cxx
++++ b/src/defaults.cxx
+@@ -1,4 +1,6 @@
+ #include "defaults.h"
++#include <cstring>
++
+ /*
+ struct {
+   bool fullscreen=0;
